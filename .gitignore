@@ -25,3 +25,6 @@ vite.config.ts.timestamp-*
 # Python
 __pycache__/
 .pyc
+
+# Scraping Dev Files (Machine for Merge Conflicts)
+/export/*

@@ -1,13 +1,10 @@
 ''' A spaghetti of an abomination to pricess Nissen Data'''
-from concurrent.futures import ThreadPoolExecutor
 from datetime import date
 import pandas as pd
 import re
 from time import sleep
 from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from selenium.common.exceptions import StaleElementReferenceException
 from utiles.browser import start_headless_chrome_browser
 from utiles.lookup import look_for_ref, get_element_text
 from utiles.mkdir import mkdir
@@ -96,16 +93,37 @@ def get_links(pages):
 			#* Product Info
 			########################
 			info = look_for_ref(tile, '[data-role="productInformation"]', 0)
+			name = get_element_text(info, 'p:first-of-type', 0)
+			detail = get_element_text(info, 'p:last-of-type', 0)
+
+			pattern = r"^\s*(\d+(?:-\d+)?)(?:\s*)(g|kg|stk|ml|l)\b"
+			match = re.search(pattern, detail, flags=re.IGNORECASE)
+			if match:
+				quantity = match.group(1)
+				unit = match.group(2)
+			else:
+				print(f"Error! Invaild format of Detail Info for {name}")
+
 
 			########################
 			#* Price Info
 			########################
-			price = get_element_text(tile, 'p:last-of-type', 0)
-			print(price)
+			price = get_element_text(tile, 'p[data-single-line="true"]', 0)
+			pattern = r"(\d+),-"
+			match = re.search(pattern, price, flags=re.IGNORECASE)
+			if match:
+				price = match.group(1)
+			else:
+				print(f"Error! Invaild format of Price Info for {name}")
+
+			########################
+			#* Img Info
+			########################
+			img = look_for_ref(tile, 'img', 0).get_attribute('src')
+
+			results.append([name, price, img, quantity, unit])
 
 
-		# Append the new links found. This requires figuring out the HTML structure
-		# TODO.
 
 	driver.quit()
 	return results
