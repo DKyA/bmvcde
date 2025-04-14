@@ -36,3 +36,13 @@ npm run build
 You can preview the production build with `npm run preview`.
 
 > To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+
+# Structure for export files
+## Columns
+- Name: Name of the product
+- Type: Type of the product
+- Img: url to the image (test by pasting to browser)
+- Link: Link to the product / page (if applicable, else leave blank)
+- Quantity: Volume / Quantity / ...
+- Unit: Unit of the quantity. Use g, ml, pcs, null (though try to put a unit there if possible. If it is not viable to put g there for instance, use whatever you can, we will sort that out on frontend.)
+- What did I forget?

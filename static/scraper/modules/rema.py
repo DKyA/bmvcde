@@ -255,3 +255,16 @@ def start_rema(n_drivers: int, pages: str) -> pd.DataFrame:
     contents.to_csv("./static/scraper/processed/Rema.csv")
     print("Rema Done!")
     return contents
+
+
+'''
+#* IMG SCRAPING *#
+
+    ########################
+    #* Img Info
+    ########################
+    img = look_for_ref(<driver>, 'img', i).get_attribute('src')
+
+    -> Only adjust <driver> to some parent element and it will work
+
+'''
