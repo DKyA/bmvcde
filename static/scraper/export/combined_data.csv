@@ -1,57 +1,929 @@
-Company,Link,Product,Pack Size,Periodicity,Type,OTC,PAYG,Subscription,Date of update
-Silmaasema,https://www.silmaasema.fi/tuotteet/piilolinssit/kertakayttopiilolinssit/dailies-total-1-C54.html,Dailies total 1,30,Dailies,Spheric,,43.9,35.12,2025-03-29
-Silmaasema,https://www.silmaasema.fi/tuotteet/piilolinssit/kertakayttopiilolinssit/dailies-total-1-C54.html,Dailies total 1,90,Dailies,Spheric,,124.9,99.92000000000002,2025-03-29
-Silmaasema,https://www.silmaasema.fi/tuotteet/piilolinssit/jatkuvakayttoiset-piilolinssit/biofinity-C31.html,Biofinity,6,Monthlies,Spheric,,52.9,42.32,2025-03-29
-Silmaasema,https://www.silmaasema.fi/tuotteet/piilolinssit/kertakayttopiilolinssit/acuvue-oasys-1-day-with-hydraluxe-C648.html,Acuvue oasys 1-day with hydraluxe,30,Dailies,Spheric,,40.9,32.72,2025-03-29
-Silmaasema,https://www.silmaasema.fi/tuotteet/piilolinssit/kertakayttopiilolinssit/acuvue-oasys-1-day-with-hydraluxe-C648.html,Acuvue oasys 1-day with hydraluxe,90,Dailies,Spheric,,114.9,91.92000000000002,2025-03-29
-Silmaasema,https://www.silmaasema.fi/tuotteet/piilolinssit/varilliset-piilolinssit/air-optix-colors-C474.html,Air optix colors,2,Dailies,Spheric,,39.9,31.92,2025-03-29
-Silmaasema,https://www.silmaasema.fi/tuotteet/piilolinssit/kertakayttopiilolinssit/dailies-total-1-multifocal-C900.html,Dailies total 1 multifocal,30,Dailies,Multifocal,,62.9,50.32,2025-03-29
-Silmaasema,https://www.silmaasema.fi/tuotteet/piilolinssit/kertakayttopiilolinssit/dailies-total-1-multifocal-C900.html,Dailies total 1 multifocal,90,Dailies,Multifocal,,181.9,145.52,2025-03-29
-Silmaasema,https://www.silmaasema.fi/tuotteet/piilolinssit/jatkuvakayttoiset-piilolinssit/total-30-C1037.html,Total 30,6,Monthlies,Spheric,,62.9,50.32,2025-03-29
-Silmaasema,https://www.silmaasema.fi/tuotteet/piilolinssit/jatkuvakayttoiset-piilolinssit/air-optix-plus-hydraglyde-C581.html,Air optix plus hydraglyde,6,Monthlies,Spheric,,49.9,39.92,2025-03-29
-Silmaasema,https://www.silmaasema.fi/tuotteet/piilolinssit/jatkuvakayttoiset-piilolinssit/total-30-multifocal-C1090.html,Total 30 multifocal,6,Monthlies,Multifocal,,99.9,79.92000000000002,2025-03-29
-Silmaasema,https://www.silmaasema.fi/tuotteet/piilolinssit/jatkuvakayttoiset-piilolinssit/acuvue-oasys-C14.html,Acuvue oasys,6,Monthlies,Spheric,,35.9,28.72,2025-03-29
-Silmaasema,https://www.silmaasema.fi/tuotteet/piilolinssit/varilliset-piilolinssit/freshlook-1-day-C88.html,Freshlook 1 day,10,Dailies,Spheric,,22.9,18.32,2025-03-29
-Silmaasema,https://www.silmaasema.fi/tuotteet/piilolinssit/kertakayttopiilolinssit/dailies-aqua-comfort-plus-C37.html,Dailies aqua comfort plus,30,Dailies,Spheric,,33.9,27.12,2025-03-29
-Silmaasema,https://www.silmaasema.fi/tuotteet/piilolinssit/kertakayttopiilolinssit/dailies-aqua-comfort-plus-C37.html,Dailies aqua comfort plus,90,Dailies,Spheric,,96.9,77.52000000000001,2025-03-29
-Silmaasema,https://www.silmaasema.fi/tuotteet/piilolinssit/jatkuvakayttoiset-piilolinssit/biofinity-toric-C35.html,Biofinity toric,6,Monthlies,Spheric,,66.9,53.52000000000001,2025-03-29
-Silmaasema,https://www.silmaasema.fi/tuotteet/piilolinssit/kertakayttopiilolinssit/dailies-total-1-for-astigmatism-C1013.html,Dailies total 1 for astigmatism,30,Dailies,Astigmatism,,55.9,44.72,2025-03-29
-Silmaasema,https://www.silmaasema.fi/tuotteet/piilolinssit/kertakayttopiilolinssit/dailies-total-1-for-astigmatism-C1013.html,Dailies total 1 for astigmatism,90,Dailies,Astigmatism,,161.9,129.52,2025-03-29
-Silmaasema,https://www.silmaasema.fi/tuotteet/piilolinssit/jatkuvakayttoiset-piilolinssit/biofinity-multifocal-C148.html,Biofinity multifocal,6,Monthlies,Multifocal,,93.9,75.12,2025-03-29
-Silmaasema,https://www.silmaasema.fi/tuotteet/piilolinssit/kertakayttopiilolinssit/1-day-acuvue-moist-C2.html,1-day acuvue moist,30,Dailies,Spheric,,30.9,24.72,2025-03-29
-Silmaasema,https://www.silmaasema.fi/tuotteet/piilolinssit/kertakayttopiilolinssit/1-day-acuvue-moist-C2.html,1-day acuvue moist,90,Dailies,Spheric,,90.9,72.72000000000001,2025-03-29
-Silmaasema,https://www.silmaasema.fi/tuotteet/piilolinssit/kertakayttopiilolinssit/biomedics-1-day-extra-30-kpl-C58.html,Biomedics 1-day extra 30 kpl,30,Dailies,Spheric,,25.9,20.72,2025-03-29
-Silmaasema,https://www.silmaasema.fi/tuotteet/piilolinssit/kertakayttopiilolinssit/biomedics-1-day-extra-30-kpl-C58.html,Biomedics 1-day extra 30 kpl,90,Dailies,Spheric,,60.9,48.72,2025-03-29
-Silmaasema,https://www.silmaasema.fi/tuotteet/piilolinssit/kertakayttopiilolinssit/acuvue-oasys-1-day-with-hydraluxe-for-astigmatism-C976.html,Acuvue oasys 1-day with hydraluxe for astigmatism,30,Dailies,Astigmatism,,50.9,40.72,2025-03-29
-Silmaasema,https://www.silmaasema.fi/tuotteet/piilolinssit/jatkuvakayttoiset-piilolinssit/biofinity-xr-C469.html,Biofinity xr,3,Monthlies,Spheric,,36.9,29.52,2025-03-29
-Silmaasema,https://www.silmaasema.fi/tuotteet/piilolinssit/jatkuvakayttoiset-piilolinssit/air-optix-plus-hydraglyde-multifocal-C999.html,Air optix plus hydraglyde multifocal,6,Monthlies,Multifocal,,94.9,75.92,2025-03-29
-Silmaasema,https://www.silmaasema.fi/tuotteet/piilolinssit/kertakayttopiilolinssit/precision-1-C1033.html,Precision 1,30,Dailies,Spheric,,35.9,28.72,2025-03-29
-Silmaasema,https://www.silmaasema.fi/tuotteet/piilolinssit/kertakayttopiilolinssit/precision-1-C1033.html,Precision 1,90,Dailies,Spheric,,99.9,79.92000000000002,2025-03-29
-Silmaasema,https://www.silmaasema.fi/tuotteet/piilolinssit/jatkuvakayttoiset-piilolinssit/acuvue-oasys-for-astigmatism-C15.html,Acuvue oasys for astigmatism,6,Monthlies,Astigmatism,,50.9,40.72,2025-03-29
-Silmaasema,https://www.silmaasema.fi/tuotteet/piilolinssit/jatkuvakayttoiset-piilolinssit/air-optix-plus-hydraglyde-astigmatism-C1002.html,Air optix plus hydraglyde for astigmatism,6,Monthlies,Astigmatism,,74.9,59.92000000000001,2025-03-29
-Silmaasema,https://www.silmaasema.fi/tuotteet/piilolinssit/jatkuvakayttoiset-piilolinssit/total-30-for-astigmatism-C1089.html,Total 30 for astigmatism,6,Monthlies,Astigmatism,,79.9,63.92000000000001,2025-03-29
-Silmaasema,https://www.silmaasema.fi/tuotteet/piilolinssit/kertakayttopiilolinssit/dailies-aqua-comfort-plus-multifocal-C169.html,Dailies aqua comfort plus multifocal,30,Dailies,Multifocal,,54.9,43.92,2025-03-29
-Silmaasema,https://www.silmaasema.fi/tuotteet/piilolinssit/kertakayttopiilolinssit/precision-1-for-astigmatism-C1035.html,Precision 1 for astigmatism,30,Dailies,Astigmatism,,46.9,37.52,2025-03-29
-Silmaasema,https://www.silmaasema.fi/tuotteet/piilolinssit/kertakayttopiilolinssit/precision-1-for-astigmatism-C1035.html,Precision 1 for astigmatism,90,Dailies,Astigmatism,,139.9,111.92000000000002,2025-03-29
-Silmaasema,https://www.silmaasema.fi/tuotteet/piilolinssit/jatkuvakayttoiset-piilolinssit/acuvue-oasys-multifocal-C1042.html,Acuvue oasys multifocal,6,Monthlies,Multifocal,,60.9,48.72,2025-03-29
-Silmaasema,https://www.silmaasema.fi/tuotteet/piilolinssit/jatkuvakayttoiset-piilolinssit/biofinity-energys-C902.html,Biofinity energys,6,Monthlies,Spheric,,56.9,45.52,2025-03-29
-Silmaasema,https://www.silmaasema.fi/tuotteet/piilolinssit/kertakayttopiilolinssit/proclear-1-day-C52.html,Proclear 1 day,30,Dailies,Spheric,,27.9,22.32,2025-03-29
-Silmaasema,https://www.silmaasema.fi/tuotteet/piilolinssit/kertakayttopiilolinssit/proclear-1-day-C52.html,Proclear 1 day,90,Dailies,Spheric,,79.9,63.92000000000001,2025-03-29
-Silmaasema,https://www.silmaasema.fi/tuotteet/piilolinssit/jatkuvakayttoiset-piilolinssit/biofinity-toric-xr-C984.html,Biofinity toric xr,3,Monthlies,Spheric,,86.9,69.52000000000001,2025-03-29
-Silmaasema,https://www.silmaasema.fi/tuotteet/piilolinssit/kertakayttopiilolinssit/1-day-acuvue-moist-multifocal-C979.html,1-day acuvue moist multifocal,30,Dailies,Multifocal,,50.9,40.72,2025-03-29
-Silmaasema,https://www.silmaasema.fi/tuotteet/piilolinssit/kertakayttopiilolinssit/1-day-acuvue-moist-multifocal-C979.html,1-day acuvue moist multifocal,90,Dailies,Multifocal,,130.9,104.72000000000001,2025-03-29
-Silmaasema,https://www.silmaasema.fi/tuotteet/piilolinssit/kertakayttopiilolinssit/dailies-all-day-comfort-C120.html,Dailies all day comfort,30,Dailies,Spheric,,32.9,26.32,2025-03-29
-Silmaasema,https://www.silmaasema.fi/tuotteet/piilolinssit/kertakayttopiilolinssit/dailies-all-day-comfort-C120.html,Dailies all day comfort,90,Dailies,Spheric,,89.9,71.92,2025-03-29
-Silmaasema,https://www.silmaasema.fi/tuotteet/piilolinssit/kertakayttopiilolinssit/1-day-acuvue-moist-for-astigmatism-C10.html,1-day acuvue moist for astigmatism,30,Dailies,Astigmatism,,40.9,32.72,2025-03-29
-Silmaasema,https://www.silmaasema.fi/tuotteet/piilolinssit/kertakayttopiilolinssit/dailies-aqua-comfort-plus-toric-C167.html,Dailies aqua comfort plus toric,30,Dailies,Spheric,,43.9,35.12,2025-03-29
-Silmaasema,https://www.silmaasema.fi/tuotteet/piilolinssit/kertakayttopiilolinssit/clariti-1-day-C556.html,Clariti 1 day,30,Dailies,Spheric,,33.9,27.12,2025-03-29
-Silmaasema,https://www.silmaasema.fi/tuotteet/piilolinssit/kertakayttopiilolinssit/clariti-1-day-C556.html,Clariti 1 day,90,Dailies,Spheric,,88.9,71.12,2025-03-29
-Silmaasema,https://www.silmaasema.fi/tuotteet/piilolinssit/jatkuvakayttoiset-piilolinssit/proclear-multifocal-C42.html,Proclear multifocal,6,Monthlies,Multifocal,,84.9,67.92,2025-03-29
-Silmaasema,https://www.silmaasema.fi/tuotteet/piilolinssit/jatkuvakayttoiset-piilolinssit/avaira-vitality-C898.html,Avaira vitality,6,Monthlies,Spheric,,38.9,31.12,2025-03-29
-Silmaasema,https://www.silmaasema.fi/tuotteet/piilolinssit/kertakayttopiilolinssit/myday-C554.html,Myday,30,Dailies,Spheric,,40.9,32.72,2025-03-29
-Silmaasema,https://www.silmaasema.fi/tuotteet/piilolinssit/kertakayttopiilolinssit/myday-C554.html,Myday,90,Dailies,Spheric,,106.9,85.52000000000001,2025-03-29
-Silmaasema,https://www.silmaasema.fi/tuotteet/piilolinssit/kertakayttopiilolinssit/myday-toric-C916.html,Myday toric,30,Dailies,Spheric,,52.9,42.32,2025-03-29
-Silmaasema,https://www.silmaasema.fi/tuotteet/piilolinssit/jatkuvakayttoiset-piilolinssit/avaira-vitality-toric-C993.html,Avaira vitality toric,6,Monthlies,Spheric,,47.9,38.32,2025-03-29
-Silmaasema,https://www.silmaasema.fi/tuotteet/piilolinssit/kertakayttopiilolinssit/proclear-1-day-multifocal-C108.html,Proclear 1 day multifocal,30,Dailies,Multifocal,,44.9,35.92,2025-03-29
-Silmaasema,https://www.silmaasema.fi/tuotteet/piilolinssit/kertakayttopiilolinssit/clariti-1-day-multifocal-C558.html,Clariti 1 day multifocal,30,Dailies,Multifocal,,56.9,45.52,2025-03-29
-Silmaasema,https://www.silmaasema.fi/tuotteet/piilolinssit/kertakayttopiilolinssit/clariti-1-day-toric-C561.html,Clariti 1 day toric,30,Dailies,Spheric,,46.9,37.52,2025-03-29
+Company,Link,Product,Pack Size,Periodicity,Type,OTC,PAYG,Subscription,Date of update,Greater Category,Labels
+Rema1000,https://shop.rema1000.dk/brod-bavinchi,FLUTES,,,BAGUETTE/FLUTES,,6.50,6.50,2025-04-14,Bread & Bakery,None
+Rema1000,https://shop.rema1000.dk/brod-bavinchi,CIABATTA,,,BAGUETTE/FLUTES,,6.95,6.95,2025-04-14,Bread & Bakery,None
+Rema1000,https://shop.rema1000.dk/brod-bavinchi,KRYDDERBOLLER,,,BOLLER,,8.50,8.50,2025-04-14,Bread & Bakery,None
+Rema1000,https://shop.rema1000.dk/brod-bavinchi,SOLSIKKEBOLLER,,,BOLLER,,10.00,10.00,2025-04-14,Bread & Bakery,None
+Rema1000,https://shop.rema1000.dk/brod-bavinchi,YOGHURTBOLLER,,,BOLLER,,20.00,20.00,2025-04-14,Bread & Bakery,None
+Rema1000,https://shop.rema1000.dk/brod-bavinchi,MULTIKERNEBOLLER,,,BOLLER,,25.00,25.00,2025-04-14,Bread & Bakery,None
+Rema1000,https://shop.rema1000.dk/brod-bavinchi,RUGBRØDSBOLLER,,,BOLLER,,23.95,23.95,2025-04-14,Bread & Bakery,None
+Rema1000,https://shop.rema1000.dk/brod-bavinchi,CHIA BOLLER,,,BOLLER,,25.00,25.00,2025-04-14,Bread & Bakery,None
+Rema1000,https://shop.rema1000.dk/brod-bavinchi,KRYDDERBOLLER,,,BOLLER,,10.50,10.50,2025-04-14,Bread & Bakery,None
+Rema1000,https://shop.rema1000.dk/brod-bavinchi,FULDKORNS BOLLER,,,BOLLER,,25.00,25.00,2025-04-14,Bread & Bakery,None
+Rema1000,https://shop.rema1000.dk/brod-bavinchi,SOLSKINSBOLLER,,,BOLLER,,22.75,22.75,2025-04-14,Bread & Bakery,None
+Rema1000,https://shop.rema1000.dk/brod-bavinchi,BOLLER ØKOLOGISK,,,BOLLER,,12.00,12.00,2025-04-14,Bread & Bakery,None
+Rema1000,https://shop.rema1000.dk/brod-bavinchi,CIABATTASTYKKER,,,BOLLER,,14.50,14.50,2025-04-14,Bread & Bakery,None
+Rema1000,https://shop.rema1000.dk/brod-bavinchi,HVEDETOAST,,,BRØD,,5.95,5.95,2025-04-14,Bread & Bakery,None
+Rema1000,https://shop.rema1000.dk/brod-bavinchi,FULDKORNSTOAST,,,BRØD,,7.50,7.50,2025-04-14,Bread & Bakery,None
+Rema1000,https://shop.rema1000.dk/brod-bavinchi,HVEDESANDWICH,,,BRØD,,8.75,8.75,2025-04-14,Bread & Bakery,None
+Rema1000,https://shop.rema1000.dk/brod-bavinchi,MULTIK. SANDWICH,,,BRØD,,25.00,25.00,2025-04-14,Bread & Bakery,None
+Rema1000,https://shop.rema1000.dk/brod-bavinchi,SØDMÆLKSBRØD,,,BRØD,,20.00,20.00,2025-04-14,Bread & Bakery,None
+Rema1000,https://shop.rema1000.dk/brod-bavinchi,SKAGENSBRØD,,,BRØD,,10.00,10.00,2025-04-14,Bread & Bakery,None
+Rema1000,https://shop.rema1000.dk/brod-bavinchi,GROV CAFESANDWICH,,,BRØD,,21.95,21.95,2025-04-14,Bread & Bakery,None
+Rema1000,https://shop.rema1000.dk/brod-bavinchi,FULDKORNSSANDWICH,,,BRØD,,9.50,9.50,2025-04-14,Bread & Bakery,None
+Rema1000,https://shop.rema1000.dk/brod-bavinchi,CAFE SANDWICH,,,BRØD,,21.95,21.95,2025-04-14,Bread & Bakery,None
+Rema1000,https://shop.rema1000.dk/brod-bavinchi,LIMPAN,,,BRØD,,25.95,25.95,2025-04-14,Bread & Bakery,None
+Rema1000,https://shop.rema1000.dk/brod-bavinchi,FEMKORNSBRØD,,,BRØD,,10.00,10.00,2025-04-14,Bread & Bakery,None
+Rema1000,https://shop.rema1000.dk/brod-bavinchi,RUG GO SOLSIKKE,,,BRØD,,10.00,10.00,2025-04-14,Bread & Bakery,None
+Rema1000,https://shop.rema1000.dk/brod-bavinchi,FULDKORNSKLEMMER,,,BRØD,,23.95,23.95,2025-04-14,Bread & Bakery,None
+Rema1000,https://shop.rema1000.dk/brod-bavinchi,FROKOSTSTYKKER,,,BRØD,,23.95,23.95,2025-04-14,Bread & Bakery,None
+Rema1000,https://shop.rema1000.dk/brod-bavinchi,SOLSTYKKER,,,BRØD,,23.95,23.95,2025-04-14,Bread & Bakery,None
+Rema1000,https://shop.rema1000.dk/brod-bavinchi,BRØD,,,BRØD,,20.00,20.00,2025-04-14,Bread & Bakery,None
+Rema1000,https://shop.rema1000.dk/brod-bavinchi,PAN BRIOCHE STYLE,,,BRØD,,20.00,20.00,2025-04-14,Bread & Bakery,None
+Rema1000,https://shop.rema1000.dk/brod-bavinchi,SOLSIKKERUGBRØD,,,RUGBRØD,,10.00,10.00,2025-04-14,Bread & Bakery,None
+Rema1000,https://shop.rema1000.dk/brod-bavinchi,BONDEBRØD,,,RUGBRØD,,6.95,6.95,2025-04-14,Bread & Bakery,None
+Rema1000,https://shop.rema1000.dk/brod-bavinchi,SOLSIKKERUGBRØD,,,RUGBRØD,,8.95,8.95,2025-04-14,Bread & Bakery,None
+Rema1000,https://shop.rema1000.dk/brod-bavinchi,MØRKT RUGBRØD,,,RUGBRØD,,5.75,5.75,2025-04-14,Bread & Bakery,None
+Rema1000,https://shop.rema1000.dk/brod-bavinchi,RUGBRØD,,,RUGBRØD,,20.95,20.95,2025-04-14,Bread & Bakery,None
+Rema1000,https://shop.rema1000.dk/brod-bavinchi,KERNEGROVBRØD,,,RUGBRØD,,25.00,25.00,2025-04-14,Bread & Bakery,None
+Rema1000,https://shop.rema1000.dk/brod-bavinchi,GULERODSRUGBRØD,,,RUGBRØD,,10.00,10.00,2025-04-14,Bread & Bakery,None
+Rema1000,https://shop.rema1000.dk/brod-bavinchi,SOLSIKKE,,,RUGBRØD,,21.95,21.95,2025-04-14,Bread & Bakery,None
+Rema1000,https://shop.rema1000.dk/brod-bavinchi,PROTEINBRØD,,,RUGBRØD,,25.95,25.95,2025-04-14,Bread & Bakery,None
+Rema1000,https://shop.rema1000.dk/brod-bavinchi,SOLSIKKERUGBRØD,,,RUGBRØD,,13.25,13.25,2025-04-14,Bread & Bakery,None
+Rema1000,https://shop.rema1000.dk/brod-bavinchi,ØKO. SOLSIKKE,,,RUGBRØD,,22.00,22.00,2025-04-14,Bread & Bakery,None
+Rema1000,https://shop.rema1000.dk/brod-bavinchi,SIGNATURBRØD,,,RUGBRØD,,20.00,20.00,2025-04-14,Bread & Bakery,None
+Rema1000,https://shop.rema1000.dk/brod-bavinchi,SANDWICHRUGBRØD,,,RUGBRØD,,25.00,25.00,2025-04-14,Bread & Bakery,None
+Rema1000,https://shop.rema1000.dk/brod-bavinchi,SOLSIKKERUGBRØD,,,RUGBRØD,,9.75,9.75,2025-04-14,Bread & Bakery,None
+Rema1000,https://shop.rema1000.dk/brod-bavinchi,SCHWARZBRØD,,,RUGBRØD,,8.00,8.00,2025-04-14,Bread & Bakery,None
+Rema1000,https://shop.rema1000.dk/brod-bavinchi,FULDK. RUGBRØD,,,RUGBRØD,,12.00,12.00,2025-04-14,Bread & Bakery,None
+Rema1000,https://shop.rema1000.dk/brod-bavinchi,HERKULES,,,RUGBRØD,,21.95,21.95,2025-04-14,Bread & Bakery,None
+Rema1000,https://shop.rema1000.dk/brod-bavinchi,BONDEBRØD,,,RUGBRØD,,23.95,23.95,2025-04-14,Bread & Bakery,None
+Rema1000,https://shop.rema1000.dk/brod-bavinchi,FULDK.RUGBRØD,,,RUGBRØD,,7.75,7.75,2025-04-14,Bread & Bakery,None
+Rema1000,https://shop.rema1000.dk/brod-bavinchi,SKOVMANDSBRØD,,,RUGBRØD,,13.25,13.25,2025-04-14,Bread & Bakery,None
+Rema1000,https://shop.rema1000.dk/brod-bavinchi,BURGERBOLLER,,,FAST FOOD BRØD,,10.00,10.00,2025-04-14,Bread & Bakery,None
+Rema1000,https://shop.rema1000.dk/brod-bavinchi,PITABRØD,,,FAST FOOD BRØD,,16.50,16.50,2025-04-14,Bread & Bakery,None
+Rema1000,https://shop.rema1000.dk/brod-bavinchi,STORE HOTDOGBRØD,,,FAST FOOD BRØD,,10.00,10.00,2025-04-14,Bread & Bakery,None
+Rema1000,https://shop.rema1000.dk/brod-bavinchi,PØLSEBRØD,,,FAST FOOD BRØD,,10.00,10.00,2025-04-14,Bread & Bakery,None
+Rema1000,https://shop.rema1000.dk/brod-bavinchi,FULDKORN BURGER,,,FAST FOOD BRØD,,20.50,20.50,2025-04-14,Bread & Bakery,None
+Rema1000,https://shop.rema1000.dk/brod-bavinchi,"NAANBRØD, HVIDLØG",,,FAST FOOD BRØD,,12.00,12.00,2025-04-14,Bread & Bakery,None
+Rema1000,https://shop.rema1000.dk/brod-bavinchi,NAANBRØD,,,FAST FOOD BRØD,,12.00,12.00,2025-04-14,Bread & Bakery,None
+Rema1000,https://shop.rema1000.dk/brod-bavinchi,ORIGINAL BURGER,,,FAST FOOD BRØD,,20.50,20.50,2025-04-14,Bread & Bakery,None
+Rema1000,https://shop.rema1000.dk/brod-bavinchi,GRÆSK FLADBRØD,,,FAST FOOD BRØD,,10.00,10.00,2025-04-14,Bread & Bakery,None
+Rema1000,https://shop.rema1000.dk/brod-bavinchi,PITABRØD,,,FAST FOOD BRØD,,28.00,28.00,2025-04-14,Bread & Bakery,None
+Rema1000,https://shop.rema1000.dk/brod-bavinchi,GRÆSK FLADBRØD,,,FAST FOOD BRØD,,10.00,10.00,2025-04-14,Bread & Bakery,None
+Rema1000,https://shop.rema1000.dk/brod-bavinchi,BRIOCHE BURGERB.,,,FAST FOOD BRØD,,10.00,10.00,2025-04-14,Bread & Bakery,None
+Rema1000,https://shop.rema1000.dk/brod-bavinchi,BRIOCHE HOTDOG,,,FAST FOOD BRØD,,10.00,10.00,2025-04-14,Bread & Bakery,None
+Rema1000,https://shop.rema1000.dk/brod-bavinchi,FRANSK HOTDOG,,,FAST FOOD BRØD,,12.00,12.00,2025-04-14,Bread & Bakery,None
+Rema1000,https://shop.rema1000.dk/brod-bavinchi,HÅNDVÆRKER,,,BAVINCHI BAGER,,3.75,3.75,2025-04-14,Bread & Bakery,None
+Rema1000,https://shop.rema1000.dk/brod-bavinchi,KANELSNEGL,,,BAVINCHI BAGER,,10.00,10.00,2025-04-14,Bread & Bakery,None
+Rema1000,https://shop.rema1000.dk/brod-bavinchi,CREMESNEGL,,,BAVINCHI BAGER,,10.00,10.00,2025-04-14,Bread & Bakery,None
+Rema1000,https://shop.rema1000.dk/brod-bavinchi,FORMBRØD,,,BAVINCHI BAGER,,20.00,20.00,2025-04-14,Bread & Bakery,None
+Rema1000,https://shop.rema1000.dk/brod-bavinchi,GROVBIRKES,,,BAVINCHI BAGER,,7.00,7.00,2025-04-14,Bread & Bakery,None
+Rema1000,https://shop.rema1000.dk/brod-bavinchi,SKAGENSTYKKE,,,BAVINCHI BAGER,,3.75,3.75,2025-04-14,Bread & Bakery,None
+Rema1000,https://shop.rema1000.dk/brod-bavinchi,TEBIRKES,,,BAVINCHI BAGER,,10.00,10.00,2025-04-14,Bread & Bakery,None
+Rema1000,https://shop.rema1000.dk/brod-bavinchi,SPANDAUER,,,BAVINCHI BAGER,,10.00,10.00,2025-04-14,Bread & Bakery,None
+Rema1000,https://shop.rema1000.dk/brod-bavinchi,TREKORNSSTYKKE,,,BAVINCHI BAGER,,3.75,3.75,2025-04-14,Bread & Bakery,None
+Rema1000,https://shop.rema1000.dk/brod-bavinchi,TEBOLLE,,,BAVINCHI BAGER,,3.75,3.75,2025-04-14,Bread & Bakery,None
+Rema1000,https://shop.rema1000.dk/brod-bavinchi,GULERODSBOLLE,,,BAVINCHI BAGER,,7.00,7.00,2025-04-14,Bread & Bakery,None
+Rema1000,https://shop.rema1000.dk/brod-bavinchi,TREKORNSBRØD,,,BAVINCHI BAGER,,20.00,20.00,2025-04-14,Bread & Bakery,None
+Rema1000,https://shop.rema1000.dk/brod-bavinchi,CHOKOLADEBOLLE,,,BAVINCHI BAGER,,7.00,7.00,2025-04-14,Bread & Bakery,None
+Rema1000,https://shop.rema1000.dk/brod-bavinchi,DAGMARSTANG,,,BAVINCHI BAGER,,32.00,32.00,2025-04-14,Bread & Bakery,None
+Rema1000,https://shop.rema1000.dk/brod-bavinchi,HINDBÆRSNITTER,,,BAVINCHI BAGER,,25.00,25.00,2025-04-14,Bread & Bakery,None
+Rema1000,https://shop.rema1000.dk/brod-bavinchi,MORMORBRØD,,,BAVINCHI BAGER,,25.00,25.00,2025-04-14,Bread & Bakery,None
+Rema1000,https://shop.rema1000.dk/brod-bavinchi,TRØFLER,,,BAVINCHI BAGER,,30.00,30.00,2025-04-14,Bread & Bakery,None
+Rema1000,https://shop.rema1000.dk/brod-bavinchi,KANELSTANG,,,BAVINCHI BAGER,,32.00,32.00,2025-04-14,Bread & Bakery,None
+Rema1000,https://shop.rema1000.dk/brod-bavinchi,PØLSEHORN,,,BAVINCHI BAGER,,12.00,12.00,2025-04-14,Bread & Bakery,None
+Rema1000,https://shop.rema1000.dk/brod-bavinchi,SALT OG PEBER STYKKE,,,BAVINCHI BAGER,,3.75,3.75,2025-04-14,Bread & Bakery,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,BANAN,,,"PÆRE, ÆBLE, BANAN & CITRUSFRUGT",,2.50,2.50,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,ØKO. BANANER FAIRTRADE,,,"PÆRE, ÆBLE, BANAN & CITRUSFRUGT",,10.00,10.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,"APPELSIN, GRÆKENLAND",,,"PÆRE, ÆBLE, BANAN & CITRUSFRUGT",,3.50,3.50,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,ØKO. CITRONER,,,"PÆRE, ÆBLE, BANAN & CITRUSFRUGT",,6.00,6.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,ØKO. GOLDEN DELICIOUS,,,"PÆRE, ÆBLE, BANAN & CITRUSFRUGT",,2.50,2.50,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,"CITRON, SPANIEN",,,"PÆRE, ÆBLE, BANAN & CITRUSFRUGT",,4.00,4.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,ØKO. ÆBLER,,,"PÆRE, ÆBLE, BANAN & CITRUSFRUGT",,22.00,22.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,PINK LADY ÆBLER,,,"PÆRE, ÆBLE, BANAN & CITRUSFRUGT",,27.00,27.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,CONFERENCE PÆRER,,,"PÆRE, ÆBLE, BANAN & CITRUSFRUGT",,3.00,3.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,DANSKE ÆBLER I POSE,,,"PÆRE, ÆBLE, BANAN & CITRUSFRUGT",,24.00,24.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,ØKO. APPELSINER,,,"PÆRE, ÆBLE, BANAN & CITRUSFRUGT",,18.00,18.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,PÆRER I BK. MADSPILD,,,"PÆRE, ÆBLE, BANAN & CITRUSFRUGT",,20.00,20.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,ØKO. GRAPEFRUGT,,,"PÆRE, ÆBLE, BANAN & CITRUSFRUGT",,7.00,7.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,"APPELSIN, LAND SE VARE",,,"PÆRE, ÆBLE, BANAN & CITRUSFRUGT",,28.00,28.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,DANSKE ÆBLER I BK.,,,"PÆRE, ÆBLE, BANAN & CITRUSFRUGT",,18.00,18.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,ÆBLER I POSE,,,"PÆRE, ÆBLE, BANAN & CITRUSFRUGT",,18.00,18.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,FRUGT OG GRØNT POSE,,,"PÆRE, ÆBLE, BANAN & CITRUSFRUGT",,3.00,3.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,JONAGORED ÆBLER,,,"PÆRE, ÆBLE, BANAN & CITRUSFRUGT",,2.50,2.50,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,EVELINA ÆBLER,,,"PÆRE, ÆBLE, BANAN & CITRUSFRUGT",,2.50,2.50,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,ØKO. LIME,,,"PÆRE, ÆBLE, BANAN & CITRUSFRUGT",,3.00,3.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,KIWI I BAKKE,,,"BLOMMER, FERSKEN, NEKTARINER & KIWI",,15.00,15.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,ØKO. KIWI,,,"BLOMMER, FERSKEN, NEKTARINER & KIWI",,18.00,18.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,BLOMMER,,,"BLOMMER, FERSKEN, NEKTARINER & KIWI",,2.00,2.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,KIWI,,,"BLOMMER, FERSKEN, NEKTARINER & KIWI",,3.00,3.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,JORDBÆR,,,"MELON, BÆR, VINDRUER & EKSOTISK FRUGT",,15.00,15.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,GRØNNE STENFRI DRUER,,,"MELON, BÆR, VINDRUER & EKSOTISK FRUGT",,24.00,24.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,BLÅBÆR,,,"MELON, BÆR, VINDRUER & EKSOTISK FRUGT",,15.00,15.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,RØDE STENFRI DRUER,,,"MELON, BÆR, VINDRUER & EKSOTISK FRUGT",,24.00,24.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,MANGO FORMODNET,,,"MELON, BÆR, VINDRUER & EKSOTISK FRUGT",,14.00,14.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,PASSIONSFRUGT,,,"MELON, BÆR, VINDRUER & EKSOTISK FRUGT",,4.00,4.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,MIX STENFRI DRUER,,,"MELON, BÆR, VINDRUER & EKSOTISK FRUGT",,15.00,15.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,FRISKE DADLER,,,"MELON, BÆR, VINDRUER & EKSOTISK FRUGT",,20.00,20.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,ØKO. JORDBÆR,,,"MELON, BÆR, VINDRUER & EKSOTISK FRUGT",,25.00,25.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,HINDBÆR,,,"MELON, BÆR, VINDRUER & EKSOTISK FRUGT",,22.00,22.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,ØKO. BLÅBÆR,,,"MELON, BÆR, VINDRUER & EKSOTISK FRUGT",,22.00,22.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,ØKO. DADLER,,,"MELON, BÆR, VINDRUER & EKSOTISK FRUGT",,32.00,32.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,DADLER,,,"MELON, BÆR, VINDRUER & EKSOTISK FRUGT",,75.00,75.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,DANSK AGURK,,,"AGURK, TOMAT & PEBERFRUGT",,10.00,10.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,CHERRYBLOMMETOMAT,,,"AGURK, TOMAT & PEBERFRUGT",,12.50,12.50,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,ØKO. CHERRYTOMATER,,,"AGURK, TOMAT & PEBERFRUGT",,15.00,15.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,SNACK PEBER,,,"AGURK, TOMAT & PEBERFRUGT",,20.00,20.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,TOMATER I BAKKE,,,"AGURK, TOMAT & PEBERFRUGT",,16.00,16.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,ØKO. TOMATER,,,"AGURK, TOMAT & PEBERFRUGT",,16.00,16.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,"CHERRYTOMATER, STILK",,,"AGURK, TOMAT & PEBERFRUGT",,22.00,22.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,SUGARDROP TOMATER,,,"AGURK, TOMAT & PEBERFRUGT",,22.00,22.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,"ØKO. PEBER, GRØN",,,"AGURK, TOMAT & PEBERFRUGT",,10.00,10.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,SKOLEAGURKER,,,"AGURK, TOMAT & PEBERFRUGT",,14.00,14.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,ØKO. TAPAS TOMAT,,,"AGURK, TOMAT & PEBERFRUGT",,20.00,20.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,AGURK,,,"AGURK, TOMAT & PEBERFRUGT",,5.00,5.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,"SØD PEBER, KERNEFRI",,,"AGURK, TOMAT & PEBERFRUGT",,16.00,16.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,ØKO. SNACK PEBER,,,"AGURK, TOMAT & PEBERFRUGT",,15.00,15.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,ØKO. DANSK AGURK,,,"AGURK, TOMAT & PEBERFRUGT",,13.00,13.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,RØD PEBER,,,"AGURK, TOMAT & PEBERFRUGT",,8.00,8.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,TOMATER VEJ SELV,,,"AGURK, TOMAT & PEBERFRUGT",,2.99,2.99,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,ØKO. PEBER,,,"AGURK, TOMAT & PEBERFRUGT",,10.00,10.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,GUL/ORANGE PEBER,,,"AGURK, TOMAT & PEBERFRUGT",,8.00,8.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,MODNE AVOCADO,,,"SALATER, FINT GRØNT & AVOCADO",,18.00,18.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,HJERTESALAT,,,"SALATER, FINT GRØNT & AVOCADO",,13.00,13.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,ØKO. SQUASH,,,"SALATER, FINT GRØNT & AVOCADO",,7.00,7.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,ICEBERG SALAT,,,"SALATER, FINT GRØNT & AVOCADO",,11.00,11.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,ØKO. SPINAT,,,"SALATER, FINT GRØNT & AVOCADO",,10.00,10.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,ØKO. CHAMP. I SKIVER,,,"SALATER, FINT GRØNT & AVOCADO",,6.00,6.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,ØKO. SALAT MIX,,,"SALATER, FINT GRØNT & AVOCADO",,8.00,8.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,NORDIC CRISP SALAT,,,"SALATER, FINT GRØNT & AVOCADO",,15.00,15.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,FORÅRSLØG,,,"SALATER, FINT GRØNT & AVOCADO",,8.00,8.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,ØKO. ICEBERG,,,"SALATER, FINT GRØNT & AVOCADO",,15.00,15.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,CHAMPIGNON,,,"SALATER, FINT GRØNT & AVOCADO",,15.00,15.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,CHAMPIGNON,,,"SALATER, FINT GRØNT & AVOCADO",,19.00,19.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,ØKO. BLADSELLERI,,,"SALATER, FINT GRØNT & AVOCADO",,15.00,15.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,ØKO. RUCOLA,,,"SALATER, FINT GRØNT & AVOCADO",,8.00,8.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,ØKO. CHAMPIGNON,,,"SALATER, FINT GRØNT & AVOCADO",,15.00,15.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,GRØNNE ASPARGES,,,"SALATER, FINT GRØNT & AVOCADO",,12.00,12.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,SUGAR SNAPS,,,"SALATER, FINT GRØNT & AVOCADO",,15.00,15.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,ÆRTER I BK.,,,"SALATER, FINT GRØNT & AVOCADO",,23.00,23.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,ØKO. FELDSALAT,,,"SALATER, FINT GRØNT & AVOCADO",,11.00,11.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,SPINAT,,,"SALATER, FINT GRØNT & AVOCADO",,19.00,19.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,PERSILLE,,,KRYDDERURTER & SMAGSFORSTÆRKERE,,9.00,9.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,PURLØG,,,KRYDDERURTER & SMAGSFORSTÆRKERE,,9.00,9.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,ØKO. BASILIKUM,,,KRYDDERURTER & SMAGSFORSTÆRKERE,,15.00,15.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,ØKO. INGEFÆR,,,KRYDDERURTER & SMAGSFORSTÆRKERE,,14.00,14.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,DILD,,,KRYDDERURTER & SMAGSFORSTÆRKERE,,9.00,9.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,KARSE,,,KRYDDERURTER & SMAGSFORSTÆRKERE,,7.00,7.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,ØKO. TIMIAN,,,KRYDDERURTER & SMAGSFORSTÆRKERE,,15.00,15.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,ØKO. KORIANDER,,,KRYDDERURTER & SMAGSFORSTÆRKERE,,15.00,15.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,ØKO. CHILI MIX,,,KRYDDERURTER & SMAGSFORSTÆRKERE,,14.00,14.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,ØKO. MYNTE,,,KRYDDERURTER & SMAGSFORSTÆRKERE,,15.00,15.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,ØKO. ROSMARIN,,,KRYDDERURTER & SMAGSFORSTÆRKERE,,15.00,15.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,ØKO. PERSILLE BREDBL.,,,KRYDDERURTER & SMAGSFORSTÆRKERE,,15.00,15.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,ØKO. PERSILLE,,,KRYDDERURTER & SMAGSFORSTÆRKERE,,15.00,15.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,HVIDE ASPARGES,,,KRYDDERURTER & SMAGSFORSTÆRKERE,,20.00,20.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,ØKO. GURKEMEJEROD,,,KRYDDERURTER & SMAGSFORSTÆRKERE,,13.00,13.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,ØKO. ESTRAGON,,,KRYDDERURTER & SMAGSFORSTÆRKERE,,15.00,15.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,ØKO. OREGANO,,,KRYDDERURTER & SMAGSFORSTÆRKERE,,15.00,15.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,ØKO. BRØNDKARSE,,,KRYDDERURTER & SMAGSFORSTÆRKERE,,15.00,15.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,GULERØDDER,,,GROV GRØNT,,11.00,11.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,PORRER,,,GROV GRØNT,,6.00,6.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,ØKO. GULERØDDER,,,GROV GRØNT,,1.13,1.13,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,BROCCOLI,,,GROV GRØNT,,14.00,14.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,ØKO. GULERØDDER,,,GROV GRØNT,,14.00,14.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,ØKO. SNACK GULERØDDER,,,GROV GRØNT,,8.50,8.50,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,ØKO. PASTINAKKER,,,GROV GRØNT,,1.88,1.88,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,ØKO. RØDBEDER,,,GROV GRØNT,,1.50,1.50,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,ØKO. BROCCOLI,,,GROV GRØNT,,17.00,17.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,ØKO. MINI GULERØDDER,,,GROV GRØNT,,6.50,6.50,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,ØKO. JORDSKOKKER,,,GROV GRØNT,,1.50,1.50,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,MINI GULERØDDER,,,GROV GRØNT,,5.00,5.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,ØKO. BLOMKÅL,,,GROV GRØNT,,20.00,20.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,BØNNER,,,GROV GRØNT,,14.00,14.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,ØKO. RØDBEDER,,,GROV GRØNT,,13.00,13.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,ØKO. SELLERI,,,GROV GRØNT,,15.00,15.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,FENNIKEL,,,GROV GRØNT,,11.00,11.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,PERSILLERØDDER,,,GROV GRØNT,,13.00,13.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,AUBERGINE,,,GROV GRØNT,,10.00,10.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,SPIDSKÅL,,,KÅL,,15.00,15.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,ØKO. SPIDSKÅL,,,KÅL,,18.00,18.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,HVIDKÅL,,,KÅL,,9.00,9.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,ROSENKÅL,,,KÅL,,16.00,16.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,PAK CHOI,,,KÅL,,16.00,16.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,KINAKÅL,,,KÅL,,18.00,18.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,BLOMKÅL,,,KÅL,,16.00,16.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,LØSE KARTOFLER,,,KARTOFLER & LØG,,0.70,0.70,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,NYE UDL. KARTOFLER,,,KARTOFLER & LØG,,18.00,18.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,LØG,,,KARTOFLER & LØG,,12.00,12.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,RØDLØG,,,KARTOFLER & LØG,,8.00,8.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,BAGEKARTOFLER,,,KARTOFLER & LØG,,20.00,20.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,HVIDLØG I NET,,,KARTOFLER & LØG,,6.00,6.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,VILDMOSE KARTOFLER,,,KARTOFLER & LØG,,24.00,24.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,NYE UDL. KARTOFLER,,,KARTOFLER & LØG,,14.00,14.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,ØKO. KARTOFLER,,,KARTOFLER & LØG,,18.00,18.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,ØKO. HVIDLØG,,,KARTOFLER & LØG,,5.50,5.50,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,ØKO. LØG,,,KARTOFLER & LØG,,12.00,12.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,ASPARGES KARTOFLER,,,KARTOFLER & LØG,,15.00,15.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,SØDE KARTOFLER,,,KARTOFLER & LØG,,14.00,14.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,"KARTOFLER, SMÅ",,,KARTOFLER & LØG,,12.00,12.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,ØKO. SMÅ KARTOFLER,,,KARTOFLER & LØG,,16.00,16.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,LAMMEFJORDS KART.,,,KARTOFLER & LØG,,18.00,18.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,SKRÆLLE KARTOFLER,,,KARTOFLER & LØG,,20.00,20.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/frugt-gront,SKALOTTELØG,,,KARTOFLER & LØG,,8.00,8.00,2025-04-14,Fruits & Greens,None
+Rema1000,https://shop.rema1000.dk/kod-fisk-fjerkrae,LAKSE- & TORSKEFARS,,,FISK & SKALDYR,,34.95,34.95,2025-04-14,Cooled meats,None
+Rema1000,https://shop.rema1000.dk/kod-fisk-fjerkrae,DANSKE RØDSPÆTTEFILETER,,,FISK & SKALDYR,,49.95,49.95,2025-04-14,Cooled meats,None
+Rema1000,https://shop.rema1000.dk/kod-fisk-fjerkrae,FERSK MØRKSEJFILET,,,FISK & SKALDYR,,30.00,30.00,2025-04-14,Cooled meats,None
+Rema1000,https://shop.rema1000.dk/kod-fisk-fjerkrae,FINTHAKKET FISKEFARS,,,FISK & SKALDYR,,34.95,34.95,2025-04-14,Cooled meats,None
+Rema1000,https://shop.rema1000.dk/kod-fisk-fjerkrae,FISKEFRIKADELLER,,,FISK & SKALDYR,,29.95,29.95,2025-04-14,Cooled meats,None
+Rema1000,https://shop.rema1000.dk/kod-fisk-fjerkrae,TORSKEFILETER,,,FISK & SKALDYR,,49.95,49.95,2025-04-14,Cooled meats,None
+Rema1000,https://shop.rema1000.dk/kod-fisk-fjerkrae,SUSHI 9 STK BOX,,,FISK & SKALDYR,,29.95,29.95,2025-04-14,Cooled meats,None
+Rema1000,https://shop.rema1000.dk/kod-fisk-fjerkrae,LAKSEFILETER,,,FISK & SKALDYR,,59.95,59.95,2025-04-14,Cooled meats,None
+Rema1000,https://shop.rema1000.dk/kod-fisk-fjerkrae,FISKEFRIKADELLER,,,FISK & SKALDYR,,25.00,25.00,2025-04-14,Cooled meats,None
+Rema1000,https://shop.rema1000.dk/kod-fisk-fjerkrae,TORSKELOINS,,,FISK & SKALDYR,,59.00,59.00,2025-04-14,Cooled meats,None
+Rema1000,https://shop.rema1000.dk/kod-fisk-fjerkrae,MØRKSEJ LOINS,,,FISK & SKALDYR,,59.00,59.00,2025-04-14,Cooled meats,None
+Rema1000,https://shop.rema1000.dk/kod-fisk-fjerkrae,DANSKE RØDSPÆTTEFILETER,,,FISK & SKALDYR,,59.00,59.00,2025-04-14,Cooled meats,None
+Rema1000,https://shop.rema1000.dk/kod-fisk-fjerkrae,HELE RØDSPÆTTER,,,FISK & SKALDYR,,49.95,49.95,2025-04-14,Cooled meats,None
+Rema1000,https://shop.rema1000.dk/kod-fisk-fjerkrae,TORSKELOINS,,,FISK & SKALDYR,,59.00,59.00,2025-04-14,Cooled meats,None
+Rema1000,https://shop.rema1000.dk/kod-fisk-fjerkrae,LAKSEFILET,,,FISK & SKALDYR,,94.95,94.95,2025-04-14,Cooled meats,None
+Rema1000,https://shop.rema1000.dk/kod-fisk-fjerkrae,KOGTE KRABBEKLØER,,,FISK & SKALDYR,,49.00,49.00,2025-04-14,Cooled meats,None
+Rema1000,https://shop.rema1000.dk/kod-fisk-fjerkrae,SKAGENS SKALREJER,,,FISK & SKALDYR,,49.00,49.00,2025-04-14,Cooled meats,None
+Rema1000,https://shop.rema1000.dk/kod-fisk-fjerkrae,LAKSEFILET,,,FISK & SKALDYR,,99.00,99.00,2025-04-14,Cooled meats,None
+Rema1000,https://shop.rema1000.dk/kod-fisk-fjerkrae,HK. OKSEKØD 8-12%,,,HAKKET KØD,,49.95,49.95,2025-04-14,Cooled meats,None
+Rema1000,https://shop.rema1000.dk/kod-fisk-fjerkrae,HK. GRIS & KALV 8-12%,,,HAKKET KØD,,25.00,25.00,2025-04-14,Cooled meats,None
+Rema1000,https://shop.rema1000.dk/kod-fisk-fjerkrae,"HK. OKSEKØD, 35% GRØNT",,,HAKKET KØD,,34.95,34.95,2025-04-14,Cooled meats,None
+Rema1000,https://shop.rema1000.dk/kod-fisk-fjerkrae,HK. OKSEKØD 15-18%,,,HAKKET KØD,,39.00,39.00,2025-04-14,Cooled meats,None
+Rema1000,https://shop.rema1000.dk/kod-fisk-fjerkrae,HK. GRISEKØD 8-12%,,,HAKKET KØD,,37.95,37.95,2025-04-14,Cooled meats,None
+Rema1000,https://shop.rema1000.dk/kod-fisk-fjerkrae,HK. KYLLINGEKØD 7-10%,,,HAKKET KØD,,25.00,25.00,2025-04-14,Cooled meats,None
+Rema1000,https://shop.rema1000.dk/kod-fisk-fjerkrae,HK. OKSEKØD 4-7%,,,HAKKET KØD,,51.95,51.95,2025-04-14,Cooled meats,None
+Rema1000,https://shop.rema1000.dk/kod-fisk-fjerkrae,HK. GRISEKØD 8-12%,,,HAKKET KØD,,25.00,25.00,2025-04-14,Cooled meats,None
+Rema1000,https://shop.rema1000.dk/kod-fisk-fjerkrae,BACON & BBQ GRILLBØFFER,,,HAKKET KØD,,25.00,25.00,2025-04-14,Cooled meats,None
+Rema1000,https://shop.rema1000.dk/kod-fisk-fjerkrae,HK. OKSE 8-12%,,,HAKKET KØD,,59.95,59.95,2025-04-14,Cooled meats,None
+Rema1000,https://shop.rema1000.dk/kod-fisk-fjerkrae,HK. SKINKEKØD 4-7%,,,HAKKET KØD,,39.95,39.95,2025-04-14,Cooled meats,None
+Rema1000,https://shop.rema1000.dk/kod-fisk-fjerkrae,HK. GRIS & KALV 4-7%,,,HAKKET KØD,,39.95,39.95,2025-04-14,Cooled meats,None
+Rema1000,https://shop.rema1000.dk/kod-fisk-fjerkrae,ØKO HK. GRIS & OKSE,,,HAKKET KØD,,46.95,46.95,2025-04-14,Cooled meats,None
+Rema1000,https://shop.rema1000.dk/kod-fisk-fjerkrae,HK. OKSEKØD 4-7%,,,HAKKET KØD,,59.95,59.95,2025-04-14,Cooled meats,None
+Rema1000,https://shop.rema1000.dk/kod-fisk-fjerkrae,HK. KYLLINGEKØD 4-7%,,,HAKKET KØD,,37.95,37.95,2025-04-14,Cooled meats,None
+Rema1000,https://shop.rema1000.dk/kod-fisk-fjerkrae,HK. OKSEKØD 8-12%,,,HAKKET KØD,,99.90,99.90,2025-04-14,Cooled meats,None
+Rema1000,https://shop.rema1000.dk/kod-fisk-fjerkrae,ØKO HK. GRISEKØD 8-12%,,,HAKKET KØD,,46.95,46.95,2025-04-14,Cooled meats,None
+Rema1000,https://shop.rema1000.dk/kod-fisk-fjerkrae,"HK. OKSEKØD, 50% GRØNT",,,HAKKET KØD,,34.95,34.95,2025-04-14,Cooled meats,None
+Rema1000,https://shop.rema1000.dk/kod-fisk-fjerkrae,HAKKET KØDKVÆG 8-12%,,,HAKKET KØD,,34.95,34.95,2025-04-14,Cooled meats,None
+Rema1000,https://shop.rema1000.dk/kod-fisk-fjerkrae,KYLLINGEBRYSTFILET,,,KYLLING,,39.95,39.95,2025-04-14,Cooled meats,None
+Rema1000,https://shop.rema1000.dk/kod-fisk-fjerkrae,KYLLINGEINDERFILET,,,KYLLING,,34.95,34.95,2025-04-14,Cooled meats,None
+Rema1000,https://shop.rema1000.dk/kod-fisk-fjerkrae,KYLLINGEBRYSTFILET,,,KYLLING,,25.00,25.00,2025-04-14,Cooled meats,None
+Rema1000,https://shop.rema1000.dk/kod-fisk-fjerkrae,KYLLINGEBRYST I TERN,,,KYLLING,,25.00,25.00,2025-04-14,Cooled meats,None
+Rema1000,https://shop.rema1000.dk/kod-fisk-fjerkrae,HEL KYLLING,,,KYLLING,,39.00,39.00,2025-04-14,Cooled meats,None
+Rema1000,https://shop.rema1000.dk/kod-fisk-fjerkrae,KYLLINGEUNDERLÅR,,,KYLLING,,25.00,25.00,2025-04-14,Cooled meats,None
+Rema1000,https://shop.rema1000.dk/kod-fisk-fjerkrae,KYLLINGELÅRFILET,,,KYLLING,,25.00,25.00,2025-04-14,Cooled meats,None
+Rema1000,https://shop.rema1000.dk/kod-fisk-fjerkrae,KYLLINGEOVERLÅR,,,KYLLING,,25.00,25.00,2025-04-14,Cooled meats,None
+Rema1000,https://shop.rema1000.dk/kod-fisk-fjerkrae,KYLLINGEBRYST M. BBQ,,,KYLLING,,37.95,37.95,2025-04-14,Cooled meats,None
+Rema1000,https://shop.rema1000.dk/kod-fisk-fjerkrae,KYLLINGE LÅRSTEAK,,,KYLLING,,25.00,25.00,2025-04-14,Cooled meats,None
+Rema1000,https://shop.rema1000.dk/kod-fisk-fjerkrae,KYLLINGEBRYST 180-320G,,,KYLLING,,36.95,36.95,2025-04-14,Cooled meats,None
+Rema1000,https://shop.rema1000.dk/kod-fisk-fjerkrae,KYLLINGESPYD MED BBQ,,,KYLLING,,32.95,32.95,2025-04-14,Cooled meats,None
+Rema1000,https://shop.rema1000.dk/kod-fisk-fjerkrae,KYLLINGELÅR M. BBQ,,,KYLLING,,35.00,35.00,2025-04-14,Cooled meats,None
+Rema1000,https://shop.rema1000.dk/kod-fisk-fjerkrae,HELE KYLLINGELÅR 475-620G,,,KYLLING,,36.95,36.95,2025-04-14,Cooled meats,None
+Rema1000,https://shop.rema1000.dk/kod-fisk-fjerkrae,DANSK ØKO KYLLINGEBRYST,,,KYLLING,,64.95,64.95,2025-04-14,Cooled meats,None
+Rema1000,https://shop.rema1000.dk/kod-fisk-fjerkrae,FRITGÅENDE KYLLING,,,KYLLING,,79.00,79.00,2025-04-14,Cooled meats,None
+Rema1000,https://shop.rema1000.dk/kod-fisk-fjerkrae,DANSK ØKO KYLLING,,,KYLLING,,149.00,149.00,2025-04-14,Cooled meats,None
+Rema1000,https://shop.rema1000.dk/kod-fisk-fjerkrae,LÅR M. HAVSALT & PEBER,,,KYLLING,,35.00,35.00,2025-04-14,Cooled meats,None
+Rema1000,https://shop.rema1000.dk/kod-fisk-fjerkrae,DANSKE ØKO KYLLINGELÅR,,,KYLLING,,64.95,64.95,2025-04-14,Cooled meats,None
+Rema1000,https://shop.rema1000.dk/kod-fisk-fjerkrae,KYLLINGEVINGER,,,KYLLING,,29.00,29.00,2025-04-14,Cooled meats,None
+Rema1000,https://shop.rema1000.dk/kod-fisk-fjerkrae,GRILLBØFFER MED KRYDDERIER,,,OKSEKØD,,34.95,34.95,2025-04-14,Cooled meats,None
+Rema1000,https://shop.rema1000.dk/kod-fisk-fjerkrae,TYKSTEGSBØFFER,,,OKSEKØD,,79.00,79.00,2025-04-14,Cooled meats,None
+Rema1000,https://shop.rema1000.dk/kod-fisk-fjerkrae,HØJREBSBØFFER,,,OKSEKØD,,89.00,89.00,2025-04-14,Cooled meats,None
+Rema1000,https://shop.rema1000.dk/kod-fisk-fjerkrae,HERREGÅRDSBØFFER,,,OKSEKØD,,42.95,42.95,2025-04-14,Cooled meats,None
+Rema1000,https://shop.rema1000.dk/kod-fisk-fjerkrae,HØJREBSBØFFER M/STEAKPEBER,,,OKSEKØD,,69.00,69.00,2025-04-14,Cooled meats,None
+Rema1000,https://shop.rema1000.dk/kod-fisk-fjerkrae,KALVE GRILLSTICKS,,,OKSEKØD,,34.95,34.95,2025-04-14,Cooled meats,None
+Rema1000,https://shop.rema1000.dk/kod-fisk-fjerkrae,KALVESTEAK M.URTER,,,OKSEKØD,,69.00,69.00,2025-04-14,Cooled meats,None
+Rema1000,https://shop.rema1000.dk/kod-fisk-fjerkrae,RIBEYE STEAK,,,OKSEKØD,,69.00,69.00,2025-04-14,Cooled meats,None
+Rema1000,https://shop.rema1000.dk/kod-fisk-fjerkrae,GRILLBØFFER BBQ,,,OKSEKØD,,37.95,37.95,2025-04-14,Cooled meats,None
+Rema1000,https://shop.rema1000.dk/kod-fisk-fjerkrae,RUMP STEAK,,,OKSEKØD,,59.00,59.00,2025-04-14,Cooled meats,None
+Rema1000,https://shop.rema1000.dk/kod-fisk-fjerkrae,CUVETTE,,,OKSEKØD,,157.40,157.40,2025-04-14,Cooled meats,None
+Rema1000,https://shop.rema1000.dk/kod-fisk-fjerkrae,STRIPLOIN STEAK,,,OKSEKØD,,59.00,59.00,2025-04-14,Cooled meats,None
+Rema1000,https://shop.rema1000.dk/kod-fisk-fjerkrae,CULOTTE,,,OKSEKØD,,206.89,206.89,2025-04-14,Cooled meats,None
+Rema1000,https://shop.rema1000.dk/kod-fisk-fjerkrae,FRILAND ØKO HØJREBSBØFFER,,,OKSEKØD,,99.00,99.00,2025-04-14,Cooled meats,None
+Rema1000,https://shop.rema1000.dk/kod-fisk-fjerkrae,CÔTE DE BOEUF,,,OKSEKØD,,79.00,79.00,2025-04-14,Cooled meats,None
+Rema1000,https://shop.rema1000.dk/kod-fisk-fjerkrae,RIB EYE,,,OKSEKØD,,188.87,188.87,2025-04-14,Cooled meats,None
+Rema1000,https://shop.rema1000.dk/kod-fisk-fjerkrae,HØJREBSFILET,,,OKSEKØD,,209.85,209.85,2025-04-14,Cooled meats,None
+Rema1000,https://shop.rema1000.dk/kod-fisk-fjerkrae,KALVE FLANKSTEAK,,,OKSEKØD,,71.96,71.96,2025-04-14,Cooled meats,None
+Rema1000,https://shop.rema1000.dk/kod-fisk-fjerkrae,KALVE FLANKSTEAK,,,OKSEKØD,,71.96,71.96,2025-04-14,Cooled meats,None
+Rema1000,https://shop.rema1000.dk/kod-fisk-fjerkrae,CULOTTE,,,OKSEKØD,,391.86,391.86,2025-04-14,Cooled meats,None
+Rema1000,https://shop.rema1000.dk/kod-fisk-fjerkrae,MEDISTER,,,GRIS,,15.00,15.00,2025-04-14,Cooled meats,None
+Rema1000,https://shop.rema1000.dk/kod-fisk-fjerkrae,STEGEFLÆSK,,,GRIS,,36.95,36.95,2025-04-14,Cooled meats,None
+Rema1000,https://shop.rema1000.dk/kod-fisk-fjerkrae,NAKKEKOTELETTER,,,GRIS,,34.95,34.95,2025-04-14,Cooled meats,None
+Rema1000,https://shop.rema1000.dk/kod-fisk-fjerkrae,HERREGÅRDS KOTELETTER,,,GRIS,,34.95,34.95,2025-04-14,Cooled meats,None
+Rema1000,https://shop.rema1000.dk/kod-fisk-fjerkrae,MEDISTER,,,GRIS,,34.95,34.95,2025-04-14,Cooled meats,None
+Rema1000,https://shop.rema1000.dk/kod-fisk-fjerkrae,GRISEMØRBRAD,,,GRIS,,59.94,59.94,2025-04-14,Cooled meats,None
+Rema1000,https://shop.rema1000.dk/kod-fisk-fjerkrae,FILET ALA MØRBRAD,,,GRIS,,44.95,44.95,2025-04-14,Cooled meats,None
+Rema1000,https://shop.rema1000.dk/kod-fisk-fjerkrae,KOTELETTER,,,GRIS,,37.95,37.95,2025-04-14,Cooled meats,None
+Rema1000,https://shop.rema1000.dk/kod-fisk-fjerkrae,NAKKEKOTELETTER,,,GRIS,,32.95,32.95,2025-04-14,Cooled meats,None
+Rema1000,https://shop.rema1000.dk/kod-fisk-fjerkrae,STEGEFLÆSK I SKIVER,,,GRIS,,39.95,39.95,2025-04-14,Cooled meats,None
+Rema1000,https://shop.rema1000.dk/kod-fisk-fjerkrae,FILET ALA MØRBRAD,,,GRIS,,44.95,44.95,2025-04-14,Cooled meats,None
+Rema1000,https://shop.rema1000.dk/kod-fisk-fjerkrae,KOTELETTER M. HVIDLØG,,,GRIS,,32.95,32.95,2025-04-14,Cooled meats,None
+Rema1000,https://shop.rema1000.dk/kod-fisk-fjerkrae,KOTELET MED SKAFT,,,GRIS,,34.95,34.95,2025-04-14,Cooled meats,None
+Rema1000,https://shop.rema1000.dk/kod-fisk-fjerkrae,SKINKESCHNITZLER,,,GRIS,,34.95,34.95,2025-04-14,Cooled meats,None
+Rema1000,https://shop.rema1000.dk/kod-fisk-fjerkrae,GRILL FLÆSK BBQ,,,GRIS,,34.95,34.95,2025-04-14,Cooled meats,None
+Rema1000,https://shop.rema1000.dk/kod-fisk-fjerkrae,RIBBENSSTEG 900-1200G,,,GRIS,,79.00,79.00,2025-04-14,Cooled meats,None
+Rema1000,https://shop.rema1000.dk/kod-fisk-fjerkrae,BACON/CHEDDAR GRILLER,,,GRIS,,29.00,29.00,2025-04-14,Cooled meats,None
+Rema1000,https://shop.rema1000.dk/kod-fisk-fjerkrae,KOTELETTER M.TOMAT,,,GRIS,,32.95,32.95,2025-04-14,Cooled meats,None
+Rema1000,https://shop.rema1000.dk/kod-fisk-fjerkrae,GRILLSTICKS MED BACON,,,GRIS,,32.95,32.95,2025-04-14,Cooled meats,None
+Rema1000,https://shop.rema1000.dk/kod-fisk-fjerkrae,NAKKEFILET,,,GRIS,,79.90,79.90,2025-04-14,Cooled meats,None
+Rema1000,https://shop.rema1000.dk/kod-fisk-fjerkrae,LAMMECULOTTE,,,LAM,,59.00,59.00,2025-04-14,Cooled meats,None
+Rema1000,https://shop.rema1000.dk/kod-fisk-fjerkrae,LAMMECULOTTE,,,LAM,,59.00,59.00,2025-04-14,Cooled meats,None
+Rema1000,https://shop.rema1000.dk/kod-fisk-fjerkrae,FERSK LAMMEKØLLE,,,LAM,,187.31,187.31,2025-04-14,Cooled meats,None
+Rema1000,https://shop.rema1000.dk/kod-fisk-fjerkrae,LAMMEKRONE M.HVIDLØG,,,LAM,,125.00,125.00,2025-04-14,Cooled meats,None
+Rema1000,https://shop.rema1000.dk/kod-fisk-fjerkrae,ØKO FALAFEL,,,PLANTEBASEREDE ALTERNATIVER,,25.00,25.00,2025-04-14,Cooled meats,None
+Rema1000,https://shop.rema1000.dk/kod-fisk-fjerkrae,HAKKET,,,PLANTEBASEREDE ALTERNATIVER,,25.00,25.00,2025-04-14,Cooled meats,None
+Rema1000,https://shop.rema1000.dk/kod-fisk-fjerkrae,PIPFRI,,,PLANTEBASEREDE ALTERNATIVER,,22.00,22.00,2025-04-14,Cooled meats,None
+Rema1000,https://shop.rema1000.dk/frost,PØLSEHORN,,,BRØD & KAGER,,26.95,26.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,MORGENBRØD,,,BRØD & KAGER,,16.95,16.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,FOCACCIA PEPPERONI,,,BRØD & KAGER,,26.95,26.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,HVIDLØGSBAGUETTES,,,BRØD & KAGER,,14.95,14.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,HÅNDVÆRKERE,,,BRØD & KAGER,,16.95,16.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,FOCACCIA M/HAVSALT,,,BRØD & KAGER,,14.95,14.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,FULDKORNS MINIFLUTES,,,BRØD & KAGER,,15.95,15.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,SOFT PITABRØD,,,BRØD & KAGER,,12.95,12.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,MØLLEHJUL,,,BRØD & KAGER,,12.00,12.00,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,SMØRCROISSANT,,,BRØD & KAGER,,24.95,24.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,KANELSNEGLE,,,BRØD & KAGER,,12.00,12.00,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,MINIFLUTES,,,BRØD & KAGER,,14.95,14.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,FOCCACCIA M.HVIDLØG,,,BRØD & KAGER,,14.95,14.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,"SURDEJSBOLLER, STENSOVNSBAGTE",,,BRØD & KAGER,,12.00,12.00,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,TEBIRKES,,,BRØD & KAGER,,12.00,12.00,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,BAGELS CHILI,,,BRØD & KAGER,,19.95,19.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,SKAGENSLAPPER,,,BRØD & KAGER,,12.00,12.00,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,CHOKO CROISSANT,,,BRØD & KAGER,,22.95,22.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,GRILLET MADBRØD,,,BRØD & KAGER,,19.95,19.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,FOCACCIA M/TOMAT,,,BRØD & KAGER,,14.95,14.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,PANEREDE FISK,,,FISK & SKALDYR,,20.00,20.00,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,EKSTRA STORE REJER,,,FISK & SKALDYR,,20.00,20.00,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,VANNAMEI REJER KOGTE,,,FISK & SKALDYR,,29.95,29.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,INDBAGT LAKS,,,FISK & SKALDYR,,19.95,19.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,VANNAMEI REJER RÅ,,,FISK & SKALDYR,,29.95,29.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,TORPEDOREJER,,,FISK & SKALDYR,,25.00,25.00,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,FISKEPINDE,,,FISK & SKALDYR,,26.95,26.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,TUNSTEAKS,,,FISK & SKALDYR,,34.95,34.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,INDBAGTE REJER M.,,,FISK & SKALDYR,,19.95,19.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,LAKSEPORTIONER,,,FISK & SKALDYR,,79.95,79.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,PANERET FISK M.REJER,,,FISK & SKALDYR,,19.95,19.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,STORE VESTERHAVS RØDSPÆTTER,,,FISK & SKALDYR,,59.00,59.00,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,INDBAGT VILDLAKS,,,FISK & SKALDYR,,44.95,44.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,SILDEFILETER,,,FISK & SKALDYR,,20.00,20.00,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,DANSK ØRREDFILET,,,FISK & SKALDYR,,69.95,69.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,FISH AND CRISP,,,FISK & SKALDYR,,39.95,39.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,BOLLER I KARRY,,,FÆRDIGRETTER,,19.95,19.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,BIKSEMAD,,,FÆRDIGRETTER,,29.95,29.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,BØF MED BEARNAISE,,,FÆRDIGRETTER,,32.95,32.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,KYLLING M. SKYSAUCE,,,FÆRDIGRETTER,,32.95,32.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,FRIKADELLER M. RØDKÅL,,,FÆRDIGRETTER,,19.95,19.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,MØRBRAD A LA CREME,,,FÆRDIGRETTER,,32.95,32.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,PASTA CARBONARA,,,FÆRDIGRETTER,,17.95,17.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,PØLSEMIX,,,FÆRDIGRETTER,,29.95,29.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,KYLLING MED BEARNAISE,,,FÆRDIGRETTER,,32.95,32.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,RISOTTO M/SVAMPE,,,FÆRDIGRETTER,,14.95,14.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,MILLIONBØF,,,FÆRDIGRETTER,,22.95,22.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,LASAGNE,,,FÆRDIGRETTER,,17.95,17.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,BRÆNDENDE KÆRLIGHED,,,FÆRDIGRETTER,,19.95,19.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,RISOTTO MED SPINAT,,,FÆRDIGRETTER,,14.95,14.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,THAIBOX PANANG,,,FÆRDIGRETTER,,27.95,27.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,HØNS I ASPARGES,,,FÆRDIGRETTER,,22.95,22.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,THAIBOX SWEET CHILI TERIYAKI,,,FÆRDIGRETTER,,27.95,27.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,FETTUCCINE FUNGHI,,,FÆRDIGRETTER,,17.95,17.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,THAIBOX RED CURRY,,,FÆRDIGRETTER,,27.95,27.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,FORÅRSRULLER,,,FÆRDIGRETTER,,34.95,34.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,FINE ÆRTER,,,"GRØNTSAGER, FRUGT & BÆR",,11.95,11.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,BROCCOLI,,,"GRØNTSAGER, FRUGT & BÆR",,13.95,13.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,FAJITA BLANDING,,,"GRØNTSAGER, FRUGT & BÆR",,13.95,13.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,HARICOTS VERTS,,,"GRØNTSAGER, FRUGT & BÆR",,12.95,12.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,ÆRTER,,,"GRØNTSAGER, FRUGT & BÆR",,13.95,13.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,WOKBLANDING,,,"GRØNTSAGER, FRUGT & BÆR",,13.95,13.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,SOJABØNNER,,,"GRØNTSAGER, FRUGT & BÆR",,12.50,12.50,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,JORDBÆR,,,"GRØNTSAGER, FRUGT & BÆR",,12.00,12.00,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,HARICOTS VERTS,,,"GRØNTSAGER, FRUGT & BÆR",,13.95,13.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,SUPER SØDE MAJS,,,"GRØNTSAGER, FRUGT & BÆR",,13.95,13.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,RATATOUILLE,,,"GRØNTSAGER, FRUGT & BÆR",,13.95,13.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,BLOMKÅLSRIS,,,"GRØNTSAGER, FRUGT & BÆR",,13.95,13.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,BROCCOLIBLANDING,,,"GRØNTSAGER, FRUGT & BÆR",,12.95,12.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,PERSILLE,,,"GRØNTSAGER, FRUGT & BÆR",,12.95,12.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,HELBLADET SPINAT,,,"GRØNTSAGER, FRUGT & BÆR",,13.95,13.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,HINDBÆR,,,"GRØNTSAGER, FRUGT & BÆR",,18.50,18.50,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,BØNNEBLANDING,,,"GRØNTSAGER, FRUGT & BÆR",,13.95,13.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,RODFRUGTER,,,"GRØNTSAGER, FRUGT & BÆR",,13.95,13.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,BLÅBÆR,,,"GRØNTSAGER, FRUGT & BÆR",,14.95,14.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,SOMMERBLANDING,,,"GRØNTSAGER, FRUGT & BÆR",,13.95,13.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,ISVAFFEL M/FLØDEBOLLE,,,IS OG DESSERT,,10.00,10.00,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,ISVAFLER 4 STK,,,IS OG DESSERT,,18.25,18.25,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,ISVAFFEL,,,IS OG DESSERT,,10.00,10.00,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,APPELSIN MINI FLØDEIS,,,IS OG DESSERT,,29.95,29.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,KARAMEL ISBAR,,,IS OG DESSERT,,25.95,25.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,CLASSIC IS,,,IS OG DESSERT,,20.00,20.00,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,PEANUT KARAMEL ISBAR,,,IS OG DESSERT,,25.95,25.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,GRØN LIMONADEIS,,,IS OG DESSERT,,29.95,29.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,MANDEL IS,,,IS OG DESSERT,,20.00,20.00,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,ISBÅDE,,,IS OG DESSERT,,20.00,20.00,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,RAKET IS,,,IS OG DESSERT,,18.95,18.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,ISTERNINGER,,,IS OG DESSERT,,20.00,20.00,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,KLASSISK IS,,,IS OG DESSERT,,34.95,34.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,HVID LIMONADEIS,,,IS OG DESSERT,,29.95,29.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,MINI MIX,,,IS OG DESSERT,,20.00,20.00,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,"SOLBÆRPIND, VANILJE IS",,,IS OG DESSERT,,20.00,20.00,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,SANDWICH IS,,,IS OG DESSERT,,20.00,20.00,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,CHOC’N CARAMEL IS,,,IS OG DESSERT,,29.95,29.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,NOUGAT FLØDEIS,,,IS OG DESSERT,,22.50,22.50,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,LAKRIDS IS 4 STK,,,IS OG DESSERT,,20.00,20.00,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,PEPPERONI,,,PIZZA,,29.95,29.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,PEPPERONI PIZZA,,,PIZZA,,26.95,26.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,BOLOGNESE,,,PIZZA,,29.95,29.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,KEBAB PIZZA,,,PIZZA,,27.95,27.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,PATATE MASCARPONE,,,PIZZA,,29.95,29.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,DIAVOLA,,,PIZZA,,29.95,29.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,PROSCIUTTO,,,PIZZA,,32.95,32.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,PIZZA MARGHERITA,,,PIZZA,,29.95,29.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,SALAME PIZZA,,,PIZZA,,49.95,49.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,PROSCIUTTO RUCOLA,,,PIZZA,,32.95,32.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,PANCETTA E FUNGHI,,,PIZZA,,29.95,29.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,HAWAII PIZZA,,,PIZZA,,49.95,49.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,PIZZA PEPPERONI,,,PIZZA,,34.95,34.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,MARGHERITA,,,PIZZA,,32.95,32.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,POMMES FRITES,,,KARTOFLER,,17.95,17.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,POMMES FRITES,,,KARTOFLER,,19.95,19.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,POMMES FRITES M. BBQ,,,KARTOFLER,,19.95,19.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,KARTOFFELSKIVER,,,KARTOFLER,,14.95,14.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,KARTOFFELSKRUER M.BBQ,,,KARTOFLER,,17.95,17.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,KARTOFFEL RØSTI,,,KARTOFLER,,19.95,19.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,KARTOFFELBÅDE M. BBQ,,,KARTOFLER,,16.95,16.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,KART. DIPPERS M. PEBER,,,KARTOFLER,,16.95,16.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,KARTOFFEL GRATIN,,,KARTOFLER,,27.95,27.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,HALVE KARTOFLER,,,KARTOFLER,,19.95,19.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,KARTOFFELBÅDE,,,KARTOFLER,,19.95,19.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,KARTOFFEL DIPPERS,,,KARTOFLER,,19.95,19.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,KYLLINGEKEBAB,,,KØD & FJERKRÆ,,32.95,32.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,KYLLINGENUGGETS,,,KØD & FJERKRÆ,,39.95,39.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,KYLLINGESCHNITZLER,,,KØD & FJERKRÆ,,19.95,19.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,LEVERPOSTEJ,,,KØD & FJERKRÆ,,7.95,7.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,KYLLINGEDIPPERS M BBQ,,,KØD & FJERKRÆ,,24.95,24.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,HOTWINGS,,,KØD & FJERKRÆ,,39.95,39.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,KYLLINGESTRIMLER,,,KØD & FJERKRÆ,,34.95,34.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,HELE KYLLINGELÅR,,,KØD & FJERKRÆ,,37.50,37.50,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,KYLLINGESPYD,,,KØD & FJERKRÆ,,32.95,32.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,SMOKEY BBQ WINGS,,,KØD & FJERKRÆ,,37.95,37.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,MIDDAGSFRIKADELLER,,,KØD & FJERKRÆ,,31.95,31.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,OVNKLARE KYLLINGELÅR,,,KØD & FJERKRÆ,,39.95,39.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,KARBONADER,,,KØD & FJERKRÆ,,34.95,34.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,KYLLING CORDON BLEU,,,KØD & FJERKRÆ,,29.95,29.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,MIDDAGSKØDBOLLER,,,KØD & FJERKRÆ,,31.95,31.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,KYLLINGEBURGERBØFFER,,,KØD & FJERKRÆ,,39.95,39.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,DÖNER KEBAB,,,KØD & FJERKRÆ,,39.95,39.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,MINI FRIKADELLER,,,KØD & FJERKRÆ,,32.95,32.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,KYLLINGEBRYSTFILET,,,KØD & FJERKRÆ,,59.95,59.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,HØNSEKØD I TERN,,,KØD & FJERKRÆ,,39.95,39.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,KØD- OG MELBOLLER,,,SUPPE & SUPPEFYLD,,39.95,39.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,HØNSEKØDSSUPPE,,,SUPPE & SUPPEFYLD,,19.95,19.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,TOMATSUPPE,,,SUPPE & SUPPEFYLD,,37.95,37.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,KØDBOLLER,,,SUPPE & SUPPEFYLD,,39.95,39.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,SUPPEURTER,,,SUPPE & SUPPEFYLD,,14.95,14.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,OKSEKØDSSUPPE,,,SUPPE & SUPPEFYLD,,19.95,19.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,ASPARGESSUPPE,,,SUPPE & SUPPEFYLD,,37.95,37.95,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/frost,HUMMERSUPPE,,,SUPPE & SUPPEFYLD,,20.00,20.00,2025-04-14,Frozen,None
+Rema1000,https://shop.rema1000.dk/mejeri,PISKEFLØDE 36% FEDT,,,FLØDE M.V.,,28.95,28.95,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,PISKEFLØDE 36%,,,FLØDE M.V.,,15.75,15.75,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,MADLAVNINGSFLØDE 8%,,,FLØDE M.V.,,14.25,14.25,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,FLØDEALTERNATIV,,,FLØDE M.V.,,8.95,8.95,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,PISKEFLØDE 36%,,,FLØDE M.V.,,16.50,16.50,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,PISKEFLØDE 38%,,,FLØDE M.V.,,20.95,20.95,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,KAFFEFLØDE 10%,,,FLØDE M.V.,,8.95,8.95,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,CREMEFINE 15%,,,FLØDE M.V.,,15.95,15.95,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,PISKEFLØDE 38%,,,FLØDE M.V.,,29.95,29.95,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,MADLAVNINGSFLØDE 15%,,,FLØDE M.V.,,24.95,24.95,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,FLØDESKUM PÅ DÅSE,,,FLØDE M.V.,,24.95,24.95,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,MADLAVNINGSFLØDE 8%,,,FLØDE M.V.,,17.50,17.50,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,MADFLØDE 13%,,,FLØDE M.V.,,15.95,15.95,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,CREMEFINE 7%,,,FLØDE M.V.,,15.95,15.95,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,PISKBAR,,,FLØDE M.V.,,14.35,14.35,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,GÆR,,,GÆR,,1.50,1.50,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,TØR GÆR,,,GÆR,,2.50,2.50,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,GÆR,,,GÆR,,5.75,5.75,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,KAKAO SKUMMETMÆLK,,,"JUICE, KAKAO, DRIKKEYOGHURT M.V.",,14.95,14.95,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,KAKAOMÆLK,,,"JUICE, KAKAO, DRIKKEYOGHURT M.V.",,3.75,3.75,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,PROTEIN CHOCO,,,"JUICE, KAKAO, DRIKKEYOGHURT M.V.",,17.95,17.95,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,APPELSIN JUICE,,,"JUICE, KAKAO, DRIKKEYOGHURT M.V.",,15.00,15.00,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,JORDBÆR YOGHURT,,,"JUICE, KAKAO, DRIKKEYOGHURT M.V.",,16.25,16.25,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,PROTEIN DRIKKEYOGHURT,,,"JUICE, KAKAO, DRIKKEYOGHURT M.V.",,16.25,16.25,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,BLÅBÆR YOGHURT,,,"JUICE, KAKAO, DRIKKEYOGHURT M.V.",,16.25,16.25,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,LATTE MACCHIATO,,,"JUICE, KAKAO, DRIKKEYOGHURT M.V.",,6.95,6.95,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,ACTIMEL,,,"JUICE, KAKAO, DRIKKEYOGHURT M.V.",,21.95,21.95,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,MATILDE KAKAO,,,"JUICE, KAKAO, DRIKKEYOGHURT M.V.",,21.50,21.50,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,PROTEIN DRIK,,,"JUICE, KAKAO, DRIKKEYOGHURT M.V.",,17.95,17.95,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,CAFFE LATTE,,,"JUICE, KAKAO, DRIKKEYOGHURT M.V.",,6.95,6.95,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,ÆBLE JUICE,,,"JUICE, KAKAO, DRIKKEYOGHURT M.V.",,15.00,15.00,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,MULTIFRUGT JUICE,,,"JUICE, KAKAO, DRIKKEYOGHURT M.V.",,15.00,15.00,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,KAKAOMÆLK,,,"JUICE, KAKAO, DRIKKEYOGHURT M.V.",,12.00,12.00,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,APPELSIN JUICE,,,"JUICE, KAKAO, DRIKKEYOGHURT M.V.",,20.00,20.00,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,KIDS SMOOTHIE,,,"JUICE, KAKAO, DRIKKEYOGHURT M.V.",,20.00,20.00,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,ARLA KAKAO,,,"JUICE, KAKAO, DRIKKEYOGHURT M.V.",,18.50,18.50,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,ÆBLE & BLÅBÆR JUICE,,,"JUICE, KAKAO, DRIKKEYOGHURT M.V.",,15.00,15.00,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,JORDBÆR MILKSHAKE,,,"JUICE, KAKAO, DRIKKEYOGHURT M.V.",,12.75,12.75,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,KOLDSKÅL,,,KOLDSKÅL,,24.95,24.95,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,KOLDSKÅL,,,KOLDSKÅL,,24.95,24.95,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,KOLDSKÅL MED CITRON,,,KOLDSKÅL,,18.95,18.95,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,KLØVER KOLDSKÅL,,,KOLDSKÅL,,19.95,19.95,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,KOLDSKÅL,,,KOLDSKÅL,,11.95,11.95,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,KOLDSKÅL,,,KOLDSKÅL,,24.95,24.95,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,KOLDSKÅL A38 OG ÆG,,,KOLDSKÅL,,24.95,24.95,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,"MINIMÆLK 0,4% FEDT",,,MÆLK M.V.,,11.95,11.95,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,"LETMÆLK 1,5% FEDT",,,MÆLK M.V.,,12.50,12.50,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,"SØDMÆLK 3,5%",,,MÆLK M.V.,,14.95,14.95,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,SKUMMETMÆLK,,,MÆLK M.V.,,11.50,11.50,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,"MINIMÆLK 0,4%",,,MÆLK M.V.,,13.75,13.75,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,"MINIMÆLK 0,4%",,,MÆLK M.V.,,16.25,16.25,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,"LETMÆLK 1,5%",,,MÆLK M.V.,,14.75,14.75,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,"LETMÆLK 1,5%",,,MÆLK M.V.,,14.95,14.95,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,"SKUMMETMÆLK 0,1%",,,MÆLK M.V.,,13.75,13.75,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,"MINIMÆLK 0,4%",,,MÆLK M.V.,,13.75,13.75,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,"LETMÆLK 1,5%",,,MÆLK M.V.,,17.50,17.50,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,"SØDMÆLK 3,5%",,,MÆLK M.V.,,16.75,16.75,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,"SØDMÆLK 3,5%",,,MÆLK M.V.,,18.95,18.95,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,"LETMÆLK 1,5%",,,MÆLK M.V.,,15.50,15.50,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,"MINIMÆLK 0,4%",,,MÆLK M.V.,,14.75,14.75,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,LETMÆLK,,,MÆLK M.V.,,3.95,3.95,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,"KÆRNEMÆLK 0,3%",,,MÆLK M.V.,,13.75,13.75,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,"SØDMÆLK 3,5%",,,MÆLK M.V.,,8.25,8.25,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,MINIMÆLK,,,MÆLK M.V.,,4.25,4.25,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,"SØDMÆLK 3,5%",,,MÆLK M.V.,,16.50,16.50,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,RISDESSERT,,,MÆLKESNITTE/DESSERT,,7.50,7.50,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,CHOKO DESSERT,,,MÆLKESNITTE/DESSERT,,5.95,5.95,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,CITRON FROMAGE,,,MÆLKESNITTE/DESSERT,,7.95,7.95,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,MÆLKESNITTE,,,MÆLKESNITTE/DESSERT,,3.95,3.95,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,MÆLKESNITTE,,,MÆLKESNITTE/DESSERT,,5.00,5.00,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,TIRAMISÙ,,,MÆLKESNITTE/DESSERT,,13.95,13.95,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,KINDER,,,MÆLKESNITTE/DESSERT,,24.95,24.95,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,PROTEIN BUDDING,,,MÆLKESNITTE/DESSERT,,14.95,14.95,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,VANILJESAUCE,,,MÆLKESNITTE/DESSERT,,16.95,16.95,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,PROTEIN MOUSSE,,,MÆLKESNITTE/DESSERT,,14.95,14.95,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,LURPAK SMØRBAR,,,SMØR & FEDTSTOFFER,,10.00,10.00,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,LURPAK SMØR,,,SMØR & FEDTSTOFFER,,10.00,10.00,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,KÆRGÅRDEN SMØRBAR,,,SMØR & FEDTSTOFFER,,27.95,27.95,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,NEM & SMØRBAR,,,SMØR & FEDTSTOFFER,,16.50,16.50,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,SMØR,,,SMØR & FEDTSTOFFER,,21.95,21.95,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,KÆRGÅRDEN SMØRBAR,,,SMØR & FEDTSTOFFER,,27.95,27.95,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,SMØR,,,SMØR & FEDTSTOFFER,,28.95,28.95,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,LURPAK PLANTEBASERET,,,SMØR & FEDTSTOFFER,,10.00,10.00,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,BAKKEDAL,,,SMØR & FEDTSTOFFER,,22.95,22.95,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,SMØRBAR,,,SMØR & FEDTSTOFFER,,18.95,18.95,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,BECEL SMØRBAR,,,SMØR & FEDTSTOFFER,,18.95,18.95,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,KÆRGÅRDEN SMØRBAR,,,SMØR & FEDTSTOFFER,,20.95,20.95,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,KÆRGÅRDEN SMØRBAR,,,SMØR & FEDTSTOFFER,,30.95,30.95,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,SMØRBAR BLOK,,,SMØR & FEDTSTOFFER,,18.95,18.95,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,LURPAK SMØR,,,SMØR & FEDTSTOFFER,,31.95,31.95,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,ARLA SMØR,,,SMØR & FEDTSTOFFER,,34.95,34.95,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,SVINEFEDT,,,SMØR & FEDTSTOFFER,,24.95,24.95,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,CREME FRAICHE 18%,,,SYRNEDE PRODUKTER,,15.00,15.00,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,FRAICHE 9%,,,SYRNEDE PRODUKTER,,15.00,15.00,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,CREMEFRAICHE 18%,,,SYRNEDE PRODUKTER,,12.95,12.95,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,"A38 YMER 3,5%",,,SYRNEDE PRODUKTER,,22.95,22.95,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,KEFIR NATUREL,,,SYRNEDE PRODUKTER,,17.95,17.95,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,"A38 NATUREL 0,4%",,,SYRNEDE PRODUKTER,,19.95,19.95,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,SKYR NATUREL,,,SYRNEDE PRODUKTER,,25.95,25.95,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,FRAICHE 9%,,,SYRNEDE PRODUKTER,,14.50,14.50,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,FRAICHE 13%,,,SYRNEDE PRODUKTER,,12.50,12.50,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,TYKMÆLK,,,SYRNEDE PRODUKTER,,16.95,16.95,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,"A38 NATUREL 1,5%",,,SYRNEDE PRODUKTER,,19.95,19.95,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,NATUREL,,,SYRNEDE PRODUKTER,,12.50,12.50,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,JORBÆR,,,SYRNEDE PRODUKTER,,13.25,13.25,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,SKYR NATUREL,,,SYRNEDE PRODUKTER,,17.95,17.95,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,SKYR VANILJE,,,SYRNEDE PRODUKTER,,19.95,19.95,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,"A38 HINDBÆR 0,4%",,,SYRNEDE PRODUKTER,,19.95,19.95,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,SKYR HINDBÆR,,,SYRNEDE PRODUKTER,,19.95,19.95,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,KEFIR VANILJE,,,SYRNEDE PRODUKTER,,19.95,19.95,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,CREME FRAICHE 38%,,,SYRNEDE PRODUKTER,,16.95,16.95,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,BANOFFEE PIE,,,SYRNEDE PRODUKTER,,8.95,8.95,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,PÆRE/BANAN YOGHURT,,,YOGHURT M.V.,,17.95,17.95,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,PÆRE & BANAN YOGHURT,,,YOGHURT M.V.,,21.95,21.95,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,VANILJE,,,YOGHURT M.V.,,32.95,32.95,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,JORDBÆR YOGHURT,,,YOGHURT M.V.,,17.95,17.95,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,"JORDBÆR YOGHURT 1,4%",,,YOGHURT M.V.,,21.95,21.95,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,DANONINO,,,YOGHURT M.V.,,6.00,6.00,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,"PÆRE & BANAN 0,4%",,,YOGHURT M.V.,,23.95,23.95,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,PEACH MELBA YOGHURT,,,YOGHURT M.V.,,17.95,17.95,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,GRÆSK YOGHURT 10%,,,YOGHURT M.V.,,17.95,17.95,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,"KIRSEBÆR YOGHURT 1,3%",,,YOGHURT M.V.,,21.95,21.95,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,YOGGI VANILJE,,,YOGHURT M.V.,,10.50,10.50,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,VANILJE,,,YOGHURT M.V.,,22.95,22.95,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,NATUREL YOGHURT,,,YOGHURT M.V.,,16.95,16.95,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,GRÆSK YOGHURT 10%,,,YOGHURT M.V.,,32.95,32.95,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,APPELSIN YOGHURT,,,YOGHURT M.V.,,17.95,17.95,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,JORDBÆR,,,YOGHURT M.V.,,6.25,6.25,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,SKOVBÆR,,,YOGHURT M.V.,,32.95,32.95,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,YOGGI APPELSIN,,,YOGHURT M.V.,,10.50,10.50,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,MANGO & LIME,,,YOGHURT M.V.,,32.95,32.95,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,SKYR AIRY STRAWBERRY,,,YOGHURT M.V.,,7.95,7.95,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,SKRABEÆG,,,ÆG,,12.00,12.00,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,ØKOLOGISKE ÆG,,,ÆG,,29.50,29.50,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,SKRABEÆG,,,ÆG,,37.95,37.95,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,ØKOLOGISKE ÆG,,,ÆG,,36.95,36.95,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,FRILANDSÆG,,,ÆG,,21.25,21.25,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,SLOTSÆG,,,ÆG,,28.00,28.00,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,FRILANDS BRUNCHÆG,,,ÆG,,15.95,15.95,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,ÆGGESTAND,,,ÆG,,11.95,11.95,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,ÆGGEBLOMMER,,,ÆG,,19.95,19.95,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,ÆGGEHVIDER,,,ÆG,,19.95,19.95,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,LIVSKRAFT SKRABEÆG,,,ÆG,,29.50,29.50,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/mejeri,HELÆG,,,ÆG,,16.95,16.95,2025-04-14,Dairy products,None
+Rema1000,https://shop.rema1000.dk/kolonial,SUN LOLLY,,,FRYS-SELV-IS,,20.00,20.00,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,SUN LOLLY,,,FRYS-SELV-IS,,20.00,20.00,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,SUN LOLLY,,,FRYS-SELV-IS,,20.00,20.00,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,SUN LOLLY,,,FRYS-SELV-IS,,20.00,20.00,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,SUN LOLLY,,,FRYS-SELV-IS,,20.00,20.00,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,GL. FLÆSKESVÆR,,,CHIPS OG SNACKS,,7.50,7.50,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,POPCORN,,,CHIPS OG SNACKS,,6.95,6.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,FRANSKE KARTOFLER,,,CHIPS OG SNACKS,,10.50,10.50,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,PEANUTS,,,CHIPS OG SNACKS,,9.25,9.25,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,SOUR CREAM & ONION,,,CHIPS OG SNACKS,,11.50,11.50,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,BACON SNACKS,,,CHIPS OG SNACKS,,11.95,11.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,OSTEREJER,,,CHIPS OG SNACKS,,9.95,9.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,SALTE SPIRALER,,,CHIPS OG SNACKS,,12.50,12.50,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,HOLIDAY DIPMIX,,,CHIPS OG SNACKS,,4.25,4.25,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,MIKROOVN POPCORN,,,CHIPS OG SNACKS,,8.95,8.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,SNACK MIX,,,CHIPS OG SNACKS,,12.50,12.50,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,SNACK ROLLS,,,CHIPS OG SNACKS,,7.75,7.75,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,SALTSTÆNGER,,,CHIPS OG SNACKS,,5.25,5.25,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,ORIGINAL,,,CHIPS OG SNACKS,,22.95,22.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,FLÆSKESVÆR,,,CHIPS OG SNACKS,,15.95,15.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,SNACK MIX SC&O,,,CHIPS OG SNACKS,,12.50,12.50,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,BARBECUE CHIPS,,,CHIPS OG SNACKS,,11.50,11.50,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,KARTOFFELSTICKS,,,CHIPS OG SNACKS,,8.95,8.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,DILD DIP,,,CHIPS OG SNACKS,,4.25,4.25,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,CHICKEN POMM'S,,,CHIPS OG SNACKS,,23.95,23.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,CREME FRAICHE DRESS.,,,DRESSING,,14.95,14.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,CREME FRAICHE DRESS.,,,DRESSING,,12.00,12.00,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,MANGO KARRY DRESSING,,,DRESSING,,12.50,12.50,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,HVIDLØGSDRESSING,,,DRESSING,,12.50,12.50,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,BURGERDRESSING,,,DRESSING,,19.95,19.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,KRYDDERURTEDRESSING,,,DRESSING,,12.50,12.50,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,THOUSAND ISLAND,,,DRESSING,,12.50,12.50,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,TERIYAKI SAUCE,,,DRESSING,,5.00,5.00,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,BBQ SAUCE,,,DRESSING,,16.95,16.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,FRANSK DRESSING,,,DRESSING,,19.95,19.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,POMMES FRITES SAUCE,,,DRESSING,,19.95,19.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,THOUSAND ISLAND,,,DRESSING,,12.00,12.00,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,COLESLAW DRESSING,,,DRESSING,,14.95,14.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,CÆSAR DRESSING,,,DRESSING,,15.95,15.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,SWEET CHILI THAI,,,DRESSING,,12.50,12.50,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,BBQ SAUCE,,,DRESSING,,5.00,5.00,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,ITALIANO DRESSING,,,DRESSING,,9.94,9.94,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,CREME F. DRESSING,,,DRESSING,,18.95,18.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,VINAIGRETTE PULVER,,,DRESSING,,5.00,5.00,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,GARLIC MARINADE,,,DRESSING,,6.50,6.50,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,TUN I VAND,,,FISKEKONSERVES,,11.95,11.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,TUN I OLIE,,,FISKEKONSERVES,,11.95,11.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,FINDELT MAKREL,,,FISKEKONSERVES,,8.00,8.00,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,MAKRELFILET I TOMAT,,,FISKEKONSERVES,,8.00,8.00,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,ROGN,,,FISKEKONSERVES,,15.95,15.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,TORSKEROGN,,,FISKEKONSERVES,,19.95,19.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,TUN I VAND,,,FISKEKONSERVES,,25.00,25.00,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,TUN I OLIE.,,,FISKEKONSERVES,,25.00,25.00,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,KIPPERS I OLIE,,,FISKEKONSERVES,,17.95,17.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,MAKRELFILET I TOMAT,,,FISKEKONSERVES,,12.00,12.00,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,LUKSUSROGN,,,FISKEKONSERVES,,12.00,12.00,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,YELLOWFIN TUN I OLIE,,,FISKEKONSERVES,,14.95,14.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,PEBER KIPPERS I OLIE,,,FISKEKONSERVES,,17.95,17.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,KIPPERS I VAND,,,FISKEKONSERVES,,17.95,17.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,SARDINER I OLIE,,,FISKEKONSERVES,,10.95,10.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,FISKEBOLLER I LAGE,,,FISKEKONSERVES,,21.95,21.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,MUSLINGER NATUREL,,,FISKEKONSERVES,,16.50,16.50,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,TUN I OLIE,,,FISKEKONSERVES,,12.00,12.00,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,TUN I VAND,,,FISKEKONSERVES,,19.95,19.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,TUN I VAND,,,FISKEKONSERVES,,12.00,12.00,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,MAYONNAISE,,,"KETCHUP, REMOULADE, MAYONNAISE M.V.",,11.95,11.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,REMOULADE,,,"KETCHUP, REMOULADE, MAYONNAISE M.V.",,11.95,11.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,TOMATKETCHUP,,,"KETCHUP, REMOULADE, MAYONNAISE M.V.",,8.50,8.50,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,RISTEDE LØG,,,"KETCHUP, REMOULADE, MAYONNAISE M.V.",,8.95,8.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,MAYONNAISE LIGHT,,,"KETCHUP, REMOULADE, MAYONNAISE M.V.",,11.95,11.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,REMOULADE LIGHT,,,"KETCHUP, REMOULADE, MAYONNAISE M.V.",,11.95,11.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,ÆGTE MAYONNAISE,,,"KETCHUP, REMOULADE, MAYONNAISE M.V.",,12.00,12.00,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,RISTEDE LØG,,,"KETCHUP, REMOULADE, MAYONNAISE M.V.",,6.95,6.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,KETCHUP,,,"KETCHUP, REMOULADE, MAYONNAISE M.V.",,22.50,22.50,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,REMOULADE,,,"KETCHUP, REMOULADE, MAYONNAISE M.V.",,12.00,12.00,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,REAL MAYONNAISE,,,"KETCHUP, REMOULADE, MAYONNAISE M.V.",,17.95,17.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,SENNEP,,,"KETCHUP, REMOULADE, MAYONNAISE M.V.",,8.95,8.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,TOMAT KETCHUP,,,"KETCHUP, REMOULADE, MAYONNAISE M.V.",,12.95,12.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,DIJON SENNEP,,,"KETCHUP, REMOULADE, MAYONNAISE M.V.",,12.95,12.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,ÆGTE MAYONNAISE,,,"KETCHUP, REMOULADE, MAYONNAISE M.V.",,14.95,14.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,ORIGINAL REMOULADE,,,"KETCHUP, REMOULADE, MAYONNAISE M.V.",,14.95,14.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,CHILI MAYO,,,"KETCHUP, REMOULADE, MAYONNAISE M.V.",,15.00,15.00,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,REMOULADE,,,"KETCHUP, REMOULADE, MAYONNAISE M.V.",,36.95,36.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,KETCHUP,,,"KETCHUP, REMOULADE, MAYONNAISE M.V.",,37.95,37.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,SØD FRANSK SENNEP,,,"KETCHUP, REMOULADE, MAYONNAISE M.V.",,9.50,9.50,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,KANEL GIFLER,,,"KIKS, KAGER & KNÆKBRØD",,20.25,20.25,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,DIGESTIVE,,,"KIKS, KAGER & KNÆKBRØD",,6.95,6.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,CITRONMÅNE,,,"KIKS, KAGER & KNÆKBRØD",,20.50,20.50,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,RISKIKS MED HAVSALT,,,"KIKS, KAGER & KNÆKBRØD",,4.95,4.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,MARIE KIKS,,,"KIKS, KAGER & KNÆKBRØD",,4.25,4.25,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,CREAM COOKIES,,,"KIKS, KAGER & KNÆKBRØD",,10.00,10.00,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,KAMMERJUNKERE,,,"KIKS, KAGER & KNÆKBRØD",,8.50,8.50,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,CORNY BIG,,,"KIKS, KAGER & KNÆKBRØD",,10.50,10.50,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,SANDWICHKIKS,,,"KIKS, KAGER & KNÆKBRØD",,19.95,19.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,TARTELETTER,,,"KIKS, KAGER & KNÆKBRØD",,9.75,9.75,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,LU PRINCE,,,"KIKS, KAGER & KNÆKBRØD",,22.95,22.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,HAVREKIKS,,,"KIKS, KAGER & KNÆKBRØD",,12.00,12.00,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,BARS CHOKO./HASSEL.,,,"KIKS, KAGER & KNÆKBRØD",,11.95,11.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,RICE UP RISBAR,,,"KIKS, KAGER & KNÆKBRØD",,5.00,5.00,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,ROMKUGLER,,,"KIKS, KAGER & KNÆKBRØD",,14.95,14.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,TRÆSTAMMER,,,"KIKS, KAGER & KNÆKBRØD",,13.50,13.50,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,BARS CHOKO./PEANU.,,,"KIKS, KAGER & KNÆKBRØD",,11.95,11.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,MAZARINTÆRTE,,,"KIKS, KAGER & KNÆKBRØD",,16.50,16.50,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,RASP,,,"KIKS, KAGER & KNÆKBRØD",,6.95,6.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,HUMLUM,,,"KIKS, KAGER & KNÆKBRØD",,9.00,9.00,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,HAKKEDE TOMATER,,,KONSERVES & SURVARER,,5.95,5.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,TOMAT PASTA,,,KONSERVES & SURVARER,,4.95,4.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,ANANASSTYKKER,,,KONSERVES & SURVARER,,5.50,5.50,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,HAKKEDE TOMATER,,,KONSERVES & SURVARER,,6.50,6.50,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,MAJS,,,KONSERVES & SURVARER,,7.50,7.50,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,KIKÆRTER,,,KONSERVES & SURVARER,,7.50,7.50,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,KOKOSMÆLK,,,KONSERVES & SURVARER,,8.95,8.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,KIDNEYBØNNER,,,KONSERVES & SURVARER,,7.50,7.50,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,CHAMPIGNON SKIVER,,,KONSERVES & SURVARER,,7.25,7.25,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,KARTOFLER I GLAS,,,KONSERVES & SURVARER,,8.25,8.25,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,FLÅEDE TOMATER,,,KONSERVES & SURVARER,,5.95,5.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,ASPARGESSNITTER,,,KONSERVES & SURVARER,,12.95,12.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,SORTE BØNNER,,,KONSERVES & SURVARER,,7.50,7.50,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,HVIDE BØNNER,,,KONSERVES & SURVARER,,6.95,6.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,MAJS,,,KONSERVES & SURVARER,,35.95,35.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,TOMAT PASSATA,,,KONSERVES & SURVARER,,8.50,8.50,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,COCKTAILPØLSER,,,KONSERVES & SURVARER,,10.95,10.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,JORDBÆRGRØD,,,KONSERVES & SURVARER,,11.50,11.50,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,RØDBEDER,,,KONSERVES & SURVARER,,14.00,14.00,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,TOMATPURÉ,,,KONSERVES & SURVARER,,12.95,12.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,SALT M/JOD,,,KRYDDERIER,,4.40,4.40,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,SALT M/ JOD,,,KRYDDERIER,,4.75,4.75,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,KARRY PULVER,,,KRYDDERIER,,5.95,5.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,MILD PAPRIKA,,,KRYDDERIER,,5.95,5.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,HELE SORTE PEBERKORN,,,KRYDDERIER,,8.95,8.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,TØRRET TIMIAN,,,KRYDDERIER,,4.95,4.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,SPIDSKOMMEN,,,KRYDDERIER,,19.95,19.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,OREGANO,,,KRYDDERIER,,5.95,5.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,STØDT SORT PEBER,,,KRYDDERIER,,5.45,5.45,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,AROMAT,,,KRYDDERIER,,17.95,17.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,OREGANO,,,KRYDDERIER,,5.83,5.83,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,LAURBÆRBLADE,,,KRYDDERIER,,3.75,3.75,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,SORT PEBER,,,KRYDDERIER,,10.95,10.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,MIDDELHAVSSALT,,,KRYDDERIER,,9.95,9.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,ISLANDSK FLAGESALT,,,KRYDDERIER,,32.95,32.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,STØDT KANEL,,,KRYDDERIER,,7.95,7.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,SØD PAPRIKA,,,KRYDDERIER,,8.95,8.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,BASILIKUM,,,KRYDDERIER,,4.95,4.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,ALLROUND KRYDDERI,,,KRYDDERIER,,31.95,31.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,BORDSALT M/JOD,,,KRYDDERIER,,4.95,4.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,PLANTEFEDTSTOF,,,MARGARINE,,10.95,10.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,FLYDENDE MARGARINE,,,MARGARINE,,17.95,17.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,MARGARINE,,,MARGARINE,,10.95,10.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,STEGE OG BAGE MARGARINE,,,MARGARINE,,17.95,17.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,PLANTEMARGARINE,,,MARGARINE,,8.95,8.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,PALMIN,,,MARGARINE,,28.95,28.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,PÅLÆGSCHOKOLADE,,,MARMELADE & CHOKOLADE PÅLÆG M.V.,,22.43,22.43,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,PÅLÆGSCHOKOLADE,,,MARMELADE & CHOKOLADE PÅLÆG M.V.,,22.43,22.43,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,HASSELNØDDECREME,,,MARMELADE & CHOKOLADE PÅLÆG M.V.,,26.95,26.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,JORDBÆRMARMELADE,,,MARMELADE & CHOKOLADE PÅLÆG M.V.,,12.85,12.85,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,HINDBÆRMARMELADE,,,MARMELADE & CHOKOLADE PÅLÆG M.V.,,12.85,12.85,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,HONNING,,,MARMELADE & CHOKOLADE PÅLÆG M.V.,,18.95,18.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,NUTELLA,,,MARMELADE & CHOKOLADE PÅLÆG M.V.,,45.95,45.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,JORDBÆR RABARBER,,,MARMELADE & CHOKOLADE PÅLÆG M.V.,,12.85,12.85,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,APPELSINMARMELADE,,,MARMELADE & CHOKOLADE PÅLÆG M.V.,,10.60,10.60,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,SOLBÆRMARMELADE,,,MARMELADE & CHOKOLADE PÅLÆG M.V.,,15.50,15.50,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,DANSK HONNING,,,MARMELADE & CHOKOLADE PÅLÆG M.V.,,32.95,32.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,PEANUT BUTTER,,,MARMELADE & CHOKOLADE PÅLÆG M.V.,,24.95,24.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,JORDBÆRMARMELADE,,,MARMELADE & CHOKOLADE PÅLÆG M.V.,,18.95,18.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,FLYDENDE HONNING,,,MARMELADE & CHOKOLADE PÅLÆG M.V.,,26.95,26.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,CREMET JORDBÆR,,,MARMELADE & CHOKOLADE PÅLÆG M.V.,,13.25,13.25,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,PÅLÆGSCHOKOLADE,,,MARMELADE & CHOKOLADE PÅLÆG M.V.,,48.95,48.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,MARMELADE,,,MARMELADE & CHOKOLADE PÅLÆG M.V.,,19.95,19.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,BOYSENBÆRMARMELADE,,,MARMELADE & CHOKOLADE PÅLÆG M.V.,,15.95,15.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,HVERDAGSHONNING,,,MARMELADE & CHOKOLADE PÅLÆG M.V.,,23.95,23.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,PEANUT BUTTER,,,MARMELADE & CHOKOLADE PÅLÆG M.V.,,24.95,24.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,SUKKER,,,"MEL, SUKKER, BAGNING",,9.95,9.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,HVEDEMEL,,,"MEL, SUKKER, BAGNING",,11.45,11.45,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,SOLSIKKEKERNER,,,"MEL, SUKKER, BAGNING",,11.50,11.50,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,SESAMFRØ,,,"MEL, SUKKER, BAGNING",,12.95,12.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,BRUN FARIN,,,"MEL, SUKKER, BAGNING",,13.50,13.50,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,VANILJESUKKER,,,"MEL, SUKKER, BAGNING",,9.50,9.50,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,FLORMELIS,,,"MEL, SUKKER, BAGNING",,10.50,10.50,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,BAGEPULVER,,,"MEL, SUKKER, BAGNING",,5.15,5.15,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,HVEDEMEL,,,"MEL, SUKKER, BAGNING",,17.95,17.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,GRÆSKARKERNER,,,"MEL, SUKKER, BAGNING",,12.95,12.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,PANDEKAGE OG VAFFEL MIX,,,"MEL, SUKKER, BAGNING",,10.00,10.00,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,NATRON,,,"MEL, SUKKER, BAGNING",,4.40,4.40,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,CHIAFRØ,,,"MEL, SUKKER, BAGNING",,19.95,19.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,KOKOSMEL,,,"MEL, SUKKER, BAGNING",,10.95,10.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,HØRFRØ,,,"MEL, SUKKER, BAGNING",,11.50,11.50,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,RØRSUKKER,,,"MEL, SUKKER, BAGNING",,21.95,21.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,MAJSSTIVELSE,,,"MEL, SUKKER, BAGNING",,12.95,12.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,PANKO,,,"MEL, SUKKER, BAGNING",,15.00,15.00,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,BAGE HVEDEMEL,,,"MEL, SUKKER, BAGNING",,16.95,16.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,HVEDEMEL,,,"MEL, SUKKER, BAGNING",,16.00,16.00,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,HAVREGRYN FINVALSEDE,,,MORGENMAD,,9.50,9.50,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,HAVREGRYN FINVALSEDE,,,MORGENMAD,,11.95,11.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,CHOKO MYSLI,,,MORGENMAD,,24.95,24.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,HAVRE FRAS,,,MORGENMAD,,39.95,39.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,FRUGT MYSLI,,,MORGENMAD,,24.95,24.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,CORNFLAKES,,,MORGENMAD,,22.00,22.00,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,YMERDRYS M/SUKKER,,,MORGENMAD,,17.95,17.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,SOLGRYN,,,MORGENMAD,,19.95,19.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,HAVREGRYN GROVVALSEDE,,,MORGENMAD,,13.95,13.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,GRANOLA CHOKOLADE,,,MORGENMAD,,29.95,29.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,CHEERIOS MULTIGRAIN,,,MORGENMAD,,34.95,34.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,COCOA BALLS,,,MORGENMAD,,29.95,29.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,GOLD ORIGINAL MÜSLI,,,MORGENMAD,,42.95,42.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,RUGFRAS,,,MORGENMAD,,39.95,39.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,CORNFLAKES,,,MORGENMAD,,25.00,25.00,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,HAVREGRYN,,,MORGENMAD,,21.95,21.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,CHEERIOS OAT,,,MORGENMAD,,34.95,34.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,CRUESLI DARK CHOCO,,,MORGENMAD,,42.50,42.50,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,GULDKORN,,,MORGENMAD,,34.95,34.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,MINI FRAS,,,MORGENMAD,,34.95,34.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,MANDLER,,,NØDDER & TØRRET FRUGT,,9.89,9.89,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,ROSINER,,,NØDDER & TØRRET FRUGT,,10.50,10.50,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,ROSINER,,,NØDDER & TØRRET FRUGT,,13.95,13.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,VALNØDDEKERNER,,,NØDDER & TØRRET FRUGT,,14.25,14.25,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,SALAT ROSINER,,,NØDDER & TØRRET FRUGT,,22.50,22.50,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,FRUGTSTÆNGER,,,NØDDER & TØRRET FRUGT,,17.95,17.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,SVESKER,,,NØDDER & TØRRET FRUGT,,12.95,12.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,FRUGTSNACKS ÆBLE,,,NØDDER & TØRRET FRUGT,,15.95,15.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,FRUGTPÅLÆG,,,NØDDER & TØRRET FRUGT,,14.25,14.25,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,FRUGTSTÆNGER,,,NØDDER & TØRRET FRUGT,,11.95,11.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,DEGLET NOUR DADLER,,,NØDDER & TØRRET FRUGT,,14.95,14.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,FRUGTSTÆNGER,,,NØDDER & TØRRET FRUGT,,17.95,17.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,HASSELNØDDEKERNER,,,NØDDER & TØRRET FRUGT,,12.00,12.00,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,MINI ROSINÆSKER,,,NØDDER & TØRRET FRUGT,,11.95,11.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,FRUGTSNACKS,,,NØDDER & TØRRET FRUGT,,3.00,3.00,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,CASHEWNØDDER,,,NØDDER & TØRRET FRUGT,,12.00,12.00,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,FRUGTSNACKS,,,NØDDER & TØRRET FRUGT,,3.00,3.00,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,ABRIKOSER,,,NØDDER & TØRRET FRUGT,,12.00,12.00,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,PINJEKERNER,,,NØDDER & TØRRET FRUGT,,12.00,12.00,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,PINJEKERNER,,,NØDDER & TØRRET FRUGT,,19.20,19.20,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,KLAR EDDIKE,,,"OLIE, EDDIKE & BALSAMICO",,5.95,5.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,RAPSOLIE,,,"OLIE, EDDIKE & BALSAMICO",,18.95,18.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,SOLSIKKEOLIE,,,"OLIE, EDDIKE & BALSAMICO",,18.95,18.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,EKS. JOMFRU OLIVENOLIE,,,"OLIE, EDDIKE & BALSAMICO",,53.95,53.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,EKS. JOMFRU OLIVENOLIE,,,"OLIE, EDDIKE & BALSAMICO",,62.95,62.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,LAGEREDDIKE,,,"OLIE, EDDIKE & BALSAMICO",,6.50,6.50,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,ØKOLOGISK RAPSOLIE,,,"OLIE, EDDIKE & BALSAMICO",,33.95,33.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,EKS. JOMFRU OLIVENOLIE,,,"OLIE, EDDIKE & BALSAMICO",,61.95,61.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,SESAMOLIE,,,"OLIE, EDDIKE & BALSAMICO",,28.95,28.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,ACETO BALSAMICO,,,"OLIE, EDDIKE & BALSAMICO",,7.30,7.30,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,ÆBLECIDER EDDIKE,,,"OLIE, EDDIKE & BALSAMICO",,24.50,24.50,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,KOLDPRESSET RAPSOLIE,,,"OLIE, EDDIKE & BALSAMICO",,32.95,32.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,HVIDVINSEDDIKE,,,"OLIE, EDDIKE & BALSAMICO",,7.25,7.25,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,EKS. JOMFRU OLIVENOLIE,,,"OLIE, EDDIKE & BALSAMICO",,59.95,59.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,EKS. JOMF.OLIVENOLIE,,,"OLIE, EDDIKE & BALSAMICO",,73.95,73.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,MIXET OLIE,,,"OLIE, EDDIKE & BALSAMICO",,29.95,29.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,KOKOSOLIE,,,"OLIE, EDDIKE & BALSAMICO",,25.95,25.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,PASTA SKRUER,,,"RIS & PASTA, MV",,7.50,7.50,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,FUSILLI FULDKORN,,,"RIS & PASTA, MV",,11.95,11.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,KOGEPOSE RIS,,,"RIS & PASTA, MV",,8.50,8.50,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,SPAGHETTI,,,"RIS & PASTA, MV",,10.70,10.70,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,PENNE RIGATE,,,"RIS & PASTA, MV",,8.50,8.50,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,NUDLER,,,"RIS & PASTA, MV",,6.95,6.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,SPAGHETTI FULDKORN,,,"RIS & PASTA, MV",,8.95,8.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,BASMATI RIS,,,"RIS & PASTA, MV",,17.95,17.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,JASMIN RIS,,,"RIS & PASTA, MV",,14.95,14.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,SUPPEHORN,,,"RIS & PASTA, MV",,9.50,9.50,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,FUSILLI N°108,,,"RIS & PASTA, MV",,12.95,12.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,PARBOILED RIS,,,"RIS & PASTA, MV",,8.50,8.50,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,BULGUR,,,"RIS & PASTA, MV",,16.95,16.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,LASAGNEPLADER,,,"RIS & PASTA, MV",,13.95,13.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,RADIATORI N°73,,,"RIS & PASTA, MV",,12.95,12.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,PARBOILED RIS,,,"RIS & PASTA, MV",,10.95,10.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,FULDKORNSNUDLER,,,"RIS & PASTA, MV",,7.95,7.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,RISNUDLER,,,"RIS & PASTA, MV",,10.00,10.00,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,LANGK. ØKO JASMINRIS,,,"RIS & PASTA, MV",,21.95,21.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,RØDE SPLITLINSER,,,"RIS & PASTA, MV",,16.95,16.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,NUDLER M/KYLLINGSMAG,,,SAUCER & NEM MAD,,2.95,2.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,GRØN PESTO,,,SAUCER & NEM MAD,,6.75,6.75,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,CUPNUDLER KYLLING,,,SAUCER & NEM MAD,,5.75,5.75,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,PIZZASAUCE,,,SAUCER & NEM MAD,,8.95,8.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,MORNAYSAUCE 10%,,,SAUCER & NEM MAD,,18.50,18.50,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,CUPNUDLER OKSEKØD,,,SAUCER & NEM MAD,,5.75,5.75,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,PASTA SAUCE,,,SAUCER & NEM MAD,,11.95,11.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,CITRONSAFT,,,SAUCER & NEM MAD,,4.95,4.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,BRUN SAUCE,,,SAUCER & NEM MAD,,15.00,15.00,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,BEARNAISESAUCE,,,SAUCER & NEM MAD,,15.00,15.00,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,RØD PESTO,,,SAUCER & NEM MAD,,6.75,6.75,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,NUDLER KYLLING OG CHILI,,,SAUCER & NEM MAD,,5.75,5.75,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,SOJASAUCE,,,SAUCER & NEM MAD,,8.95,8.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,HØNSEBOUILLON,,,SAUCER & NEM MAD,,4.50,4.50,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,GRØNTSAGSBOUILLON,,,SAUCER & NEM MAD,,4.50,4.50,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,BALSAMICO GLACE,,,SAUCER & NEM MAD,,5.00,5.00,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,HØNSEBOUILLON,,,SAUCER & NEM MAD,,18.50,18.50,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,LET MORNAYSAUCE 4%,,,SAUCER & NEM MAD,,18.50,18.50,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,FRIKADELLE MIX,,,SAUCER & NEM MAD,,6.50,6.50,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,TARTELETFYLD,,,SAUCER & NEM MAD,,18.00,18.00,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,TORTILLAS HVEDE,,,TEX MEX,,10.50,10.50,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,TORTILLA CHIPS OST,,,TEX MEX,,7.75,7.75,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,TACO SPICE MIX,,,TEX MEX,,5.25,5.25,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,FULDKORNSTORTILLAS,,,TEX MEX,,12.25,12.25,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,TORTILLA CHIPS SALT,,,TEX MEX,,7.75,7.75,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,SALSASAUCE MEDIUM,,,TEX MEX,,9.75,9.75,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,FAJITA SPICE MIX,,,TEX MEX,,5.25,5.25,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,SALSASAUCE HOT,,,TEX MEX,,9.75,9.75,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,GUACAMOLE DIP,,,TEX MEX,,11.25,11.25,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,TORTILLA CHIPS CHILI,,,TEX MEX,,7.75,7.75,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,"TACOSAUCE, MEDIUM",,,TEX MEX,,9.75,9.75,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,CHEESE DIP,,,TEX MEX,,11.25,11.25,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,JALAPENOS I SKIVER,,,TEX MEX,,7.50,7.50,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,KIDNEY BØNNER,,,TEX MEX,,7.95,7.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,TACO SHELLS,,,TEX MEX,,13.95,13.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,GUACAMOLE SPICE MIX,,,TEX MEX,,5.25,5.25,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,"TACOSAUCE, HOT",,,TEX MEX,,9.75,9.75,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,TORTILLAS,,,TEX MEX,,15.95,15.95,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,TORTILLA CHIPS SALT,,,TEX MEX,,13.50,13.50,2025-04-14,Colonial Goods,None
+Rema1000,https://shop.rema1000.dk/kolonial,SALSA SAUCE MEDIUM,,,TEX MEX,,16.95,16.95,2025-04-14,Colonial Goods,None

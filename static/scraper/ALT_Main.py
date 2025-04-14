@@ -1,10 +1,9 @@
 import pandas as pd
-from modules.silmaasema import start_silmaasema
 from modules.rema import start_rema
 from utiles.mkdir import mkdir
 
 
-def main():
+def ALT_main():
     
     # Assuming start_synsam, start_silmaasema, and start_uni return dataframes
     #df_silmaasema = start_silmaasema(5, {"Silmaasema": "https://www.silmaasema.fi/tuotteet/piilolinssit?cgid=piilolinssit&start=0&sz=100"})
@@ -27,5 +26,5 @@ def main():
     print("Data has been combined and exported to 'combined_data.csv'.")
 
 # Call the main function
-if __name__ == "__main__":
-    main()
+if __name__ == "__ALT_main__":
+    ALT_main()
