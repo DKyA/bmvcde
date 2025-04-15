@@ -147,6 +147,35 @@ def scrape_product_rema(indices, hrefs, names):
                 print("Tile HTML:", tile.get_attribute("outerHTML"))
                 payg_price = "N/A"
 
+            # --- Extract Product Image ---
+            try:
+                # Assuming the image is under .image img inside the product-wrap
+                img_src = tile.find_element(By.CSS_SELECTOR, '.image img').get_attribute("src")
+            except Exception as e:
+                print(f"Could not parse image for tile {i} ({prod_name}): {e}")
+                img_src = "N/A"
+                
+            # --- Extract additional information unit/volume ---
+            try:
+                extra_text = tile.find_element(By.CSS_SELECTOR, '.info .extra').text.strip()
+                left_part = extra_text.split("/")[0].strip()
+                # allowing decimal point and comma
+                m_extra = re.match(r'^([\d.,]+)\s*([A-Za-z]+\.?)', left_part)
+                if m_extra:
+                    volume = m_extra.group(1)
+                    unit = m_extra.group(2)
+                else:
+                    # Fallback: split by space
+                    parts_extra = left_part.split()
+                    if len(parts_extra) >= 2:
+                        volume = parts_extra[0]
+                        unit = parts_extra[1]
+                    else:
+                        volume, unit = "N/A", "N/A"
+            except Exception as e:
+                print(f"Could not parse extra (volume/unit) for tile {i} ({prod_name}): {e}")
+                volume, unit = "N/A", "N/A"
+                
             # --- Extract Labels ---
             try:
                 label_elements = tile.find_elements(By.CSS_SELECTOR, '.labels-bottom .label')
@@ -162,17 +191,20 @@ def scrape_product_rema(indices, hrefs, names):
             # --- Build Output Row ---            
             line = [
                 "Rema1000",         # Company (static)
-                greater_category,   # Greater category from rema_pages
-                lesser_category,    # Lesser category from the wrap headers
-                href,               # Link to the category page (maybe not needed)
                 prod_name,          # Product name
+                lesser_category,    # Lesser category from the wrap headers
+            #    greater_category,   # Greater category from rema_pages
+                img_src,            # Image source (if needed)
+                href,               # Link to the category page (maybe not needed)
                 payg_price,         # PAYG price
-                subscription_price, # Subscription price (same for now)
-                labels,             # Labels (if any)
+            #    subscription_price, # Subscription price (same for now)
+                volume,             # Volume (if any)
+                unit,               # Unit (if any)
+            #    labels,             # Labels (if any)
                 date.today()        # Date of update
             ]
             results.append(line)
-            print(f"Scraped: '{prod_name}' with price '{payg_price}' and labels '{labels}'")
+            print(f"Scraped: '{prod_name}'")
 
     driver.quit()
     return results
@@ -248,23 +280,12 @@ def start_rema(n_drivers: int, pages: str) -> pd.DataFrame:
 
     # Print the extracted contents
     contents = pd.DataFrame(contents, columns=[
-    "Company", "Greater Category", "Type", "Link",
-    "Product", "PAYG", "Subscription", "Labels", "Date of update"
+    "Retail", "Name", "Category", "Img",
+    "Link", "Price", "Quantity", "Unit", "Date of update"
 ])
     mkdir("./static/scraper/processed")
     contents.to_csv("./static/scraper/processed/Rema.csv")
     print("Rema Done!")
     return contents
-
-
-'''
-#* IMG SCRAPING *#
-
-    ########################
-    #* Img Info
-    ########################
-    img = look_for_ref(<driver>, 'img', i).get_attribute('src')
-
-    -> Only adjust <driver> to some parent element and it will work
-
-'''
+# ^^^^
+# ^^^^
