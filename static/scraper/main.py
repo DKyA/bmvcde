@@ -28,21 +28,20 @@ def main():
     df_coop = start_coop(5, {"Coop": "https://365discount.coop.dk/365avis/"})
     df_rema = start_rema(11,rema_pages)
 	# Combine the dataframes
-    combined_df = pd.concat([df_coop, df_rema], ignore_index=True) # In case there is more, here is where you combine
-    
+    combined_df = pd.concat(
+        [
+            df_coop,
+#             df_rema
+        ],
+        ignore_index=True
+    )
 
-
-	#
- # Export to CSV
+    # Export to CSV
     mkdir('./static/scraper/export')
     combined_df.to_csv('./static/scraper/export/combined_data.csv', index=False)
-
     print("Data has been combined and exported to 'combined_data.csv'.")
-    # Export to CSV
 
 # Call the main function
 
 if __name__ == "__main__":
 	main()
-
-

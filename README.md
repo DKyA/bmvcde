@@ -51,3 +51,6 @@ You can preview the production build with `npm run preview`.
 - Unit: Unit of the quantity. Use g, ml, pcs, null (though try to put a unit there if possible. If it is not viable to put g there for instance, use whatever you can, we will sort that out on frontend.)
 - Date of Update
 - What did I forget?
+
+So, as an example, this would work:
+> 	export = pd.DataFrame(data, columns=["Retail", "Name", "Price", "Category", "Img", "Link", "Quantity", "Unit", "Date of Update"])

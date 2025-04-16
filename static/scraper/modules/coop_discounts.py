@@ -5,63 +5,16 @@ import re
 from time import sleep
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
+from selenium.common.exceptions import NoSuchElementException
 from utiles.browser import start_headless_chrome_browser
 from utiles.lookup import look_for_ref, get_element_text
 from utiles.mkdir import mkdir
 
 
-
-# Function to scrape product details
-def scrape_product(box, driver):
-
-	results = []
-
-	# For every link that is associated to this driver:
-
-	try:
-
-		'''
-		The following requires working with the HTML structure of the page. Finding paths to elements
-		Where relevant.
-
-		I prepared 2 custom functions, which are safe from Stale references:
-
-		get_element_text(<parent elemenet or driver>, -HTML Identifier-: string, index: int) -> string.
-			Useful for finding easily-accessible pieces of text
-
-		look_for_ref(<parent element or driver>, -HTML Identifier-:string, index: int) -> element
-			Useful for accessing more difficult information, or finding parents of clusters of information.
-			See Period section for example.
-		'''
-
-
-		########################
-		#* Product Info
-		########################
-		info = look_for_ref(box, '[data-role="offer"]', 0)
-
-		########################
-		#* Price Info
-		########################
-		price = get_element_text(box, 'p"lastoftype', 0)
-		print(price)
-
-	except Exception as e:
-		print(f"Error processing product, {e}")
-		results.append(None)  # Indicate failure
-
-	driver.quit()
-	return results
-
-
-def get_links(pages):
-
-	print("Hello!!")
+def scrape(pages):
 
 	# Start the headless Chrome browser (using Selenium)
 	driver = start_headless_chrome_browser()
-
-	print("Hello!! After HB")
 
 	results = []
 
@@ -76,11 +29,11 @@ def get_links(pages):
 		try:
 			decline_btn = look_for_ref(driver, '#declineButton', 1)
 			decline_btn.click()
-			print('Closed Cookies!')
+			print('Closed Cookies. I will sleep 4s now and wait for full page load.')
+			sleep(4)
 		except:
 			print("No cookies button found, moving on.")
 
-		sleep(5)
 
 		# Find all classes of links to products
 		tiles = driver.find_elements(By.CSS_SELECTOR, '[data-role="offer"]')
@@ -96,34 +49,55 @@ def get_links(pages):
 			name = get_element_text(info, 'p:first-of-type', 0)
 			detail = get_element_text(info, 'p:last-of-type', 0)
 
-			pattern = r"^\s*(\d+(?:-\d+)?)(?:\s*)(g|kg|stk|ml|l)\b"
+			pattern = r"^(?:Min[.]?\s)?(\d+\W?\d*)\s(\w+).|([a-zA-Z-]+)\s(\d+)"
+
 			match = re.search(pattern, detail, flags=re.IGNORECASE)
 			if match:
-				quantity = match.group(1)
-				unit = match.group(2)
-			else:
-				print(f"Error! Invaild format of Detail Info for {name}")
+				g_1 = match.group(1)
+				g_2 = match.group(2)
 
+				if g_1 == "stk-pris":
+					quantity = 1
+					unit = "pcs"
+				else:
+					quantity = g_1
+					unit = g_2
+			else:
+				# print(f"Error! Invaild format of Detail Info for {name}; got value: {detail}")
+				# So, the things that will fail right now are non-groceries in nature. I will therefore take the liberty to skip them :)
+				continue
+				# I will not elaborate.
 
 			########################
 			#* Price Info
 			########################
-			price = get_element_text(tile, 'p[data-single-line="true"]', 0)
+			price_el = look_for_ref(tile, 'p[data-single-line="true"]', 0)
+			price = price_el.text
+
 			pattern = r"(\d+),-"
 			match = re.search(pattern, price, flags=re.IGNORECASE)
 			if match:
 				price = match.group(1)
-			else:
-				print(f"Error! Invaild format of Price Info for {name}")
+			# Else = the price for some reason doesn't have `,-`, no action needed.
+
+			# This peiece checks if there is the decimal part of the number as to properly format it.
+			try:
+				price_el.find_element(By.TAG_NAME, 'span')
+				price = int(price) / 100
+				print(f"Decimal detected! I adjusted the price to {price}.")
+			except NoSuchElementException:
+				pass
+				# Nothing needs to be done - this is already correct
+				# (I hate try/except, if is so much better. Fuck halting problem)
+
+			print(price)
 
 			########################
 			#* Img Info
 			########################
 			img = look_for_ref(tile, 'img', 0).get_attribute('src')
 
-			results.append([name, price, img, quantity, unit])
-
-
+			results.append(["Coop", name, price, "", img, "", quantity, unit, date.today()])
 
 	driver.quit()
 	return results
@@ -131,17 +105,12 @@ def get_links(pages):
 
 def start_coop(n_drivers: int, pages: str) -> pd.DataFrame:
 
-	# Create a pool of drivers
-	contents = []
-
 	# One-time pass to map out all links that need to be visited.
-	results = get_links(pages)
+	contents = scrape(pages)
 
 	# Print the extracted contents
-	contents = pd.DataFrame(contents, columns=["Company", "Link", "Product", "Pack Size", "Periodicity", "Type", "OTC", "PAYG", "Subscription", "Date of update"])
+	contents = pd.DataFrame(contents, columns=["Retail", "Name", "Price", "Category", "Img", "Link", "Quantity", "Unit", "Date of Update"])
 	mkdir("./static/scraper/processed")
 	contents.to_csv("./static/scraper/processed/Coop.csv")
 	print("Coop Done!")
 	return contents
-
-# start_coop(5, "https://365discount.coop.dk/365avis/")
