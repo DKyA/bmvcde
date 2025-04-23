@@ -1,1 +1,98 @@
-$black: #000;
+// Define your base palette
+$colors: (
+	"primary": #D98102,
+	"primary-light": #FFE6CC,
+	"secondary": #468B47,
+	"text-dark": #3B3B3B,
+	"text-light": #FAFAFA,
+	"black": #000000,
+	"white": #FFFFFF,
+	"background": #FAFAFA
+);
+
+// Function to get color by name
+@function color($name) {
+	@if map-has-key($colors, $name) {
+		@return map-get($colors, $name);
+	}
+
+	@else {
+		@warn "Unknown color `#{$name}`. Returning black as fallback.";
+		@return #000;
+	}
+}
+
+// Base font settings
+$font-stack: 'Poppins', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+// Typography mixin with optional "light" or "dark" mode
+@mixin h1($variant: "dark") {
+	font-family: $font-stack;
+	font-size: 2.5rem;
+	font-weight: 700;
+	line-height: 1.2;
+	color: if($variant =="light", color("white"), color("text-dark"));
+}
+
+@mixin h2($variant: "dark") {
+	font-family: $font-stack;
+	font-size: 2rem;
+	font-weight: 600;
+	line-height: 1.3;
+	color: if($variant =="light", color("white"), color("text-dark"));
+}
+
+@mixin h3($variant: "dark") {
+	font-family: $font-stack;
+	font-size: 1.5rem;
+	font-weight: 600;
+	line-height: 1.4;
+	color: if($variant =="light", color("white"), color("text-dark"));
+}
+
+@mixin h4($variant: "dark") {
+	font-family: $font-stack;
+	font-size: 1.25rem;
+	font-weight: 500;
+	line-height: 1.5;
+	color: if($variant =="light", color("white"), color("text-dark"));
+}
+
+@mixin p($variant: "dark") {
+	font-family: $font-stack;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.6;
+	color: if($variant =="light", color("white"), color("text-dark"));
+}
+
+@mixin a($variant: "dark") {
+	@include p($variant);
+	text-decoration: none;
+	color: if($variant =="light", color("text-light"), color("primary"));
+	border-bottom: 2px solid transparent;
+	transition: .1s ease;
+
+	&:hover {
+		border-bottom-color: if($variant =="light", color("primary-light"), color("primary"));
+	}
+}
+
+h1 {
+	@include h1("dark");
+}
+h2 {
+	@include h2("dark");
+}
+h3 {
+	@include h3("dark");
+}
+h4 {
+	@include h4("dark");
+}
+p {
+	@include p("dark");
+}
+a {
+	@include a("dark");
+}
