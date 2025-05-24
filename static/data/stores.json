@@ -1,0 +1,7015 @@
+{
+	"type": "FeatureCollection",
+	"generator": "overpass-turbo",
+	"copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+	"timestamp": "2025-05-24T13:25:01Z",
+	"features": [
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/279715915",
+		  "name": "California Frugt & Grønt",
+		  "shop": "greengrocer"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5362006,
+			55.6859945
+		  ]
+		},
+		"id": "node/279715915"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/284480077",
+		  "branch": "Vesterbros Torv",
+		  "brand": "Brugsen",
+		  "fvst:navnelbnr": "113864",
+		  "name": "Brugsen Vesterbros Torv",
+		  "opening_hours": "Mo-Su 09:00-21:45",
+		  "ref:DK:cvr": "26259495",
+		  "ref:DK:cvr:pnummer": "1008792255",
+		  "shop": "supermarket",
+		  "website": "https://brugsen.coop.dk/find-butik/brugsen-vesterbros-torv/1029/"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5553973,
+			55.6724767
+		  ]
+		},
+		"id": "node/284480077"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/284480821",
+		  "branch": "Vesterbrogade",
+		  "brand": "Føtex",
+		  "brand:wikidata": "Q1480395",
+		  "brand:wikipedia": "en:Føtex",
+		  "check_date": "2023-04-25",
+		  "fvst:navnelbnr": "111209",
+		  "name": "Føtex",
+		  "ref:DK:cvr": "35954716",
+		  "ref:DK:cvr:pnummer": "1003224497",
+		  "shop": "supermarket",
+		  "wheelchair": "yes"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5509072,
+			55.6727937
+		  ]
+		},
+		"id": "node/284480821"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/287381693",
+		  "branch": "Nørrebros Runddel",
+		  "brand": "Kvickly",
+		  "brand:wikidata": "Q7061148",
+		  "brand:wikipedia": "en:Kvickly",
+		  "fvst:navnelbnr": "113084",
+		  "name": "Kvickly",
+		  "opening_hours": "Mo-Su 07:00-22:00",
+		  "ref:DK:cvr": "26259495",
+		  "ref:DK:cvr:pnummer": "1003078325",
+		  "shop": "supermarket",
+		  "wheelchair": "yes"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.548037,
+			55.694626
+		  ]
+		},
+		"id": "node/287381693"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/290439211",
+		  "branch": "Fiolstræde",
+		  "brand": "Netto",
+		  "brand:wikidata": "Q552652",
+		  "brand:wikipedia": "da:Netto (supermarkedskæde)",
+		  "check_date": "2024-10-09",
+		  "fvst:navnelbnr": "562055",
+		  "name": "Netto",
+		  "name:fa": "نتو",
+		  "opening_hours": "Mo-Su 07:00-22:00",
+		  "ref:DK:cvr": "35954716",
+		  "ref:DK:cvr:pnummer": "1003624320",
+		  "shop": "supermarket",
+		  "wheelchair": "yes"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.572657,
+			55.68107
+		  ]
+		},
+		"id": "node/290439211"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/290663559",
+		  "branch": "Falkoner Alle",
+		  "brand": "Kvickly",
+		  "brand:wikidata": "Q7061148",
+		  "brand:wikipedia": "en:Kvickly",
+		  "check_date:opening_hours": "2022-08-17",
+		  "fvst:navnelbnr": "115433",
+		  "name": "Kvickly",
+		  "opening_hours": "Mo-Su 07:00-21:00",
+		  "ref:DK:cvr": "26259495",
+		  "ref:DK:cvr:pnummer": "1003079278",
+		  "shop": "supermarket",
+		  "wheelchair": "yes"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5392733,
+			55.6855924
+		  ]
+		},
+		"id": "node/290663559"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/290664171",
+		  "brand": "Netto",
+		  "brand:wikidata": "Q552652",
+		  "brand:wikipedia": "da:Netto (supermarkedskæde)",
+		  "fvst:navnelbnr": "114572",
+		  "name": "Netto",
+		  "name:fa": "نتو",
+		  "opening_hours": "Mo-Su 06:00-24:00",
+		  "payment:cash": "yes",
+		  "payment:credit_cards": "yes",
+		  "ref:DK:cvr": "35954716",
+		  "ref:DK:cvr:pnummer": "1003017114",
+		  "shop": "supermarket"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5378918,
+			55.6967005
+		  ]
+		},
+		"id": "node/290664171"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/297975217",
+		  "alt_name": "Frihedskiosken",
+		  "description": "Parcel pickup point, dao and GLS",
+		  "fvst:navnelbnr": "1283463",
+		  "name": "Friheds Kiosken",
+		  "opening_hours": "08:00-23:00; Fr 08:00-24:00; Sa 09:00-24:00",
+		  "owner": "Ghiyas Iqbal",
+		  "payment:cash": "yes",
+		  "payment:credit_cards": "yes",
+		  "phone": "+45 32 55 38 21",
+		  "post_office": "post_partner",
+		  "post_office:brand": "PostNord",
+		  "post_office:brand:wikidata": "Q3181430",
+		  "post_office:brand:wikipedia": "en:PostNord",
+		  "post_office:service_provider": "Post Danmark A/S",
+		  "post_office:service_provider:website": "https://www.postnord.dk",
+		  "post_office:service_provider:wikidata": "Q1334647",
+		  "post_office:service_provider:wikipedia": "da:PostNord Danmark",
+		  "post_office:website": "https://www.postnord.dk",
+		  "ref:DK:cvr": "43780220",
+		  "ref:DK:cvr:pnummer": "1028930964",
+		  "shop": "convenience"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.6003948,
+			55.6591891
+		  ]
+		},
+		"id": "node/297975217"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/299394870",
+		  "brand": "Netto",
+		  "brand:wikidata": "Q552652",
+		  "brand:wikipedia": "da:Netto (supermarkedskæde)",
+		  "check_date": "2025-04-11",
+		  "fvst:navnelbnr": "115330",
+		  "name": "Netto",
+		  "opening_hours": "07:00-22:00",
+		  "operator": "Netto",
+		  "phone": "+45 8778 7811",
+		  "ref:DK:cvr": "35954716",
+		  "ref:DK:cvr:pnummer": "1010508149",
+		  "shop": "supermarket",
+		  "website": "https://netto.dk/"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5969145,
+			55.6685937
+		  ]
+		},
+		"id": "node/299394870"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/307614990",
+		  "branch": "Njalsgade",
+		  "brand": "365discount",
+		  "brand:wikidata": "Q104671354",
+		  "fvst:navnelbnr": "112982",
+		  "name": "365discount",
+		  "opening_hours": "Mo-Su 07:00-22:00",
+		  "ref:DK:cvr": "11517498",
+		  "ref:DK:cvr:pnummer": "1003168389",
+		  "shop": "supermarket",
+		  "website": "https://365discount.coop.dk/find-butik/365discount-kbh-s-njalsgade/24328/",
+		  "wheelchair": "yes"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5786055,
+			55.6668195
+		  ]
+		},
+		"id": "node/307614990"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/307619754",
+		  "branch": "Godthåbsvej",
+		  "brand": "Netto",
+		  "brand:wikidata": "Q552652",
+		  "brand:wikipedia": "da:Netto (supermarkedskæde)",
+		  "fvst:navnelbnr": "113174",
+		  "name": "Netto",
+		  "name:fa": "نتو",
+		  "opening_hours": "Mo-Su 08:00-22:00",
+		  "payment:cash": "yes",
+		  "payment:credit_cards": "yes",
+		  "ref:DK:cvr": "35954716",
+		  "ref:DK:cvr:pnummer": "1003819176",
+		  "shop": "supermarket",
+		  "wheelchair": "yes"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.52648,
+			55.6882384
+		  ]
+		},
+		"id": "node/307619754"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/313709771",
+		  "branch": "Blågårdsgade",
+		  "brand": "Netto",
+		  "brand:wikidata": "Q552652",
+		  "brand:wikipedia": "da:Netto (supermarkedskæde)",
+		  "check_date": "2024-12-08",
+		  "check_date:opening_hours": "2022-11-02",
+		  "fvst:navnelbnr": "113165",
+		  "name": "Netto",
+		  "name:fa": "نتو",
+		  "opening_hours": "08:00-22:00",
+		  "ref:DK:cvr": "35954716",
+		  "shop": "supermarket",
+		  "wheelchair": "yes"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5568466,
+			55.6854075
+		  ]
+		},
+		"id": "node/313709771"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/313709994",
+		  "brand": "Rema 1000",
+		  "brand:wikidata": "Q28459",
+		  "check_date": "2025-04-26",
+		  "fvst:navnelbnr": "1216488",
+		  "name": "Rema 1000",
+		  "opening_hours": "07:00-22:00",
+		  "ref:DK:cvr": "40218572",
+		  "ref:DK:cvr:pnummer": "1024360152",
+		  "shop": "supermarket",
+		  "wheelchair": "yes"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5510945,
+			55.6821764
+		  ]
+		},
+		"id": "node/313709994"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/413370337",
+		  "branch": "Pilestræde",
+		  "brand": "7-Eleven",
+		  "brand:wikidata": "Q259340",
+		  "brand:wikipedia": "en:7-Eleven",
+		  "fvst:name": "7-Eleven Butik 14",
+		  "fvst:navnelbnr": "1477896",
+		  "name": "7-Eleven Pilestræde",
+		  "operator": "7-Eleven",
+		  "ref": "14",
+		  "ref:DK:cvr": "15516046",
+		  "ref:DK:cvr:pnummer": "1031149882",
+		  "shop": "convenience"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5797502,
+			55.6809339
+		  ]
+		},
+		"id": "node/413370337"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/447811303",
+		  "branch": "Landemærket",
+		  "brand": "Netto",
+		  "brand:wikidata": "Q552652",
+		  "brand:wikipedia": "da:Netto (supermarkedskæde)",
+		  "fvst:navnelbnr": "114568",
+		  "name": "Netto",
+		  "name:fa": "نتو",
+		  "opening_hours": "Mo-Su 07:00-22:00",
+		  "phone": "+45 87 78 78 11",
+		  "ref:DK:cvr": "35954716",
+		  "ref:DK:cvr:pnummer": "1003015998",
+		  "shop": "supermarket",
+		  "website": "http://netto.dk"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5764493,
+			55.6821226
+		  ]
+		},
+		"id": "node/447811303"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/458356358",
+		  "check_date": "2024-10-26",
+		  "name": "Kihoskh",
+		  "opening_hours": "Su-Th 07:00-01:00, Fr,Sa 07:00-02:00",
+		  "phone": "+45 33311198",
+		  "shop": "convenience",
+		  "website": "https://www.kihoskh.dk/"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5529582,
+			55.666462
+		  ]
+		},
+		"id": "node/458356358"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/496192695",
+		  "branch": "Nørreport",
+		  "brand": "Netto",
+		  "brand:wikidata": "Q552652",
+		  "brand:wikipedia": "da:Netto (supermarkedskæde)",
+		  "check_date": "2024-10-24",
+		  "check_date:opening_hours": "2024-10-24",
+		  "fvst:navnelbnr": "112646",
+		  "name": "Netto",
+		  "opening_hours": "Mo-Su 07:00-23:00",
+		  "ref:DK:cvr": "35954716",
+		  "shop": "supermarket",
+		  "wheelchair": "no"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.573028,
+			55.683675
+		  ]
+		},
+		"id": "node/496192695"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/514241071",
+		  "branch": "Borgergade",
+		  "brand": "SuperBrugsen",
+		  "brand:wikidata": "Q12337746",
+		  "fvst:navnelbnr": "115430",
+		  "name": "SuperBrugsen",
+		  "opening_hours": "Mo-Su 08:00-21:45",
+		  "phone": "+4533364950",
+		  "ref:DK:cvr": "26259495",
+		  "ref:DK:cvr:pnummer": "1003078830",
+		  "shop": "supermarket",
+		  "website": "https://superbrugsen.dk/",
+		  "wheelchair": "yes"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.586612,
+			55.685181
+		  ]
+		},
+		"id": "node/514241071"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/514241073",
+		  "alt_name": "føtex food Dagligvarer",
+		  "brand": "Føtex",
+		  "brand:wikidata": "Q1480395",
+		  "fvst:navnelbnr": "757297",
+		  "name": "Føtex",
+		  "opening_hours": "07:00-24:00",
+		  "operator": "føtex",
+		  "phone": "+45 8778 2090",
+		  "ref:DK:cvr": "35954716",
+		  "ref:DK:cvr:pnummer": "1021741406",
+		  "shop": "supermarket",
+		  "website": "https://www.foetex.dk/kundeservice/find-din-foetex/s/501fd2ae-d570-4db3-91de-b87048623c25/k%C3%B8benhavn-k/%E2%80%8Bf%C3%B8tex-food-st.-kongensgade",
+		  "wheelchair": "no"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5868453,
+			55.6835484
+		  ]
+		},
+		"id": "node/514241073"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/514241075",
+		  "branch": "Sølvgade",
+		  "check_date": "2023-09-22",
+		  "fvst:navnelbnr": "660279",
+		  "name": "Føtex Food",
+		  "opening_hours": "07:00-22:00",
+		  "ref:DK:cvr": "35954716",
+		  "ref:DK:cvr:pnummer": "1021247800",
+		  "shop": "supermarket",
+		  "website": "https://foetex.dk",
+		  "wheelchair": "no"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5838521,
+			55.6860948
+		  ]
+		},
+		"id": "node/514241075"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/519533638",
+		  "branch": "Rådhuspladsen Frederiksberggade",
+		  "brand": "7-Eleven",
+		  "brand:wikidata": "Q259340",
+		  "brand:wikipedia": "en:7-Eleven",
+		  "fvst:navnelbnr": "557038",
+		  "name": "7-Eleven",
+		  "opening_hours": "24/7",
+		  "operator": "7-Eleven",
+		  "ref": "8",
+		  "ref:DK:cvr": "36091169",
+		  "ref:DK:cvr:pnummer": "1020006974",
+		  "shop": "convenience",
+		  "wheelchair": "yes"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5693383,
+			55.6765502
+		  ]
+		},
+		"id": "node/519533638"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/519533643",
+		  "branch": "Højbro Plads",
+		  "brand": "7-Eleven",
+		  "brand:wikidata": "Q259340",
+		  "brand:wikipedia": "en:7-Eleven",
+		  "fvst:navnelbnr": "115981",
+		  "name": "7-Eleven",
+		  "opening_hours": "24/7",
+		  "operator": "7-Eleven",
+		  "ref": "52",
+		  "ref:DK:cvr": "29779341",
+		  "ref:DK:cvr:pnummer": "1009679169",
+		  "shop": "convenience",
+		  "source": "Kaart Ground Survey 2017"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5804078,
+			55.6779048
+		  ]
+		},
+		"id": "node/519533643"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/532495555",
+		  "branch": "Amagercentret",
+		  "brand": "Føtex",
+		  "brand:wikidata": "Q1480395",
+		  "check_date": "2025-03-17",
+		  "fvst:navnelbnr": "112273",
+		  "name": "Føtex",
+		  "opening_hours": "Mo-Su 07:00-21:00",
+		  "ref:DK:cvr": "35954716",
+		  "ref:DK:cvr:pnummer": "1003151755",
+		  "shop": "supermarket",
+		  "wheelchair": "yes"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.6054451,
+			55.6629421
+		  ]
+		},
+		"id": "node/532495555"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/543379764",
+		  "brand": "Rema 1000",
+		  "brand:wikidata": "Q28459",
+		  "fvst:navnelbnr": "1286941",
+		  "name": "Rema 1000",
+		  "opening_hours": "Mo-Fr 08:00-21:00; Sa 08:00-18:00",
+		  "ref:DK:cvr": "29788413",
+		  "ref:DK:cvr:pnummer": "1012760082",
+		  "shop": "supermarket"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5668579,
+			55.6538258
+		  ]
+		},
+		"id": "node/543379764"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/560942649",
+		  "branch": "Kultorvet",
+		  "brand": "7-Eleven",
+		  "brand:wikidata": "Q259340",
+		  "brand:wikipedia": "en:7-Eleven",
+		  "check_date": "2025-04-08",
+		  "fvst:navnelbnr": "795779",
+		  "name": "7-Eleven Kultorvet",
+		  "opening_hours": "24/7",
+		  "operator": "7-Eleven",
+		  "ref": "27",
+		  "ref:DK:cvr": "40262741",
+		  "ref:DK:cvr:pnummer": "1024433915",
+		  "shop": "convenience",
+		  "wheelchair": "yes"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5746651,
+			55.6821656
+		  ]
+		},
+		"id": "node/560942649"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/571774093",
+		  "fvst:name": "Netto",
+		  "fvst:navnelbnr": "118726",
+		  "name": "Døgn Netto",
+		  "opening_hours": "Mo-Su 07:00-22:00",
+		  "operator": "Netto",
+		  "ref": "NETTO:246",
+		  "ref:DK:cvr": "35954716",
+		  "ref:DK:cvr:pnummer": "1015069070",
+		  "shop": "supermarket",
+		  "website": "http://kort.krak.dk/netto2002/netto.asp?butiknr=246",
+		  "wheelchair": "yes"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.540283,
+			55.6693343
+		  ]
+		},
+		"id": "node/571774093"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/611353710",
+		  "branch": "Smallegade",
+		  "brand": "Rema 1000",
+		  "brand:wikidata": "Q28459",
+		  "brand:wikipedia": "en:REMA 1000",
+		  "fvst:navnelbnr": "1014323",
+		  "name": "Rema 1000",
+		  "ref:DK:cvr": "28966423",
+		  "ref:DK:cvr:pnummer": "1011614007",
+		  "shop": "supermarket",
+		  "wheelchair": "yes"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5307687,
+			55.6788708
+		  ]
+		},
+		"id": "node/611353710"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/660828310",
+		  "brand": "7-Eleven",
+		  "brand:wikidata": "Q259340",
+		  "brand:wikipedia": "en:7-Eleven",
+		  "fvst:name": "7-Eleven Butik 66",
+		  "fvst:navnelbnr": "1468942",
+		  "name": "7-Eleven",
+		  "opening_hours": "24/7",
+		  "operator": "7-Eleven",
+		  "phone": "+45 32 57 85 01",
+		  "ref": "66",
+		  "ref:DK:cvr": "40509763",
+		  "ref:DK:cvr:pnummer": "1031050916",
+		  "shop": "convenience",
+		  "website": "https://www.7-eleven.dk/"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5836322,
+			55.6643383
+		  ]
+		},
+		"id": "node/660828310"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/672699435",
+		  "branch": "Fisketorvet",
+		  "brand": "Føtex",
+		  "brand:wikidata": "Q1480395",
+		  "brand:wikipedia": "en:Føtex",
+		  "fvst:navnelbnr": "110836",
+		  "level": "1",
+		  "name": "Føtex Fisketorvet",
+		  "post_office": "post_partner",
+		  "ref:DK:cvr": "35954716",
+		  "ref:DK:cvr:pnummer": "1007949592",
+		  "shop": "supermarket"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5599029,
+			55.6616576
+		  ]
+		},
+		"id": "node/672699435"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/674781256",
+		  "alt_name": "Dybbølskiosken",
+		  "branch": "Dybbølsgade",
+		  "check_date": "2023-07-28",
+		  "fvst:navnelbnr": "110644",
+		  "name": "Elite Købmand",
+		  "ref:DK:cvr": "17713701",
+		  "ref:DK:cvr:pnummer": "1003239286",
+		  "shop": "convenience",
+		  "wheelchair": "yes"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5499389,
+			55.6668763
+		  ]
+		},
+		"id": "node/674781256"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/674781631",
+		  "check_date": "2023-07-28",
+		  "fvst:navnelbnr": "115272",
+		  "name": "Kaffehjørnet",
+		  "phone": "+45 3322 3459",
+		  "ref:DK:cvr": "26958318",
+		  "ref:DK:cvr:pnummer": "1009636877",
+		  "shop": "convenience",
+		  "wheelchair": "no"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5489959,
+			55.6670159
+		  ]
+		},
+		"id": "node/674781631"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/674806668",
+		  "branch": "København SV",
+		  "brand": "SuperBrugsen",
+		  "brand:wikidata": "Q12337746",
+		  "check_date": "2024-09-13",
+		  "check_date:opening_hours": "2021-02-25",
+		  "fvst:navnelbnr": "501734",
+		  "name": "SuperBrugsen",
+		  "opening_hours": "08:00-21:45",
+		  "ref:DK:cvr": "26259495",
+		  "ref:DK:cvr:pnummer": "1017254762",
+		  "shop": "supermarket",
+		  "wheelchair": "yes"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5457398,
+			55.6697372
+		  ]
+		},
+		"id": "node/674806668"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/674820098",
+		  "branch": "Vesterbrogade 77",
+		  "brand": "7-Eleven",
+		  "brand:wikidata": "Q259340",
+		  "brand:wikipedia": "en:7-Eleven",
+		  "fvst:name": "7-Eleven Butik 3",
+		  "fvst:navnelbnr": "1242837",
+		  "name": "7-Eleven",
+		  "opening_hours": "24/7",
+		  "operator": "7-Eleven",
+		  "ref": "3",
+		  "ref:DK:cvr": "43320793",
+		  "ref:DK:cvr:pnummer": "1028326277",
+		  "shop": "convenience",
+		  "wheelchair": "no"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5495083,
+			55.6724277
+		  ]
+		},
+		"id": "node/674820098"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/674848691",
+		  "check_date": "2024-12-27",
+		  "fvst:navnelbnr": "116206",
+		  "name": "Monni's Kiosk",
+		  "phone": "+45 33316914",
+		  "ref:DK:cvr": "13200432",
+		  "ref:DK:cvr:pnummer": "1000519215",
+		  "shop": "convenience",
+		  "wheelchair": "no"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5527998,
+			55.6691803
+		  ]
+		},
+		"id": "node/674848691"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/675705338",
+		  "branch": "Fisketorvet",
+		  "fvst:navnelbnr": "666838",
+		  "level": "1",
+		  "name": "Kiosk Bien",
+		  "ref:DK:cvr": "37835269",
+		  "ref:DK:cvr:pnummer": "1021550872",
+		  "shop": "convenience"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5625232,
+			55.6623254
+		  ]
+		},
+		"id": "node/675705338"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/676008381",
+		  "check_date": "2023-03-29",
+		  "name": "Kiosk 1001 nat",
+		  "opening_hours": "24/7",
+		  "shop": "convenience",
+		  "wheelchair": "no"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5507322,
+			55.6685277
+		  ]
+		},
+		"id": "node/676008381"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/677512543",
+		  "brand": "Netto",
+		  "brand:wikidata": "Q552652",
+		  "brand:wikipedia": "da:Netto (supermarkedskæde)",
+		  "check_date": "2025-03-25",
+		  "fvst:navnelbnr": "112756",
+		  "name": "Netto",
+		  "opening_hours": "Mo-Su 07:00-22:00",
+		  "payment:cash": "yes",
+		  "payment:credit_cards": "yes",
+		  "payment:debit_cards": "yes",
+		  "ref:DK:cvr": "35954716",
+		  "ref:DK:cvr:pnummer": "1010166884",
+		  "shop": "supermarket",
+		  "website": "https://netto.dk/"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5727309,
+			55.6601982
+		  ]
+		},
+		"id": "node/677512543"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/677521420",
+		  "brand": "365discount",
+		  "brand:wikidata": "Q104671354",
+		  "name": "365discount",
+		  "opening_hours": "Mo-Su 07:00-22:00",
+		  "shop": "supermarket"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5674034,
+			55.6580716
+		  ]
+		},
+		"id": "node/677521420"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/693201595",
+		  "branch": "Kingosgade Frederiksberg C",
+		  "brand": "365discount",
+		  "brand:wikidata": "Q104671354",
+		  "fvst:navnelbnr": "112985",
+		  "name": "Coop 365",
+		  "opening_hours": "Mo-Su 08:00-22:00",
+		  "operator": "Fakta",
+		  "ref:DK:cvr": "11517498",
+		  "ref:DK:cvr:pnummer": "1003168961",
+		  "shop": "supermarket",
+		  "website": "https://coop365.coop.dk/find-butik/",
+		  "wheelchair": "yes"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5447664,
+			55.6723222
+		  ]
+		},
+		"id": "node/693201595"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/693235571",
+		  "branch": "København V, Rejsbygade",
+		  "brand": "Rema 1000",
+		  "fvst:navnelbnr": "1447443",
+		  "name": "Rema 1000 København V, Rejsbygade",
+		  "note": "Temporarily closed for renovation",
+		  "ref:DK:cvr": "42689742",
+		  "ref:DK:cvr:pnummer": "1027547571",
+		  "shop": "supermarket",
+		  "start_date": "2025-11-01",
+		  "website": "https://rema1000.dk/find-butik-og-abningstider/526"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.543338,
+			55.6687623
+		  ]
+		},
+		"id": "node/693235571"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/698490578",
+		  "brand": "7-Eleven",
+		  "brand:wikidata": "Q259340",
+		  "brand:wikipedia": "en:7-Eleven",
+		  "name": "7-Eleven Ved Vesterport 3, KBH V",
+		  "opening_hours": "24/7",
+		  "shop": "convenience",
+		  "wheelchair": "yes"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5622382,
+			55.6752462
+		  ]
+		},
+		"id": "node/698490578"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/698799082",
+		  "fvst:navnelbnr": "115971",
+		  "name": "Trust",
+		  "opening_hours": "PH,Mo-Su 12:00-22:00",
+		  "ref:DK:cvr": "26465729",
+		  "ref:DK:cvr:pnummer": "1011896800",
+		  "shop": "convenience"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5571157,
+			55.6689489
+		  ]
+		},
+		"id": "node/698799082"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/698801613",
+		  "alt_name": "International Kiosk & spillehal",
+		  "amenity": "gambling",
+		  "fvst:fixme": "fvst:no_pos",
+		  "fvst:navnelbnr": "1421142",
+		  "name": "International Kiosk",
+		  "opening_hours": "24/7",
+		  "operator": "Elite Købmand",
+		  "ref:DK:cvr": "43505556",
+		  "ref:DK:cvr:pnummer": "1028565905",
+		  "shop": "convenience",
+		  "wheelchair": "limited"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.557217,
+			55.6704837
+		  ]
+		},
+		"id": "node/698801613"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/709104219",
+		  "branch": "Christianshavn",
+		  "brand": "SuperBrugsen",
+		  "brand:wikidata": "Q12337746",
+		  "brand:wikipedia": "en:SuperBrugsen",
+		  "fvst:navnelbnr": "115428",
+		  "name": "SuperBrugsen Christianshavn",
+		  "opening_hours": "Mo-Su 08:00-22:00",
+		  "ref:DK:cvr": "26259495",
+		  "ref:DK:cvr:pnummer": "1003078180",
+		  "shop": "supermarket",
+		  "wheelchair": "yes"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5912305,
+			55.6719051
+		  ]
+		},
+		"id": "node/709104219"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/725385056",
+		  "branch": "Istergade 2, KBH V",
+		  "brand": "7-Eleven",
+		  "brand:wikidata": "Q259340",
+		  "brand:wikipedia": "en:7-Eleven",
+		  "fvst:name": "7-Eleven Butik 65",
+		  "fvst:navnelbnr": "1478072",
+		  "name": "7-Eleven Istergade 2, KBH V",
+		  "opening_hours": "24/7",
+		  "operator": "7-Eleven",
+		  "ref:DK:cvr": "42524735",
+		  "ref:DK:cvr:pnummer": "1031101316",
+		  "shop": "convenience"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5633542,
+			55.67246
+		  ]
+		},
+		"id": "node/725385056"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/727441226",
+		  "branch": "Matthæusgade",
+		  "brand": "Netto",
+		  "brand:wikidata": "Q552652",
+		  "brand:wikipedia": "da:Netto (supermarkedskæde)",
+		  "fvst:navnelbnr": "113176",
+		  "name": "Netto",
+		  "opening_hours": "Mo-Su 08:00-22:00",
+		  "ref:DK:cvr": "35954716",
+		  "ref:DK:cvr:pnummer": "1004057669",
+		  "shop": "supermarket",
+		  "wheelchair": "yes"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5472998,
+			55.6697942
+		  ]
+		},
+		"id": "node/727441226"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/733937951",
+		  "branch": "H.C. Ørsteds Vej",
+		  "fvst:navnelbnr": "571071",
+		  "name": "Købmand",
+		  "post_office": "post_partner",
+		  "post_office:service_provider": "dao",
+		  "ref:DK:cvr": "36213078",
+		  "ref:DK:cvr:pnummer": "1020586563",
+		  "shop": "convenience",
+		  "source": "survey"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5485471,
+			55.680513
+		  ]
+		},
+		"id": "node/733937951"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/734870386",
+		  "alt_name": "Eng pakkeshop",
+		  "fvst:navnelbnr": "964712",
+		  "name": "Eng Kiosken",
+		  "post_office": "post_partner",
+		  "post_office:service_provider": "dao",
+		  "ref:DK:cvr": "39589265",
+		  "ref:DK:cvr:pnummer": "1023639188",
+		  "shop": "convenience",
+		  "wheelchair": "no"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5451263,
+			55.6693503
+		  ]
+		},
+		"id": "node/734870386"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/737887200",
+		  "name": "East West Food",
+		  "shop": "convenience"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5463482,
+			55.6718489
+		  ]
+		},
+		"id": "node/737887200"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/737887215",
+		  "name": "Kiosk",
+		  "post_office": "post_partner",
+		  "post_office:service_provider": "dao",
+		  "shop": "convenience",
+		  "wheelchair": "no"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5489328,
+			55.6677465
+		  ]
+		},
+		"id": "node/737887215"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/737887228",
+		  "check_date": "2023-04-17",
+		  "fvst:navnelbnr": "124076",
+		  "name": "Thai Supermarket",
+		  "opening_hours": "Mo-Fr 10:00-19:00; Sa 10:00-18:00; Su 12:00-17:00",
+		  "phone": "+45 3379 4345",
+		  "ref:DK:cvr": "34045070",
+		  "shop": "convenience",
+		  "website": "http://thaisupermarket.dk/"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5488611,
+			55.6679993
+		  ]
+		},
+		"id": "node/737887228"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/738821349",
+		  "check_date": "2023-05-22",
+		  "fvst:navnelbnr": "794675",
+		  "name": "Moughal Food Store",
+		  "ref:DK:cvr": "33696515",
+		  "ref:DK:cvr:pnummer": "1021313994",
+		  "shop": "convenience",
+		  "wheelchair": "no"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5451843,
+			55.6715661
+		  ]
+		},
+		"id": "node/738821349"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/745809489",
+		  "branch": "Enghavevej",
+		  "check_date": "2025-05-19",
+		  "fvst:navnelbnr": "110628",
+		  "name": "Minimarked",
+		  "ref:DK:cvr": "13925097",
+		  "ref:DK:cvr:pnummer": "1000650171",
+		  "shop": "convenience",
+		  "wheelchair": "no"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5426035,
+			55.6641007
+		  ]
+		},
+		"id": "node/745809489"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/746302700",
+		  "check_date": "2023-04-24",
+		  "fvst:navnelbnr": "980891",
+		  "name": "Enghave Minimarked",
+		  "opening_hours": "24/7",
+		  "phone": "+45 3321 6838",
+		  "ref:DK:cvr": "37936871",
+		  "ref:DK:cvr:pnummer": "1021669098",
+		  "shop": "convenience",
+		  "website": "http://www.dit-supermarked.dk/enghave-minimarked-koebenhavn-v.htm",
+		  "wheelchair": "no"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5438192,
+			55.6658066
+		  ]
+		},
+		"id": "node/746302700"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/746586044",
+		  "name": "Online Kiosk",
+		  "opening_hours": "24/7",
+		  "shop": "convenience",
+		  "wheelchair": "no"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5399119,
+			55.6700915
+		  ]
+		},
+		"id": "node/746586044"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/765066599",
+		  "check_date": "2023-07-06",
+		  "fvst:navnelbnr": "117942",
+		  "name": "Kabul marked",
+		  "phone": "+45 50 26 50 26",
+		  "ref:DK:cvr": "29930465",
+		  "shop": "convenience"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5640034,
+			55.6716988
+		  ]
+		},
+		"id": "node/765066599"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/780177307",
+		  "branch": "Lyneborggade",
+		  "brand": "Netto",
+		  "brand:wikidata": "Q552652",
+		  "brand:wikipedia": "da:Netto (supermarkedskæde)",
+		  "fvst:navnelbnr": "118300",
+		  "name": "Netto Sadolinparken",
+		  "opening_hours": "Mo-Su 07:00-22:00",
+		  "ref:DK:cvr": "35954716",
+		  "shop": "supermarket",
+		  "website": "https://netto.dk/butikker/koebenhavn-s/lyneborggade-5-7/6ba6a67877c94368910fb65c421ae59a/"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.6097924,
+			55.6651131
+		  ]
+		},
+		"id": "node/780177307"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/803824744",
+		  "check_date": "2023-06-05",
+		  "name": "Indkøbscentralen",
+		  "opening_hours": "Mo,We-Su 08:00-20:00; Tu 12:00-20:00",
+		  "shop": "convenience",
+		  "toilets:wheelchair": "no",
+		  "wheelchair": "limited"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.602796,
+			55.6736309
+		  ]
+		},
+		"id": "node/803824744"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/807644937",
+		  "brand": "Meny",
+		  "brand:wikidata": "Q10581720",
+		  "brand:wikipedia": "en:Meny",
+		  "check_date:opening_hours": "2023-04-26",
+		  "fvst:navnelbnr": "714497",
+		  "name": "MENY Amager",
+		  "opening_hours": "Mo-Su 08:00-20:00",
+		  "operator": "MENY",
+		  "post_office": "post_partner",
+		  "post_office:brand": "PostNord",
+		  "post_office:brand:wikidata": "Q3181430",
+		  "post_office:brand:wikipedia": "en:PostNord",
+		  "post_office:service_provider": "Post Danmark A/S",
+		  "post_office:service_provider:website": "https://www.postnord.dk",
+		  "post_office:service_provider:wikidata": "Q1334647",
+		  "post_office:service_provider:wikipedia": "da:PostNord Danmark",
+		  "post_office:website": "https://www.postnord.dk",
+		  "ref:DK:cvr": "38714295",
+		  "ref:DK:cvr:pnummer": "1022597880",
+		  "shop": "supermarket",
+		  "website": "https://meny.dk/"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.6075277,
+			55.6686776
+		  ]
+		},
+		"id": "node/807644937"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/845290903",
+		  "atm": "yes",
+		  "branch": "Store Kongensgade",
+		  "brand": "Netto",
+		  "brand:wikidata": "Q552652",
+		  "brand:wikipedia": "da:Netto (supermarkedskæde)",
+		  "check_date:opening_hours": "2024-10-24",
+		  "fvst:navnelbnr": "754131",
+		  "name": "Netto",
+		  "name:fa": "نتو",
+		  "opening_hours": "Mo-Su 07:00-22:00",
+		  "operator": "Danske Bank",
+		  "phone": "+45 8778 7811",
+		  "ref:DK:cvr": "35954716",
+		  "ref:DK:cvr:pnummer": "1003016933",
+		  "shop": "supermarket",
+		  "website": "https://netto.dk/",
+		  "wheelchair": "yes"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.587007,
+			55.6837826
+		  ]
+		},
+		"id": "node/845290903"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/853742408",
+		  "name": "Silvan",
+		  "shop": "convenience"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5991415,
+			55.6660496
+		  ]
+		},
+		"id": "node/853742408"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/853742413",
+		  "fvst:navnelbnr": "1272727",
+		  "name": "BogB Shop Amager",
+		  "opening_hours": "Mo-Su 08:00-24:00",
+		  "ref:DK:cvr": "35514139",
+		  "ref:DK:cvr:pnummer": "1028853080",
+		  "shop": "convenience",
+		  "wheelchair": "no"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5982221,
+			55.6669858
+		  ]
+		},
+		"id": "node/853742413"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/870326483",
+		  "fvst:navnelbnr": "528573",
+		  "name": "Kiosk",
+		  "post_office": "post_partner",
+		  "post_office:service_provider": "gls",
+		  "ref:DK:cvr": "33608918",
+		  "ref:DK:cvr:pnummer": "1018594761",
+		  "shop": "convenience"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5788659,
+			55.6659911
+		  ]
+		},
+		"id": "node/870326483"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/885844996",
+		  "fvst:navnelbnr": "130319",
+		  "name": "Inco",
+		  "phone": "+45 33211421",
+		  "shop": "supermarket",
+		  "website": "https://inco.dk/butikker/koebenhavn/",
+		  "wholesale": "yes"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5599965,
+			55.6668998
+		  ]
+		},
+		"id": "node/885844996"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/893948776",
+		  "brand": "7-Eleven",
+		  "brand:wikidata": "Q259340",
+		  "brand:wikipedia": "en:7-Eleven",
+		  "check_date": "2024-08-29",
+		  "fvst:name": "7-Eleven Butik 49",
+		  "fvst:navnelbnr": "915962",
+		  "name": "7-Eleven",
+		  "opening_hours": "24/7",
+		  "operator": "7-Eleven",
+		  "ref:DK:cvr": "40747958",
+		  "ref:DK:cvr:pnummer": "1024985969",
+		  "shop": "convenience",
+		  "wheelchair": "no"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5574773,
+			55.6725441
+		  ]
+		},
+		"id": "node/893948776"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/894201456",
+		  "fvst:navnelbnr": "110640",
+		  "name": "Turs Havneproviant",
+		  "ref:DK:cvr": "17624970",
+		  "ref:DK:cvr:pnummer": "1001326373",
+		  "shop": "convenience"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5893076,
+			55.6806409
+		  ]
+		},
+		"id": "node/894201456"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/894346413",
+		  "fixme": "what operator is this? it is not listed on postnord.dk",
+		  "name": "Let Køb",
+		  "post_office": "yes",
+		  "shop": "convenience"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5904277,
+			55.6874159
+		  ]
+		},
+		"id": "node/894346413"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/898915799",
+		  "branch": "Gothersgade",
+		  "brand": "7-Eleven",
+		  "brand:wikidata": "Q259340",
+		  "fvst:name": "7-Eleven Butik 21",
+		  "fvst:navnelbnr": "1276067",
+		  "name": "7-Eleven",
+		  "opening_hours": "24/7",
+		  "operator": "7-Eleven",
+		  "phone": "+45 33 16 27 11",
+		  "ref": "21",
+		  "ref:DK:cvr": "43706373",
+		  "ref:DK:cvr:pnummer": "1028834655",
+		  "shop": "convenience",
+		  "wheelchair": "yes"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5840116,
+			55.6819424
+		  ]
+		},
+		"id": "node/898915799"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/940424832",
+		  "branch": "Christianshavn",
+		  "fvst:navnelbnr": "111340",
+		  "name": "SuperBrugsen Kiosk",
+		  "opening_hours": "Mo-Fr 08:00-20:00; Sa 08:00-18:00; Su 10:00-17:00",
+		  "ref:DK:cvr": "26259495",
+		  "ref:DK:cvr:pnummer": "1003078180",
+		  "shop": "convenience",
+		  "wheelchair": "yes"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5914089,
+			55.671812
+		  ]
+		},
+		"id": "node/940424832"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/1003208127",
+		  "alt_name": "Yilans City Shop",
+		  "fvst:navnelbnr": "665794",
+		  "name": "Yilans",
+		  "opening_hours": "Mo-Th 05:00-22:00; Fr 05:00-24:00; Sa 07:00-24:00; PH,Su 08:00-10:00",
+		  "ref:DK:cvr": "38036807",
+		  "ref:DK:cvr:pnummer": "1021781653",
+		  "shop": "convenience"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.572257,
+			55.671445
+		  ]
+		},
+		"id": "node/1003208127"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/1080851648",
+		  "name": "Stefanos Grønne Hjørne",
+		  "shop": "greengrocer",
+		  "wheelchair": "no"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5434255,
+			55.6948367
+		  ]
+		},
+		"id": "node/1080851648"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/1109570611",
+		  "branch": "Nørrebrogade",
+		  "brand": "Netto",
+		  "brand:wikidata": "Q552652",
+		  "brand:wikipedia": "da:Netto (supermarkedskæde)",
+		  "check_date:opening_hours": "2024-08-13",
+		  "fvst:navnelbnr": "114574",
+		  "name": "Netto",
+		  "opening_hours": "Mo-Su 07:00-24:00",
+		  "ref:DK:cvr": "35954716",
+		  "ref:DK:cvr:pnummer": "1003017928",
+		  "shop": "supermarket",
+		  "wheelchair": "yes"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.545982,
+			55.696374
+		  ]
+		},
+		"id": "node/1109570611"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/1109570732",
+		  "name": "Top Star Mix",
+		  "opening_hours:signed": "no",
+		  "shop": "greengrocer",
+		  "wheelchair": "yes"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5495918,
+			55.6947203
+		  ]
+		},
+		"id": "node/1109570732"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/1153588545",
+		  "brand": "7-Eleven",
+		  "brand:wikidata": "Q259340",
+		  "fvst:navnelbnr": "913998",
+		  "name": "7-Eleven",
+		  "opening_hours": "24/7",
+		  "operator": "7-Eleven",
+		  "ref": "13",
+		  "ref:DK:cvr": "36901071",
+		  "ref:DK:cvr:pnummer": "1025028135",
+		  "shop": "convenience"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5707486,
+			55.6822901
+		  ]
+		},
+		"id": "node/1153588545"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/1165931111",
+		  "branch": "Tagensvej",
+		  "brand": "Netto",
+		  "brand:wikidata": "Q552652",
+		  "brand:wikipedia": "da:Netto (supermarkedskæde)",
+		  "check_date": "2023-04-26",
+		  "fvst:navnelbnr": "113425",
+		  "name": "Netto",
+		  "opening_hours": "Mo-Fr 07:00-22:00; Sa-Su 8:00-22:00",
+		  "ref:DK:cvr": "35954716",
+		  "shop": "supermarket",
+		  "wheelchair": "yes"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.552929,
+			55.699869
+		  ]
+		},
+		"id": "node/1165931111"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/1185821663",
+		  "branch": "Nansensgade",
+		  "brand": "Min Købmand",
+		  "brand:wikidata": "Q104310815",
+		  "fvst:navnelbnr": "1271817",
+		  "name": "Min Købmand",
+		  "opening_hours": "Mo-Fr 08:00-21:00; Sa-Su 09:00-21:00",
+		  "payment:cash": "yes",
+		  "payment:credit_cards": "yes",
+		  "ref:DK:cvr": "43603485",
+		  "ref:DK:cvr:pnummer": "1028695914",
+		  "shop": "supermarket"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5629626,
+			55.6821757
+		  ]
+		},
+		"id": "node/1185821663"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/1197295357",
+		  "branch": "Nørrebros Runddel",
+		  "brand": "7-Eleven",
+		  "brand:wikidata": "Q259340",
+		  "fvst:navnelbnr": "789153",
+		  "name": "7-Eleven",
+		  "opening_hours": "24/7",
+		  "ref:DK:cvr": "40092919",
+		  "ref:DK:cvr:pnummer": "1024214539",
+		  "shop": "convenience",
+		  "wheelchair": "limited"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5483107,
+			55.6945134
+		  ]
+		},
+		"id": "node/1197295357"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/1197295372",
+		  "branch": "Nørrebrogade/Elmegade",
+		  "brand": "7-Eleven",
+		  "brand:wikidata": "Q259340",
+		  "fvst:navnelbnr": "566301",
+		  "name": "7-Eleven",
+		  "opening_hours": "24/7",
+		  "operator": "7-Eleven",
+		  "ref": "54",
+		  "ref:DK:cvr": "36414847",
+		  "ref:DK:cvr:pnummer": "1020493123",
+		  "shop": "convenience",
+		  "survey:date": "2023-12-30",
+		  "wheelchair": "no"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5574674,
+			55.6892459
+		  ]
+		},
+		"id": "node/1197295372"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/1197295414",
+		  "brand": "7-Eleven",
+		  "brand:wikidata": "Q259340",
+		  "brand:wikipedia": "en:7-Eleven",
+		  "check_date": "2023-12-09",
+		  "name": "7-Eleven",
+		  "opening_hours": "24/7",
+		  "shop": "convenience",
+		  "wheelchair": "limited"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5605754,
+			55.6903974
+		  ]
+		},
+		"id": "node/1197295414"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/1197486648",
+		  "branch": "Nørrebrogade",
+		  "brand": "Netto",
+		  "brand:wikidata": "Q552652",
+		  "brand:wikipedia": "da:Netto (supermarkedskæde)",
+		  "fvst:navnelbnr": "114577",
+		  "name": "Netto",
+		  "name:fa": "نتو",
+		  "opening_hours": "Mo-Su,PH 07:00-22:00",
+		  "ref:DK:cvr": "35954716",
+		  "ref:DK:cvr:pnummer": "1008467427",
+		  "shop": "supermarket",
+		  "wheelchair": "limited",
+		  "wheelchair:description": "Kunne godt gøre mere for toiletforholdene"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5578023,
+			55.6888362
+		  ]
+		},
+		"id": "node/1197486648"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/1197486718",
+		  "branch": "Nørrebrogade",
+		  "brand": "SuperBrugsen",
+		  "brand:wikidata": "Q12337746",
+		  "fvst:navnelbnr": "115431",
+		  "name": "SuperBrugsen",
+		  "opening_hours": "08:00-22:00",
+		  "ref:DK:cvr": "26259495",
+		  "ref:DK:cvr:pnummer": "1003079151",
+		  "shop": "supermarket",
+		  "survey:date": "2023-12-30",
+		  "wheelchair": "yes"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5560932,
+			55.689451
+		  ]
+		},
+		"id": "node/1197486718"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/1200013172",
+		  "branch": "Borups Plads",
+		  "brand": "Coop 365discount",
+		  "brand:wikidata": "Q104671354",
+		  "fvst:navnelbnr": "113507",
+		  "name": "365discount",
+		  "opening_hours": "Mo-Su 08:00-22:00",
+		  "ref:DK:cvr": "11517498",
+		  "ref:DK:cvr:pnummer": "1003167643",
+		  "shop": "supermarket",
+		  "wheelchair": "yes"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5383679,
+			55.6918594
+		  ]
+		},
+		"id": "node/1200013172"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/1200105792",
+		  "branch": "Kbh N. Nørrebrogade",
+		  "brand": "365discount",
+		  "brand:wikidata": "Q104671354",
+		  "fvst:navnelbnr": "112077",
+		  "name": "365discount Kbh N. Nørrebrogade",
+		  "opening_hours": "Mo-Su 08:00-22:00",
+		  "ref:DK:cvr": "11517498",
+		  "ref:DK:cvr:pnummer": "1003168353",
+		  "shop": "supermarket"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5613332,
+			55.6878171
+		  ]
+		},
+		"id": "node/1200105792"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/1200134338",
+		  "branch": "Sønder Boulevard",
+		  "check_date": "2025-04-11",
+		  "check_date:opening_hours": "2025-04-11",
+		  "fvst:navnelbnr": "114911",
+		  "name": "Elite Købmand",
+		  "opening_hours": "Mo-Sa 07:00-22:00; Su 08:00-22:00",
+		  "ref:DK:cvr": "29238537",
+		  "shop": "convenience"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5477897,
+			55.6646229
+		  ]
+		},
+		"id": "node/1200134338"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/1216069379",
+		  "fvst:navnelbnr": "574240",
+		  "name": "Spidsroden",
+		  "opening_hours": "Mo-Fr 08:00-18:00; Sa 10:00-18:00; Su 10:00-17:00",
+		  "ref:DK:cvr": "37156590",
+		  "ref:DK:cvr:pnummer": "1020813284",
+		  "shop": "convenience"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5545244,
+			55.688041
+		  ]
+		},
+		"id": "node/1216069379"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/1216069878",
+		  "fvst:name": "LM Marked / Import & Eksport Dagligvarer",
+		  "fvst:navnelbnr": "646285",
+		  "name": "LM Market",
+		  "ref:DK:cvr": "19628485",
+		  "ref:DK:cvr:pnummer": "1009837058",
+		  "shop": "greengrocer"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5551782,
+			55.6892415
+		  ]
+		},
+		"id": "node/1216069878"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/1224127588",
+		  "branch": "Torvegade",
+		  "brand": "7-Eleven",
+		  "brand:wikidata": "Q259340",
+		  "brand:wikipedia": "en:7-Eleven",
+		  "fvst:navnelbnr": "983350",
+		  "name": "7-Eleven",
+		  "opening_hours": "24/7",
+		  "operator": "7-Eleven",
+		  "ref": "5",
+		  "ref:DK:cvr": "40092919",
+		  "ref:DK:cvr:pnummer": "1026931343",
+		  "shop": "convenience",
+		  "wheelchair": "limited"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5923625,
+			55.6721123
+		  ]
+		},
+		"id": "node/1224127588"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/1224127592",
+		  "alt_name": "HJØRNETS MINI MARKET",
+		  "fvst:navnelbnr": "983560",
+		  "name": "Elite Købmand",
+		  "ref:DK:cvr": "27067034",
+		  "ref:DK:cvr:pnummer": "1026803469",
+		  "shop": "convenience"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5980149,
+			55.6746807
+		  ]
+		},
+		"id": "node/1224127592"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/1227091369",
+		  "branch": "Rantzausgade",
+		  "brand": "7-Eleven",
+		  "brand:wikidata": "Q259340",
+		  "check_date": "2025-04-26",
+		  "fvst:navnelbnr": "992268",
+		  "name": "7-Eleven",
+		  "opening_hours": "24/7",
+		  "operator": "7-Eleven",
+		  "ref": "12",
+		  "ref:DK:cvr": "36414847",
+		  "ref:DK:cvr:pnummer": "1027133327",
+		  "shop": "convenience",
+		  "wheelchair": "limited"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5521617,
+			55.6857187
+		  ]
+		},
+		"id": "node/1227091369"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/1228018872",
+		  "branch": "Nørrebrogade 190",
+		  "brand": "7-Eleven",
+		  "brand:wikidata": "Q259340",
+		  "brand:wikipedia": "en:7-Eleven",
+		  "fvst:navnelbnr": "717192",
+		  "name": "7-Eleven",
+		  "opening_hours": "24/7",
+		  "operator": "7-Eleven",
+		  "ref": "Butik 16",
+		  "ref:DK:cvr": "36414847",
+		  "ref:DK:cvr:pnummer": "1022842346",
+		  "shop": "convenience",
+		  "wheelchair": "yes"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5441493,
+			55.6975863
+		  ]
+		},
+		"id": "node/1228018872"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/1231330694",
+		  "fvst:navnelbnr": "112308",
+		  "name": "Bladudsalg",
+		  "post_office": "post_partner",
+		  "post_office:service_provider": "ups",
+		  "ref:DK:cvr": "13344787",
+		  "ref:DK:cvr:pnummer": "1000546488",
+		  "shop": "convenience",
+		  "wheelchair": "no"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5916847,
+			55.6738961
+		  ]
+		},
+		"id": "node/1231330694"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/1239313213",
+		  "name": "Købmandskælderen",
+		  "shop": "convenience"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.591425,
+			55.674869
+		  ]
+		},
+		"id": "node/1239313213"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/1239330374",
+		  "name": "Den Polske Købmand",
+		  "shop": "convenience",
+		  "website": "http://wisla.dk/"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5947617,
+			55.6722402
+		  ]
+		},
+		"id": "node/1239330374"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/1239333688",
+		  "name": "Lebara",
+		  "shop": "convenience"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5857924,
+			55.6704175
+		  ]
+		},
+		"id": "node/1239333688"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/1457621523",
+		  "brand": "365discount",
+		  "brand:wikidata": "Q104671354",
+		  "fvst:navnelbnr": "114726",
+		  "name": "365discount",
+		  "opening_hours": "Mo-Su 08:00-22:00",
+		  "operator": "Fakta",
+		  "ref:DK:cvr": "11517498",
+		  "ref:DK:cvr:pnummer": "1010416627",
+		  "shop": "supermarket",
+		  "wheelchair": "no"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5676544,
+			55.6842272
+		  ]
+		},
+		"id": "node/1457621523"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/1459361372",
+		  "alt_name": "Vietnam Supermarked",
+		  "check_date": "2025-03-18",
+		  "fvst:navnelbnr": "504442",
+		  "name": "Den Vietnamesiske Købmand",
+		  "opening_hours": "Mo-Fr 10:00-18:00; Sa 10:00-17:00; PH,Su 11:00-15:00",
+		  "ref:DK:cvr": "33851952",
+		  "ref:DK:cvr:pnummer": "1017136840",
+		  "shop": "supermarket",
+		  "website": "https://vietnamsupermarked.dk/"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.6069427,
+			55.6611129
+		  ]
+		},
+		"id": "node/1459361372"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/1463835531",
+		  "alt_name": "Tria Kiosk",
+		  "check_date:opening_hours": "2022-08-12",
+		  "fvst:navnelbnr": "658256",
+		  "name": "Elite Købmand",
+		  "opening_hours:signed": "no",
+		  "post_office": "post_partner",
+		  "post_office:service_provider": "gls,dao,postnord",
+		  "ref:DK:cvr": "34932913",
+		  "ref:DK:cvr:pnummer": "1021436786",
+		  "shop": "convenience",
+		  "wheelchair": "no"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5802238,
+			55.6983301
+		  ]
+		},
+		"id": "node/1463835531"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/1463838670",
+		  "branch": "Østerbrogade 52",
+		  "brand": "Brugsen",
+		  "fvst:navnelbnr": "114246",
+		  "name": "Brugsen",
+		  "opening_hours": "Mo-Su 09:00-21:00",
+		  "payment:credit_cards": "yes",
+		  "payment:debit_cards": "yes",
+		  "ref:DK:cvr": "26259495",
+		  "ref:DK:cvr:pnummer": "1003074045",
+		  "shop": "supermarket",
+		  "wheelchair": "yes"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5796015,
+			55.697257
+		  ]
+		},
+		"id": "node/1463838670"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/1473049650",
+		  "branch": "Jagtvej",
+		  "brand": "Føtex",
+		  "brand:wikidata": "Q1480395",
+		  "check_date:opening_hours": "2020-12-10",
+		  "fvst:navnelbnr": "576896",
+		  "name": "Føtex",
+		  "opening_hours": "07:00-22:00",
+		  "post_office": "post_partner",
+		  "post_office:brand": "PostNord",
+		  "post_office:brand:wikidata": "Q3181430",
+		  "post_office:brand:wikipedia": "en:PostNord",
+		  "post_office:service_provider": "Post Danmark A/S",
+		  "post_office:service_provider:website": "https://www.postnord.dk",
+		  "post_office:service_provider:wikidata": "Q1334647",
+		  "post_office:service_provider:wikipedia": "da:PostNord Danmark",
+		  "post_office:website": "https://www.postnord.dk",
+		  "ref:DK:cvr": "35954716",
+		  "ref:DK:cvr:pnummer": "1003017862",
+		  "shop": "supermarket",
+		  "wheelchair": "yes"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5537181,
+			55.6988848
+		  ]
+		},
+		"id": "node/1473049650"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/1475085208",
+		  "check_date": "2023-09-29",
+		  "name": "UFO Kiosk",
+		  "opening_hours:signed": "no",
+		  "shop": "convenience",
+		  "wheelchair": "limited"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.601865,
+			55.663448
+		  ]
+		},
+		"id": "node/1475085208"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/1484934301",
+		  "branch": "Kampmannsgade",
+		  "brand": "Netto",
+		  "brand:wikidata": "Q552652",
+		  "brand:wikipedia": "en:Netto (store)",
+		  "check_date": "2023-06-23",
+		  "fvst:navnelbnr": "112642",
+		  "name": "Netto",
+		  "opening_hours": "Mo-Fr 07:00-22:00; Sa-Su 08:00-22:00",
+		  "ref:DK:cvr": "35954716",
+		  "ref:DK:cvr:pnummer": "1003016246",
+		  "shop": "supermarket",
+		  "wheelchair": "yes"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5619689,
+			55.6773937
+		  ]
+		},
+		"id": "node/1484934301"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/1497191038",
+		  "name": "Kongens Frugt & Grønt",
+		  "shop": "greengrocer"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5869178,
+			55.6832031
+		  ]
+		},
+		"id": "node/1497191038"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/1497192253",
+		  "check_date": "2023-05-12",
+		  "fvst:navnelbnr": "671241",
+		  "name": "Sankt Annæ Kiosk",
+		  "post_office": "post_partner",
+		  "post_office:service_provider": "dao,bring",
+		  "ref:DK:cvr": "32339964",
+		  "ref:DK:cvr:pnummer": "1018597876",
+		  "shop": "convenience",
+		  "wheelchair": "no"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5866171,
+			55.6828557
+		  ]
+		},
+		"id": "node/1497192253"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/1566123026",
+		  "branch": "Amagerbro",
+		  "brand": "365discount",
+		  "brand:wikidata": "Q104671354",
+		  "check_date:opening_hours": "2025-04-14",
+		  "fvst:navnelbnr": "111647",
+		  "name": "365discount",
+		  "opening_hours": "Mo-Su 07:00-22:00",
+		  "ref:DK:cvr": "11517498",
+		  "shop": "supermarket",
+		  "wheelchair": "yes"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5995584,
+			55.6655948
+		  ]
+		},
+		"id": "node/1566123026"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/1566123032",
+		  "branch": "Hollænderdybet",
+		  "brand": "Netto",
+		  "brand:wikidata": "Q552652",
+		  "brand:wikipedia": "da:Netto (supermarkedskæde)",
+		  "check_date:opening_hours": "2024-06-10",
+		  "fvst:navnelbnr": "112361",
+		  "name": "Netto",
+		  "opening_hours": "Mo-Su 07:00-22:00",
+		  "ref:DK:cvr": "35954716",
+		  "shop": "supermarket"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5990108,
+			55.6646567
+		  ]
+		},
+		"id": "node/1566123032"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/1587176059",
+		  "name": "Shop N Bet",
+		  "opening_hours": "Mo-Su 08:00-01:00",
+		  "phone": "+45 28459786",
+		  "shop": "convenience",
+		  "wheelchair": "limited"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5469246,
+			55.6997831
+		  ]
+		},
+		"id": "node/1587176059"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/1595066490",
+		  "branch": "Amagerbro",
+		  "brand": "7-Eleven",
+		  "brand:wikidata": "Q259340",
+		  "brand:wikipedia": "en:7-Eleven",
+		  "check_date": "2024-08-20",
+		  "fvst:navnelbnr": "1015610",
+		  "name": "7-Eleven",
+		  "opening_hours": "24/7",
+		  "operator": "7-Eleven",
+		  "ref": "4",
+		  "ref:DK:cvr": "42524735",
+		  "ref:DK:cvr:pnummer": "1027345995",
+		  "shop": "convenience",
+		  "wheelchair": "yes"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.601268,
+			55.6638635
+		  ]
+		},
+		"id": "node/1595066490"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/1596754667",
+		  "name": "Delikatessen",
+		  "shop": "convenience"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5678287,
+			55.678786
+		  ]
+		},
+		"id": "node/1596754667"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/1745588855",
+		  "fvst:navnelbnr": "666625",
+		  "name": "Discount International",
+		  "opening_hours": "Mo-Sa 09:00-22:00; Su 10:00-22:00",
+		  "ref:DK:cvr": "38013289",
+		  "shop": "convenience"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5809413,
+			55.6646059
+		  ]
+		},
+		"id": "node/1745588855"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/1745588857",
+		  "fvst:name": "Njals/Lucky Shop",
+		  "fvst:navnelbnr": "535643",
+		  "name": "Lucky Shop",
+		  "opening_hours": "PH,Mo-Su 08:00-24:00",
+		  "post_office": "post_partner",
+		  "post_office:brand": "PostNord",
+		  "post_office:brand:wikidata": "Q3181430",
+		  "post_office:brand:wikipedia": "en:PostNord",
+		  "post_office:service_provider": "Post Danmark A/S",
+		  "post_office:service_provider:website": "https://www.postnord.dk",
+		  "post_office:service_provider:wikidata": "Q1334647",
+		  "post_office:service_provider:wikipedia": "da:PostNord Danmark",
+		  "post_office:website": "https://www.postnord.dk",
+		  "ref:DK:cvr": "27414591",
+		  "ref:DK:cvr:pnummer": "1010183126",
+		  "shop": "convenience"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5817567,
+			55.6654016
+		  ]
+		},
+		"id": "node/1745588857"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/1753797337",
+		  "branch": "Rolighedsvej",
+		  "fvst:navnelbnr": "661896",
+		  "name": "Føtex Food",
+		  "ref:DK:cvr": "35954716",
+		  "ref:DK:cvr:pnummer": "1021247924",
+		  "shop": "supermarket",
+		  "wheelchair": "yes"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.540209,
+			55.6850856
+		  ]
+		},
+		"id": "node/1753797337"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/1753797395",
+		  "branch": "Rolighedsvej",
+		  "brand": "Coop 365discount",
+		  "brand:wikidata": "Q104671354",
+		  "brand:wikipedia": "en:Fakta",
+		  "fvst:navnelbnr": "113513",
+		  "name": "365discount",
+		  "opening_hours": "Mo-Su 08:00-22:00",
+		  "ref:DK:cvr": "11517498",
+		  "shop": "supermarket",
+		  "wheelchair": "yes"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5396904,
+			55.6852065
+		  ]
+		},
+		"id": "node/1753797395"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/1847901109",
+		  "branch": "Vesterport",
+		  "brand": "Rema 1000",
+		  "brand:wikidata": "Q28459",
+		  "brand:wikipedia": "en:REMA 1000",
+		  "fvst:navnelbnr": "1355502",
+		  "name": "Rema 1000 Vesterport",
+		  "opening_hours": "Mo-Fr 08:00-21:00; Sa 08:00-20:00",
+		  "ref:DK:cvr": "43977148",
+		  "ref:DK:cvr:pnummer": "1029207158",
+		  "shop": "supermarket",
+		  "wheelchair": "yes"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5633231,
+			55.6753798
+		  ]
+		},
+		"id": "node/1847901109"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/1862806048",
+		  "branch": "Brydes Allé",
+		  "brand": "DagliBrugsen",
+		  "brand:wikidata": "Q12307017",
+		  "fvst:navnelbnr": "111653",
+		  "name": "DagliBrugsen Brydes Allé",
+		  "opening_hours": "Mo-Su 09:00-20:00; PH 09:00-20:00",
+		  "operator": "DagliBrugsen",
+		  "operator:wikidata": "Q12307017",
+		  "ref:DK:cvr": "26259495",
+		  "ref:DK:cvr:pnummer": "1003078817",
+		  "shop": "supermarket"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5972507,
+			55.6583835
+		  ]
+		},
+		"id": "node/1862806048"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/1888264597",
+		  "fvst:navnelbnr": "718203",
+		  "name": "Mælkebøtten",
+		  "ref:DK:cvr": "31922852",
+		  "shop": "convenience"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5330734,
+			55.6708162
+		  ]
+		},
+		"id": "node/1888264597"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/1937898199",
+		  "branch": "Rantzausgade",
+		  "brand": "Netto",
+		  "brand:wikidata": "Q552652",
+		  "brand:wikipedia": "da:Netto (supermarkedskæde)",
+		  "fvst:navnelbnr": "113755",
+		  "name": "Netto",
+		  "name:fa": "نتو",
+		  "opening_hours": "07:00-22:00",
+		  "ref:DK:cvr": "35954716",
+		  "shop": "supermarket",
+		  "wheelchair": "no"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5506685,
+			55.6860616
+		  ]
+		},
+		"id": "node/1937898199"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/1951705356",
+		  "branch": "Vesterbrogade",
+		  "brand": "Netto",
+		  "brand:wikidata": "Q552652",
+		  "brand:wikipedia": "da:Netto (supermarkedskæde)",
+		  "check_date": "2023-07-02",
+		  "fvst:navnelbnr": "112650",
+		  "name": "Netto",
+		  "opening_hours": "Mo-Su 08:00-22:00",
+		  "payment:cash": "yes",
+		  "payment:credit_cards": "yes",
+		  "phone": "+45 8778 7811",
+		  "ref:DK:cvr": "35954716",
+		  "shop": "supermarket",
+		  "website": "https://netto.dk/",
+		  "wheelchair": "yes"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5344323,
+			55.6707494
+		  ]
+		},
+		"id": "node/1951705356"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/1986202585",
+		  "branch": "Vesterbrogade",
+		  "brand": "Lidl",
+		  "brand:wikidata": "Q151954",
+		  "brand:wikipedia": "en:Lidl",
+		  "check_date": "2025-02-02",
+		  "check_date:opening_hours": "2025-02-02",
+		  "fvst:navnelbnr": "118364",
+		  "name": "Lidl",
+		  "name:fa": "لیدل",
+		  "opening_hours": "Mo-Su 07:00-21:30",
+		  "ref:DK:cvr": "26630797",
+		  "ref:DK:cvr:pnummer": "1016169729",
+		  "shop": "supermarket",
+		  "wheelchair": "yes"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5594491,
+			55.6729341
+		  ]
+		},
+		"id": "node/1986202585"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/2102126335",
+		  "branch": "Trianglen",
+		  "brand": "7-Eleven",
+		  "brand:wikidata": "Q259340",
+		  "fvst:name": "7-Eleven Butik 1",
+		  "fvst:navnelbnr": "1444534",
+		  "name": "7-Eleven",
+		  "opening_hours": "24/7",
+		  "operator": "7-Eleven",
+		  "ref:DK:cvr": "43320793",
+		  "ref:DK:cvr:pnummer": "1030447103",
+		  "seating": "yes",
+		  "shop": "convenience",
+		  "wheelchair": "yes"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5779109,
+			55.6996701
+		  ]
+		},
+		"id": "node/2102126335"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/2255572374",
+		  "name": "Kiosk",
+		  "shop": "convenience",
+		  "source": "Kaart Ground Survey 2017"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5242097,
+			55.6854677
+		  ]
+		},
+		"id": "node/2255572374"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/2292875757",
+		  "branch": "Dampfærgevej",
+		  "brand": "Netto",
+		  "brand:wikidata": "Q552652",
+		  "brand:wikipedia": "da:Netto (supermarkedskæde)",
+		  "check_date": "2023-04-19",
+		  "fvst:navnelbnr": "114664",
+		  "name": "Netto",
+		  "opening_hours": "Mo-Su 08:00-22:00",
+		  "ref:DK:cvr": "35954716",
+		  "shop": "supermarket",
+		  "wheelchair": "limited"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5944747,
+			55.6980724
+		  ]
+		},
+		"id": "node/2292875757"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/2554121920",
+		  "branch": "Rigshospitalet",
+		  "brand": "7-Eleven",
+		  "brand:wikidata": "Q259340",
+		  "brand:wikipedia": "en:7-Eleven",
+		  "fvst:navnelbnr": "503178",
+		  "name": "7-Eleven",
+		  "operator": "7-Eleven",
+		  "ref": "83",
+		  "ref:DK:cvr": "29152632",
+		  "ref:DK:cvr:pnummer": "1017403326",
+		  "shop": "convenience"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.566953,
+			55.696589
+		  ]
+		},
+		"id": "node/2554121920"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/2698409216",
+		  "branch": "Gammel Kongevej",
+		  "brand": "Netto",
+		  "brand:wikidata": "Q552652",
+		  "brand:wikipedia": "da:Netto (supermarkedskæde)",
+		  "fvst:navnelbnr": "114570",
+		  "name": "Netto",
+		  "opening_hours": "08:00-22:00",
+		  "ref:DK:cvr": "35954716",
+		  "ref:DK:cvr:pnummer": "1003016908",
+		  "shop": "supermarket",
+		  "website": "https://www.netto.dk/butikker/622/Frederiksberg-C/Gammel-Kongevej-123",
+		  "wheelchair": "limited"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5423957,
+			55.6760968
+		  ]
+		},
+		"id": "node/2698409216"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/3219910766",
+		  "branch": "Rådhuspladsen",
+		  "brand": "Netto",
+		  "brand:wikidata": "Q552652",
+		  "brand:wikipedia": "da:Netto (supermarkedskæde)",
+		  "check_date": "2023-04-28",
+		  "fvst:navnelbnr": "554312",
+		  "name": "Netto",
+		  "name:fa": "نتو",
+		  "opening_hours": "24/7",
+		  "ref:DK:cvr": "35954716",
+		  "ref:DK:cvr:pnummer": "1019837870",
+		  "shop": "supermarket",
+		  "start_date": "2014-12-05",
+		  "wheelchair": "yes"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5688221,
+			55.6767509
+		  ]
+		},
+		"id": "node/3219910766"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/3287971361",
+		  "check_date": "2024-10-11",
+		  "fvst:navnelbnr": "114552",
+		  "name": "Hind Marked",
+		  "ref:DK:cvr": "20589094",
+		  "ref:DK:cvr:pnummer": "1004178442",
+		  "shop": "greengrocer"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.559714,
+			55.6878556
+		  ]
+		},
+		"id": "node/3287971361"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/3311819771",
+		  "branch": "Nørrebrogade",
+		  "brand": "7-Eleven",
+		  "brand:wikidata": "Q259340",
+		  "fvst:navnelbnr": "1386922",
+		  "name": "7-Eleven Nørrebrogade",
+		  "ref:DK:cvr": "43320793",
+		  "ref:DK:cvr:pnummer": "1029613350",
+		  "shop": "convenience",
+		  "survey:date": "2023-12-30",
+		  "wheelchair": "yes"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5618678,
+			55.6872928
+		  ]
+		},
+		"id": "node/3311819771"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/3323778331",
+		  "drink:club-mate": "bottled",
+		  "name": "Ksoik",
+		  "opening_hours": "Mo-Th 08:00-22:00, Fr 08:00-01:00, Sa 10:00-01:00, Su 10:00-21:00",
+		  "shop": "convenience"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5596353,
+			55.6903716
+		  ]
+		},
+		"id": "node/3323778331"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/3324388539",
+		  "check_date:opening_hours": "2024-03-03",
+		  "fvst:navnelbnr": "1464090",
+		  "name": "Natbutikken",
+		  "opening_hours:signed": "no",
+		  "ref:DK:cvr": "38670670",
+		  "ref:DK:cvr:pnummer": "1022476749",
+		  "shop": "convenience"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5589298,
+			55.6884102
+		  ]
+		},
+		"id": "node/3324388539"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/3381666266",
+		  "fvst:navnelbnr": "1224858",
+		  "name": "Sari-Sari Mart",
+		  "opening_hours": "Mo-Fr 11:00-18:00; Sa 10:00-15:00; Su off",
+		  "ref:DK:cvr": "39968061",
+		  "ref:DK:cvr:pnummer": "1024090376",
+		  "shop": "convenience"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.521945,
+			55.6802601
+		  ]
+		},
+		"id": "node/3381666266"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/3385616814",
+		  "brand": "365discount",
+		  "brand:wikidata": "Q104671354",
+		  "name": "365discount",
+		  "opening_hours": "Mo-Su 08:00-22:00",
+		  "shop": "supermarket",
+		  "wheelchair": "yes"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5931249,
+			55.6725713
+		  ]
+		},
+		"id": "node/3385616814"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/3395999453",
+		  "branch": "Food",
+		  "brand": "Føtex",
+		  "brand:wikidata": "Q1480395",
+		  "check_date:opening_hours": "2023-09-27",
+		  "fvst:name": "føtex food Bagerudsalg og dagligvarer",
+		  "fvst:navnelbnr": "558832",
+		  "name": "Føtex",
+		  "opening_hours": "07:00-22:00",
+		  "operator": "Dansk Supermarked",
+		  "payment:credit_cards": "yes",
+		  "payment:debit_cards": "yes",
+		  "ref:DK:cvr": "35954716",
+		  "ref:DK:cvr:pnummer": "1019926202",
+		  "shop": "supermarket",
+		  "wheelchair": "yes"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5776515,
+			55.7014643
+		  ]
+		},
+		"id": "node/3395999453"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/3404320811",
+		  "fvst:navnelbnr": "115680",
+		  "name": "Irma Østerport Station",
+		  "ref:DK:cvr": "26259495",
+		  "ref:DK:cvr:pnummer": "1003073967",
+		  "shop": "supermarket"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5881442,
+			55.692053
+		  ]
+		},
+		"id": "node/3404320811"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/3404321317",
+		  "brand": "SuperBrugsen",
+		  "brand:wikidata": "Q12337746",
+		  "brand:wikipedia": "en:SuperBrugsen",
+		  "check_date": "2024-04-10",
+		  "fvst:navnelbnr": "115237",
+		  "name": "SuperBrugsen",
+		  "opening_hours": "Mo-Su 08:00-22:00",
+		  "phone": "+45 32643600",
+		  "ref:DK:cvr": "26259495",
+		  "ref:DK:cvr:pnummer": "1003079400",
+		  "shop": "supermarket",
+		  "website": "https://superbrugsen.coop.dk/find-butik/superbrugsen-islands-brygge/1850/",
+		  "wheelchair": "yes"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5807684,
+			55.6658162
+		  ]
+		},
+		"id": "node/3404321317"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/3670593429",
+		  "branch": "Jagtvej Kbh. N",
+		  "brand": "Coop 365discount",
+		  "brand:wikidata": "Q104671354",
+		  "fvst:navnelbnr": "521372",
+		  "name": "365discount",
+		  "old_name": "fakta Q",
+		  "opening_hours": "Mo-Fr 07:00-22:00; Sa-Su 08:00-22:00",
+		  "ref:DK:cvr": "11517498",
+		  "ref:DK:cvr:pnummer": "1018268171",
+		  "shop": "supermarket",
+		  "wheelchair": "yes"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.549453,
+			55.6951499
+		  ]
+		},
+		"id": "node/3670593429"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/3714132425",
+		  "fvst:navnelbnr": "665673",
+		  "name": "Elite Købmand",
+		  "opening_hours": "Mo-Fr 09:00-23:00; Sa-Su 09:00-16:00",
+		  "ref:DK:cvr": "25984277",
+		  "ref:DK:cvr:pnummer": "1020925740",
+		  "shop": "convenience",
+		  "wheelchair": "limited"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5500625,
+			55.6984093
+		  ]
+		},
+		"id": "node/3714132425"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/3735987887",
+		  "brand": "7-Eleven",
+		  "brand:wikidata": "Q259340",
+		  "brand:wikipedia": "en:7-Eleven",
+		  "name": "7-Eleven",
+		  "opening_hours": "24/7",
+		  "shop": "convenience",
+		  "website": "https://www.7-eleven.dk/",
+		  "wheelchair": "limited"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5335189,
+			55.6800528
+		  ]
+		},
+		"id": "node/3735987887"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/3739204300",
+		  "branch": "Frederiksberg Centret",
+		  "brand": "Føtex",
+		  "brand:wikidata": "Q1480395",
+		  "brand:wikipedia": "en:Føtex",
+		  "fvst:navnelbnr": "112380",
+		  "level": "0",
+		  "name": "Føtex Frederiksberg Centeret",
+		  "ref:DK:cvr": "35954716",
+		  "ref:DK:cvr:pnummer": "1004049898",
+		  "shop": "supermarket",
+		  "wheelchair": "yes"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5323765,
+			55.6818426
+		  ]
+		},
+		"id": "node/3739204300"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/3739469258",
+		  "name": "Mondila Market",
+		  "shop": "greengrocer"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.6060525,
+			55.6597529
+		  ]
+		},
+		"id": "node/3739469258"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/3757020584",
+		  "check_date": "2023-06-30",
+		  "fvst:name": "føtex food Daglivarer",
+		  "fvst:navnelbnr": "569819",
+		  "name": "Føtex Food",
+		  "opening_hours": "07:00-22:00",
+		  "operator": "Dansk Supermarked",
+		  "phone": "+45 8778 2480",
+		  "ref:DK:cvr": "35954716",
+		  "ref:DK:cvr:pnummer": "1020445439",
+		  "service:bicycle:pump": "free",
+		  "shop": "supermarket",
+		  "website": "https://www.foetex.dk/kundeservice/find-din-foetex/s/afe072a2-4809-4c99-95e0-7e79b6283374/k%C3%B8benhavn-k/f%C3%B8tex-food-esplanaden"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5927178,
+			55.6874817
+		  ]
+		},
+		"id": "node/3757020584"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/3791695032",
+		  "branch": "Nørreport Perron",
+		  "brand": "7-Eleven",
+		  "brand:wikidata": "Q259340",
+		  "brand:wikipedia": "en:7-Eleven",
+		  "fvst:navnelbnr": "558774",
+		  "level": "-2",
+		  "name": "7-Eleven",
+		  "opening_hours": "05:00-24:00; Sa-Su 06:00-24:00",
+		  "ref:DK:cvr": "10882230",
+		  "ref:DK:cvr:pnummer": "1014088365",
+		  "shop": "convenience"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5718782,
+			55.6832973
+		  ]
+		},
+		"id": "node/3791695032"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/3791695033",
+		  "branch": "Nørreport Station Nord",
+		  "brand": "7-Eleven",
+		  "brand:wikidata": "Q259340",
+		  "brand:wikipedia": "en:7-Eleven",
+		  "fvst:navnelbnr": "555162",
+		  "name": "7-Eleven",
+		  "opening_hours": "05:30-24:00",
+		  "ref": "681",
+		  "ref:DK:cvr": "10882230",
+		  "ref:DK:cvr:pnummer": "1016596112",
+		  "shop": "convenience"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5723047,
+			55.6836424
+		  ]
+		},
+		"id": "node/3791695033"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/3822957356",
+		  "alt_name": "Ello Foods",
+		  "fvst:navnelbnr": "573793",
+		  "name": "Supermarco",
+		  "opening_hours": "Mo-Fr 08:30-19:00; Sa 08:30-17:00",
+		  "ref:DK:cvr": "29135002",
+		  "ref:DK:cvr:pnummer": "1003550370",
+		  "shop": "supermarket",
+		  "website": "https://www.supermarco.dk/da/"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5468164,
+			55.655436
+		  ]
+		},
+		"id": "node/3822957356"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/4006016120",
+		  "check_date": "2023-05-13",
+		  "cuisine": "coffee_shop",
+		  "food": "yes",
+		  "fvst:navnelbnr": "115620",
+		  "indoor_seating": "no",
+		  "name": "Kihoskh",
+		  "opening_hours": "Su-Th 07:00-01:00, Fr-Sa 07:00-02:00",
+		  "outdoor_seating": "yes",
+		  "payment:credit_cards": "yes",
+		  "payment:debit_cards": "yes",
+		  "phone": "+45 33 31 11 98",
+		  "ref:DK:cvr": "31942772",
+		  "ref:DK:cvr:pnummer": "1015018611",
+		  "shop": "convenience",
+		  "takeaway": "yes",
+		  "website": "https://www.kihoskh.dk/",
+		  "wheelchair": "no"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5529649,
+			55.6664138
+		  ]
+		},
+		"id": "node/4006016120"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/4009579932",
+		  "amenity": "fast_food",
+		  "fvst:navnelbnr": "957382",
+		  "name": "Kødbyens Høker",
+		  "opening_hours": "Mo-Fr 09:00-15:00; Sa-Su 11:00-15:00",
+		  "outdoor_seating": "yes",
+		  "phone": "+4525127202",
+		  "ref:DK:cvr": "30036654",
+		  "ref:DK:cvr:pnummer": "1026273427",
+		  "shop": "convenience",
+		  "smoking": "yes"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5609031,
+			55.6688965
+		  ]
+		},
+		"id": "node/4009579932"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/4105345691",
+		  "alt_name": "føtex food Dagligvarer",
+		  "brand": "Føtex",
+		  "brand:wikidata": "Q1480395",
+		  "fvst:name": "føtex food Dagligvarer",
+		  "fvst:navnelbnr": "576898",
+		  "name": "Føtex",
+		  "opening_hours": "Mo-Su 07:00-22:00",
+		  "operator": "føtex",
+		  "ref:DK:cvr": "35954716",
+		  "ref:DK:cvr:pnummer": "1003016878",
+		  "shop": "supermarket"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5824977,
+			55.6800936
+		  ]
+		},
+		"id": "node/4105345691"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/4163123989",
+		  "alt_name": "Frisk Asia Market",
+		  "fvst:navnelbnr": "950827",
+		  "name": "Aeiat Marked",
+		  "ref:DK:cvr": "41405155",
+		  "ref:DK:cvr:pnummer": "1025888843",
+		  "shop": "greengrocer"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5457834,
+			55.6965161
+		  ]
+		},
+		"id": "node/4163123989"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/4308773891",
+		  "fvst:navnelbnr": "654073",
+		  "internet_access": "wlan",
+		  "name": "Brus Shop",
+		  "opening_hours": "Mo-Th 12:00-21:00; Fr 12:00-23:00; Sa 11:00-23:00; Su 11:00-21:00",
+		  "ref:DK:cvr": "37222852",
+		  "ref:DK:cvr:pnummer": "1021313749",
+		  "shop": "convenience",
+		  "wheelchair": "yes"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5563742,
+			55.6921521
+		  ]
+		},
+		"id": "node/4308773891"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/4332172893",
+		  "branch": "Østerport",
+		  "brand": "7-Eleven",
+		  "brand:wikidata": "Q259340",
+		  "brand:wikipedia": "en:7-Eleven",
+		  "fvst:navnelbnr": "912999",
+		  "name": "DSB 7-Eleven Østerport",
+		  "opening_hours": "24/7",
+		  "operator": "7-Eleven",
+		  "ref:DK:cvr": "10882230",
+		  "ref:DK:cvr:pnummer": "1014088543",
+		  "shop": "convenience",
+		  "wheelchair": "yes"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5872752,
+			55.6925288
+		  ]
+		},
+		"id": "node/4332172893"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/4385296022",
+		  "alt_name": "Pak Store",
+		  "fvst:navnelbnr": "951572",
+		  "name": "Pak Food Store",
+		  "ref:DK:cvr": "41192194",
+		  "ref:DK:cvr:pnummer": "1025597067",
+		  "shop": "convenience",
+		  "website": "https://www.pakfood.dk/"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.544136,
+			55.6967689
+		  ]
+		},
+		"id": "node/4385296022"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/4407010891",
+		  "check_date": "2025-04-26",
+		  "fvst:navnelbnr": "507890",
+		  "name": "Forum Shop 'n' Go",
+		  "ref:DK:cvr": "34168288",
+		  "ref:DK:cvr:pnummer": "1017408794",
+		  "shop": "convenience"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5505535,
+			55.6825379
+		  ]
+		},
+		"id": "node/4407010891"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/4422968391",
+		  "amenity": "cafe",
+		  "check_date:opening_hours": "2024-09-12",
+		  "cuisine": "coffee_shop;burger",
+		  "fvst:name": "Butik/Café",
+		  "fvst:navnelbnr": "116719",
+		  "internet_access": "wlan",
+		  "internet_access:fee": "no",
+		  "name": "Tobi's Cafe",
+		  "opening_hours": "Mo 08:00-19:00; Tu-Sa 08:00-23:00; Su off",
+		  "outdoor_seating": "yes",
+		  "ref:DK:cvr": "27915191",
+		  "ref:DK:cvr:pnummer": "1010633393",
+		  "shop": "convenience",
+		  "website": "http://www.tobiscafe.dk"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5814064,
+			55.6649443
+		  ]
+		},
+		"id": "node/4422968391"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/4425393088",
+		  "alt_name": "Elite Købmand",
+		  "fvst:navnelbnr": "1395675",
+		  "name": "Købmand Rungsted Plads",
+		  "ref:DK:cvr": "44269686",
+		  "ref:DK:cvr:pnummer": "1029719787",
+		  "shop": "convenience"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5392027,
+			55.6936364
+		  ]
+		},
+		"id": "node/4425393088"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/4447267777",
+		  "alt_name": "føtex Dagligvarer",
+		  "brand": "Føtex",
+		  "brand:wikidata": "Q1480395",
+		  "brand:wikipedia": "en:Føtex",
+		  "check_date:opening_hours": "2023-09-16",
+		  "fvst:navnelbnr": "661885",
+		  "name": "Føtex",
+		  "opening_hours": "Mo-Su 08:00-21:00",
+		  "operator": "føtex",
+		  "ref:DK:cvr": "35954716",
+		  "ref:DK:cvr:pnummer": "1021411945",
+		  "shop": "supermarket",
+		  "start_date": "2016-10-14"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5360005,
+			55.6638471
+		  ]
+		},
+		"id": "node/4447267777"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/4450173790",
+		  "branch": "Carlsberg Byen",
+		  "brand": "Netto",
+		  "brand:wikidata": "Q552652",
+		  "brand:wikipedia": "en:Netto (store)",
+		  "check_date": "2023-08-13",
+		  "fvst:navnelbnr": "662269",
+		  "name": "Netto",
+		  "opening_hours": "24/7",
+		  "phone": "+45 87 78 78 11",
+		  "ref:DK:cvr": "35954716",
+		  "ref:DK:cvr:pnummer": "1021632054",
+		  "shop": "supermarket",
+		  "website": "https://netto.dk/",
+		  "wheelchair": "yes"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5374104,
+			55.6638788
+		  ]
+		},
+		"id": "node/4450173790"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/4460697855",
+		  "branch": "Halmtorvet",
+		  "brand": "SuperBrugsen",
+		  "brand:wikidata": "Q12337746",
+		  "brand:wikipedia": "en:SuperBrugsen",
+		  "check_date": "2025-04-11",
+		  "fvst:navnelbnr": "113625",
+		  "name": "SuperBrugsen",
+		  "opening_hours": "Mo-Fr 09:00-21:00; Sa 09:00-20:00; Su 10:00-20:00",
+		  "ref:DK:cvr": "26259495",
+		  "ref:DK:cvr:pnummer": "1003078428",
+		  "shop": "supermarket"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5578518,
+			55.6688203
+		  ]
+		},
+		"id": "node/4460697855"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/4488646332",
+		  "branch": "Nørrebro",
+		  "description": "Sells surplusfood donated by regular supermarkets.",
+		  "fvst:navnelbnr": "665606",
+		  "name": "Wefood",
+		  "name:fa": "ویفود",
+		  "note": "charity supermarket",
+		  "opening_hours": "Mo-Fr 11:00-19:00; Sa,Su 11:00-16:30",
+		  "operator": "Folkekirkens Nødhjælp",
+		  "ref:DK:cvr": "36980214",
+		  "ref:DK:cvr:pnummer": "1021755059",
+		  "second_hand": "yes",
+		  "shop": "supermarket",
+		  "start_date": "2016-11-07",
+		  "wheelchair": "limited"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5556277,
+			55.6900239
+		  ]
+		},
+		"id": "node/4488646332"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/4553053971",
+		  "fvst:navnelbnr": "774185",
+		  "name": "Fensmarked",
+		  "post_office": "post_partner",
+		  "post_office:brand": "PostNord",
+		  "post_office:brand:wikidata": "Q3181430",
+		  "post_office:brand:wikipedia": "en:PostNord",
+		  "post_office:service_provider": "Post Danmark A/S",
+		  "post_office:service_provider:website": "https://www.postnord.dk",
+		  "post_office:service_provider:wikidata": "Q1334647",
+		  "post_office:service_provider:wikipedia": "da:PostNord Danmark",
+		  "post_office:website": "https://www.postnord.dk",
+		  "ref:DK:cvr": "28829418",
+		  "ref:DK:cvr:pnummer": "1023879588",
+		  "shop": "convenience",
+		  "wheelchair": "limited"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5574191,
+			55.6964616
+		  ]
+		},
+		"id": "node/4553053971"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/4778485898",
+		  "fvst:navnelbnr": "902847",
+		  "name": "Jagtvejens Vinhandel",
+		  "opening_hours": "Mo-Fr 09:00-22:00; Sa 10:00-22:00; Su 11:00-22:00",
+		  "ref:DK:cvr": "27688527",
+		  "shop": "convenience",
+		  "wheelchair": "limited"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5518559,
+			55.6967584
+		  ]
+		},
+		"id": "node/4778485898"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/4799295716",
+		  "branch": "Amagerbrogade 54",
+		  "brand": "Netto",
+		  "brand:wikidata": "Q552652",
+		  "brand:wikipedia": "da:Netto (supermarkedskæde)",
+		  "fvst:navnelbnr": "542738",
+		  "name": "Netto",
+		  "opening_hours": "Mo-Su 07:00-22:00",
+		  "ref:DK:cvr": "35954716",
+		  "ref:DK:cvr:pnummer": "1003017461",
+		  "shop": "supermarket",
+		  "wheelchair": "yes"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.602111,
+			55.6625411
+		  ]
+		},
+		"id": "node/4799295716"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/4883814931",
+		  "check_date": "2023-03-30",
+		  "name": "Elite",
+		  "shop": "convenience",
+		  "source": "Kaart Ground Survey 2017",
+		  "wheelchair": "yes"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5330684,
+			55.6707911
+		  ]
+		},
+		"id": "node/4883814931"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/4883915731",
+		  "check_date": "2023-04-01",
+		  "name": "Elite",
+		  "shop": "convenience",
+		  "source": "Kaart Ground Survey 2017"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.557323,
+			55.6705419
+		  ]
+		},
+		"id": "node/4883915731"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/4883915748",
+		  "name": "Spice Mart",
+		  "shop": "convenience",
+		  "website": "https://www.spicemart.dk",
+		  "wheelchair": "no"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5468645,
+			55.6717664
+		  ]
+		},
+		"id": "node/4883915748"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/4886048843",
+		  "check_date": "2023-06-02",
+		  "fvst:navnelbnr": "544806",
+		  "name": "Healthy Life Shop",
+		  "ref:DK:cvr": "35840788",
+		  "shop": "convenience",
+		  "source": "Kaart Ground Survey 2017"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5952386,
+			55.6845273
+		  ]
+		},
+		"id": "node/4886048843"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/4886228806",
+		  "check_date": "2023-05-12",
+		  "fvst:navnelbnr": "542686",
+		  "name": "Den Gamle Købmand",
+		  "phone": "+45 7170 7126",
+		  "ref:DK:cvr": "35226672",
+		  "shop": "convenience",
+		  "source": "Kaart Ground Survey 2017"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5922948,
+			55.68107
+		  ]
+		},
+		"id": "node/4886228806"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/4886242857",
+		  "branch": "Godthåbsvej",
+		  "brand": "Netto",
+		  "brand:wikidata": "Q552652",
+		  "brand:wikipedia": "da:Netto (supermarkedskæde)",
+		  "fvst:navnelbnr": "114565",
+		  "name": "Netto",
+		  "name:fa": "نتو",
+		  "opening_hours": "Mo-Su 08:00-22:00",
+		  "ref:DK:cvr": "35954716",
+		  "ref:DK:cvr:pnummer": "1002312407",
+		  "shop": "supermarket",
+		  "wheelchair": "yes"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5365512,
+			55.6859288
+		  ]
+		},
+		"id": "node/4886242857"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/4886281677",
+		  "fvst:navnelbnr": "1421111",
+		  "name": "Købmand",
+		  "shop": "convenience",
+		  "source": "Kaart Ground Survey 2017",
+		  "wheelchair": "yes"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5538279,
+			55.6763193
+		  ]
+		},
+		"id": "node/4886281677"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/4886325304",
+		  "branch": "Falkoner Alle",
+		  "brand": "7-Eleven",
+		  "brand:wikidata": "Q259340",
+		  "brand:wikipedia": "en:7-Eleven",
+		  "fvst:name": "7-Eleven Butik 6",
+		  "fvst:navnelbnr": "1464546",
+		  "name": "7-Eleven Falkoner Alle",
+		  "opening_hours": "24/7",
+		  "operator": "7-Eleven",
+		  "ref": "6",
+		  "ref:DK:cvr": "45172996",
+		  "ref:DK:cvr:pnummer": "1030788326",
+		  "shop": "convenience",
+		  "source": "Kaart Ground Survey 2017"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.538845,
+			55.6851448
+		  ]
+		},
+		"id": "node/4886325304"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/4886334442",
+		  "fvst:navnelbnr": "660973",
+		  "name": "Frederiksberg Store",
+		  "ref:DK:cvr": "20837888",
+		  "shop": "convenience",
+		  "source": "Kaart Ground Survey 2017"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.53753,
+			55.6854678
+		  ]
+		},
+		"id": "node/4886334442"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/4886346052",
+		  "fvst:navnelbnr": "1430663",
+		  "name": "Kiosk 43",
+		  "ref:DK:cvr": "43841432",
+		  "ref:DK:cvr:pnummer": "1029011830",
+		  "shop": "convenience",
+		  "source": "Kaart Ground Survey 2017"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5320005,
+			55.6867081
+		  ]
+		},
+		"id": "node/4886346052"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/4888262969",
+		  "brand": "Circle K",
+		  "brand:wikidata": "Q3268010",
+		  "brand:wikipedia": "en:Circle K",
+		  "name": "Circle K",
+		  "shop": "convenience",
+		  "source": "Kaart Ground Survey 2017"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.6059217,
+			55.6684469
+		  ]
+		},
+		"id": "node/4888262969"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/4888481072",
+		  "name": "Golden Købmand",
+		  "shop": "convenience",
+		  "source": "Kaart Ground Survey 2017"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5725796,
+			55.690371
+		  ]
+		},
+		"id": "node/4888481072"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/4889242638",
+		  "fvst:navnelbnr": "1286935",
+		  "name": "Superkiosk",
+		  "opening_hours": "Su-We 08:00-03:00, Th-Sa 00:00-24:00",
+		  "ref:DK:cvr": "43600982",
+		  "ref:DK:cvr:pnummer": "1028928862",
+		  "shop": "convenience",
+		  "wheelchair": "limited"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5834562,
+			55.6818445
+		  ]
+		},
+		"id": "node/4889242638"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/4889243995",
+		  "check_date": "2025-03-15",
+		  "email": "info@denkinesiskekoebmand.dk",
+		  "fvst:navnelbnr": "112486",
+		  "level": "0",
+		  "name": "Den Kinesiske Købmand",
+		  "opening_hours": "Mo-Fr 10:00-19:00, Sa-Su 10:00-18:00",
+		  "payment:contactless": "yes",
+		  "payment:credit_cards": "yes",
+		  "payment:debit_cards": "yes",
+		  "phone": "+45 33 14 33 61",
+		  "ref:DK:cvr": "34737347",
+		  "ref:DK:cvr:pnummer": "1018068512",
+		  "shop": "convenience",
+		  "website": "https://www.denkinesiskekoebmand.dk/"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.57016,
+			55.6818423
+		  ]
+		},
+		"id": "node/4889243995"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/4966312221",
+		  "branch": "Krøyers Plads",
+		  "brand": "Føtex",
+		  "brand:wikidata": "Q1480395",
+		  "fvst:navnelbnr": "697691",
+		  "name": "Føtex",
+		  "opening_hours": "Mo-Su 07:00-22:00",
+		  "operator": "Salling Group A/S",
+		  "phone": "+45 87782540",
+		  "ref:DK:cvr": "35954716",
+		  "ref:DK:cvr:pnummer": "1021741384",
+		  "shop": "supermarket",
+		  "website": "https://www.foetex.dk/"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.595694,
+			55.6770885
+		  ]
+		},
+		"id": "node/4966312221"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/5041276742",
+		  "alt_name": "DSB 7-Eleven Express",
+		  "brand": "7-Eleven",
+		  "brand:wikidata": "Q259340",
+		  "brand:wikipedia": "en:7-Eleven",
+		  "fvst:navnelbnr": "111494",
+		  "name": "7-Eleven Express",
+		  "opening_hours": "Mo-Th 05:00-24:00; Fr 05:00-24:00; Sa 00:00-24:00; Su 00:00-24:00",
+		  "operator": "7-Eleven",
+		  "ref:DK:cvr": "10882230",
+		  "ref:DK:cvr:pnummer": "1019194848",
+		  "shop": "convenience"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5645104,
+			55.6725553
+		  ]
+		},
+		"id": "node/5041276742"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/5067076384",
+		  "check_date": "2025-04-11",
+		  "fvst:navnelbnr": "714641",
+		  "name": "Boulevard Minimarked",
+		  "opening_hours": "Mo-Fr 08:00-23:30, Sa,Su 08:00-01:30",
+		  "ref:DK:cvr": "31658888",
+		  "shop": "convenience",
+		  "wheelchair": "no"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5525188,
+			55.6662735
+		  ]
+		},
+		"id": "node/5067076384"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/5075533434",
+		  "check_date": "2023-04-05",
+		  "name": "Kiosken",
+		  "shop": "convenience"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5600287,
+			55.6711574
+		  ]
+		},
+		"id": "node/5075533434"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/5075584052",
+		  "name": "Bobbys Kiosk",
+		  "shop": "convenience"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5626428,
+			55.6717958
+		  ]
+		},
+		"id": "node/5075584052"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/5109488624",
+		  "branch": "Vesterbrogade/Trommesalen",
+		  "brand": "Netto",
+		  "brand:wikidata": "Q552652",
+		  "brand:wikipedia": "da:Netto (supermarkedskæde)",
+		  "check_date": "2024-10-24",
+		  "check_date:opening_hours": "2024-10-24",
+		  "fvst:navnelbnr": "712909",
+		  "name": "Netto",
+		  "name:fa": "نتو",
+		  "opening_hours": "Mo-Su 07:00-23:00",
+		  "payment:cash": "yes",
+		  "payment:credit_cards": "yes",
+		  "ref:DK:cvr": "35954716",
+		  "ref:DK:cvr:pnummer": "1022651621",
+		  "shop": "supermarket",
+		  "wheelchair": "yes"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5611516,
+			55.6737815
+		  ]
+		},
+		"id": "node/5109488624"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/5119043624",
+		  "branch": "Classensgade",
+		  "brand": "Min Købmand",
+		  "brand:wikidata": "Q104310815",
+		  "fvst:navnelbnr": "113499",
+		  "name": "Min Købmand",
+		  "opening_hours": "Mo-Su 06:00-22:00",
+		  "ref:DK:cvr": "17497073",
+		  "ref:DK:cvr:pnummer": "1001299729",
+		  "shop": "supermarket",
+		  "wheelchair": "no"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.585759,
+			55.6975642
+		  ]
+		},
+		"id": "node/5119043624"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/5159818746",
+		  "branch": "Food",
+		  "brand": "Føtex",
+		  "brand:wikidata": "Q1480395",
+		  "check_date:opening_hours": "2025-04-14",
+		  "fvst:navnelbnr": "715079",
+		  "name": "Føtex",
+		  "opening_hours": "Mo-Su,PH 07:00-22:00",
+		  "operator": "Føtex",
+		  "ref:DK:cvr": "35954716",
+		  "ref:DK:cvr:pnummer": "1021741422",
+		  "shop": "supermarket",
+		  "wheelchair": "yes"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5988501,
+			55.6663916
+		  ]
+		},
+		"id": "node/5159818746"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/5167416839",
+		  "branch": "Nordre Frihavnsgade",
+		  "brand": "SuperBrugsen",
+		  "brand:wikidata": "Q12337746",
+		  "fvst:navnelbnr": "115429",
+		  "name": "SuperBrugsen",
+		  "opening_hours": "Mo-Su 08:00-22:00",
+		  "phone": "+45 35 27 57 10",
+		  "ref:DK:cvr": "26259495",
+		  "ref:DK:cvr:pnummer": "1003078714",
+		  "shop": "supermarket",
+		  "wheelchair": "yes"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5804587,
+			55.7010142
+		  ]
+		},
+		"id": "node/5167416839"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/5664636974",
+		  "branch": "Adelgade",
+		  "brand": "Netto",
+		  "brand:wikidata": "Q552652",
+		  "brand:wikipedia": "da:Netto (supermarkedskæde)",
+		  "fvst:navnelbnr": "713275",
+		  "name": "Netto",
+		  "name:fa": "نتو",
+		  "name:ko": "네토 수퍼마켓",
+		  "opening_hours": "Mo-Su 08:00-22:00",
+		  "ref:DK:cvr": "35954716",
+		  "ref:DK:cvr:pnummer": "1022566845",
+		  "shop": "supermarket",
+		  "website": "https://netto.dk"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5830676,
+			55.6830517
+		  ]
+		},
+		"id": "node/5664636974"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/5802005687",
+		  "branch": "Farumgade",
+		  "brand": "Rema 1000",
+		  "brand:wikidata": "Q28459",
+		  "check_date:opening_hours": "2021-01-05",
+		  "fvst:navnelbnr": "1208480",
+		  "name": "Rema 1000",
+		  "opening_hours": "Mo-Su 07:00-22:00",
+		  "phone": "+45 88 52 49 99",
+		  "ref:DK:cvr": "42905461",
+		  "ref:DK:cvr:pnummer": "1027812933",
+		  "shop": "supermarket",
+		  "wheelchair": "yes"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5422025,
+			55.6980685
+		  ]
+		},
+		"id": "node/5802005687"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/5931175463",
+		  "branch": "Vestre Teglgade",
+		  "brand": "Netto",
+		  "brand:wikidata": "Q552652",
+		  "brand:wikipedia": "da:Netto (supermarkedskæde)",
+		  "check_date:opening_hours": "2023-04-10",
+		  "fvst:navnelbnr": "720005",
+		  "name": "Netto",
+		  "opening_hours": "Mo-Su 07:00-23:00",
+		  "ref:DK:cvr": "35954716",
+		  "ref:DK:cvr:pnummer": "1022990442",
+		  "shop": "supermarket"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5468615,
+			55.6557549
+		  ]
+		},
+		"id": "node/5931175463"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/6319243251",
+		  "branch": "Bryggens Bastion",
+		  "brand": "Rema 1000",
+		  "brand:wikidata": "Q28459",
+		  "brand:wikipedia": "en:REMA 1000",
+		  "check_date": "2024-08-21",
+		  "check_date:opening_hours": "2024-08-21",
+		  "fvst:navnelbnr": "1456883",
+		  "name": "Rema 1000 Bryggens Bastion",
+		  "opening_hours": "07:00-21:45",
+		  "ref:DK:cvr": "45015971",
+		  "ref:DK:cvr:pnummer": "1030589927",
+		  "shop": "supermarket",
+		  "wheelchair": "yes"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5937391,
+			55.6632466
+		  ]
+		},
+		"id": "node/6319243251"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/6319244668",
+		  "branch": "DR-Byen",
+		  "brand": "Netto",
+		  "brand:wikidata": "Q552652",
+		  "brand:wikipedia": "en:Netto (store)",
+		  "check_date:opening_hours": "2022-10-04",
+		  "fvst:navnelbnr": "766559",
+		  "name": "Netto",
+		  "opening_hours": "Mo-Su 08:00-22:00",
+		  "ref:DK:cvr": "35954716",
+		  "ref:DK:cvr:pnummer": "1024003325",
+		  "shop": "supermarket",
+		  "wheelchair": "yes"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5896296,
+			55.6560826
+		  ]
+		},
+		"id": "node/6319244668"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/6426592285",
+		  "branch": "Blegdamsvej",
+		  "brand": "Netto",
+		  "brand:wikidata": "Q552652",
+		  "brand:wikipedia": "da:Netto (supermarkedskæde)",
+		  "check_date": "2025-01-12",
+		  "currency:DKK": "yes",
+		  "fvst:name": "Netto 7763",
+		  "fvst:navnelbnr": "1249763",
+		  "internet_access": "no",
+		  "level": "0",
+		  "name": "Netto",
+		  "opening_hours": "Mo-Su 07:00-22:00",
+		  "payment:app": "yes",
+		  "payment:apple_pay": "yes",
+		  "payment:coins": "yes",
+		  "payment:contactless": "yes",
+		  "payment:credit_cards": "yes",
+		  "payment:debit_cards": "yes",
+		  "payment:google_pay": "yes",
+		  "payment:mastercard": "yes",
+		  "payment:notes": "yes",
+		  "payment:visa": "yes",
+		  "payment:visa_debit": "yes",
+		  "payment:visa_electron": "yes",
+		  "ref:DK:cvr": "35954716",
+		  "ref:DK:cvr:pnummer": "1003017278",
+		  "second_hand": "no",
+		  "shop": "supermarket",
+		  "stroller": "yes",
+		  "website": "https://netto.dk/",
+		  "wheelchair": "yes"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5754809,
+			55.6982993
+		  ]
+		},
+		"id": "node/6426592285"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/6610488088",
+		  "alt_name": "Din Pakkeshop Kingos",
+		  "fvst:navnelbnr": "982634",
+		  "name": "Kingos købmand",
+		  "phone": "+45 33227786",
+		  "post_office": "post_partner",
+		  "ref:DK:cvr": "34859337",
+		  "ref:DK:cvr:pnummer": "1026418611",
+		  "shop": "convenience"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5443399,
+			55.6731828
+		  ]
+		},
+		"id": "node/6610488088"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/6677521156",
+		  "branch": "Tapperitorvet",
+		  "brand": "7-Eleven",
+		  "brand:wikidata": "Q259340",
+		  "brand:wikipedia": "en:7-Eleven",
+		  "check_date": "2024-09-22",
+		  "fvst:navnelbnr": "970370",
+		  "name": "7-Eleven Tapperitorvet",
+		  "opening_hours:signed": "no",
+		  "operator": "7-Eleven",
+		  "ref": "93",
+		  "ref:DK:cvr": "34621500",
+		  "ref:DK:cvr:pnummer": "1026659414",
+		  "shop": "convenience",
+		  "website": "https://www.7-eleven.dk/"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5368331,
+			55.6638806
+		  ]
+		},
+		"id": "node/6677521156"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/6760955059",
+		  "brand": "Rema 1000",
+		  "brand:wikidata": "Q28459",
+		  "brand:wikipedia": "en:REMA 1000",
+		  "fvst:navnelbnr": "1277512",
+		  "name": "Rema 1000",
+		  "opening_hours": "Mo-Su 07:00-22:00",
+		  "ref:DK:cvr": "43650009",
+		  "ref:DK:cvr:pnummer": "1028759025",
+		  "shop": "supermarket",
+		  "source": "https://www.openstreetmap.org/note/1905227",
+		  "wheelchair": "yes"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5350463,
+			55.6954058
+		  ]
+		},
+		"id": "node/6760955059"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/6761725714",
+		  "alt_name": "Afghan Marked",
+		  "check_date": "2023-07-06",
+		  "fvst:navnelbnr": "114424",
+		  "name": "Afghan Market",
+		  "phone": "+45 81128112",
+		  "ref:DK:cvr": "27266959",
+		  "ref:DK:cvr:pnummer": "1010000706",
+		  "shop": "convenience",
+		  "wheelchair": "no"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5638903,
+			55.6718378
+		  ]
+		},
+		"id": "node/6761725714"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/6761763054",
+		  "check_date": "2023-06-07",
+		  "name": "Afro products",
+		  "shop": "greengrocer"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5633881,
+			55.6716747
+		  ]
+		},
+		"id": "node/6761763054"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/6761795205",
+		  "check_date": "2023-04-12",
+		  "name": "Thai asian market",
+		  "shop": "convenience"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.562583,
+			55.671315
+		  ]
+		},
+		"id": "node/6761795205"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/6761806476",
+		  "name": "EVETH'S",
+		  "shop": "greengrocer"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.563406,
+			55.6719099
+		  ]
+		},
+		"id": "node/6761806476"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/6761815997",
+		  "fvst:navnelbnr": "114535",
+		  "name": "Afghan Food Store",
+		  "ref:DK:cvr": "18686406",
+		  "ref:DK:cvr:pnummer": "1006005532",
+		  "shop": "convenience"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5634516,
+			55.6719341
+		  ]
+		},
+		"id": "node/6761815997"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/6761915973",
+		  "fvst:navnelbnr": "522985",
+		  "name": "Denn Jai Market",
+		  "ref:DK:cvr": "35008284",
+		  "ref:DK:cvr:pnummer": "1018299271",
+		  "shop": "greengrocer",
+		  "wheelchair": "no"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5637284,
+			55.6720758
+		  ]
+		},
+		"id": "node/6761915973"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/6766572589",
+		  "fvst:navnelbnr": "1012869",
+		  "name": "Scandic Falkoner Shoppen",
+		  "operator": "Scandic Hotels",
+		  "ref:DK:cvr": "12596774",
+		  "ref:DK:cvr:pnummer": "1022910376",
+		  "shop": "convenience"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5333732,
+			55.6796711
+		  ]
+		},
+		"id": "node/6766572589"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/6854983378",
+		  "branch": "Frederiksberg Rådhusplads",
+		  "brand": "Netto",
+		  "brand:wikidata": "Q552652",
+		  "brand:wikipedia": "da:Netto (supermarkedskæde)",
+		  "fvst:navnelbnr": "574368",
+		  "name": "Netto",
+		  "opening_hours": "Mo-Su 06:00-22:00",
+		  "phone": "+45 8778 7811",
+		  "ref:DK:cvr": "35954716",
+		  "ref:DK:cvr:pnummer": "1020846719",
+		  "shop": "supermarket",
+		  "website": "https://netto.dk/"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5330623,
+			55.6787476
+		  ]
+		},
+		"id": "node/6854983378"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/7098162232",
+		  "check_date:opening_hours": "2024-09-12",
+		  "fvst:navnelbnr": "113836",
+		  "name": "Deres Marked",
+		  "opening_hours": "Mo-Fr 07:30-22:30; Sa-Su 08:00-22:30",
+		  "opening_hours:signed": "no",
+		  "operator": "Elite Købmand",
+		  "payment:cash": "yes",
+		  "payment:credit_cards": "yes",
+		  "ref:DK:cvr": "25286189",
+		  "ref:DK:cvr:pnummer": "1007509770",
+		  "shop": "convenience",
+		  "wheelchair": "no"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5430623,
+			55.6890136
+		  ]
+		},
+		"id": "node/7098162232"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/7130597575",
+		  "branch": "Nordre Fasanvej",
+		  "brand": "Lidl",
+		  "brand:wikidata": "Q151954",
+		  "fvst:navnelbnr": "905742",
+		  "name": "Lidl",
+		  "name:fa": "لیدل",
+		  "operator": "LIDL",
+		  "ref:DK:cvr": "26630797",
+		  "ref:DK:cvr:pnummer": "1024224224",
+		  "shop": "supermarket"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5225585,
+			55.6819681
+		  ]
+		},
+		"id": "node/7130597575"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/7133583875",
+		  "brand": "Netto",
+		  "brand:wikidata": "Q552652",
+		  "brand:wikipedia": "da:Netto (supermarkedskæde)",
+		  "fvst:navnelbnr": "772772",
+		  "name": "Netto",
+		  "name:fa": "نتو",
+		  "opening_hours": "Mo-Su 07:00-22:00",
+		  "ref:DK:cvr": "35954716",
+		  "ref:DK:cvr:pnummer": "1024092115",
+		  "shop": "supermarket",
+		  "wheelchair": "yes"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5512184,
+			55.6844797
+		  ]
+		},
+		"id": "node/7133583875"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/7322031064",
+		  "fvst:name": "Elite",
+		  "fvst:navnelbnr": "911916",
+		  "name": "Elite Købmand",
+		  "ref:DK:cvr": "38503677",
+		  "ref:DK:cvr:pnummer": "1022288470",
+		  "shop": "supermarket"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5518443,
+			55.6659779
+		  ]
+		},
+		"id": "node/7322031064"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/7331741653",
+		  "branch": "Købkes Plads",
+		  "brand": "Netto",
+		  "brand:wikidata": "Q552652",
+		  "brand:wikipedia": "da:Netto (supermarkedskæde)",
+		  "check_date:opening_hours": "2023-12-20",
+		  "fvst:navnelbnr": "769258",
+		  "name": "Netto",
+		  "opening_hours": "PH,Mo-Su 08:00-22:00",
+		  "ref:DK:cvr": "35954716",
+		  "ref:DK:cvr:pnummer": "1024067129",
+		  "shop": "supermarket",
+		  "wheelchair": "yes"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5360257,
+			55.6670339
+		  ]
+		},
+		"id": "node/7331741653"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/7444469600",
+		  "atp_ref": "268",
+		  "branch": "Fisketorvet",
+		  "brand": "Lidl",
+		  "brand:wikidata": "Q151954",
+		  "brand:wikipedia": "en:Lidl",
+		  "fvst:navnelbnr": "660834",
+		  "level": "0",
+		  "name": "Lidl Fisketorvet",
+		  "name:fa": "لیدل",
+		  "opening_hours": "08:00-21:30",
+		  "ref:DK:cvr": "26630797",
+		  "ref:DK:cvr:pnummer": "1021813709",
+		  "shop": "supermarket"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5620452,
+			55.6615617
+		  ]
+		},
+		"id": "node/7444469600"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/7452951183",
+		  "branch": "Islands Brygge",
+		  "brand": "Netto",
+		  "brand:wikidata": "Q552652",
+		  "brand:wikipedia": "da:Netto (supermarkedskæde)",
+		  "check_date:opening_hours": "2022-07-27",
+		  "fvst:navnelbnr": "916956",
+		  "name": "Netto",
+		  "opening_hours": "Mo-Su 08:00-22:00",
+		  "payment:cash": "yes",
+		  "payment:credit_cards": "yes",
+		  "ref:DK:cvr": "35954716",
+		  "ref:DK:cvr:pnummer": "1025116441",
+		  "shop": "supermarket",
+		  "website": "https://netto.dk/"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5661095,
+			55.6570727
+		  ]
+		},
+		"id": "node/7452951183"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/7619440007",
+		  "branch": "Niels Brocks Gade",
+		  "brand": "Netto",
+		  "brand:wikidata": "Q552652",
+		  "brand:wikipedia": "da:Netto (supermarkedskæde)",
+		  "check_date:opening_hours": "2023-08-06",
+		  "diet:halal": "no",
+		  "diet:kosher": "no",
+		  "fvst:navnelbnr": "794180",
+		  "name": "Netto",
+		  "opening_hours": "Mo-Su 07:00-22:00",
+		  "phone": "+45 87 78 78 11",
+		  "ref:DK:cvr": "35954716",
+		  "shop": "supermarket",
+		  "website": "https://netto.dk/",
+		  "wheelchair": "yes"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5729152,
+			55.6721479
+		  ]
+		},
+		"id": "node/7619440007"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/7650257093",
+		  "alt_name": "DSB 7-Eleven",
+		  "branch": "Minibar 6",
+		  "brand": "7-Eleven",
+		  "brand:wikidata": "Q259340",
+		  "brand:wikipedia": "en:7-Eleven",
+		  "fvst:navnelbnr": "110623",
+		  "name": "7-Eleven",
+		  "opening_hours": "Mo-Fr 06:00-21:00; PH,Sa,Su 08:00-20:00",
+		  "operator": "7-Eleven",
+		  "ref:DK:cvr": "10882230",
+		  "ref:DK:cvr:pnummer": "1008293194",
+		  "shop": "convenience",
+		  "wheelchair": "yes"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5646324,
+			55.6719962
+		  ]
+		},
+		"id": "node/7650257093"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/7706890626",
+		  "brand": "7-Eleven",
+		  "brand:wikidata": "Q259340",
+		  "fvst:navnelbnr": "741798",
+		  "name": "7-Eleven",
+		  "opening_hours": "24/7",
+		  "operator": "7-Eleven",
+		  "phone": "+45 5214 5289",
+		  "ref": "89",
+		  "ref:DK:cvr": "39437651",
+		  "ref:DK:cvr:pnummer": "1023467190",
+		  "shop": "convenience",
+		  "website": "https://www.7-eleven.dk/",
+		  "wheelchair": "yes"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5885232,
+			55.6850735
+		  ]
+		},
+		"id": "node/7706890626"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/7851298249",
+		  "branch": "H.C. Ørsteds Vej",
+		  "brand": "Netto",
+		  "brand:wikidata": "Q552652",
+		  "brand:wikipedia": "da:Netto (supermarkedskæde)",
+		  "check_date:opening_hours": "2024-08-12",
+		  "fvst:navnelbnr": "927337",
+		  "name": "Netto",
+		  "name:fa": "نتو",
+		  "opening_hours": "Mo-Su 08:00-22:00",
+		  "ref:DK:cvr": "35954716",
+		  "shop": "supermarket"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5474664,
+			55.6792355
+		  ]
+		},
+		"id": "node/7851298249"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/8111770771",
+		  "brand": "Rema 1000",
+		  "brand:wikidata": "Q28459",
+		  "brand:wikipedia": "en:REMA 1000",
+		  "fvst:navnelbnr": "1014513",
+		  "name": "Rema 1000",
+		  "opening_hours": "Mo-Su 07:00-21:45",
+		  "ref:DK:cvr": "40055886",
+		  "ref:DK:cvr:pnummer": "1024171635",
+		  "shop": "supermarket",
+		  "wheelchair": "yes"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5506882,
+			55.6957045
+		  ]
+		},
+		"id": "node/8111770771"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/8117602417",
+		  "fvst:navnelbnr": "951721",
+		  "name": "Jackpot Kiosk",
+		  "ref:DK:cvr": "38397796",
+		  "shop": "convenience"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.540164,
+			55.670064
+		  ]
+		},
+		"id": "node/8117602417"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/8119069637",
+		  "fvst:navnelbnr": "803350",
+		  "name": "Scandic Kødbyen Shoppen",
+		  "operator": "Scandic Hotels",
+		  "ref:DK:cvr": "12596774",
+		  "shop": "convenience"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5571864,
+			55.6669801
+		  ]
+		},
+		"id": "node/8119069637"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/8130361812",
+		  "check_date": "2023-05-05",
+		  "fvst:navnelbnr": "1352207",
+		  "name": "Vin Tobak",
+		  "ref:DK:cvr": "44113759",
+		  "ref:DK:cvr:pnummer": "1029389485",
+		  "shop": "convenience"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.548831,
+			55.667671
+		  ]
+		},
+		"id": "node/8130361812"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/8254386585",
+		  "check_date:opening_hours": "2024-09-16",
+		  "fvst:navnelbnr": "119838",
+		  "name": "Bispegårdens Kolonial",
+		  "opening_hours:signed": "no",
+		  "post_office": "post_partner",
+		  "post_office:service_provider": "gls",
+		  "ref:DK:cvr": "14499342",
+		  "shop": "convenience"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5400311,
+			55.6906882
+		  ]
+		},
+		"id": "node/8254386585"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/8367053968",
+		  "alt_name": "Candy Kiosk/Cafe Fitou",
+		  "fvst:navnelbnr": "111560",
+		  "name": "Int. Magasiner - Candy Kiosk",
+		  "ref:DK:cvr": "26062853",
+		  "ref:DK:cvr:pnummer": "1008469233",
+		  "shop": "convenience",
+		  "wheelchair": "yes"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5387698,
+			55.6856395
+		  ]
+		},
+		"id": "node/8367053968"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/8395697273",
+		  "branch": "Ørestad",
+		  "brand": "Føtex",
+		  "brand:wikidata": "Q1480395",
+		  "brand:wikipedia": "en:Føtex",
+		  "check_date:opening_hours": "2024-08-03",
+		  "fvst:navnelbnr": "979421",
+		  "name": "Føtex",
+		  "opening_hours": "Mo-Su 07:00-21:00; PH closed",
+		  "ref:DK:cvr": "35954716",
+		  "ref:DK:cvr:pnummer": "1026279379",
+		  "shop": "supermarket",
+		  "wheelchair": "yes"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5922046,
+			55.6567408
+		  ]
+		},
+		"id": "node/8395697273"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/8485837880",
+		  "name": "Kinesisk købmand",
+		  "opening_hours": "Mo-Sa 10:00-19:00",
+		  "shop": "convenience"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.6053855,
+			55.6649847
+		  ]
+		},
+		"id": "node/8485837880"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/8485848252",
+		  "alt_name": "Den lille Bager & Købmand",
+		  "fvst:name": "Den lille Købmand",
+		  "fvst:navnelbnr": "761683",
+		  "name": "Kim Købmand",
+		  "opening_hours": "Su-Th 06:00-24:00, Fr,Sa 06:00-01:00",
+		  "ref:DK:cvr": "32507662",
+		  "ref:DK:cvr:pnummer": "1022844950",
+		  "shop": "convenience"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.6064736,
+			55.6651849
+		  ]
+		},
+		"id": "node/8485848252"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/8503448221",
+		  "check_date": "2023-04-26",
+		  "fvst:navnelbnr": "550758",
+		  "name": "Shamshad Marked",
+		  "ref:DK:cvr": "32309194",
+		  "ref:DK:cvr:pnummer": "1019112876",
+		  "shop": "convenience"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5614658,
+			55.6711085
+		  ]
+		},
+		"id": "node/8503448221"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/8528352128",
+		  "fvst:navnelbnr": "114884",
+		  "name": "Asamo Amadeus",
+		  "opening_hours": "Mo-Fr 10:00-18:00; Sa 10:00-16:00; Su 11:00-15:00",
+		  "ref:DK:cvr": "25721675",
+		  "ref:DK:cvr:pnummer": "1008029780",
+		  "shop": "convenience",
+		  "website": "http://www.asamo.dk",
+		  "wheelchair": "no"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5454404,
+			55.6915055
+		  ]
+		},
+		"id": "node/8528352128"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/8528352133",
+		  "name": "Scandinavian Kiosk",
+		  "shop": "convenience",
+		  "wheelchair": "limited"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5455829,
+			55.6917156
+		  ]
+		},
+		"id": "node/8528352133"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/8537212686",
+		  "fvst:name": "Stefansgårdens Invest",
+		  "fvst:navnelbnr": "988779",
+		  "name": "Elite Købmand",
+		  "operator": "Nærkøb",
+		  "ref:DK:cvr": "41652365",
+		  "ref:DK:cvr:pnummer": "1026230272",
+		  "shop": "convenience"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5413788,
+			55.692808
+		  ]
+		},
+		"id": "node/8537212686"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/8599859310",
+		  "fvst:navnelbnr": "559839",
+		  "name": "Indkøberen",
+		  "ref:DK:cvr": "33594003",
+		  "ref:DK:cvr:pnummer": "1016786612",
+		  "shop": "convenience"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.6019836,
+			55.6737927
+		  ]
+		},
+		"id": "node/8599859310"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/8602544195",
+		  "fvst:navnelbnr": "118345",
+		  "name": "Fasan Kiosk",
+		  "post_office": "post_partner",
+		  "post_office:service_provider": "gls",
+		  "ref:DK:cvr": "30481771",
+		  "ref:DK:cvr:pnummer": "1013380216",
+		  "shop": "convenience"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.53133,
+			55.6920993
+		  ]
+		},
+		"id": "node/8602544195"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/8615148751",
+		  "fvst:navnelbnr": "117251",
+		  "name": "Biksen",
+		  "ref:DK:cvr": "38496875",
+		  "shop": "convenience"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5999625,
+			55.6733776
+		  ]
+		},
+		"id": "node/8615148751"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/8629532327",
+		  "alt_name": "Elite Købmand & Pakkkeshop",
+		  "fvst:navnelbnr": "1291986",
+		  "name": "Elite købmand",
+		  "opening_hours": "Mo-Su,PH 11:30-18:00",
+		  "ref:DK:cvr": "43106287",
+		  "ref:DK:cvr:pnummer": "1028058124",
+		  "shop": "supermarket"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.567139,
+			55.691389
+		  ]
+		},
+		"id": "node/8629532327"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/8658464201",
+		  "fvst:navnelbnr": "530109",
+		  "name": "Cabinn Kiosk",
+		  "post_office": "post_partner",
+		  "post_office:service_provider": "gls",
+		  "ref:DK:cvr": "28896662",
+		  "ref:DK:cvr:pnummer": "1014753873",
+		  "shop": "convenience"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.555554,
+			55.680747
+		  ]
+		},
+		"id": "node/8658464201"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/8658464207",
+		  "fvst:navnelbnr": "647411",
+		  "name": "Venne kiosk",
+		  "opening_hours": "10:00-01:00",
+		  "ref:DK:cvr": "37079944",
+		  "ref:DK:cvr:pnummer": "1020741348",
+		  "shop": "convenience",
+		  "wheelchair": "no"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5482368,
+			55.6675428
+		  ]
+		},
+		"id": "node/8658464207"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/8690080968",
+		  "check_date:opening_hours": "2024-09-22",
+		  "fvst:navnelbnr": "540828",
+		  "name": "Mejeriet Tranehavegård",
+		  "opening_hours": "Mo-Th 07:00-19:00; Fr,Sa 07:00-21:00; Su off",
+		  "ref:DK:cvr": "27629628",
+		  "ref:DK:cvr:pnummer": "1010436156",
+		  "shop": "convenience"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5362712,
+			55.6587084
+		  ]
+		},
+		"id": "node/8690080968"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/8693127008",
+		  "alt_name": "Jinghua Shop",
+		  "fvst:navnelbnr": "1269052",
+		  "name": "Jinhua Butik",
+		  "ref:DK:cvr": "43489690",
+		  "ref:DK:cvr:pnummer": "1028587097",
+		  "shop": "convenience"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5635393,
+			55.6719535
+		  ]
+		},
+		"id": "node/8693127008"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/8693127009",
+		  "check_date": "2024-12-27",
+		  "fvst:navnelbnr": "1110716",
+		  "name": "Stjernekiosken",
+		  "ref:DK:cvr": "42126365",
+		  "ref:DK:cvr:pnummer": "1027219639",
+		  "shop": "convenience"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.559828,
+			55.6711033
+		  ]
+		},
+		"id": "node/8693127009"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/8693151020",
+		  "branch": "Øster Farimagsgade",
+		  "brand": "Brugsen",
+		  "fvst:navnelbnr": "965569",
+		  "name": "Brugsen Øster Farimagsgade",
+		  "operator": "Coop",
+		  "ref:DK:cvr": "26259495",
+		  "ref:DK:cvr:pnummer": "1026466977",
+		  "shop": "supermarket"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.576331,
+			55.691291
+		  ]
+		},
+		"id": "node/8693151020"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/8695324533",
+		  "fvst:navnelbnr": "717346",
+		  "name": "Minimarked",
+		  "ref:DK:cvr": "37192880",
+		  "ref:DK:cvr:pnummer": "1020855564",
+		  "shop": "convenience"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.547094,
+			55.699786
+		  ]
+		},
+		"id": "node/8695324533"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/8734494988",
+		  "fvst:name": "Tradingservice/Superkiosk",
+		  "fvst:navnelbnr": "1250730",
+		  "name": "Superkiosken",
+		  "opening_hours": "Mo-Th 08:00-24:00; Fr-Sa 09:00-01:00; Su 09:00-24:00",
+		  "ref:DK:cvr": "40645403",
+		  "ref:DK:cvr:pnummer": "1024877538",
+		  "shop": "convenience"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.6085914,
+			55.6653907
+		  ]
+		},
+		"id": "node/8734494988"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/8756871314",
+		  "amenity": "post_office",
+		  "check_date": "2022-06-08",
+		  "fvst:navnelbnr": "734208",
+		  "name": "Roomi Kiosk",
+		  "post_office": "post_partner",
+		  "post_office:service_provider": "ups",
+		  "ref:DK:cvr": "38494538",
+		  "ref:DK:cvr:pnummer": "1022281409",
+		  "shop": "convenience"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5740408,
+			55.6966736
+		  ]
+		},
+		"id": "node/8756871314"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/8774074057",
+		  "branch": "Nørrebrogade",
+		  "brand": "Føtex",
+		  "brand:wikidata": "Q1480395",
+		  "fvst:navnelbnr": "957021",
+		  "name": "Føtex",
+		  "opening_hours": "Mo-Su 07:00-22:00",
+		  "operator": "føtex",
+		  "phone": "+4587782050",
+		  "ref:DK:cvr": "35954716",
+		  "ref:DK:cvr:pnummer": "1025371026",
+		  "shop": "supermarket",
+		  "website": "https://www.foetex.dk/kundeservice/find-butik/foetex-food-noerrebrogade/c/foetex-food-noerrebrogade/"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5594295,
+			55.6885016
+		  ]
+		},
+		"id": "node/8774074057"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/8790043201",
+		  "branch": "Sølvtorvet",
+		  "brand": "Netto",
+		  "brand:wikidata": "Q552652",
+		  "fvst:navnelbnr": "715670",
+		  "name": "Netto",
+		  "opening_hours": "Mo-Su,PH 08:00-22:00",
+		  "operator": "Netto",
+		  "ref:DK:cvr": "35954716",
+		  "ref:DK:cvr:pnummer": "1022783897",
+		  "shop": "supermarket",
+		  "wheelchair": "yes"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5738884,
+			55.6892493
+		  ]
+		},
+		"id": "node/8790043201"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/8790043215",
+		  "check_date:opening_hours": "2022-08-15",
+		  "fvst:navnelbnr": "540895",
+		  "name": "Soran Minimarked",
+		  "opening_hours:signed": "no",
+		  "payment:credit_cards": "yes",
+		  "payment:debit_cards": "yes",
+		  "ref:DK:cvr": "34036691",
+		  "ref:DK:cvr:pnummer": "1019077566",
+		  "shop": "greengrocer",
+		  "wheelchair": "limited"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5873802,
+			55.6979529
+		  ]
+		},
+		"id": "node/8790043215"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/8803282745",
+		  "fvst:navnelbnr": "530038",
+		  "name": "Rokkedyssegård Stade",
+		  "ref:DK:cvr": "13485283",
+		  "ref:DK:cvr:pnummer": "1000572887",
+		  "shop": "greengrocer",
+		  "website": "https://torvehallernekbh.dk/stade/solfrugt/"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.569638,
+			55.683984
+		  ]
+		},
+		"id": "node/8803282745"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/8814518217",
+		  "check_date:opening_hours": "2024-10-25",
+		  "fvst:navnelbnr": "1476813",
+		  "name": "Dhadra Food Store",
+		  "opening_hours:signed": "no",
+		  "ref:DK:cvr": "43556339",
+		  "ref:DK:cvr:pnummer": "1028636403",
+		  "shop": "convenience"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5554064,
+			55.6901886
+		  ]
+		},
+		"id": "node/8814518217"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/8817205685",
+		  "branch": "Skelbækgade",
+		  "brand": "Netto",
+		  "brand:wikidata": "Q552652",
+		  "brand:wikipedia": "da:Netto (supermarkedskæde)",
+		  "check_date": "2025-04-11",
+		  "fvst:navnelbnr": "988357",
+		  "name": "Netto",
+		  "opening_hours": "Mo-Su 08:00-22:00",
+		  "ref:DK:cvr": "35954716",
+		  "ref:DK:cvr:pnummer": "1027098114",
+		  "shop": "supermarket",
+		  "start_date": "2021-06-09"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5559205,
+			55.6677467
+		  ]
+		},
+		"id": "node/8817205685"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/8848947263",
+		  "branch": "København K",
+		  "brand": "Alma",
+		  "email": "storekongensgade@almamad.dk",
+		  "fvst:navnelbnr": "1481283",
+		  "name": "Alma København K",
+		  "opening_hours": "Mo-Su 08:00-21:00",
+		  "phone": "+45 44444402",
+		  "ref:DK:cvr": "44892723",
+		  "ref:DK:cvr:pnummer": "1030987604",
+		  "shop": "supermarket",
+		  "website": "https://www.almamad.dk/vores-butikker",
+		  "wheelchair": "yes"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5896014,
+			55.6862882
+		  ]
+		},
+		"id": "node/8848947263"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/8849254684",
+		  "branch": "Nørrebros Runddel",
+		  "fvst:navnelbnr": "122020",
+		  "name": "Kvickly udsalg butiksudsalg",
+		  "operator": "Kvickly",
+		  "ref:DK:cvr": "26259495",
+		  "ref:DK:cvr:pnummer": "1003078325",
+		  "shop": "convenience",
+		  "wheelchair": "yes"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5481084,
+			55.694632
+		  ]
+		},
+		"id": "node/8849254684"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/8849254686",
+		  "check_date": "2024-11-10",
+		  "fvst:navnelbnr": "708759",
+		  "name": "Jafa Frugt & Grønt",
+		  "ref:DK:cvr": "31626250",
+		  "ref:DK:cvr:pnummer": "1001677921",
+		  "shop": "greengrocer"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5604825,
+			55.6895531
+		  ]
+		},
+		"id": "node/8849254686"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/8849254691",
+		  "fvst:navnelbnr": "574039",
+		  "name": "Safir Frugt og Grønt",
+		  "ref:DK:cvr": "26738679",
+		  "ref:DK:cvr:pnummer": "1020114629",
+		  "shop": "greengrocer"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.550134,
+			55.686196
+		  ]
+		},
+		"id": "node/8849254691"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/9060692565",
+		  "check_date": "2025-04-20",
+		  "cuisine": "thai",
+		  "fvst:navnelbnr": "1217223",
+		  "name": "Saitip Thai Market",
+		  "opening_hours": "Mo-Sa 10:00-18:30; Su off",
+		  "phone": "+45 42742703",
+		  "ref:DK:cvr": "39299488",
+		  "ref:DK:cvr:pnummer": "1023311743",
+		  "shop": "convenience",
+		  "website": "http://saitipthaimarket.dk/",
+		  "wheelchair": "no"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.6040172,
+			55.6610616
+		  ]
+		},
+		"id": "node/9060692565"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/9067467680",
+		  "fvst:navnelbnr": "956869",
+		  "name": "Al-Basra Marked",
+		  "ref:DK:cvr": "27039154",
+		  "ref:DK:cvr:pnummer": "1026223535",
+		  "shop": "greengrocer"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.6028956,
+			55.664201
+		  ]
+		},
+		"id": "node/9067467680"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/9067467707",
+		  "fvst:navnelbnr": "119734",
+		  "name": "Mondial",
+		  "ref:DK:cvr": "30755235",
+		  "ref:DK:cvr:pnummer": "1013553625",
+		  "shop": "greengrocer"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.605995,
+			55.659748
+		  ]
+		},
+		"id": "node/9067467707"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/9082349823",
+		  "access": "private",
+		  "fvst:navnelbnr": "115447",
+		  "name": "Vestre Fængsel Butikken nr 1",
+		  "ref:DK:cvr": "53383211",
+		  "ref:DK:cvr:pnummer": "1003393592",
+		  "shop": "convenience"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5381877,
+			55.661782
+		  ]
+		},
+		"id": "node/9082349823"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/9084229128",
+		  "check_date": "2024-12-27",
+		  "fvst:navnelbnr": "115334",
+		  "name": "Al-Amim Minimarked",
+		  "ref:DK:cvr": "26517338",
+		  "ref:DK:cvr:pnummer": "1008120427",
+		  "shop": "convenience"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5520692,
+			55.6686794
+		  ]
+		},
+		"id": "node/9084229128"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/9084281058",
+		  "fvst:navnelbnr": "113470",
+		  "name": "Mini Marked",
+		  "post_office": "post_partner",
+		  "post_office:service_provider": "bring,instabox",
+		  "ref:DK:cvr": "26615658",
+		  "ref:DK:cvr:pnummer": "1009116903",
+		  "shop": "convenience"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5859332,
+			55.6703881
+		  ]
+		},
+		"id": "node/9084281058"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/9088049730",
+		  "fvst:navnelbnr": "115506",
+		  "name": "Elite Købmand",
+		  "operator": "Elite Købmand",
+		  "post_office": "post_partner",
+		  "post_office:service_provider": "dhl,postnord,",
+		  "ref:DK:cvr": "20185074",
+		  "ref:DK:cvr:pnummer": "1009363862",
+		  "shop": "supermarket"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5713793,
+			55.6762859
+		  ]
+		},
+		"id": "node/9088049730"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/9088049733",
+		  "fvst:navnelbnr": "772761",
+		  "name": "Magasin Frugt og Grønt",
+		  "ref:DK:cvr": "58191213",
+		  "ref:DK:cvr:pnummer": "1003123900",
+		  "shop": "greengrocer"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5846053,
+			55.6790747
+		  ]
+		},
+		"id": "node/9088049733"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/9091818722",
+		  "fvst:navnelbnr": "113874",
+		  "level": "-1",
+		  "name": "Bangkok Trading",
+		  "ref:DK:cvr": "21636932",
+		  "ref:DK:cvr:pnummer": "1019994542",
+		  "shop": "convenience"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5637467,
+			55.672035
+		  ]
+		},
+		"id": "node/9091818722"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/9091818723",
+		  "fvst:navnelbnr": "762144",
+		  "name": "SARI SARI",
+		  "ref:DK:cvr": "38570374",
+		  "ref:DK:cvr:pnummer": "1022362085",
+		  "shop": "greengrocer"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5636259,
+			55.6717626
+		  ]
+		},
+		"id": "node/9091818723"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/9095773702",
+		  "check_date": "2023-12-09",
+		  "fvst:navnelbnr": "123661",
+		  "name": "Elite Købmand",
+		  "operator": "Elite Købmand",
+		  "ref:DK:cvr": "26947936",
+		  "ref:DK:cvr:pnummer": "1016595442",
+		  "shop": "supermarket"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.560938,
+			55.693395
+		  ]
+		},
+		"id": "node/9095773702"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/9102016620",
+		  "fvst:navnelbnr": "115858",
+		  "name": "Ns Købmand",
+		  "post_office": "post_partner",
+		  "post_office:service_provider": "gls",
+		  "ref:DK:cvr": "27687652",
+		  "ref:DK:cvr:pnummer": "1015484094",
+		  "shop": "convenience"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5685985,
+			55.6839582
+		  ]
+		},
+		"id": "node/9102016620"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/9109551233",
+		  "drink:wine": "yes",
+		  "fvst:navnelbnr": "113875",
+		  "name": "Magasin Mad & Vin Dagligvarer",
+		  "operator": "Magasin",
+		  "ref:DK:cvr": "58191213",
+		  "ref:DK:cvr:pnummer": "1003123900",
+		  "shop": "supermarket"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5845513,
+			55.6790454
+		  ]
+		},
+		"id": "node/9109551233"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/9142911062",
+		  "branch": "Rådhuspladsen",
+		  "brand": "7-Eleven",
+		  "brand:wikidata": "Q259340",
+		  "brand:wikipedia": "en:7-Eleven",
+		  "check_date": "2024-08-22",
+		  "fvst:navnelbnr": "793140",
+		  "name": "7-Eleven",
+		  "opening_hours": "24/7",
+		  "operator": "7-Eleven",
+		  "ref": "91",
+		  "ref:DK:cvr": "36091169",
+		  "ref:DK:cvr:pnummer": "1024341832",
+		  "shop": "convenience",
+		  "wheelchair": "yes"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5669238,
+			55.6762354
+		  ]
+		},
+		"id": "node/9142911062"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/9155476556",
+		  "fvst:navnelbnr": "558958",
+		  "name": "Solfrugt",
+		  "ref:DK:cvr": "35528962",
+		  "ref:DK:cvr:pnummer": "1018891251",
+		  "shop": "greengrocer"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5695828,
+			55.683856
+		  ]
+		},
+		"id": "node/9155476556"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/9157562790",
+		  "fvst:navnelbnr": "944872",
+		  "name": "Paradis Frugt Colormix Paradise",
+		  "ref:DK:cvr": "39677628",
+		  "ref:DK:cvr:pnummer": "1024013223",
+		  "shop": "greengrocer"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5738683,
+			55.6825044
+		  ]
+		},
+		"id": "node/9157562790"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/9157880010",
+		  "fvst:navnelbnr": "113991",
+		  "name": "Elite Købmand",
+		  "ref:DK:cvr": "27392784",
+		  "ref:DK:cvr:pnummer": "1010155718",
+		  "shop": "convenience",
+		  "wheelchair": "yes"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5546506,
+			55.6938098
+		  ]
+		},
+		"id": "node/9157880010"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/9163924329",
+		  "branch": "Frederiksberg Alle",
+		  "brand": "Min Købmand",
+		  "fvst:navnelbnr": "1270999",
+		  "name": "Min Købmand",
+		  "opening_hours": "Mo-Su 07:30-20:00",
+		  "operator": "Kwik Spar",
+		  "ref:DK:cvr": "43681257",
+		  "ref:DK:cvr:pnummer": "1028801617",
+		  "shop": "supermarket"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.537863,
+			55.673969
+		  ]
+		},
+		"id": "node/9163924329"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/9236222511",
+		  "access": "private",
+		  "fvst:navnelbnr": "113998",
+		  "name": "Blegdammens Fængsel Butik",
+		  "ref:DK:cvr": "53383211",
+		  "ref:DK:cvr:pnummer": "1021656328",
+		  "shop": "convenience"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5620776,
+			55.6909946
+		  ]
+		},
+		"id": "node/9236222511"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/9550478506",
+		  "branch": "Frederiksberg",
+		  "brand": "Alma",
+		  "check_date": "2025-03-27",
+		  "fvst:name": "Alma Madmarked Sylows Alle 17",
+		  "fvst:navnelbnr": "1468580",
+		  "name": "Alma Frederiksberg",
+		  "opening_hours": "08:00-21:00",
+		  "operator": "Almamad",
+		  "ref:DK:cvr": "44892723",
+		  "ref:DK:cvr:pnummer": "1030987574",
+		  "shop": "supermarket",
+		  "website:brand": "https://www.almamad.dk/"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5308991,
+			55.680145
+		  ]
+		},
+		"id": "node/9550478506"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/9559857825",
+		  "branch": "Nørrebrogade",
+		  "brand": "Lidl",
+		  "brand:wikidata": "Q151954",
+		  "check_date": "2024-05-02",
+		  "fvst:name": "LIDL Butik 265 Nørrebro",
+		  "fvst:navnelbnr": "653294",
+		  "name": "Lidl Nørrebrogade",
+		  "opening_hours": "Mo-Su 07:00-22:00; easter-4 days off; easter -3 days off; easter off; easter+1 day off",
+		  "ref:DK:cvr": "26630797",
+		  "shop": "supermarket",
+		  "website": "https://www.lidl.dk/s/da-DK/findbutik/koebenhavn-n/kbh-noerrebro-noerrebrogade/"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5423923,
+			55.6984226
+		  ]
+		},
+		"id": "node/9559857825"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/9618862258",
+		  "alt_name": "7-Eleven Butik 22",
+		  "branch": "Fælledvej",
+		  "fvst:navnelbnr": "1269243",
+		  "name": "7-Eleven Fælledvej",
+		  "operator": "7-Eleven",
+		  "ref:DK:cvr": "41627220",
+		  "ref:DK:cvr:pnummer": "1028679374",
+		  "shop": "convenience"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5605361,
+			55.6903038
+		  ]
+		},
+		"id": "node/9618862258"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/9629416929",
+		  "branch": "Finsensvej",
+		  "brand": "7-Eleven",
+		  "brand:wikidata": "Q259340",
+		  "fvst:navnelbnr": "116645",
+		  "name": "7-Eleven",
+		  "opening_hours": "24/7",
+		  "operator": "7-Eleven",
+		  "ref": "19",
+		  "ref:DK:cvr": "29152632",
+		  "ref:DK:cvr:pnummer": "1015783571",
+		  "shop": "convenience"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.521868,
+			55.6808559
+		  ]
+		},
+		"id": "node/9629416929"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/9629416930",
+		  "branch": "Gammel Kongevej",
+		  "brand": "7-Eleven",
+		  "brand:wikidata": "Q259340",
+		  "fvst:name": "7-Eleven Butik 11",
+		  "fvst:navnelbnr": "1450446",
+		  "name": "7-Eleven Gammel Kongevej",
+		  "opening_hours": "24/7",
+		  "operator": "7-Eleven",
+		  "ref": "11",
+		  "ref:DK:cvr": "44774097",
+		  "ref:DK:cvr:pnummer": "1030281965",
+		  "shop": "convenience"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5452264,
+			55.6754178
+		  ]
+		},
+		"id": "node/9629416930"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/9641826274",
+		  "brand": "7-Eleven",
+		  "brand:wikidata": "Q259340",
+		  "check_date": "2023-07-26",
+		  "fvst:name": "7-Eleven Butik 90",
+		  "fvst:navnelbnr": "1277164",
+		  "name": "7-Eleven",
+		  "opening_hours": "24/7",
+		  "operator": "7-Eleven",
+		  "payment:cash": "yes",
+		  "payment:credit_cards": "yes",
+		  "payment:debit_cards": "yes",
+		  "ref": "7-Eleven Butik 90",
+		  "ref:DK:cvr": "43716808",
+		  "ref:DK:cvr:pnummer": "1028847439",
+		  "shop": "convenience",
+		  "stroller": "yes",
+		  "wheelchair": "yes"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5724888,
+			55.6784338
+		  ]
+		},
+		"id": "node/9641826274"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/9642607410",
+		  "branch": "Ved Vesterport",
+		  "brand": "7-Eleven",
+		  "brand:wikidata": "Q259340",
+		  "fvst:navnelbnr": "514260",
+		  "name": "7-Eleven",
+		  "operator": "7-Eleven",
+		  "ref": "50",
+		  "ref:DK:cvr": "34621500",
+		  "ref:DK:cvr:pnummer": "1017826367",
+		  "shop": "convenience"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.563056,
+			55.675395
+		  ]
+		},
+		"id": "node/9642607410"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/9642934829",
+		  "brand": "7-Eleven",
+		  "brand:wikidata": "Q259340",
+		  "fvst:navnelbnr": "555705",
+		  "name": "7-Eleven",
+		  "opening_hours": "24/7",
+		  "operator": "7-Eleven",
+		  "ref:DK:cvr": "10882230",
+		  "ref:DK:cvr:pnummer": "1019941090",
+		  "shop": "convenience"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5715426,
+			55.6831459
+		  ]
+		},
+		"id": "node/9642934829"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/9642934834",
+		  "branch": "Vesterport Station",
+		  "brand": "7-Eleven",
+		  "brand:wikidata": "Q259340",
+		  "fvst:navnelbnr": "111776",
+		  "name": "7-Eleven",
+		  "opening_hours": "PH,Mo-Su 00:00-24:00",
+		  "operator": "7-Eleven",
+		  "ref:DK:cvr": "10882230",
+		  "ref:DK:cvr:pnummer": "1014092753",
+		  "shop": "convenience"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5623756,
+			55.6756826
+		  ]
+		},
+		"id": "node/9642934834"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/9642934839",
+		  "branch": "Kongens Nytorv",
+		  "brand": "7-Eleven",
+		  "brand:wikidata": "Q259340",
+		  "check_date:opening_hours": "2024-10-24",
+		  "fvst:navnelbnr": "1218493",
+		  "name": "7-Eleven",
+		  "opening_hours:signed": "no",
+		  "operator": "7-Eleven",
+		  "ref": "92",
+		  "ref:DK:cvr": "36901071",
+		  "ref:DK:cvr:pnummer": "1028026222",
+		  "shop": "convenience",
+		  "wheelchair": "yes"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5847646,
+			55.6799766
+		  ]
+		},
+		"id": "node/9642934839"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/9644464945",
+		  "brand": "Meny",
+		  "brand:wikidata": "Q10581720",
+		  "fvst:navnelbnr": "714495",
+		  "name": "MENY Amager Delikatesseafdeling",
+		  "operator": "MENY",
+		  "ref:DK:cvr": "38714295",
+		  "ref:DK:cvr:pnummer": "1022597880",
+		  "shop": "supermarket"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.6072789,
+			55.6684961
+		  ]
+		},
+		"id": "node/9644464945"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/9758466206",
+		  "brand": "Meny",
+		  "brand:wikidata": "Q10581720",
+		  "fvst:navnelbnr": "1221650",
+		  "name": "Meny Illum",
+		  "operator": "MENY",
+		  "ref:DK:cvr": "38714295",
+		  "ref:DK:cvr:pnummer": "1027873878",
+		  "shop": "supermarket"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5807227,
+			55.6793466
+		  ]
+		},
+		"id": "node/9758466206"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/9942462957",
+		  "fvst:navnelbnr": "1220347",
+		  "name": "Jacks Convenience",
+		  "ref:DK:cvr": "42297038",
+		  "ref:DK:cvr:pnummer": "1027037883",
+		  "shop": "convenience"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.6053635,
+			55.6599514
+		  ]
+		},
+		"id": "node/9942462957"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/10654875717",
+		  "alt_name": "Jovan asian supermarket",
+		  "cuisine": "asian",
+		  "fvst:navnelbnr": "1247562",
+		  "name": "Jovan",
+		  "ref:DK:cvr": "43279033",
+		  "ref:DK:cvr:pnummer": "1028273769",
+		  "shop": "supermarket"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5432531,
+			55.6761999
+		  ]
+		},
+		"id": "node/10654875717"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/10722325888",
+		  "branch": "Frederiksberg",
+		  "description": "ubemandet døgnkiosk",
+		  "fvst:navnelbnr": "1270682",
+		  "name": "Letkøb 24/7",
+		  "opening_hours": "24/7",
+		  "ref:DK:cvr": "17497073",
+		  "ref:DK:cvr:pnummer": "1028823939",
+		  "shop": "supermarket",
+		  "unmanned": "yes"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5517063,
+			55.6844834
+		  ]
+		},
+		"id": "node/10722325888"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/10738264611",
+		  "fvst:navnelbnr": "1248123",
+		  "name": "Minimarked",
+		  "post_office": "post_partner",
+		  "post_office:service_provider": "gls,postnord",
+		  "ref:DK:cvr": "17052446",
+		  "ref:DK:cvr:pnummer": "1028188974",
+		  "shop": "convenience"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5992532,
+			55.6762201
+		  ]
+		},
+		"id": "node/10738264611"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/10744303582",
+		  "branch": "Minibar 5",
+		  "brand": "7-Eleven",
+		  "brand:wikidata": "Q259340",
+		  "name": "7-Eleven",
+		  "shop": "convenience"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5648921,
+			55.6720773
+		  ]
+		},
+		"id": "node/10744303582"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/10744459623",
+		  "alt_name": "DSB 7-Eleven",
+		  "brand": "7-Eleven",
+		  "brand:wikidata": "Q259340",
+		  "brand:wikipedia": "en:7-Eleven",
+		  "fvst:navnelbnr": "110622",
+		  "name": "7-Eleven Express",
+		  "opening_hours": "Mo-Th 05:00-01:00; Fr 05:00-24:00; Sa 00:00-24:00; Su 00:00-01:00",
+		  "operator": "Kort & Godt",
+		  "ref:DK:cvr": "10882230",
+		  "ref:DK:cvr:pnummer": "1008293151",
+		  "shop": "convenience",
+		  "source": "https://hovedbanen.dk"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5653213,
+			55.6728127
+		  ]
+		},
+		"id": "node/10744459623"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/10744463990",
+		  "alt_name": "DSB 7-Eleven",
+		  "branch": "Minibar 4",
+		  "brand": "7-Eleven",
+		  "brand:wikidata": "Q259340",
+		  "fvst:navnelbnr": "111258",
+		  "name": "7-Eleven",
+		  "operator": "Kort & Godt",
+		  "ref:DK:cvr": "10882230",
+		  "ref:DK:cvr:pnummer": "1008313101",
+		  "shop": "convenience"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5651312,
+			55.6721793
+		  ]
+		},
+		"id": "node/10744463990"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/10790042796",
+		  "fvst:navnelbnr": "1272727",
+		  "name": "BogB shop Amager",
+		  "opening_hours": "07:00-24:00",
+		  "operator": "Nærkøb",
+		  "ref:DK:cvr": "35514139",
+		  "ref:DK:cvr:pnummer": "1028853080",
+		  "shop": "convenience",
+		  "website": "https://naerkob.dk/store-locator/bogb-shop-amager/",
+		  "wheelchair": "no"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5982285,
+			55.6669971
+		  ]
+		},
+		"id": "node/10790042796"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/10929149514",
+		  "branch": "Nørreport",
+		  "brand": "365discount",
+		  "brand:wikidata": "Q104671354",
+		  "fvst:navnelbnr": "1295514",
+		  "name": "365discount",
+		  "opening_hours": "Mo-Su 07:00-22:00",
+		  "ref:DK:cvr": "11517498",
+		  "ref:DK:cvr:pnummer": "1003424557",
+		  "shop": "supermarket"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5718694,
+			55.682905
+		  ]
+		},
+		"id": "node/10929149514"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/10982045086",
+		  "brand": "365discount",
+		  "brand:wikidata": "Q104671354",
+		  "name": "365discount",
+		  "opening_hours": "Mo-Su 08:00-22:00",
+		  "shop": "supermarket"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5321643,
+			55.6932199
+		  ]
+		},
+		"id": "node/10982045086"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/11212553133",
+		  "name": "Teglholmens Marked",
+		  "shop": "convenience"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5433666,
+			55.6533087
+		  ]
+		},
+		"id": "node/11212553133"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/11331722233",
+		  "branch": "Rantzausgade",
+		  "brand": "Coop 365discount",
+		  "brand:wikidata": "Q104671354",
+		  "fvst:navnelbnr": "1295516",
+		  "name": "365discount Rantzausgade",
+		  "opening_hours": "Mo-Su 08:00-22:00",
+		  "ref:DK:cvr": "11517498",
+		  "ref:DK:cvr:pnummer": "1028984045",
+		  "shop": "supermarket",
+		  "website": "https://coop365.coop.dk/"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5513539,
+			55.6857578
+		  ]
+		},
+		"id": "node/11331722233"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/11420352740",
+		  "branch": "Coop Codanhus",
+		  "brand:wikidata": "Q12306665",
+		  "name": "Coop",
+		  "opening_hours": "Mo-Su 08:00-21:00",
+		  "shop": "supermarket",
+		  "start_date": "2023",
+		  "wheelchair": "yes"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5534561,
+			55.6739176
+		  ]
+		},
+		"id": "node/11420352740"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/11846989733",
+		  "branch": "Ryesgade",
+		  "brand": "Brugsen",
+		  "fvst:navnelbnr": "115681",
+		  "name": "Brugsen Ryesgade",
+		  "opening_hours": "08:00-21:00",
+		  "ref:DK:cvr": "26259495",
+		  "ref:DK:cvr:pnummer": "1003074033",
+		  "shop": "supermarket",
+		  "website": "https://brugsen.coop.dk/find-butik/brugsen-ryesgade/1033/"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.570683,
+			55.6943855
+		  ]
+		},
+		"id": "node/11846989733"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/12029868532",
+		  "branch": "Dybbølsbro station",
+		  "brand": "7-Eleven",
+		  "brand:wikidata": "Q259340",
+		  "fvst:navnelbnr": "1428874",
+		  "name": "7-Eleven (Dybbølsbro station)",
+		  "opening_hours": "Mo-Su 06:30-24:00",
+		  "operator": "7Eleven",
+		  "ref:DK:cvr": "10882230",
+		  "ref:DK:cvr:pnummer": "1030052214",
+		  "shop": "convenience",
+		  "wheelchair": "yes"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5608344,
+			55.6643762
+		  ]
+		},
+		"id": "node/12029868532"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/12100880306",
+		  "branch": "Gl Kongevej",
+		  "brand": "Brugsen",
+		  "fvst:navnelbnr": "113955",
+		  "name": "Brugsen Gl Kongevej",
+		  "ref:DK:cvr": "26259495",
+		  "ref:DK:cvr:pnummer": "1003074021",
+		  "shop": "supermarket"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.543652,
+			55.6757802
+		  ]
+		},
+		"id": "node/12100880306"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/12230817494",
+		  "fvst:name": "Netto 7901 Tjæpt",
+		  "fvst:navnelbnr": "1475069",
+		  "name": "tjæpt",
+		  "opening_hours": "Mo-Su 06:00-22:00",
+		  "operator": "salling group",
+		  "ref:DK:cvr": "35954716",
+		  "ref:DK:cvr:pnummer": "1029804768",
+		  "shop": "supermarket"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5747452,
+			55.6978913
+		  ]
+		},
+		"id": "node/12230817494"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/12550794190",
+		  "brand": "Normal",
+		  "brand:wikidata": "Q19562429",
+		  "name": "Normal",
+		  "shop": "convenience"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5711331,
+			55.6836545
+		  ]
+		},
+		"id": "node/12550794190"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/12737778050",
+		  "fvst:navnelbnr": "1450464",
+		  "name": "Fensmark Købmand",
+		  "ref:DK:cvr": "21469637",
+		  "ref:DK:cvr:pnummer": "1004455239",
+		  "shop": "supermarket",
+		  "wheelchair": "limited"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5543772,
+			55.6959273
+		  ]
+		},
+		"id": "node/12737778050"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/12737778063",
+		  "branch": "Borgergade",
+		  "brand": "365 Discount",
+		  "fvst:navnelbnr": "1356786",
+		  "name": "365discount Borgergade",
+		  "ref:DK:cvr": "11517498",
+		  "ref:DK:cvr:pnummer": "1028988806",
+		  "shop": "supermarket"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5862272,
+			55.6846879
+		  ]
+		},
+		"id": "node/12737778063"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/12793482807",
+		  "fvst:navnelbnr": "1463584",
+		  "name": "Bambus Bazar",
+		  "ref:DK:cvr": "44761785",
+		  "ref:DK:cvr:pnummer": "1030698610",
+		  "shop": "convenience"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.548178,
+			55.6949402
+		  ]
+		},
+		"id": "node/12793482807"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/12798734079",
+		  "branch": "Platan",
+		  "brand": "Brugsen",
+		  "fvst:navnelbnr": "568096",
+		  "name": "Brugsen Platan",
+		  "ref:DK:cvr": "26259495",
+		  "ref:DK:cvr:pnummer": "1003078805",
+		  "shop": "supermarket"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5389217,
+			55.670389
+		  ]
+		},
+		"id": "node/12798734079"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/12800830933",
+		  "fvst:navnelbnr": "1417577",
+		  "name": "French market",
+		  "ref:DK:cvr": "38488449",
+		  "ref:DK:cvr:pnummer": "1030044629",
+		  "shop": "convenience"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5627107,
+			55.6624672
+		  ]
+		},
+		"id": "node/12800830933"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/12805056912",
+		  "brand": "SuperBrugsen",
+		  "fvst:navnelbnr": "113469",
+		  "name": "SuperBrugsen Amager Center",
+		  "ref:DK:cvr": "26259495",
+		  "ref:DK:cvr:pnummer": "1003074070",
+		  "shop": "supermarket",
+		  "website": "https://superbrugsen.coop.dk/find-butik/superbrugsen-amager-center/1007/"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.6035974,
+			55.663213
+		  ]
+		},
+		"id": "node/12805056912"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/12810035719",
+		  "branch": "7-eleven Frederiksberg Allé 41B",
+		  "brand": "7-Eleven",
+		  "fvst:navnelbnr": "1453138",
+		  "name": "7-Eleven 7-eleven Frederiksberg Allé 41B",
+		  "ref:DK:cvr": "40262741",
+		  "ref:DK:cvr:pnummer": "1030652920",
+		  "shop": "convenience"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5408039,
+			55.6736578
+		  ]
+		},
+		"id": "node/12810035719"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/12823399018",
+		  "branch": "København S, Tingvej",
+		  "check_date": "2025-05-09",
+		  "fvst:navnelbnr": "1421953",
+		  "name": "Rema 1000 København S, Tingvej",
+		  "opening_hours": "07:00-21:45",
+		  "ref:DK:cvr": "27451829",
+		  "ref:DK:cvr:pnummer": "1010226801",
+		  "shop": "supermarket",
+		  "website": "https://rema1000.dk/find-butik-og-abningstider/525"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.6046847,
+			55.660206
+		  ]
+		},
+		"id": "node/12823399018"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/12833373852",
+		  "branch": "Frederiksborggade",
+		  "brand": "SuperBrugsen",
+		  "fvst:navnelbnr": "115679",
+		  "name": "SuperBrugsen Frederiksborggade",
+		  "ref:DK:cvr": "26259495",
+		  "ref:DK:cvr:pnummer": "1003073943",
+		  "shop": "supermarket"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5690761,
+			55.6848056
+		  ]
+		},
+		"id": "node/12833373852"
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "@id": "node/12840447875",
+		  "cuisine": "chinese",
+		  "fvst:name": "Den Kinesiske Købmand GHV2",
+		  "fvst:navnelbnr": "1457519",
+		  "name": "Den Kinesiske Købmand",
+		  "opening_hours": "10:00-19:00; Sa-Su 10:00-18:00",
+		  "ref:DK:cvr": "34737347",
+		  "ref:DK:cvr:pnummer": "1030556239",
+		  "shop": "supermarket",
+		  "website": "https://www.denkinesiskekoebmand.dk/butikker"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			12.5383328,
+			55.6854988
+		  ]
+		},
+		"id": "node/12840447875"
+	  }
+	]
+  }

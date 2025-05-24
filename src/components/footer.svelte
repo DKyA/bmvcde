@@ -24,9 +24,6 @@
 			</nav>
 		</div>
 	</div>
-	<p class="footer__footnote">
-		© 2023 GroceryRunner. All rights reserved.
-	</p>
 
 </div>
 
@@ -65,16 +62,6 @@
 				font-size: .9em;
 
 			}
-
-		}
-
-		&__footnote {
-
-			background-color: color("primary");
-			text-align: center;
-			color: color("text-light");
-			font-size: .8em;
-			padding: 4px 0;
 
 		}
 

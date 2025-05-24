@@ -78,9 +78,14 @@ def scrape_product_rema(indices, hrefs, names):
 
     print(f"Working on product no. {index}...")
     driver.get(href)
-    WebDriverWait(driver, 10).until(
-        EC.presence_of_all_elements_located((By.CSS_SELECTOR, 'div.wrap'))
-    )
+    try:
+        WebDriverWait(driver, 10).until(
+            EC.presence_of_all_elements_located((By.CSS_SELECTOR, 'div.wrap'))
+        )
+    except TimeoutException:
+        print(f"Timeout while waiting for elements on page {index}.")
+        driver.quit()
+        return []
     wraps = driver.find_elements(By.CSS_SELECTOR, 'div.wrap')
 
     for wrap_index, wrap in enumerate(wraps):
@@ -116,7 +121,7 @@ def scrape_product_rema(indices, hrefs, names):
                 # Directly get the inner text from the title element within .info
                 title_el = tile.find_element(By.CSS_SELECTOR, '.info .title')
                 prod_name = title_el.get_attribute("innerText").strip()
-                print(f"Raw title text for tile {i}: '{prod_name}'")
+                # print(f"Raw title text for tile {i}: '{prod_name}'")
                 if not prod_name:
                     print(f"[WARN] Empty product name for tile {i}. Tile HTML:\n{tile.get_attribute('outerHTML')}")
                     prod_name = "N/A"
@@ -204,7 +209,7 @@ def scrape_product_rema(indices, hrefs, names):
                 date.today()        # Date of update
             ]
             results.append(line)
-            print(f"Scraped: '{prod_name}'")
+            # print(f"Scraped: '{prod_name}'")
 
     driver.quit()
     return results
@@ -281,7 +286,7 @@ def start_rema(n_drivers: int, pages: str) -> pd.DataFrame:
     # Print the extracted contents
     contents = pd.DataFrame(contents, columns=[
     "Retail", "Name", "Category", "Img",
-    "Link", "Price", "Quantity", "Unit", "Date of update"
+    "Link", "Price", "Quantity", "Unit", "Date of Update"
 ])
     mkdir("./static/scraper/processed")
     contents.to_csv("./static/scraper/processed/Rema.csv")

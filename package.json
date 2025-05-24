@@ -37,5 +37,9 @@
 		"last 2 versions",
 		"> 1%",
 		"not dead"
-	]
+	],
+	"dependencies": {
+		"leaflet": "^1.9.4",
+		"leaflet-routing-machine": "^3.2.12"
+	}
 }

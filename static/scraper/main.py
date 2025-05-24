@@ -2,6 +2,7 @@ import pandas as pd
 from modules.coop_discounts import start_coop
 from modules.rema import start_rema
 from utiles.mkdir import mkdir
+from modules.cleaner import clean_names
 
 rema_pages = {
          "Bread & Bakery": "https://shop.rema1000.dk/brod-bavinchi",
@@ -24,17 +25,18 @@ rema_pages = {
 
 def main():
 
-	# Assuming start_synsam, start_silmaasema, and start_uni return dataframes
     df_coop = start_coop(5, {"Coop": "https://365discount.coop.dk/365avis/"})
     df_rema = start_rema(11,rema_pages)
 	# Combine the dataframes
     combined_df = pd.concat(
         [
             df_coop,
-#             df_rema
+            df_rema
         ],
         ignore_index=True
     )
+
+    combined_df = clean_names(combined_df)
 
     # Export to CSV
     mkdir('./static/scraper/export')
