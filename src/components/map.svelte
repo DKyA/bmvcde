@@ -14,24 +14,26 @@
 	let endInput = '';
 	let startCoord = null;
 	let endCoord = null;
+	let userMarker = null;
 
-	const chainColors = {
-		Discount365: '#00c853',
-		'Rema 1000': '#d50000',
-		DEFAULT: '#888888'
+	const chainFileNames = {
+		Discount365: 'Coop_Marker',
+		'Rema 1000': 'Rema_Marker'
 	};
 
 	export let onRouteCreated = () => {};
 
 	async function geocode(text) {
-	const res = await fetch(`https://nominatim.openstreetmap.org/search?q=${encodeURIComponent(text)}&format=json&limit=1`);
-	const data = await res.json();
-	if (data.length === 0) return null;
-	return {
-		lat: parseFloat(data[0].lat),
-		lng: parseFloat(data[0].lon)
-	};
-}
+		const res = await fetch(
+			`https://nominatim.openstreetmap.org/search?q=${encodeURIComponent(text)}&format=json&limit=1`
+		);
+		const data = await res.json();
+		if (data.length === 0) return null;
+		return {
+			lat: parseFloat(data[0].lat),
+			lng: parseFloat(data[0].lon)
+		};
+	}
 
 	function guessChain(name) {
 		if (!name) return 'Unknown';
@@ -72,7 +74,6 @@
 		appleMapsUrl = `https://maps.apple.com/?saddr=${startCoord.lat},${startCoord.lng}&daddr=${endCoord.lat},${endCoord.lng}`;
 
 		onRouteCreated({ start: startCoord, end: endCoord });
-
 	}
 
 	onMount(async () => {
@@ -86,11 +87,28 @@
 			attribution: '&copy; OpenStreetMap contributors'
 		}).addTo(map);
 
-		// Try to get user location
+		// Try to get user location. Not goign to work probably ;)
 		map.locate({ setView: true, maxZoom: 14 });
 
 		map.on('locationfound', (e) => {
 			userLocation = e.latlng;
+			console.log('User location found:', userLocation);
+
+			// If marker already exists, update it
+			if (userMarker) {
+				userMarker.setLatLng(userLocation);
+			} else {
+				userMarker = L.circleMarker(userLocation, {
+					radius: 8,
+					color: '#1976d2',
+					fillColor: '#2196f3',
+					fillOpacity: 0.8,
+					weight: 2
+				})
+					.addTo(map)
+					.bindTooltip('You are here', { permanent: false, direction: 'top' });
+			}
+
 			updateRoute();
 		});
 
@@ -102,8 +120,13 @@
 			.filter((f) => f.geometry?.type === 'Point')
 			.map((f) => {
 				const [lng, lat] = f.geometry.coordinates;
-				const name = f.properties?.name || 'Unknown';
-				const chain = guessChain(name);
+				const rawName = f.properties?.name || 'Unknown';
+				const branch = f.properties?.branch || '';
+				const chain = guessChain(rawName);
+
+				// If branch exists, append it to the chain
+				const name = branch ? `${chain} ${branch}` : rawName;
+
 				return { name, lat, lng, chain };
 			})
 			.filter((store) => store.chain === 'Discount365' || store.chain === 'Rema 1000');
@@ -111,10 +134,33 @@
 		// Plot markers
 		stores.forEach((store) => {
 			const icon = L.divIcon({
-				className: 'custom-icon',
-				html: `<div class="label" style="background:${chainColors[store.chain] || chainColors.DEFAULT};">${store.chain}</div>`
+				className: 'icon',
+				html: `
+				<img
+					class="icon__image"
+					src="/images/${chainFileNames[store.chain]}.png"
+					height=48 width=48
+					style="
+						position:absolute;
+						bottom: 0;
+						left: 50%;
+						transform: translateX(-50%);
+					"
+				>`
 			});
-			L.marker([store.lat, store.lng], { icon }).addTo(map);
+
+			const marker = L.marker([store.lat, store.lng], { icon }).addTo(map);
+
+			marker.on('click', () => {
+				endInput = `${store.name}, ${store.lat}, ${store.lng}`;
+				endCoord = L.latLng(store.lat, store.lng);
+				updateRoute();
+			});
+
+			marker.bindTooltip(`Set destination: ${store.name}`, {
+				permanent: false,
+				direction: 'top'
+			});
 		});
 
 		await tick();
@@ -122,31 +168,121 @@
 	});
 </script>
 
-<form on:submit|preventDefault={updateRoute}>
-	<label>Start:</label>
-	<input type="text" bind:value={startInput} placeholder="Your location or address" />
+<form class="controller" on:submit|preventDefault={updateRoute}>
+	<div class="controller__section">
+		<label class="controller__label">Start:</label>
+		<input
+			class="controller__input"
+			type="text"
+			bind:value={startInput}
+			placeholder="Your location or address"
+		/>
+	</div>
 
-	<label>End:</label>
-	<input type="text" bind:value={endInput} placeholder="Type address or store name" />
+	<div class="controller__section">
+		<label class="controller__label">End:</label>
+		<input
+			class="controller__input"
+			type="text"
+			bind:value={endInput}
+			placeholder="Type address or store name"
+		/>
+	</div>
 
-	<button type="submit">Submit</button>
+	<button class="controller__submit" type="submit">Go!</button>
 </form>
 
-<div id="map"></div>
+<div id="map" class="map"></div>
 
 {#if googleMapsUrl && appleMapsUrl}
-	<div style="margin-top: 1rem; display: flex; gap: 1rem;">
-		<a href={googleMapsUrl} target="_blank" rel="noopener noreferrer">
-			<button>Open in Google Maps</button>
+	<div class="opener">
+		<a class="opener__link" href={googleMapsUrl} target="_blank" rel="noopener noreferrer">
+			<button class="opener__button">Open in Google Maps</button>
 		</a>
-		<a href={appleMapsUrl} target="_blank" rel="noopener noreferrer">
-			<button>Open in Apple Maps</button>
+		<a class="opener__link" href={appleMapsUrl} target="_blank" rel="noopener noreferrer">
+			<button class="opener__button">Open in Apple Maps</button>
 		</a>
 	</div>
 {/if}
 
-<style>
-	#map {
+<style lang="scss">
+	.opener {
+		display: flex;
+		justify-content: space-around;
+
+		gap: 1rem;
+		margin-top: 1rem;
+
+		&__link {
+			text-decoration: none;
+			color: inherit;
+			border-bottom: none;
+			&:hover {
+				text-decoration: none;
+				border-bottom: none;
+			}
+		}
+
+		&__button {
+			padding: 8px 16px;
+			background-color: color('primary');
+			color: white;
+			border: none;
+			outline: none;
+			border-radius: 4px;
+			cursor: pointer;
+			font-size: 16px;
+			transition: 0.3s ease;
+
+			&:hover {
+				background-color: darken(color('primary'), 10%);
+			}
+		}
+	}
+
+	.controller {
+		display: flex;
+		flex-direction: column;
+		gap: 1rem;
+		padding: 8px;
+		background-color: color('primary-light');
+
+		&__section {
+			display: flex;
+			flex-direction: column;
+			gap: 0.5rem;
+		}
+
+		&__label {
+			@include p;
+			font-weight: bold;
+			color: color('primary-dark');
+		}
+
+		&__input {
+			padding: 8px;
+			border: 1px solid color('primary-dark');
+			border-radius: 4px;
+			font-size: 16px;
+			color: color('primary-dark');
+		}
+
+		&__submit {
+			padding: 8px 16px;
+			background-color: color('primary');
+			color: white;
+			border: none;
+			border-radius: 4px;
+			cursor: pointer;
+			font-size: 16px;
+
+			&:hover {
+				background-color: darken(color('primary'), 10%);
+			}
+		}
+	}
+
+	.map {
 		height: 500px;
 		width: 100%;
 		margin-top: 1rem;
@@ -164,13 +300,8 @@
 		font-size: 14px;
 	}
 
-	.custom-icon .label {
-		color: white;
-		padding: 3px 6px;
-		border-radius: 4px;
-		font-size: 12px;
-		font-weight: bold;
-		box-shadow: 0 0 3px rgba(0, 0, 0, 0.4);
-		white-space: nowrap;
+	.user-marker {
+		font-size: 20px;
+		line-height: 24px;
 	}
 </style>
