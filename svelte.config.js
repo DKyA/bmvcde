@@ -2,7 +2,12 @@ import adapter from '@sveltejs/adapter-static';
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 
 const config = { 
-	kit: { adapter: adapter() },
+	kit: {
+		adapter: adapter({
+			fallback: 'index.html', // 👈 This enables SPA behavior
+			strict: false
+		})
+	},
 	preprocess: [vitePreprocess(
 		{
 			scss: {

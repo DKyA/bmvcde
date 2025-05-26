@@ -17,10 +17,10 @@
 				<div class="footer__headline">
 					<Underscore> Where <i>Next?</i> </Underscore>
 				</div>
-				<a href="home/" class="footer__link">Home</a>
-				<a href="about/" class="footer__link">Shopping Basket</a>
-				<a href="contact/" class="footer__link">Map</a>
-				<a href="settings/" class="footer__link">Settings</a>
+				<a href="#" class="footer__link">Home</a>
+				<a href="#" class="footer__link">Shopping Basket</a>
+				<a href="#" class="footer__link">Map</a>
+				<a href="#" class="footer__link">Settings</a>
 			</nav>
 		</div>
 	</div>
