@@ -5,9 +5,7 @@ from tqdm import tqdm
 ########## Translation Pipeline Setup ##########
 
 # # Load your data
-# df = pd.read_csv("static/scraper/export/combined_data"
-# ""
-# ".csv")
+# df = pd.read_csv("static/scraper/export/combined_data.csv")
 
 # # Set up the translation pipeline
 # translator = pipeline("translation", model="Helsinki-NLP/opus-mt-da-en", max_length=100)
@@ -27,96 +25,348 @@ from tqdm import tqdm
 # # Apply translation only to "Name Cleaned" column
 # df["Translated Name Cleaned"] = df["Name Cleaned"].progress_apply(translate_product)
 
+
 # # Save the result
 # df.to_csv("static/scraper/export/combined_data_translated.csv", index=False)
 
-#############################################################################
-############## Kolmogorov Army Sentence Transformers Setup ##########
 
+# #############################################################################
+# ############## Translation Pipeline - Category ##########
+# #! REQUIRES PYTHON 3.12.2. Newer Python doesn't have the packages yet :)
+
+# manual_map = {
+#     "BAGUETTE/FLUTES": "Baguette/Flutes",
+#     "BOLLER": "Buns",
+#     "BRØD": "Bread",
+#     "RUGBRØD": "Rye Bread",
+#     "FAST FOOD BRØD": "Fast Food Bread",
+#     "BAVINCHI BAGER": "Bavinchi Bakery",
+#     "PÆRE, ÆBLE, BANAN & CITRUSFRUGT": "Pear, Apple, Banana & Citrus Fruit",
+#     "BLOMMER, FERSKEN, NEKTARINER & KIWI": "Plums, Peaches, Nectarines & Kiwi",
+#     "MELON, BÆR, VINDRUER & EKSOTISK FRUGT": "Melon, Berries, Grapes & Exotic Fruit",
+#     "AGURK, TOMAT & PEBERFRUGT": "Cucumber, Tomato & Bell Pepper",
+#     "SALATER, FINT GRØNT & AVOCADO": "Salads, Fine Greens & Avocado",
+#     "KRYDDERURTER & SMAGSFORSTÆRKERE": "Herbs & Flavour Enhancers",
+#     "GROV GRØNT": "Coarse Vegetables",
+#     "KÅL": "Cabbage",
+#     "KARTOFLER & LØG": "Potatoes & Onions",
+#     "FISK & SKALDYR": "Fish & Shellfish",
+#     "HAKKET KØD": "Minced Meat",
+#     "KYLLING": "Chicken",
+#     "OKSEKØD": "Beef",
+#     "GRIS": "Pork",
+#     "LAM": "Lamb",
+#     "PLANTEBASEREDE ALTERNATIVER": "Plant-Based Alternatives",
+#     "HYTTEOST": "Cottage Cheese",
+#     "PLANTEBASERET": "Plant-Based",
+#     "BØRNEOST": "Children's Cheese",
+#     "HÅRD OST": "Hard Cheese",
+#     "MADLAVNINGSOST M.V.": "Cooking Cheese etc.",
+#     "SKIVESKÅRET": "Sliced",
+#     "SKÆREOST": "Block Cheese",
+#     "SMØREOST": "Spreadable Cheese",
+#     "SPECIALOST": "Specialty Cheese",
+#     "FLØDE M.V.": "Cream etc.",
+#     "GÆR": "Yeast",
+#     "JUICE, KAKAO, DRIKKEYOGHURT M.V.": "Juice, Cocoa, Drinking Yogurt etc.",
+#     "KOLDSKÅL": "Buttermilk Dessert",
+#     "MÆLK M.V.": "Milk etc.",
+#     "MÆLKESNITTE/DESSERT": "Milk Snack/Dessert",
+#     "SMØR & FEDTSTOFFER": "Butter & Fats",
+#     "SYRNEDE PRODUKTER": "Soured Products",
+#     "YOGHURT M.V.": "Yogurt etc.",
+#     "ÆG": "Eggs",
+#     "FRYS-SELV-IS": "Freeze-Yourself Ice Cream",
+#     "CHIPS OG SNACKS": "Chips and Snacks",
+#     "DRESSING": "Dressing",
+#     "FISKEKONSERVES": "Canned Fish",
+#     "KETCHUP, REMOULADE, MAYONNAISE M.V.": "Ketchup, Remoulade, Mayonnaise etc.",
+#     "KIKS, KAGER & KNÆKBRØD": "Biscuits, Cakes & Crispbread",
+#     "KONSERVES & SURVARER": "Canned Goods & Pickles",
+#     "KRYDDERIER": "Spices",
+#     "MARGARINE": "Margarine",
+#     "MARMELADE & CHOKOLADE PÅLÆG M.V.": "Jam & Chocolate Spreads etc.",
+#     "MEL, SUKKER, BAGNING": "Flour, Sugar, Baking",
+#     "MORGENMAD": "Breakfast",
+#     "NØDDER & TØRRET FRUGT": "Nuts & Dried Fruit",
+#     "OLIE, EDDIKE & BALSAMICO": "Oil, Vinegar & Balsamic",
+#     "RIS & PASTA, MV": "Rice & Pasta, etc.",
+#     "SAUCER & NEM MAD": "Sauces & Easy Meals",
+#     "TEX MEX": "Tex Mex",
+#     "ALKOHOLFRI ØL/VIN": "Non-Alcoholic Beer/Wine",
+#     "HEDVIN/APERITIF": "Fortified Wine/Aperitif",
+#     "HVIDVIN": "White Wine",
+#     "MOUSSERENDE VIN": "Sparkling Wine",
+#     "ROSEVIN": "Rosé Wine",
+#     "RØDVIN": "Red Wine",
+#     "SODAVAND, VAND, SMOOTHIES M.V.": "Soft Drinks, Water, Smoothies etc.",
+#     "READY TO DRINK": "Ready to Drink",
+#     "SPECIAL ØL": "Specialty Beer",
+#     "ØL": "Beer",
+#     "JUICE M.V.": "Juice etc.",
+#     "SAFT M.V.": "Squash/Concentrate etc.",
+#     "INSTANT KAFFE": "Instant Coffee",
+#     "KAFFE": "Coffee",
+#     "KAFFETILBEHØR": "Coffee Accessories",
+#     "KAKAO": "Cocoa",
+#     "PLANTEDRIKKE": "Plant Drinks",
+#     "TE": "Tea",
+#     "ENERGIDRIKKE": "Energy Drinks"
+# }
+
+# from transformers import pipeline
+# from tqdm import tqdm
+# import pandas as pd
+
+# df = pd.read_csv("static/scraper/export/combined_data_translated.csv")
+# translator = pipeline("translation", model="Helsinki-NLP/opus-mt-da-en", max_length=100)
+# tqdm.pandas()
+
+# def smart_translate(cat):
+#     if pd.isnull(cat):
+#         return cat
+#     if cat in manual_map:
+#         return manual_map[cat]
+#     try:
+#         return translator(cat)[0]['translation_text']
+#     except:
+#         return cat  # fallback
+
+# df["Category (EN)"] = df["Category"].progress_apply(smart_translate)
+# df.to_csv("static/scraper/export/combined_data_translated.csv", index=False)
+
+#############################################################################
+############# Kolmogorov Army Sentence Transformers Setup ##########
+
+# import pandas as pd
+# import torch
+# from sentence_transformers import SentenceTransformer, util
+
+# # --- Load Data ---
+# df = pd.read_csv("static/scraper/export/combined_data_translated.csv")
+# df["Translated Name Cleaned"] = df["Translated Name Cleaned"].astype(str).str.strip(" ,.;:+")
+# df["Category"] = df["Category"].astype(str)
+
+# # --- Build Context Column ---
+# df["Context Name"] = df.apply(
+#     lambda row: f"{row['Translated Name Cleaned']} {row['Category (EN)']}"
+#     if pd.notnull(row["Category (EN)"]) and row["Category (EN)"].lower() != "nan"
+#     else row["Translated Name Cleaned"],
+#     axis=1
+# )
+
+# product_names = df["Context Name"].fillna("").tolist()
+# product_names = [name for name in product_names if name]
+
+# # --- Define Labels ---
+# category_labels = [
+#     "Chicken Breast", "Chicken Thighs", "Chicken Drumsticks", "Chicken Mixed Cuts", "Pork Chops", "Pork Mince",
+#     "Beef Mince", "Beef Steak", "Frikadeller", "Liver Pâté", "Cold Cuts", "Ham Slices", "Salami", "Sausage",
+#     "Fish Fillet", "Fish Cakes", "Smoked Salmon", "Surimi", "Milk", "Cocoa Milk", "Plant Milk", "Yogurt", "Skyr",
+#     "Cheese Slices", "Cheese Block", "Cream Cheese", "Butter", "Margarine", "Eggs", "Wheat Flour", "Rye Flour",
+#     "Pasta", "Spaghetti", "Rice", "Couscous", "Bread Crumbs", "Crispbread", "Knækbrød", "Baking Mix", "Bread Loaf",
+#     "Buns", "Sandwich Bread", "Rye Bread", "Toast Bread", "Tortilla Wraps", "Apples", "Bananas", "Grapes",
+#     "Tomatoes", "Cucumber", "Potatoes", "Carrots", "Onions", "Garlic", "Lettuce", "Frozen Vegetables", "Juice",
+#     "Apple Juice", "Orange Juice", "Pineapple Juice", "Multivitamin Juice", "Grape Juice", "Berry Juice",
+#     "Mango Juice", "Fruit Juice (Mixed)", "Vegetable Juice",
+#     "Soda", "Cola", "Energy Drink", "Still Water", "Sparkling Water", "Cocoa Drink",
+#     "Cider", "Apple Cider", "Pear Cider", "Cider (Alcoholic)",
+#     "Canned Fruit", "Canned Pineapple", "Canned Peaches", "Dried Fruit", "Raisins", "Prunes", "Dates",
+#     "Coffee", "Ground Coffee", "Instant Coffee", "Coffee Beans", "Tea", "Herbal Tea", "Chocolate", "Candy",
+#     "Biscuits", "Ice Cream", "Magnum", "Waffles", "Licorice", "Baked Beans", "Corn", "Peas", "Pickles", "Jam",
+#     "Tomato Paste", "Pasta Sauce", "Hummus", "Pizza", "Lasagna", "Ready Meals", "Pasta Salad", "Sandwich Spread",
+#     "Toilet Paper", "Kitchen Towels", "Dish Soap", "Laundry Detergent", "Shampoo", "Conditioner", "Toothpaste",
+#     "Feta Cheese", "Mozzarella", "Parmesan", "Cottage Cheese", "Whipping Cream",
+#     "Oranges", "Mandarins", "Berries", "Strawberries", "Blueberries", "Lemons", "Limes", "Avocados", "Melons",
+#     "Pineapple", "Fruit Mix", "Bell Peppers", "Zucchini", "Cabbage", "Cauliflower", "Broccoli", "Spinach",
+#     "Mushrooms", "Chili Peppers", "Mixed Salad", "Frozen Mixed Vegetables",
+#     "Iced Tea", "Sports Drink", "Flavored Water",
+#     "Tinned Tomatoes", "Lentils", "Chickpeas", "Bouillon", "Honey", "Ketchup", "Mustard", "Mayonnaise",
+#     "Tuna (Canned)", "Nut Butter", "Hand Soap", "Body Wash", "Facial Tissues", "Trash Bags", "Aluminum Foil",
+#     "Cleaning Spray", "Shower Gel", "Dishwasher Tablets", "Fabric Softener", "Chips"
+# ]
+
+# # --- Load Models ---
+# model_names = [
+#     'all-MiniLM-L6-v2',
+#     'paraphrase-MiniLM-L6-v2',
+#     'all-distilroberta-v1'
+# ]
+# models = [SentenceTransformer(name) for name in model_names]
+
+# # --- Encode Labels Once ---
+# label_embeddings_per_model = [model.encode(category_labels, convert_to_tensor=True) for model in models]
+
+# # --- Classify Products ---
+# results = []
+# for product in product_names:
+#     product_embeddings = [model.encode(product, convert_to_tensor=True) for model in models]
+
+#     avg_scores = None
+#     for emb, label_emb in zip(product_embeddings, label_embeddings_per_model):
+#         cosine_scores = util.cos_sim(emb, label_emb)
+#         avg_scores = cosine_scores if avg_scores is None else avg_scores + cosine_scores
+#     avg_scores /= len(models)
+
+#     top_scores, top_indices = torch.topk(avg_scores, k=3, dim=1)
+#     top_scores = top_scores.squeeze().tolist()
+#     top_indices = top_indices.squeeze().tolist()
+
+#     if not isinstance(top_scores, list):
+#         top_scores = [top_scores]
+#         top_indices = [top_indices]
+
+#     best_label = category_labels[top_indices[0]]
+#     results.append({
+#         "Product": product,
+#         "Best Category": best_label,
+#         "Top 1": f"{category_labels[top_indices[0]]} ({top_scores[0]:.2f})",
+#         "Top 2": f"{category_labels[top_indices[1]]} ({top_scores[1]:.2f})" if len(top_scores) > 1 else "",
+#         "Top 3": f"{category_labels[top_indices[2]]} ({top_scores[2]:.2f})" if len(top_scores) > 2 else "",
+#     })
+
+# # --- Merge and Save ---
+# results_df = pd.DataFrame(results)
+# final_df = df.merge(results_df, how="left", left_on="Context Name", right_on="Product")
+
+# output_path = "static/scraper/export/combined_data_categorized_ensemble.csv"
+# final_df.to_csv(output_path, index=False)
+# print("✅ Done! Saved with expanded labels and context to:\n", output_path)
+
+# #*###########################################################################
+# #*############ Hack for building the Coop Sortiment ###############
+
+# import pandas as pd
+# import numpy as np
+# from datetime import datetime
+
+# # Load your dataset
+# df = pd.read_csv(
+#     "static/scraper/export/combined_data_categorized_ensemble.csv")
+
+# # Ensure correct numeric types
+# df["Price"] = pd.to_numeric(df["Price"], errors='coerce')
+# df["Retail"] = df["Retail"].astype(str)
+
+# # Step 1: Select 80% of Rema products
+# rema_products = df[df["Retail"].str.lower().str.contains("rema")]
+# rema_sample = rema_products.sample(frac=0.8, random_state=42).copy()
+
+# # Step 2: Apply random price increase between -5% and +10%
+# price_factors = np.random.uniform(0.95, 1.10, size=len(rema_sample))
+# rema_sample["Price"] = (rema_sample["Price"] * price_factors).round(2)
+
+# # Step 3: Change metadata to Coop
+# rema_sample["Retail"] = "Coop"
+# rema_sample["Link"] = ""
+# rema_sample["Img"] = ""
+# rema_sample["Date of Update"] = datetime.today().strftime('%Y-%m-%d')
+# if "Synthetic" not in rema_sample.columns:
+#     rema_sample["Synthetic"] = True
+
+# # Step 4: Mark real data
+# if "Synthetic" not in df.columns:
+#     df["Synthetic"] = False
+
+# # Step 5: Combine
+# df_extended = pd.concat([df, rema_sample], ignore_index=True)
+
+# # Step 6: Save the result
+# output_path = "static/scraper/export/combined_data_categorized_with_synthetic.csv"
+# df_extended.to_csv(output_path, index=False)
+
+# print(f"✅ Done! Saved with synthetic Coop entries to:\n{output_path}")
+
+
+
+############################################################################
+############# Unit Converter ###############
 
 import pandas as pd
-import torch
-from sentence_transformers import SentenceTransformer, util
+import numpy as np
+import re
 
-# --- Load Data ---
-df = pd.read_csv("static/scraper/export/combined_data_translated.csv")
-df["Translated Name Cleaned"] = df["Translated Name Cleaned"].astype(str).str.strip(" ,.;:+")
-product_names = df["Translated Name Cleaned"].fillna("").tolist()
-product_names = [name for name in product_names if name]
+# Load your dataset
+df = pd.read_csv("static/scraper/export/combined_data_categorized_with_synthetic_corrections.csv")
 
-# --- Define Labels ---
-category_labels = [
-    "Chicken Breast", "Chicken Thighs", "Chicken Drumsticks", "Chicken Mixed Cuts", "Pork Chops", "Pork Mince",
-    "Beef Mince", "Beef Steak", "Frikadeller", "Liver Pâté", "Cold Cuts", "Ham Slices", "Salami", "Sausage",
-    "Fish Fillet", "Fish Cakes", "Smoked Salmon", "Surimi", "Milk", "Cocoa Milk", "Plant Milk", "Yogurt", "Skyr",
-    "Cheese Slices", "Cheese Block", "Cream Cheese", "Butter", "Margarine", "Eggs", "Wheat Flour", "Rye Flour",
-    "Pasta", "Spaghetti", "Rice", "Couscous", "Bread Crumbs", "Crispbread", "Knækbrød", "Baking Mix", "Bread Loaf",
-    "Buns", "Sandwich Bread", "Rye Bread", "Toast Bread", "Tortilla Wraps", "Apples", "Bananas", "Grapes",
-    "Tomatoes", "Cucumber", "Potatoes", "Carrots", "Onions", "Garlic", "Lettuce", "Frozen Vegetables", "Juice",
-    "Apple Juice", "Orange Juice", "Soda", "Cola", "Energy Drink", "Still Water", "Sparkling Water", "Cocoa Drink",
-    "Coffee", "Ground Coffee", "Instant Coffee", "Coffee Beans", "Tea", "Herbal Tea", "Chocolate", "Candy",
-    "Biscuits", "Ice Cream", "Magnum", "Waffles", "Licorice", "Baked Beans", "Corn", "Peas", "Pickles", "Jam",
-    "Tomato Paste", "Pasta Sauce", "Hummus", "Pizza", "Lasagna", "Ready Meals", "Pasta Salad", "Sandwich Spread",
-    "Toilet Paper", "Kitchen Towels", "Dish Soap", "Laundry Detergent", "Shampoo", "Conditioner", "Toothpaste"
-]
+# Normalize unit names
+unit_map = {
+    "g": "kg", "GR.": "kg", "KG.": "kg", "kg": "kg",
+    "ml": "l", "cl": "l", "LTR.": "l", "ltr": "l", "Liter": "l", "ML.": "l", "CL.": "l",
+    "stk": "unit", "STK.": "unit", "x": "unit", "BAKKE": "unit", "BDT.": "unit",
+    "vaske": "other", "POSE": "other"
+}
 
-# --- Load Models ---
-model_names = [
-    'all-MiniLM-L6-v2',
-    'paraphrase-MiniLM-L6-v2',
-    'all-distilroberta-v1'
-]
-models = [SentenceTransformer(name) for name in model_names]
+df["Unit Standardized"] = df["Unit"].astype(str).str.strip().map(unit_map)
 
-# --- Encode Labels Once ---
-label_embeddings_per_model = [model.encode(category_labels, convert_to_tensor=True) for model in models]
+# Extract quantity — handle ranges like "205-500"
+def extract_quantity(val):
+    if pd.isnull(val):
+        return np.nan
+    val = str(val).strip()
+    if "-" in val:
+        parts = re.findall(r'\d+', val)
+        if parts:
+            return np.mean([float(p) for p in parts])
+    try:
+        return float(val)
+    except:
+        return np.nan
 
-# --- Encode Products & Calculate Average Cosine Scores ---
-results = []
-for product in product_names:
-    product_embeddings = [model.encode(product, convert_to_tensor=True) for model in models]
+df["Quantity Cleaned"] = df["Quantity"].apply(extract_quantity)
 
-    # Average cosine scores across models
-    avg_scores = None
-    for emb, label_emb in zip(product_embeddings, label_embeddings_per_model):
-        cosine_scores = util.cos_sim(emb, label_emb)
-        if avg_scores is None:
-            avg_scores = cosine_scores
+# Convert all to base unit
+def quantity_in_base_unit(row):
+    q = row["Quantity Cleaned"]
+    unit = row["Unit Standardized"]
+    if pd.isnull(q) or pd.isnull(unit):
+        return np.nan
+    if unit == "kg":
+        return q / 1000 if row["Unit"].lower().startswith("g") else q
+    elif unit == "l":
+        if row["Unit"].lower().startswith("ml"):
+            return q / 1000
+        elif row["Unit"].lower().startswith("cl"):
+            return q / 100
         else:
-            avg_scores += cosine_scores
-    avg_scores /= len(models)
+            return q
+    elif unit == "unit":
+        return q
+    else:
+        return np.nan
 
-    # Get top 3 category indices
-    top_scores, top_indices = torch.topk(avg_scores, k=3, dim=1)
-    top_scores = top_scores.squeeze().tolist()
-    top_indices = top_indices.squeeze().tolist()
+df["Quantity (Standardized)"] = df.apply(quantity_in_base_unit, axis=1)
 
-    # Handle case when only one score returned (single label tied)
-    if not isinstance(top_scores, list):
-        top_scores = [top_scores]
-        top_indices = [top_indices]
+# Calculate price per unit
+df["Price per Unit"] = df["Price"] / df["Quantity (Standardized)"]
+df.loc[df["Quantity (Standardized)"] == 0, "Price per Unit"] = np.nan
 
-    best_label = category_labels[top_indices[0]]
-    results.append({
-        "Product": product,
-        "Best Category": best_label,
-        "Top 1": f"{category_labels[top_indices[0]]} ({top_scores[0]:.2f})",
-        "Top 2": f"{category_labels[top_indices[1]]} ({top_scores[1]:.2f})" if len(top_scores) > 1 else "",
-        "Top 3": f"{category_labels[top_indices[2]]} ({top_scores[2]:.2f})" if len(top_scores) > 2 else "",
-    })
+# Round for clarity
+df["Price per Unit"] = df["Price per Unit"].round(2)
 
-# --- Merge with original data ---
-results_df = pd.DataFrame(results)
-final_df = df.merge(results_df, how="left", left_on="Translated Name Cleaned", right_on="Product")
-
-# --- Save ---
-output_path = "static/scraper/export/combined_data_categorized_ensemble.csv"
-final_df.to_csv(output_path, index=False)
-print("✅ Done! Saved as 'classified_products_ensemble.csv'")
+# Save output
+df.to_csv("static/scraper/export/combined_data_final_priced.csv", index=False)
+print("✅ Done! Saved as combined_data_final_priced.csv")
 
 
-#############################################################################
-############## Sentence Transformers Setup ##########
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+##!###########################################################################
+#! Caution: Graveyeard ahead, This code is not used anymore, but kept for reference.
+#!############# Sentence Transformers Setup ##########
 
 # import pandas as pd
 # import torch
@@ -132,7 +382,7 @@ print("✅ Done! Saved as 'classified_products_ensemble.csv'")
 
 # # Define detailed category labels
 # category_labels = [
-#     "Chicken Breast", "Chicken Thighs", "Chicken Drumsticks", "Chicken Mixed Cuts", "Pork Chops", "Pork Mince",
+#     "Chicken Breast", "Chicken Thighs", "Chicken Drumsticks", "Chicken Mixed Cuts", "Pork", "Pork Mince",
 #     "Beef Mince", "Beef Steak", "Frikadeller", "Liver Pâté", "Cold Cuts", "Ham Slices", "Salami", "Sausage",
 #     "Fish Fillet", "Fish Cakes", "Smoked Salmon", "Surimi", "Milk", "Cocoa Milk", "Plant Milk", "Yogurt", "Skyr",
 #     "Cheese Slices", "Cheese Block", "Cream Cheese", "Butter", "Margarine", "Eggs", "Wheat Flour", "Rye Flour",
@@ -176,7 +426,7 @@ print("✅ Done! Saved as 'classified_products_ensemble.csv'")
 #     "zero-shot-classification",
 #     model="valhalla/distilbart-mnli-12-1",  # faster!
 #     device=-1,
-#     batch_size=16 
+#     batch_size=16
 # )
 
 # labels = [
@@ -283,7 +533,7 @@ print("✅ Done! Saved as 'classified_products_ensemble.csv'")
 
 # def classify_products_batch(product_names, batch_size=16):
 #     categories = []
-    
+
 #     # Split into batches
 #     for i in tqdm(range(0, len(product_names), batch_size), desc="Classifying in batches"):
 #         batch = product_names[i:i+batch_size]
@@ -292,7 +542,7 @@ print("✅ Done! Saved as 'classified_products_ensemble.csv'")
 #             candidate_labels=labels,
 #             hypothesis_template="This is {}"
 #         )
-        
+
 #         # When batch has 1 item, results is a dict; when >1 items, results is a list
 #         if isinstance(results, dict):
 #             best_label = results["labels"][0]
@@ -301,7 +551,7 @@ print("✅ Done! Saved as 'classified_products_ensemble.csv'")
 #             for res in results:
 #                 best_label = res["labels"][0]
 #                 categories.append(best_label)
-    
+
 #     return categories
 
 # df = pd.read_csv("static/scraper/export/combined_data_translated.csv")
@@ -333,7 +583,7 @@ print("✅ Done! Saved as 'classified_products_ensemble.csv'")
 # from transformers import pipeline
 
 # # Load an instruct-tuned model
-# pipe = pipeline("text2text-generation", model="google/flan-t5-base") 
+# pipe = pipeline("text2text-generation", model="google/flan-t5-base")
 
 # def hf_generalize_name(name):
 #     # prompt = f"Help me translate the name of this grocery from Danish. What is '{name}'? Generalize it to a more common name."
@@ -342,7 +592,7 @@ print("✅ Done! Saved as 'classified_products_ensemble.csv'")
 #         f"Generalize the following product to a common grocery type. "
 #         f"Use only 1 or 2 English words. If unsure, answer 'Other'. "
 #         f"Product: '{name}'\nGeneral category:"
-#     )    
+#     )
 #     result = pipe(prompt, max_new_tokens=20)[0]["generated_text"]
 #     return result.strip()
 
@@ -358,9 +608,6 @@ print("✅ Done! Saved as 'classified_products_ensemble.csv'")
 
 # # Print results
 # print(sample_df[['Translated Name Cleaned', 'Generalized Name']].to_string(index=False))
-
-
-
 
 
 ####################################################################################################

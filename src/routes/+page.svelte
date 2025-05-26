@@ -1,14 +1,10 @@
 <script>
 	import { onMount } from 'svelte';
 	import Map from '../components/map.svelte';
+	import Trolley from '../components/trolley.svelte';
 
 	let user = 'Daniel'; // Replace with dynamic user data if available
-	let groceries = ['Milk', 'Bread', 'Eggs', 'Cheese']; // Replace with dynamic data if available
 	let userPosition = { lat: 0, lng: 0 };
-	let stores = [
-		{ name: 'Store A', lat: 0.1, lng: 0.1 },
-		{ name: 'Store B', lat: -0.1, lng: -0.1 }
-	];
 
 	onMount(() => {
 		if (navigator.geolocation) {
@@ -35,14 +31,7 @@
 <div class="col-2">
 	<div class="col-2-left">
 		<h2>Shopping List</h2>
-		<ul>
-			{#each groceries as grocery}
-				<li>{grocery}</li>
-			{/each}
-		</ul>
-	</div>
-	<div class="col-2-right">
-		<h2>What is on your mind today?</h2>
+		<Trolley />
 	</div>
 </div>
 <div class="col-1">
