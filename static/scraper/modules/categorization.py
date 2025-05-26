@@ -258,8 +258,6 @@ from tqdm import tqdm
 
 # # Step 3: Change metadata to Coop
 # rema_sample["Retail"] = "Coop"
-# rema_sample["Link"] = ""
-# rema_sample["Img"] = ""
 # rema_sample["Date of Update"] = datetime.today().strftime('%Y-%m-%d')
 # if "Synthetic" not in rema_sample.columns:
 #     rema_sample["Synthetic"] = True
@@ -350,9 +348,44 @@ print("✅ Done! Saved as combined_data_final_priced.csv")
 
 
 
+############################################################################
+############# Ad-Hoc Manipulator ###############
 
 
+import pandas as pd
 
+# Load cleaned data
+df = pd.read_csv("static/scraper/export/combined_data_final_priced.csv")
+
+# Split into original and synthetic for processing
+real = df[df["Synthetic"] == False].copy()
+synthetic = df[df["Synthetic"] == True].copy()
+
+# Build lookup table: Name Cleaned → (Img, Link)
+image_map = real.dropna(subset=["Img"]).drop_duplicates(subset=["Name Cleaned"])
+image_map = image_map.set_index("Name Cleaned")[["Img", "Link"]].to_dict(orient="index")
+
+# Fill missing Img and Link in synthetic rows using Name Cleaned
+def fill_image_info(row):
+    if pd.notnull(row["Img"]) or row["Synthetic"] != True:
+        return row
+    key = row["Name Cleaned"]
+    if key in image_map:
+        row["Img"] = image_map[key]["Img"]
+        row["Link"] = image_map[key]["Link"]
+    return row
+
+synthetic = synthetic.apply(fill_image_info, axis=1)
+
+# Combine real + updated synthetic
+df_updated = pd.concat([real, synthetic], ignore_index=True)
+
+# Drop exact duplicate rows
+df_updated = df_updated.drop_duplicates()
+
+# Save the updated file
+df_updated.to_csv("static/scraper/export/combined_data_final_priced.csv", index=False)
+print("✅ Img/Link restored and duplicates removed. File saved.")
 
 
 

@@ -2,6 +2,7 @@
 	import { onMount } from 'svelte';
 	import Map from '../components/map.svelte';
 	import Trolley from '../components/trolley.svelte';
+	import Progress from '../components/progress.svelte';
 
 	let user = 'Daniel'; // Replace with dynamic user data if available
 	let userPosition = { lat: 0, lng: 0 };
@@ -18,15 +19,18 @@
 	});
 
 	function handleRouteCreated({ start, end }) {
-		console.log('Start coord:', start);
-		console.log('End coord:', end);
-		// do something useful here
+		// console.log('Start coord:', start);
+		// console.log('End coord:', end);
+		// do something useful here, potentially :)
+		let x = 0;
+		x += 1; // Just to avoid unused variable warning
 	}
 </script>
 
 <div class="header">
 	<h1>Hi {user},</h1>
-	<h2>Here is the overview of Your Shopping</h2>
+	<h2>Here is the overview of Your Shopping:</h2>
+	<Progress />
 </div>
 <div class="col-2">
 	<div class="col-2-left">
