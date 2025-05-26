@@ -206,7 +206,7 @@ def scrape_product_rema(indices, hrefs, names):
                 volume,             # Volume (if any)
                 unit,               # Unit (if any)
             #    labels,             # Labels (if any)
-                date.today()        # Date of update
+                date.today()        # Date of Update
             ]
             results.append(line)
             # print(f"Scraped: '{prod_name}'")

@@ -256,7 +256,7 @@ def start_silmaasema(n_drivers: int, pages: str) -> pd.DataFrame:
                     contents.append(result)
 
     # Print the extracted contents
-    contents = pd.DataFrame(contents, columns=["Company", "Link", "Product", "Pack Size", "Periodicity", "Type", "OTC", "PAYG", "Subscription", "Date of update"])
+    contents = pd.DataFrame(contents, columns=["Company", "Link", "Product", "Pack Size", "Periodicity", "Type", "OTC", "PAYG", "Subscription", "Date of Update"])
     mkdir("./static/scraper/processed")
     contents.to_csv("./static/scraper/processed/Silmaasema.csv")
     print("Silmaasema Done!")

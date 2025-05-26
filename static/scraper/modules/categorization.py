@@ -31,55 +31,296 @@ from tqdm import tqdm
 # df.to_csv("static/scraper/export/combined_data_translated.csv", index=False)
 
 #############################################################################
+############## Kolmogorov Army Sentence Transformers Setup ##########
+
+
+import pandas as pd
+import torch
+from sentence_transformers import SentenceTransformer, util
+
+# --- Load Data ---
+df = pd.read_csv("static/scraper/export/combined_data_translated.csv")
+df["Translated Name Cleaned"] = df["Translated Name Cleaned"].astype(str).str.strip(" ,.;:+")
+product_names = df["Translated Name Cleaned"].fillna("").tolist()
+product_names = [name for name in product_names if name]
+
+# --- Define Labels ---
+category_labels = [
+    "Chicken Breast", "Chicken Thighs", "Chicken Drumsticks", "Chicken Mixed Cuts", "Pork Chops", "Pork Mince",
+    "Beef Mince", "Beef Steak", "Frikadeller", "Liver Pâté", "Cold Cuts", "Ham Slices", "Salami", "Sausage",
+    "Fish Fillet", "Fish Cakes", "Smoked Salmon", "Surimi", "Milk", "Cocoa Milk", "Plant Milk", "Yogurt", "Skyr",
+    "Cheese Slices", "Cheese Block", "Cream Cheese", "Butter", "Margarine", "Eggs", "Wheat Flour", "Rye Flour",
+    "Pasta", "Spaghetti", "Rice", "Couscous", "Bread Crumbs", "Crispbread", "Knækbrød", "Baking Mix", "Bread Loaf",
+    "Buns", "Sandwich Bread", "Rye Bread", "Toast Bread", "Tortilla Wraps", "Apples", "Bananas", "Grapes",
+    "Tomatoes", "Cucumber", "Potatoes", "Carrots", "Onions", "Garlic", "Lettuce", "Frozen Vegetables", "Juice",
+    "Apple Juice", "Orange Juice", "Soda", "Cola", "Energy Drink", "Still Water", "Sparkling Water", "Cocoa Drink",
+    "Coffee", "Ground Coffee", "Instant Coffee", "Coffee Beans", "Tea", "Herbal Tea", "Chocolate", "Candy",
+    "Biscuits", "Ice Cream", "Magnum", "Waffles", "Licorice", "Baked Beans", "Corn", "Peas", "Pickles", "Jam",
+    "Tomato Paste", "Pasta Sauce", "Hummus", "Pizza", "Lasagna", "Ready Meals", "Pasta Salad", "Sandwich Spread",
+    "Toilet Paper", "Kitchen Towels", "Dish Soap", "Laundry Detergent", "Shampoo", "Conditioner", "Toothpaste"
+]
+
+# --- Load Models ---
+model_names = [
+    'all-MiniLM-L6-v2',
+    'paraphrase-MiniLM-L6-v2',
+    'all-distilroberta-v1'
+]
+models = [SentenceTransformer(name) for name in model_names]
+
+# --- Encode Labels Once ---
+label_embeddings_per_model = [model.encode(category_labels, convert_to_tensor=True) for model in models]
+
+# --- Encode Products & Calculate Average Cosine Scores ---
+results = []
+for product in product_names:
+    product_embeddings = [model.encode(product, convert_to_tensor=True) for model in models]
+
+    # Average cosine scores across models
+    avg_scores = None
+    for emb, label_emb in zip(product_embeddings, label_embeddings_per_model):
+        cosine_scores = util.cos_sim(emb, label_emb)
+        if avg_scores is None:
+            avg_scores = cosine_scores
+        else:
+            avg_scores += cosine_scores
+    avg_scores /= len(models)
+
+    # Get top 3 category indices
+    top_scores, top_indices = torch.topk(avg_scores, k=3, dim=1)
+    top_scores = top_scores.squeeze().tolist()
+    top_indices = top_indices.squeeze().tolist()
+
+    # Handle case when only one score returned (single label tied)
+    if not isinstance(top_scores, list):
+        top_scores = [top_scores]
+        top_indices = [top_indices]
+
+    best_label = category_labels[top_indices[0]]
+    results.append({
+        "Product": product,
+        "Best Category": best_label,
+        "Top 1": f"{category_labels[top_indices[0]]} ({top_scores[0]:.2f})",
+        "Top 2": f"{category_labels[top_indices[1]]} ({top_scores[1]:.2f})" if len(top_scores) > 1 else "",
+        "Top 3": f"{category_labels[top_indices[2]]} ({top_scores[2]:.2f})" if len(top_scores) > 2 else "",
+    })
+
+# --- Merge with original data ---
+results_df = pd.DataFrame(results)
+final_df = df.merge(results_df, how="left", left_on="Translated Name Cleaned", right_on="Product")
+
+# --- Save ---
+output_path = "static/scraper/export/combined_data_categorized_ensemble.csv"
+final_df.to_csv(output_path, index=False)
+print("✅ Done! Saved as 'classified_products_ensemble.csv'")
+
+
+#############################################################################
+############## Sentence Transformers Setup ##########
+
+# import pandas as pd
+# import torch
+# from sentence_transformers import SentenceTransformer, util
+
+# # Load your CSV
+# df = pd.read_csv("static/scraper/export/combined_data_translated.csv")
+
+# # Clean product names
+# df["Translated Name Cleaned"] = df["Translated Name Cleaned"].astype(str).str.strip(" ,.;:+")
+# product_names = df["Translated Name Cleaned"].fillna("").tolist()
+# product_names = [name for name in product_names if name]  # Remove empty
+
+# # Define detailed category labels
+# category_labels = [
+#     "Chicken Breast", "Chicken Thighs", "Chicken Drumsticks", "Chicken Mixed Cuts", "Pork Chops", "Pork Mince",
+#     "Beef Mince", "Beef Steak", "Frikadeller", "Liver Pâté", "Cold Cuts", "Ham Slices", "Salami", "Sausage",
+#     "Fish Fillet", "Fish Cakes", "Smoked Salmon", "Surimi", "Milk", "Cocoa Milk", "Plant Milk", "Yogurt", "Skyr",
+#     "Cheese Slices", "Cheese Block", "Cream Cheese", "Butter", "Margarine", "Eggs", "Wheat Flour", "Rye Flour",
+#     "Pasta", "Spaghetti", "Rice", "Couscous", "Bread Crumbs", "Crispbread", "Knækbrød", "Baking Mix", "Bread Loaf",
+#     "Buns", "Sandwich Bread", "Rye Bread", "Toast Bread", "Tortilla Wraps", "Apples", "Bananas", "Grapes",
+#     "Tomatoes", "Cucumber", "Potatoes", "Carrots", "Onions", "Garlic", "Lettuce", "Frozen Vegetables", "Juice",
+#     "Apple Juice", "Orange Juice", "Soda", "Cola", "Energy Drink", "Still Water", "Sparkling Water", "Cocoa Drink",
+#     "Coffee", "Ground Coffee", "Instant Coffee", "Coffee Beans", "Tea", "Herbal Tea", "Chocolate", "Candy",
+#     "Biscuits", "Ice Cream", "Magnum", "Waffles", "Licorice", "Baked Beans", "Corn", "Peas", "Pickles", "Jam",
+#     "Tomato Paste", "Pasta Sauce", "Hummus", "Pizza", "Lasagna", "Ready Meals", "Pasta Salad", "Sandwich Spread",
+#     "Toilet Paper", "Kitchen Towels", "Dish Soap", "Laundry Detergent", "Shampoo", "Conditioner", "Toothpaste"
+# ]
+
+# # Load model
+# model = SentenceTransformer('all-MiniLM-L6-v2')
+
+# # Encode
+# label_embeddings = model.encode(category_labels, convert_to_tensor=True)
+# product_embeddings = model.encode(product_names, convert_to_tensor=True)
+
+# # Cosine similarity
+# cosine_scores = util.cos_sim(product_embeddings, label_embeddings)
+# best_indices = torch.argmax(cosine_scores, dim=1)
+# predicted_labels = [category_labels[idx] for idx in best_indices]
+
+# # Assign back
+# df["Predicted Category"] = ""
+# df.loc[df["Translated Name Cleaned"].isin(product_names), "Predicted Category"] = predicted_labels
+
+# # Save result
+# output_path = "static/scraper/export/combined_data_categorized_batch.csv"
+# df.to_csv(output_path, index=False)
+# print("Done!")
+
+
+#############################################################################
 ####### Classification Pipeline Setup ##########
 
 
-classifier = pipeline(
-    "zero-shot-classification",
-    model="facebook/bart-large-mnli", 
-    device=-1, # If you have Nvidia GPU, set to 0 (I dont)
-    batch_size=16
-)
+# classifier = pipeline(
+#     "zero-shot-classification",
+#     model="valhalla/distilbart-mnli-12-1",  # faster!
+#     device=-1,
+#     batch_size=16 
+# )
 
-labels = [
-"Bread", "Buns & Rolls", "Pastries", 'Cakes', "Cookies & Biscuits", "Flatbreads", "Toast",
+# labels = [
+#     "Chicken Breast",
+#     "Chicken Thighs",
+#     "Chicken Drumsticks",
+#     "Chicken Mixed Cuts",
+#     "Pork Chops",
+#     "Pork Mince",
+#     "Beef Mince",
+#     "Beef Steak",
+#     "Frikadeller",
+#     "Liver Pâté",
+#     "Cold Cuts",
+#     "Ham Slices",
+#     "Salami",
+#     "Sausage",
+#     "Fish Fillet",
+#     "Fish Cakes",
+#     "Smoked Salmon",
+#     "Surimi",
+#     "Milk",
+#     "Cocoa Milk",
+#     "Plant Milk",
+#     "Yogurt",
+#     "Skyr",
+#     "Cheese Slices",
+#     "Cheese Block",
+#     "Cream Cheese",
+#     "Butter",
+#     "Margarine",
+#     "Eggs",
+#     "Wheat Flour",
+#     "Rye Flour",
+#     "Pasta",
+#     "Spaghetti",
+#     "Rice",
+#     "Couscous",
+#     "Bread Crumbs",
+#     "Crispbread",
+#     "Knækbrød",
+#     "Baking Mix",
+#     "Bread Loaf",
+#     "Buns",
+#     "Sandwich Bread",
+#     "Rye Bread",
+#     "Toast Bread",
+#     "Tortilla Wraps",
+#     "Apples",
+#     "Bananas",
+#     "Grapes",
+#     "Tomatoes",
+#     "Cucumber",
+#     "Potatoes",
+#     "Carrots",
+#     "Onions",
+#     "Garlic",
+#     "Lettuce",
+#     "Frozen Vegetables",
+#     "Juice",
+#     "Apple Juice",
+#     "Orange Juice",
+#     "Soda",
+#     "Cola",
+#     "Energy Drink",
+#     "Still Water",
+#     "Sparkling Water",
+#     "Cocoa Drink",
+#     "Coffee",
+#     "Ground Coffee",
+#     "Instant Coffee",
+#     "Coffee Beans",
+#     "Tea",
+#     "Herbal Tea",
+#     "Chocolate",
+#     "Candy",
+#     "Biscuits",
+#     "Ice Cream",
+#     "Magnum",
+#     "Waffles",
+#     "Licorice",
+#     "Baked Beans",
+#     "Corn",
+#     "Peas",
+#     "Pickles",
+#     "Jam",
+#     "Tomato Paste",
+#     "Pasta Sauce",
+#     "Hummus",
+#     "Pizza",
+#     "Lasagna",
+#     "Ready Meals",
+#     "Pasta Salad",
+#     "Sandwich Spread",
+#     "Toilet Paper",
+#     "Kitchen Towels",
+#     "Dish Soap",
+#     "Laundry Detergent",
+#     "Shampoo",
+#     "Conditioner",
+#     "Toothpaste"
+# ]
 
 
-]
-
-def classify_products_batch(product_names, batch_size=16):
-    categories = []
+# def classify_products_batch(product_names, batch_size=16):
+#     categories = []
     
-    # Split into batches
-    for i in tqdm(range(0, len(product_names), batch_size), desc="Classifying in batches"):
-        batch = product_names[i:i+batch_size]
-        results = classifier(
-            batch,
-            candidate_labels=labels,
-            hypothesis_template="This product belongs to the {} category."
-        )
+#     # Split into batches
+#     for i in tqdm(range(0, len(product_names), batch_size), desc="Classifying in batches"):
+#         batch = product_names[i:i+batch_size]
+#         results = classifier(
+#             batch,
+#             candidate_labels=labels,
+#             hypothesis_template="This is {}"
+#         )
         
-        # When batch has 1 item, results is a dict; when >1 items, results is a list
-        if isinstance(results, dict):
-            best_label = results["labels"][0]
-            categories.append(best_label)
-        else:
-            for res in results:
-                best_label = res["labels"][0]
-                categories.append(best_label)
+#         # When batch has 1 item, results is a dict; when >1 items, results is a list
+#         if isinstance(results, dict):
+#             best_label = results["labels"][0]
+#             categories.append(best_label)
+#         else:
+#             for res in results:
+#                 best_label = res["labels"][0]
+#                 categories.append(best_label)
     
-    return categories
+#     return categories
 
-df = pd.read_csv("static/scraper/export/combined_data_translated.csv")
-sample_df = df.head(32).copy()
+# df = pd.read_csv("static/scraper/export/combined_data_translated.csv")
 
-column_to_categorize = "Translated Name Cleaned"
+# df["Date of Update"] = df["Date of Update"].combine_first(df["Date of update"])
+# df["Translated Name Cleaned"] = df["Translated Name Cleaned"].str.rstrip(" +;")
 
-product_list = sample_df[column_to_categorize].fillna("").tolist()
+# sample_df = df.head(40).copy() # Use a smaller sample for testing
 
-sample_df["Category"] = classify_products_batch(product_list, batch_size=16)
+# column_to_categorize = "Translated Name Cleaned"
 
-print(sample_df[["Translated Name Cleaned", "Category"]].to_string(index=False))
+# product_list = [
+#     p.strip(" ,.;:") for p in sample_df["Translated Name Cleaned"].fillna("").tolist()
+#     if p.strip(" ,.;:")
+# ]
+
+# sample_df["Category"] = classify_products_batch(product_list, batch_size=16)
+
+# print(sample_df[["Translated Name Cleaned", "Category"]].to_string(index=False))
 
 # output_path = "static/scraper/export/combined_data_categorized_batch.csv"
 # df.to_csv(output_path, index=False)

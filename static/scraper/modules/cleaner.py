@@ -22,7 +22,7 @@ def clean_names(df):
         df['Name']
         .fillna('')
         .str.replace(r'\*$', '', regex=True)                         # remove trailing asterisks
-        .str.replace(r'[0-9*/"\'.\-%];', '', regex=True)                # remove digits and symbols
+        .str.replace(r'[0-9*/"\'.\-%+];', '', regex=True)                # remove digits and symbols
         .str.replace(r'\s+', ' ', regex=True)                       # normalize whitespace
         .str.replace(blacklist_pattern, '', flags=re.IGNORECASE, regex=True)  # remove unwanted words
         .str.strip()
