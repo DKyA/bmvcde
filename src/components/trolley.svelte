@@ -201,34 +201,47 @@
 	}
 
 	$: comparisonTable = displayTable.map((row, index) => {
-		const remaOverride = row.manualOverrides.rema;
-		const coopOverride = row.manualOverrides.coop;
+	const remaOverride = row.manualOverrides.rema;
+	const coopOverride = row.manualOverrides.coop;
 
-		const compute = (store, override) => {
-			if (override) {
-				const unitsToBuy = Math.ceil(row.quantity / override.unitQty);
-				return {
-					name: override.name,
-					unit: override.unit,
-					pricePerUnit: override.price,
-					unitsToBuy,
-					totalPrice: unitsToBuy * override.price,
-					img: override.img,
-					packSize: override.packSize
-				};
-			}
-			return getStoreOption(row.category, row.unit, row.quantity, store);
-		};
+	const compute = (store, override) => {
+		if (override) {
+			const unitsToBuy = Math.ceil(row.quantity / override.unitQty);
+			return {
+				name: override.name,
+				unit: override.unit,
+				pricePerUnit: override.price,
+				unitsToBuy,
+				totalPrice: unitsToBuy * override.price,
+				img: override.img,
+				packSize: override.packSize
+			};
+		}
+		return getStoreOption(row.category, row.unit, row.quantity, store);
+	};
 
-		return {
-			index,
-			category: row.category,
-			quantity: row.quantity,
-			unit: row.unit,
-			rema: compute('Rema1000', remaOverride),
-			coop: compute('Coop', coopOverride)
-		};
-	});
+	const rema = compute('Rema1000', remaOverride);
+	const coop = compute('Coop', coopOverride);
+
+	let highlight = null;
+	if (rema && coop) {
+		highlight = rema.totalPrice < coop.totalPrice ? 'rema' : coop.totalPrice < rema.totalPrice ? 'coop' : null;
+	} else if (rema) {
+		highlight = 'rema';
+	} else if (coop) {
+		highlight = 'coop';
+	}
+
+	return {
+		index,
+		category: row.category,
+		quantity: row.quantity,
+		unit: row.unit,
+		rema,
+		coop,
+		highlight
+	};
+});
 
 	function getStoreAlternatives(category, preferredUnit, store) {
 		const unitOrder = ['l', 'kg', 'other', ''];
@@ -385,6 +398,8 @@
 		</tbody>
 	</table>
 
+<!-- HEY CHATGPT! PLEASE CHANGE THIS TABLE! :) -->
+
 	<hr class="separate" />
 	<div class="comparator">
 		<div class="comparator__head comparator__head--rema">Rema1000</div>
@@ -392,7 +407,7 @@
 
 		<div class="comparator__body comparator__body--rema">
 			{#each comparisonTable as row}
-				<div class="comparator__row">
+				<div class="comparator__row {row.highlight === 'rema' ? 'comparator__row--highlight' : ''}">
 					<div class="comparator__row-category">{row.category}</div>
 
 					{#if row.rema}
@@ -406,7 +421,7 @@
 						<div class="comparator__cell comparator__cell--name">
 							{row.rema.name}, {row.rema.packSize}{row.rema.unit}
 						</div>
-						<div class="comparator__cell comparator__cell--price">
+						<div class="comparator__cell comparator__cell--price {row.highlight === 'rema' ? 'comparator__cell--cheapest' : ''}">
 							{row.rema.pricePerUnit.toFixed(2)} DKK × {row.rema.unitsToBuy} =
 							<strong>{row.rema.totalPrice.toFixed(2)} DKK</strong>
 						</div>
@@ -451,7 +466,7 @@
 
 		<div class="comparator__body comparator__body--coop">
 			{#each comparisonTable as row}
-				<div class="comparator__row">
+			<div class="comparator__row {row.highlight === 'coop' ? 'comparator__row--highlight' : ''}">
 					<div class="comparator__row-category">{row.category}</div>
 
 					{#if row.coop}
@@ -465,7 +480,7 @@
 						<div class="comparator__cell comparator__cell--name">
 							{row.coop.name}, {row.coop.packSize}{row.coop.unit}
 						</div>
-						<div class="comparator__cell comparator__cell--price">
+						<div class="comparator__cell comparator__cell--price {row.highlight === 'coop' ? 'comparator__cell--cheapest' : ''}">
 							{row.coop.pricePerUnit.toFixed(2)} DKK × {row.coop.unitsToBuy} =
 							<strong>{row.coop.totalPrice.toFixed(2)} DKK</strong>
 						</div>
@@ -742,9 +757,22 @@
 			align-items: center;
 			padding-bottom: 1rem;
 			border-bottom: 1px solid #eee;
+			position: relative;
 
 			&:last-child {
 				border-bottom: none;
+			}
+
+			&--highlight {
+				&:after {
+					content: '';
+					position: absolute;
+					top: 0;
+					right: -16px;
+					bottom: 0;
+					width: 2px;
+					background-color: color('success');
+				}
 			}
 		}
 
@@ -781,6 +809,10 @@
 				font-size: 0.9rem;
 			}
 
+		}
+
+		&__cell--cheapest {
+			color: color('success');
 		}
 
 		&__cell--unavailable {
