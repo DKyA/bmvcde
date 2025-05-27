@@ -98,8 +98,8 @@
 	onMount(async () => {
 		const L = await import('leaflet');
 		window.L = L;
-		await import('leaflet-routing-machine');
-
+		await import('leaflet-routing-machine/dist/leaflet-routing-machine.js');
+		
 		map = L.map('map').setView([55.6761, 12.5683], 13);
 
 		L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
