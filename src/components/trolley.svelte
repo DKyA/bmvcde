@@ -381,10 +381,10 @@
 		</tbody>
 	</table>
 
-	<hr>
+	<hr class="separate">
 
-	<table class="table">
-		<thead class="table__thead">
+	<table class="comparator">
+		<thead class="comparator__thead">
 			<tr>
 				<th rowspan="2"></th>
 				<th colspan="4">Rema1000</th>
@@ -401,7 +401,7 @@
 				<th></th>
 			</tr>
 		</thead>
-		<tbody class="table__tbody">
+		<tbody class="comparator__tbody">
 			{#each comparisonTable as row}
 				<tr>
 					<td>{row.category}</td>
@@ -737,4 +737,7 @@
 		gap: 1rem;
 		align-items: center;
 	}
+
+
+
 </style>
