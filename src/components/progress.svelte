@@ -1,49 +1,88 @@
 <script>
 	let monthlyGoal = 200; // your team can adjust this freely
 	let currentSavings = 110; // this can be dynamically updated later
+	let fee = 20;
+	let fee_pct = Math.min((fee / monthlyGoal) * 100, 100).toFixed(0);
 
-	$: savingsProgress = Math.min((currentSavings / monthlyGoal) * 100, 100).toFixed(0);
+	$: savingsProgress = Math.min(((currentSavings - fee) / monthlyGoal) * 100, 100).toFixed(0);
 </script>
 
-<div class="savings-progress">
-	<div class="savings-label">
-		You've saved <strong>{currentSavings} DKK</strong> this month out of your
-		<strong>{monthlyGoal} DKK</strong> goal!
+<div class="savings">
+	<div class="savings__label">
+		You saved {currentSavings} DKK this month so far:
 	</div>
-	<div class="progress-bar">
-		<div class="progress-bar__fill" style="width: {savingsProgress}%"></div>
+	<div class="savings__progress">
+		<div class="savings__fee" style="width: {fee_pct}%"><p>Fee</p></div>
+		<div class="savings__fill" style="width: {savingsProgress}%"><p>Savings: {currentSavings - fee} DKK</p></div>
 	</div>
-	<div class="progress-label">{savingsProgress}%</div>
 </div>
 
 <style lang="scss">
-	.savings-progress {
-		margin: 2rem 0;
+
+	.savings {
+
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		margin-bottom: 16px;
+
+		&__label {
+
+			@include p;
+			margin-top: 8px;
+
+		}
+		&__progress {
+
+			width: 90%;
+			height: 28px;
+			background-color: color('primary-light');
+			border: 2px solid color('primary');
+			border-radius: 4px;
+			display: flex;
+			justify-content: left;
+			overflow: hidden;
+
+		}
+
+		&__fee {
+
+			height: 100%;
+			background-color: color('error');
+			display: flex;
+			justify-content: center;
+			align-items: center;
+
+			& > p {
+				@include p;
+				color: white;
+				opacity: 0.6;
+				font-size: 0.6em;
+				letter-spacing: 0.1em;
+				font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+			}
+
+		}
+
+		&__fill {
+
+			height: 100%;
+			background-color: color('success');
+			display: flex;
+			justify-content: center;
+			align-items: center;
+
+			& > p {
+				@include p;
+				color: white;
+				opacity: 0.6;
+				font-size: 0.6em;
+				letter-spacing: 0.1em;
+				font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+			}
+
+		}
+
 	}
 
-	.savings-label {
-		margin-bottom: 0.5rem;
-		font-size: 1rem;
-	}
-
-	.progress-bar {
-		background: #ddd;
-		border-radius: 6px;
-		overflow: hidden;
-		height: 20px;
-		position: relative;
-	}
-
-	.progress-bar__fill {
-		background-color: #4caf50;
-		height: 100%;
-		transition: width 0.3s ease;
-	}
-
-	.progress-label {
-		text-align: right;
-		font-size: 0.9rem;
-		color: #333;
-		margin-top: 0.25rem;
-	}
 </style>

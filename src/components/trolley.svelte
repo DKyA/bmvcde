@@ -345,8 +345,8 @@
 </div>
 
 {#if displayTable.length > 0}
-	<table class="product-table">
-		<thead>
+	<table class="table">
+		<thead class="table__thead">
 			<tr>
 				<th>Image</th>
 				<th>Category</th>
@@ -356,7 +356,7 @@
 				<th></th>
 			</tr>
 		</thead>
-		<tbody>
+		<tbody class="table__tbody">
 			{#each displayTable as row}
 				<tr>
 					<td>
@@ -375,16 +375,18 @@
 							{row.unit === 'l' ? 'liters' : row.unit === 'kg' ? 'kg' : 'pcs'}
 						</span>
 					</td>
-					<td><button on:click={() => removeCategory(row.category)}>Del</button></td>
+					<td><button class="btn btn--delete" on:click={() => removeCategory(row.category)}><i class="bi bi-trash"></i></button></td>
 				</tr>
 			{/each}
 		</tbody>
 	</table>
 
-	<table class="comparison-table">
-		<thead>
+	<hr>
+
+	<table class="table">
+		<thead class="table__thead">
 			<tr>
-				<th rowspan="2">Product</th>
+				<th rowspan="2"></th>
 				<th colspan="4">Rema1000</th>
 				<th colspan="4">Coop</th>
 			</tr>
@@ -399,7 +401,7 @@
 				<th></th>
 			</tr>
 		</thead>
-		<tbody>
+		<tbody class="table__tbody">
 			{#each comparisonTable as row}
 				<tr>
 					<td>{row.category}</td>
@@ -441,7 +443,7 @@
 					{#if row.coop}
 						<td>
 							{#if row.coop.img}
-								<img src={row.coop.img} width="60" alt="Image" />
+								<img src={row.coop.img} width="40" alt="Advertising image of {row.coop.name}" />
 							{:else}
 								<i>No image</i>
 							{/if}
@@ -461,7 +463,7 @@
 								>
 								{#each getStoreAlternatives(row.category, row.unit, 'Coop') as alt}
 									<option value={JSON.stringify(alt)}>
-										{alt.name} – {alt.packSize}{alt.unit} ({alt.price} DKK)
+										{alt.name} - {alt.packSize}{alt.unit} ({alt.price} DKK)
 									</option>
 								{/each}
 							</select>
@@ -548,7 +550,7 @@
 	</div>
 {/if}
 
-<style>
+<style lang="scss">
 	.autocomplete {
 		position: relative;
 		width: 100%;
@@ -586,26 +588,113 @@
 		background-color: #eee;
 	}
 
-	.product-table {
-		width: 100%;
-		border-collapse: collapse;
-		margin-top: 1rem;
-	}
+	.table {
+	width: 100%;
+	border-collapse: collapse;
+	font-family: $font-stack;
+	font-size: 0.95rem;
+	color: color("text-dark");
+	background-color: color("background");
 
-	th,
-	td {
-		border: 1px solid #ccc;
-		padding: 8px;
+	th, td {
+		padding: 0.5rem 0.75rem;
 		text-align: left;
+		vertical-align: top;
+		border: 1px solid lighten(color("text-dark"), 65%);
+		word-break: break-word;
 	}
 
-	th {
-		background-color: #f5f5f5;
+	thead {
+		display: none; // Hide complex thead on mobile
 	}
 
-	td img {
-		border-radius: 4px;
+	tbody {
+		display: flex;
+		flex-direction: column;
+		gap: 1rem;
+
+		tr {
+			display: flex;
+			flex-direction: column;
+			background: white;
+			border: 1px solid #eee;
+			box-shadow: 0 1px 2px rgba(0, 0, 0, 0.03);
+			border-radius: 8px;
+			overflow: hidden;
+
+			td {
+				border: none;
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+				padding: 0.75rem 1rem;
+				border-bottom: 1px solid #eee;
+
+				&:last-child {
+					border-bottom: none;
+				}
+			}
+		}
+
+		tr:last-child {
+			background-color: lighten(color("success"), 45%);
+			font-weight: 600;
+
+			td {
+				justify-content: center;
+				color: color("text-dark");
+
+				strong {
+					color: color("primary");
+				}
+
+				& > span {
+					margin-left: 8px;
+
+				}
+			}
+		}
+
 	}
+
+	// Desktop styling
+	@media screen and (min-width: 768px) {
+		thead {
+			display: table-header-group;
+
+			th {
+				background-color: lighten(color("primary"), 42%);
+				font-weight: 600;
+				font-size: 0.95rem;
+				text-align: center;
+				color: color("black");
+			}
+		}
+
+		tbody {
+			display: table-row-group;
+
+			tr {
+				display: table-row;
+				border: none;
+				box-shadow: none;
+
+				td {
+					display: table-cell;
+					border: 1px solid lighten(color("text-dark"), 65%);
+					padding: 0.6rem 0.75rem;
+
+					img {
+						width: 50px;
+						height: auto;
+						border-radius: 3px;
+					}
+				}
+			}
+		}
+	}
+}
+
 
 	.comparison-table {
 		width: 100%;

@@ -30,7 +30,13 @@
 <div class="header">
 	<h1>Hi {user},</h1>
 	<h2>Here is the overview of Your Shopping:</h2>
+
+	<hr>
+
 	<Progress />
+
+	<hr>
+
 </div>
 <div class="col-2">
 	<div class="col-2-left">
@@ -60,9 +66,10 @@
 		margin-top: 20px;
 	}
 
-	#map {
-		width: 100%;
-		height: 400px;
-		background-color: #eaeaea;
+	h1, h2 {
+
+		margin-bottom: 8px;
+		text-align: center;
+
 	}
 </style>

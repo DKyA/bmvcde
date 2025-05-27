@@ -11,3 +11,73 @@ body {
 	background-color: color("background");
 
 }
+
+
+.btn {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	gap: 0.4rem;
+	font-family: $font-stack;
+	font-size: 0.95rem;
+	font-weight: 500;
+	padding: 0.45rem 1rem;
+	border-radius: 6px;
+	border: 1px solid transparent;
+	cursor: pointer;
+	transition: all 0.2s ease-in-out;
+	text-decoration: none;
+	user-select: none;
+
+	&:disabled {
+		cursor: not-allowed;
+		opacity: 0.6;
+	}
+
+	&--success {
+
+		background-color: color("success");
+		color: color("white");
+		border-color: darken(color("success"), 5%);
+	
+		&:hover {
+			background-color: darken(color("success"), 5%);
+		}
+
+	}
+
+	&--delete {
+
+		background-color: color("error");
+		color: color("white");
+		border-color: darken(color("error"), 5%);
+	
+		&:hover {
+			background-color: darken(color("error"), 8%);
+		}
+
+	}
+
+	&--neutral {
+		background-color: lighten(color("text-dark"), 50%);
+		color: color("text-dark");
+		border-color: lighten(color("text-dark"), 40%);
+	
+		&:hover {
+			background-color: lighten(color("text-dark"), 45%);
+		}
+	}
+
+	&--outline {
+
+		background-color: transparent;
+		border: 1px solid color("text-dark");
+		color: color("text-dark");
+	
+		&:hover {
+			background-color: lighten(color("text-dark"), 80%);
+		}
+
+	}
+
+}
