@@ -19,9 +19,7 @@
 	});
 
 	function handleRouteCreated({ start, end }) {
-		// console.log('Start coord:', start);
-		// console.log('End coord:', end);
-		// do something useful here, potentially :)
+
 		let x = 0;
 		x += 1; // Just to avoid unused variable warning
 	}
@@ -44,6 +42,9 @@
 		<Trolley />
 	</div>
 </div>
+
+<hr class="separate">
+
 <div class="col-1">
 	<h2>Nearby Stores</h2>
 

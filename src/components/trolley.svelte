@@ -375,52 +375,42 @@
 							{row.unit === 'l' ? 'liters' : row.unit === 'kg' ? 'kg' : 'pcs'}
 						</span>
 					</td>
-					<td><button class="btn btn--delete" on:click={() => removeCategory(row.category)}><i class="bi bi-trash"></i></button></td>
+					<td
+						><button class="btn btn--delete" on:click={() => removeCategory(row.category)}
+							><i class="bi bi-trash"></i></button
+						></td
+					>
 				</tr>
 			{/each}
 		</tbody>
 	</table>
 
-	<hr class="separate">
+	<hr class="separate" />
+	<div class="comparator">
+		<div class="comparator__head comparator__head--rema">Rema1000</div>
+		<div class="comparator__head comparator__head--coop">Coop</div>
 
-	<table class="comparator">
-		<thead class="comparator__thead">
-			<tr>
-				<th rowspan="2"></th>
-				<th colspan="4">Rema1000</th>
-				<th colspan="4">Coop</th>
-			</tr>
-			<tr>
-				<th>Image</th>
-				<th>Product</th>
-				<th>Price × Qty</th>
-				<th></th>
-				<th>Image</th>
-				<th>Product</th>
-				<th>Price × Qty</th>
-				<th></th>
-			</tr>
-		</thead>
-		<tbody class="comparator__tbody">
+		<div class="comparator__body comparator__body--rema">
 			{#each comparisonTable as row}
-				<tr>
-					<td>{row.category}</td>
+				<div class="comparator__row">
+					<div class="comparator__row-category">{row.category}</div>
 
-					<!-- Rema -->
 					{#if row.rema}
-						<td>
+						<div class="comparator__cell comparator__cell--image">
 							{#if row.rema.img}
-								<img src={row.rema.img} width="60" alt="Image" />
+								<img src={row.rema.img} width="60" alt="Image of {row.rema.name}" />
 							{:else}
 								<i>No image</i>
 							{/if}
-						</td>
-						<td>{row.rema.name}, {row.rema.packSize}{row.rema.unit}</td>
-						<td
-							>{row.rema.pricePerUnit.toFixed(2)} DKK × {row.rema.unitsToBuy} =
-							<strong>{row.rema.totalPrice.toFixed(2)} DKK</strong></td
-						>
-						<td>
+						</div>
+						<div class="comparator__cell comparator__cell--name">
+							{row.rema.name}, {row.rema.packSize}{row.rema.unit}
+						</div>
+						<div class="comparator__cell comparator__cell--price">
+							{row.rema.pricePerUnit.toFixed(2)} DKK × {row.rema.unitsToBuy} =
+							<strong>{row.rema.totalPrice.toFixed(2)} DKK</strong>
+						</div>
+						<div class="comparator__cell comparator__cell--selector">
 							<select
 								on:change={(e) =>
 									(displayTable[row.index].manualOverrides.rema = JSON.parse(e.target.value))}
@@ -430,30 +420,56 @@
 								>
 								{#each getStoreAlternatives(row.category, row.unit, 'Rema1000') as alt}
 									<option value={JSON.stringify(alt)}>
-										{alt.name} – {alt.packSize}{alt.unit} ({alt.price} DKK)
+										{alt.name
+											.split(' ')
+											.map((w) => w.charAt(0).toUpperCase() + w.slice(1).toLowerCase())
+											.join(' ')}, {alt?.price}dkk
 									</option>
 								{/each}
 							</select>
-						</td>
+						</div>
 					{:else}
-						<td colspan="3"><i>Not available</i></td>
+						<div class="comparator__cell comparator__cell--unavailable" colspan="4">
+							<i>Not available</i>
+						</div>
 					{/if}
+				</div>
+			{/each}
+			<div class="comparator__row comparator__row--total">
+				<div class="comparator__cell comparator__cell--label">Total</div>
+				<div class="comparator__cell comparator__cell--spacer" colspan="2"></div>
+				<div class="comparator__cell comparator__cell--total" colspan="1">
+					<strong>
+						{comparisonTable
+							.map((r) => r.rema?.totalPrice || 0)
+							.reduce((a, b) => a + b, 0)
+							.toFixed(2)} DKK
+					</strong>
+				</div>
+			</div>
+		</div>
 
-					<!-- Coop -->
+		<div class="comparator__body comparator__body--coop">
+			{#each comparisonTable as row}
+				<div class="comparator__row">
+					<div class="comparator__row-category">{row.category}</div>
+
 					{#if row.coop}
-						<td>
+						<div class="comparator__cell comparator__cell--image">
 							{#if row.coop.img}
 								<img src={row.coop.img} width="40" alt="Advertising image of {row.coop.name}" />
 							{:else}
 								<i>No image</i>
 							{/if}
-						</td>
-						<td>{row.coop.name}, {row.coop.packSize}{row.coop.unit}</td>
-						<td
-							>{row.coop.pricePerUnit.toFixed(2)} DKK × {row.coop.unitsToBuy} =
-							<strong>{row.coop.totalPrice.toFixed(2)} DKK</strong></td
-						>
-						<td>
+						</div>
+						<div class="comparator__cell comparator__cell--name">
+							{row.coop.name}, {row.coop.packSize}{row.coop.unit}
+						</div>
+						<div class="comparator__cell comparator__cell--price">
+							{row.coop.pricePerUnit.toFixed(2)} DKK × {row.coop.unitsToBuy} =
+							<strong>{row.coop.totalPrice.toFixed(2)} DKK</strong>
+						</div>
+						<div class="comparator__cell comparator__cell--selector">
 							<select
 								on:change={(e) =>
 									(displayTable[row.index].manualOverrides.coop = JSON.parse(e.target.value))}
@@ -463,48 +479,43 @@
 								>
 								{#each getStoreAlternatives(row.category, row.unit, 'Coop') as alt}
 									<option value={JSON.stringify(alt)}>
-										{alt.name} - {alt.packSize}{alt.unit} ({alt.price} DKK)
+										{alt.name
+											.split(' ')
+											.map((w) => w.charAt(0).toUpperCase() + w.slice(1).toLowerCase())
+											.join(' ')}, {alt?.price}dkk
 									</option>
 								{/each}
 							</select>
-						</td>
+						</div>
 					{:else}
-						<td colspan="4"><i>Not available</i></td>
+						<div class="comparator__cell comparator__cell--unavailable" colspan="4">
+							<i>Not available</i>
+						</div>
 					{/if}
-				</tr>
+				</div>
 			{/each}
-
-			<tr>
-				<th>Total</th>
-				<td colspan="3"></td>
-				<td>
-					<strong>
-						{comparisonTable
-							.map((r) => r.rema?.totalPrice || 0)
-							.reduce((a, b) => a + b, 0)
-							.toFixed(2)} DKK
-					</strong>
-				</td>
-				<td colspan="3"></td>
-				<td>
+			<div class="comparator__row comparator__row--total">
+				<div class="comparator__cell comparator__cell--label">Total</div>
+				<div class="comparator__cell comparator__cell--spacer" colspan="2"></div>
+				<div class="comparator__cell comparator__cell--total" colspan="1">
 					<strong>
 						{comparisonTable
 							.map((r) => r.coop?.totalPrice || 0)
 							.reduce((a, b) => a + b, 0)
 							.toFixed(2)} DKK
 					</strong>
-				</td>
-			</tr>
-		</tbody>
-	</table>
+				</div>
+			</div>
+		</div>
+	</div>
 {/if}
 
-<hr />
+<hr class="separate"/>
 <h3>Manage Baskets</h3>
 
-<div class="basket-controls">
-	<input type="text" bind:value={newBasketName} placeholder="Basket name (e.g. Week 22)" />
-	<button
+<div class="basket">
+	<input class="basket__intext" type="text" bind:value={newBasketName} placeholder="Basket name (e.g. Week 22)" />
+	<button class="btn btn--success"
 		on:click={() => {
 			if (!newBasketName || displayTable.length === 0) return;
 			savedBaskets = [
@@ -519,15 +530,15 @@
 </div>
 
 {#if savedBaskets.length > 0}
-	<div class="basket-controls">
-		<select bind:value={selectedBasketIndex}>
+	<div class="basketlist">
+		<select class="basketlist__select" bind:value={selectedBasketIndex}>
 			<option value={null} disabled selected>Select saved basket</option>
 			{#each savedBaskets as basket, index}
 				<option value={index}>{basket.name}</option>
 			{/each}
 		</select>
 
-		<button
+		<button class="btn btn--neutral"
 			on:click={() => {
 				if (selectedBasketIndex !== null) {
 					loadPresetBasket(savedBaskets[selectedBasketIndex].items);
@@ -537,7 +548,7 @@
 			Load Basket
 		</button>
 
-		<button
+		<button class="btn btn--delete"
 			on:click={() => {
 				if (selectedBasketIndex !== null) {
 					savedBaskets.splice(selectedBasketIndex, 1);
@@ -589,155 +600,269 @@
 	}
 
 	.table {
-	width: 100%;
-	border-collapse: collapse;
-	font-family: $font-stack;
-	font-size: 0.95rem;
-	color: color("text-dark");
-	background-color: color("background");
+		width: 100%;
+		border-collapse: collapse;
+		font-family: $font-stack;
+		font-size: 0.95rem;
+		color: color('text-dark');
+		background-color: color('background');
 
-	th, td {
-		padding: 0.5rem 0.75rem;
-		text-align: left;
-		vertical-align: top;
-		border: 1px solid lighten(color("text-dark"), 65%);
-		word-break: break-word;
-	}
-
-	thead {
-		display: none; // Hide complex thead on mobile
-	}
-
-	tbody {
-		display: flex;
-		flex-direction: column;
-		gap: 1rem;
-
-		tr {
-			display: flex;
-			flex-direction: column;
-			background: white;
-			border: 1px solid #eee;
-			box-shadow: 0 1px 2px rgba(0, 0, 0, 0.03);
-			border-radius: 8px;
-			overflow: hidden;
-
-			td {
-				border: none;
-				display: flex;
-				justify-content: space-between;
-				align-items: center;
-				padding: 0.75rem 1rem;
-				border-bottom: 1px solid #eee;
-
-				&:last-child {
-					border-bottom: none;
-				}
-			}
+		th,
+		td {
+			padding: 0.5rem 0.75rem;
+			text-align: left;
+			vertical-align: top;
+			border: 1px solid lighten(color('text-dark'), 65%);
+			word-break: break-word;
 		}
 
-		tr:last-child {
-			background-color: lighten(color("success"), 45%);
-			font-weight: 600;
-
-			td {
-				justify-content: center;
-				color: color("text-dark");
-
-				strong {
-					color: color("primary");
-				}
-
-				& > span {
-					margin-left: 8px;
-
-				}
-			}
-		}
-
-	}
-
-	// Desktop styling
-	@media screen and (min-width: 768px) {
 		thead {
-			display: table-header-group;
-
-			th {
-				background-color: lighten(color("primary"), 42%);
-				font-weight: 600;
-				font-size: 0.95rem;
-				text-align: center;
-				color: color("black");
-			}
+			display: none; // Hide complex thead on mobile
 		}
 
 		tbody {
-			display: table-row-group;
+			display: flex;
+			flex-direction: column;
+			gap: 1rem;
 
 			tr {
-				display: table-row;
-				border: none;
-				box-shadow: none;
+				display: flex;
+				flex-direction: column;
+				background: white;
+				border: 1px solid #eee;
+				box-shadow: 0 1px 2px rgba(0, 0, 0, 0.03);
+				border-radius: 8px;
+				overflow: hidden;
 
 				td {
-					display: table-cell;
-					border: 1px solid lighten(color("text-dark"), 65%);
-					padding: 0.6rem 0.75rem;
+					border: none;
+					display: flex;
+					justify-content: space-between;
+					align-items: center;
+					padding: 0.75rem 1rem;
+					border-bottom: 1px solid #eee;
 
-					img {
-						width: 50px;
-						height: auto;
-						border-radius: 3px;
+					&:last-child {
+						border-bottom: none;
+					}
+				}
+			}
+
+			tr:last-child {
+				background-color: lighten(color('success'), 45%);
+				font-weight: 600;
+
+				td {
+					justify-content: center;
+					color: color('text-dark');
+
+					strong {
+						color: color('primary');
+					}
+
+					& > span {
+						margin-left: 8px;
+					}
+				}
+			}
+		}
+
+		// Desktop styling
+		@media screen and (min-width: 768px) {
+			thead {
+				display: table-header-group;
+
+				th {
+					background-color: lighten(color('primary'), 42%);
+					font-weight: 600;
+					font-size: 0.95rem;
+					text-align: center;
+					color: color('black');
+				}
+			}
+
+			tbody {
+				display: table-row-group;
+
+				tr {
+					display: table-row;
+					border: none;
+					box-shadow: none;
+
+					td {
+						display: table-cell;
+						border: 1px solid lighten(color('text-dark'), 65%);
+						padding: 0.6rem 0.75rem;
+
+						img {
+							width: 50px;
+							height: auto;
+							border-radius: 3px;
+						}
 					}
 				}
 			}
 		}
 	}
+
+	.comparator {
+		display: grid;
+		grid-template-columns: 100%;
+		width: 100%;
+
+		@include p;
+
+		&__head {
+			font-weight: bold;
+			font-size: 1.2rem;
+			padding: 0.75rem 1rem;
+			background-color: #f5f5f5;
+			border-bottom: 1px solid #ddd;
+
+			&--coop {
+				grid-row: 3;
+			}
+		}
+
+		&__body {
+			display: flex;
+			flex-direction: column;
+			padding: 0.5rem 1rem;
+			gap: 1rem;
+			&--coop {
+				grid-row: 4;
+			}
+		}
+
+		&__row {
+			display: grid;
+			grid-template-columns: auto 1fr;
+			row-gap: 0.5rem;
+			column-gap: 1rem;
+			align-items: center;
+			padding-bottom: 1rem;
+			border-bottom: 1px solid #eee;
+
+			&:last-child {
+				border-bottom: none;
+			}
+		}
+
+		&__row-category {
+			grid-column: 1 / -1;
+			font-weight: 600;
+			color: #666;
+		}
+
+		&__cell--image {
+			grid-column: 1 / 2;
+			img {
+				max-width: 60px;
+				height: auto;
+			}
+			i {
+				font-size: 0.9rem;
+				color: #999;
+			}
+		}
+
+		&__cell--name,
+		&__cell--price,
+		&__cell--selector {
+			grid-column: 2 / 3;
+			font-size: 0.95rem;
+			line-height: 1.3;
+
+			& > select {
+				width: 100%;
+				padding: 0.25rem;
+				border: 1px solid #ccc;
+				border-radius: 4px;
+				font-size: 0.9rem;
+			}
+
+		}
+
+		&__cell--unavailable {
+			grid-column: 1 / -1;
+			text-align: center;
+			color: #999;
+			font-style: italic;
+		}
+
+		&__row--total {
+			border-top: 2px solid #ccc;
+			padding-top: 0.75rem;
+			margin-top: 1rem;
+			font-weight: bold;
+			grid-template-columns: 1fr auto;
+
+			.comparator__cell--label {
+				font-size: 1rem;
+			}
+
+			.comparator__cell--total {
+				justify-self: end;
+			}
+		}
+	}
+
+	.basket {
+	display: flex;
+	flex-direction: column;
+	gap: 0.75rem;
+	margin: 1rem 0;
+
+	input.basket__intext {
+		padding: 0.6rem 0.9rem;
+		border-radius: 6px;
+		border: 1px solid lighten(color("text-dark"), 60%);
+		font-size: 1rem;
+		font-family: $font-stack;
+		color: color("text-dark");
+		background-color: color("white");
+
+		&::placeholder {
+			color: lighten(color("text-dark"), 30%);
+		}
+
+		&:focus {
+			outline: none;
+			border-color: color("primary");
+			box-shadow: 0 0 0 2px rgba(217, 129, 2, 0.2);
+		}
+	}
+
+	button {
+		width: 100%;
+	}
 }
 
+.basketlist {
+	display: flex;
+	flex-direction: column;
+	gap: 0.75rem;
+	margin-top: 1rem;
 
-	.comparison-table {
+	select.basketlist__select {
+		padding: 0.6rem 0.9rem;
+		border-radius: 6px;
+		border: 1px solid lighten(color("text-dark"), 60%);
+		font-size: 1rem;
+		font-family: $font-stack;
+		color: color("text-dark");
+		background-color: color("white");
+
+		&:focus {
+			outline: none;
+			border-color: color("primary");
+			box-shadow: 0 0 0 2px rgba(217, 129, 2, 0.2);
+		}
+	}
+
+	button {
 		width: 100%;
-		border-collapse: collapse;
-		margin-top: 2rem;
 	}
-
-	.comparison-table th,
-	.comparison-table td {
-		padding: 8px;
-		border: 1px solid #ccc;
-		text-align: left;
-	}
-
-	.comparison-table th {
-		background-color: #f0f0f0;
-	}
-
-	.comparison-table {
-		width: 100%;
-		border-collapse: collapse;
-		margin-top: 2rem;
-	}
-
-	.comparison-table th,
-	.comparison-table td {
-		border: 1px solid #ccc;
-		padding: 8px;
-		vertical-align: top;
-		text-align: left;
-	}
-
-	.comparison-table th {
-		background: #f7f7f7;
-	}
-
-	.basket-controls {
-		margin-top: 1rem;
-		display: flex;
-		gap: 1rem;
-		align-items: center;
-	}
-
-
+}
 
 </style>
