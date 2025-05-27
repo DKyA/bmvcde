@@ -96,10 +96,15 @@
 	}
 
 	onMount(async () => {
-		const L = await import('leaflet');
+		// Step 1: Import leaflet, make L mutable
+		const leaflet = await import('leaflet');
+		const L = { ...leaflet }; // shallow copy so it's not frozen
 		window.L = L;
+
+		// Step 2: Import routing-machine (now can mutate window.L)
 		await import('leaflet-routing-machine/dist/leaflet-routing-machine.js');
-		
+
+		// Step 3: Proceed as normal
 		map = L.map('map').setView([55.6761, 12.5683], 13);
 
 		L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
