@@ -1,21 +1,30 @@
 import adapter from '@sveltejs/adapter-static';
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 
-const config = { 
+const dev = process.env.NODE_ENV === 'development';
+const basePath = dev ? '' : '/bmvcde';
+
+/** @type {import('@sveltejs/kit').Config} */
+const config = {
 	kit: {
 		adapter: adapter({
-			fallback: 'index.html', // 👈 This enables SPA behavior
+			pages: 'build',
+			assets: 'build',
+			fallback: '404.html',
 			strict: false
-		})
+		}),
+		paths: {
+			base: basePath
+		}
 	},
-	preprocess: [vitePreprocess(
-		{
+	preprocess: [
+		vitePreprocess({
 			scss: {
-				prependData: `@import '/src/css/variables.scss';`
+				prependData: `@use "src/css/variables.scss" as *;`
 			},
 			postcss: true
-		}
-	)]
+		})
+	]
 };
 
 export default config;

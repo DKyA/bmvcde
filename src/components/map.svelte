@@ -1,6 +1,7 @@
 <script>
 	import { onMount } from 'svelte';
 	import { tick } from 'svelte';
+	import { base } from '$app/paths';
 
 	let map, routingControl;
 
@@ -156,7 +157,7 @@
 				html: `
 				<img
 					class="icon__image"
-					src="/images/${chainFileNames[store.chain]}.png"
+					src="${base}/images/${chainFileNames[store.chain]}.png"
 					height=48 width=48
 					style="
 						position:absolute;
@@ -202,7 +203,7 @@
 			{#each stops as stop, index}
 				<div class="controller__stop">
 					<img
-						src={`/images/${chainFileNames[guessChain(stop.name)]}.png`}
+						src={`${base}/images/${chainFileNames[guessChain(stop.name)]}.png`}
 						alt="Stop Icon"
 						width="24"
 						height="24"

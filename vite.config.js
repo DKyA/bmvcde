@@ -9,7 +9,6 @@ export default defineConfig({
                 additionalData: "@use \"/src/css/variables.scss\" as *;"
             }
         }
-    },
-    base: '/bmvcde/'
+    }
 });
 

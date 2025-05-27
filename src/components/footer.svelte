@@ -1,5 +1,6 @@
 <script>
 	import Underscore from "./underscore.svelte";
+	import { base } from "$app/paths";
 
 
 </script>
@@ -9,7 +10,7 @@
 	<div class="footer__info">
 		<div class="footer__col">
 			<div class="footer__logo">
-				<img src="/images/Logo_main.png" alt="GroceryRunner Logo" width="128" height="96"/>
+				<img src="{base}/images/Logo_main.png" alt="GroceryRunner Logo" width="128" height="96"/>
 			</div>
 		</div>
 		<div class="footer__col">
