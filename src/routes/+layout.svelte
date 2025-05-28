@@ -8,6 +8,10 @@
 	import 'bootstrap-icons/font/bootstrap-icons.css';
 </script>
 
+<svelte:head>
+	<title>GroceryRunner - Smarter Grocery Shopping</title>
+</svelte:head>
+
 <header>
 
 	<Header />
