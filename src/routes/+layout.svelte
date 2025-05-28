@@ -29,6 +29,14 @@
 
 	main {
 		padding: 32px;
+		@media (min-width: 768px) {
+			padding: 64px;
+		}
+
+		@media (min-width: 1200px) {
+			max-width: 1200px;
+			margin: 0 auto;
+		}
 	}
 
 </style>

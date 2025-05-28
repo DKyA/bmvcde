@@ -5,13 +5,13 @@
 
 <nav class="nav">
 
-	<a href=# class="nav__link">Home</a>
+	<a href="/" class="nav__link">Home</a>
 
-	<a href=# class="nav__link">Shopping List</a>
+	<a href=# class="nav__link">Scan Receipt</a>
+	
+	<a href=# class="nav__link">Shopping Analytics</a>
 
-	<a href=# class="nav__link">Map</a>
-
-	<a href=# class="nav__link">Setup</a>
+	<a href="./settings/" class="nav__link">Setup</a>
 
 </nav>
 
@@ -32,6 +32,13 @@
 			@include a('light');
 
 			font-size: .95em;
+
+			@media (min-width: 768px) {
+				font-size: 1rem;
+			}
+			@media (min-width: 1200px) {
+				font-size: 1.05rem;
+			}
 
 		}
 

@@ -3,8 +3,8 @@
 	import Map from '../components/map.svelte';
 	import Trolley from '../components/trolley.svelte';
 	import Progress from '../components/progress.svelte';
+	import { userName } from '$lib/stores/user.js';
 
-	let user = 'Daniel'; // Replace with dynamic user data if available
 	let userPosition = { lat: 0, lng: 0 };
 
 	onMount(() => {
@@ -26,14 +26,14 @@
 </script>
 
 <div class="header">
-	<h1>Hi {user},</h1>
+	<h1>Hi {$userName},</h1>
 	<h2>Here is the overview of Your Shopping:</h2>
 
 	<hr>
 
 	<Progress />
 
-	<hr>
+	<hr class="separate">
 
 </div>
 <div class="col-2">

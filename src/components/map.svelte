@@ -298,6 +298,12 @@
 		padding: 8px;
 		background-color: color('primary-light');
 
+		@media (min-width: 768px) {
+			display: grid;
+			grid-template-columns: 40% 40% 1fr;
+			gap: 2rem;
+		}
+
 		&__section {
 			display: flex;
 			flex-direction: column;

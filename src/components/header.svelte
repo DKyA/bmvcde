@@ -1,8 +1,8 @@
 <script>
 
 	import { base } from "$app/paths";
+	import { userName } from '$lib/stores/user.js';
 
-	let user = "Daniel";
 	let location = "2200"
 
 </script>
@@ -13,7 +13,7 @@
 	</div>
 	<div class="header__right">
 		<p class="header__info">
-			<a href="./settings/">@{user}</a>
+			<a href="./settings/">@{$userName}</a>
 		</p>
 		<p class="header__info">Zip Code: {location}</p>
 		<p class="header__info">Welcome!</p>
@@ -48,18 +48,41 @@
 			@include p();
 			font-size: .7em;
 
+			@media (min-width: 768px) {
+				font-size: .8em;
+			}
+			@media (min-width: 1200px) {
+				font-size: .9em;
+			}
+
 			& a {
 
 				font-size: 1em;
 
 			}
 
-			// &:last-of-type {
+		}
 
-			// 	padding-right: 8px;
-			// 	border-right: 2px solid color("primary");
+		&__left {
 
-			// } Not to be used right now?
+			width: 64px;
+			height: 48px;
+
+			@media (min-width: 768px) {
+				width: auto;
+				height: 60px;
+			}
+			@media (min-width: 1200px) {
+				height: 80px;
+			}
+
+			& img {
+
+				width: 100%;
+				height: 100%;
+				object-fit: contain;
+
+			}
 
 		}
 	}

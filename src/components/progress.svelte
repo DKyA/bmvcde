@@ -24,7 +24,6 @@
 		display: flex;
 		align-items: center;
 		flex-direction: column;
-		margin-bottom: 16px;
 
 		&__label {
 

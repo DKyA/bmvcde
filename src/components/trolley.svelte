@@ -201,47 +201,52 @@
 	}
 
 	$: comparisonTable = displayTable.map((row, index) => {
-	const remaOverride = row.manualOverrides.rema;
-	const coopOverride = row.manualOverrides.coop;
+		const remaOverride = row.manualOverrides.rema;
+		const coopOverride = row.manualOverrides.coop;
 
-	const compute = (store, override) => {
-		if (override) {
-			const unitsToBuy = Math.ceil(row.quantity / override.unitQty);
-			return {
-				name: override.name,
-				unit: override.unit,
-				pricePerUnit: override.price,
-				unitsToBuy,
-				totalPrice: unitsToBuy * override.price,
-				img: override.img,
-				packSize: override.packSize
-			};
+		const compute = (store, override) => {
+			if (override) {
+				const unitsToBuy = Math.ceil(row.quantity / override.unitQty);
+				return {
+					name: override.name,
+					unit: override.unit,
+					pricePerUnit: override.price,
+					unitsToBuy,
+					totalPrice: unitsToBuy * override.price,
+					img: override.img,
+					packSize: override.packSize
+				};
+			}
+			return getStoreOption(row.category, row.unit, row.quantity, store);
+		};
+
+		const rema = compute('Rema1000', remaOverride);
+		const coop = compute('Coop', coopOverride);
+
+		let highlight = null;
+		if (rema && coop) {
+			highlight =
+				rema.totalPrice < coop.totalPrice
+					? 'rema'
+					: coop.totalPrice < rema.totalPrice
+						? 'coop'
+						: null;
+		} else if (rema) {
+			highlight = 'rema';
+		} else if (coop) {
+			highlight = 'coop';
 		}
-		return getStoreOption(row.category, row.unit, row.quantity, store);
-	};
 
-	const rema = compute('Rema1000', remaOverride);
-	const coop = compute('Coop', coopOverride);
-
-	let highlight = null;
-	if (rema && coop) {
-		highlight = rema.totalPrice < coop.totalPrice ? 'rema' : coop.totalPrice < rema.totalPrice ? 'coop' : null;
-	} else if (rema) {
-		highlight = 'rema';
-	} else if (coop) {
-		highlight = 'coop';
-	}
-
-	return {
-		index,
-		category: row.category,
-		quantity: row.quantity,
-		unit: row.unit,
-		rema,
-		coop,
-		highlight
-	};
-});
+		return {
+			index,
+			category: row.category,
+			quantity: row.quantity,
+			unit: row.unit,
+			rema,
+			coop,
+			highlight
+		};
+	});
 
 	function getStoreAlternatives(category, preferredUnit, store) {
 		const unitOrder = ['l', 'kg', 'other', ''];
@@ -398,7 +403,7 @@
 		</tbody>
 	</table>
 
-<!-- HEY CHATGPT! PLEASE CHANGE THIS TABLE! :) -->
+	<!-- HEY CHATGPT! PLEASE CHANGE THIS TABLE! :) -->
 
 	<hr class="separate" />
 	<div class="comparator">
@@ -421,7 +426,11 @@
 						<div class="comparator__cell comparator__cell--name">
 							{row.rema.name}, {row.rema.packSize}{row.rema.unit}
 						</div>
-						<div class="comparator__cell comparator__cell--price {row.highlight === 'rema' ? 'comparator__cell--cheapest' : ''}">
+						<div
+							class="comparator__cell comparator__cell--price {row.highlight === 'rema'
+								? 'comparator__cell--cheapest'
+								: ''}"
+						>
 							{row.rema.pricePerUnit.toFixed(2)} DKK × {row.rema.unitsToBuy} =
 							<strong>{row.rema.totalPrice.toFixed(2)} DKK</strong>
 						</div>
@@ -466,13 +475,13 @@
 
 		<div class="comparator__body comparator__body--coop">
 			{#each comparisonTable as row}
-			<div class="comparator__row {row.highlight === 'coop' ? 'comparator__row--highlight' : ''}">
+				<div class="comparator__row {row.highlight === 'coop' ? 'comparator__row--highlight' : ''}">
 					<div class="comparator__row-category">{row.category}</div>
 
 					{#if row.coop}
 						<div class="comparator__cell comparator__cell--image">
 							{#if row.coop.img}
-								<img src={row.coop.img} width="40" alt="Advertising image of {row.coop.name}" />
+								<img src={row.coop.img} width="60" alt="Advertising image of {row.coop.name}" />
 							{:else}
 								<i>No image</i>
 							{/if}
@@ -480,7 +489,11 @@
 						<div class="comparator__cell comparator__cell--name">
 							{row.coop.name}, {row.coop.packSize}{row.coop.unit}
 						</div>
-						<div class="comparator__cell comparator__cell--price {row.highlight === 'coop' ? 'comparator__cell--cheapest' : ''}">
+						<div
+							class="comparator__cell comparator__cell--price {row.highlight === 'coop'
+								? 'comparator__cell--cheapest'
+								: ''}"
+						>
 							{row.coop.pricePerUnit.toFixed(2)} DKK × {row.coop.unitsToBuy} =
 							<strong>{row.coop.totalPrice.toFixed(2)} DKK</strong>
 						</div>
@@ -525,56 +538,65 @@
 	</div>
 {/if}
 
-<hr class="separate"/>
+<hr class="separate" />
 <h3>Manage Baskets</h3>
-
-<div class="basket">
-	<input class="basket__intext" type="text" bind:value={newBasketName} placeholder="Basket name (e.g. Week 22)" />
-	<button class="btn btn--success"
-		on:click={() => {
-			if (!newBasketName || displayTable.length === 0) return;
-			savedBaskets = [
-				...savedBaskets,
-				{ name: newBasketName, items: JSON.parse(JSON.stringify(displayTable)) }
-			];
-			newBasketName = '';
-		}}
-	>
-		Save Current Basket
-	</button>
-</div>
-
-{#if savedBaskets.length > 0}
-	<div class="basketlist">
-		<select class="basketlist__select" bind:value={selectedBasketIndex}>
-			<option value={null} disabled selected>Select saved basket</option>
-			{#each savedBaskets as basket, index}
-				<option value={index}>{basket.name}</option>
-			{/each}
-		</select>
-
-		<button class="btn btn--neutral"
+<div class="basket-layout">
+	<div class="basket">
+		<input
+			class="basket__intext"
+			type="text"
+			bind:value={newBasketName}
+			placeholder="Basket name (e.g. Week 22)"
+		/>
+		<button
+			class="btn btn--success"
 			on:click={() => {
-				if (selectedBasketIndex !== null) {
-					loadPresetBasket(savedBaskets[selectedBasketIndex].items);
-				}
+				if (!newBasketName || displayTable.length === 0) return;
+				savedBaskets = [
+					...savedBaskets,
+					{ name: newBasketName, items: JSON.parse(JSON.stringify(displayTable)) }
+				];
+				newBasketName = '';
 			}}
 		>
-			Load Basket
-		</button>
-
-		<button class="btn btn--delete"
-			on:click={() => {
-				if (selectedBasketIndex !== null) {
-					savedBaskets.splice(selectedBasketIndex, 1);
-					selectedBasketIndex = null;
-				}
-			}}
-		>
-			Delete Basket
+			Save Current Basket
 		</button>
 	</div>
-{/if}
+
+	{#if savedBaskets.length > 0}
+		<div class="basketlist">
+			<select class="basketlist__select" bind:value={selectedBasketIndex}>
+				<option value={null} disabled selected>Select saved basket</option>
+				{#each savedBaskets as basket, index}
+					<option value={index}>{basket.name}</option>
+				{/each}
+			</select>
+
+			<button
+				class="btn btn--neutral"
+				on:click={() => {
+					if (selectedBasketIndex !== null) {
+						loadPresetBasket(savedBaskets[selectedBasketIndex].items);
+					}
+				}}
+			>
+				Load Basket
+			</button>
+
+			<button
+				class="btn btn--delete"
+				on:click={() => {
+					if (selectedBasketIndex !== null) {
+						savedBaskets.splice(selectedBasketIndex, 1);
+						selectedBasketIndex = null;
+					}
+				}}
+			>
+				Delete Basket
+			</button>
+		</div>
+	{/if}
+</div>
 
 <style lang="scss">
 	.autocomplete {
@@ -727,6 +749,11 @@
 
 		@include p;
 
+		@media (min-width: 768px) {
+			grid-template-columns: 1fr 1fr;
+			gap: 1rem;
+		}
+
 		&__head {
 			font-weight: bold;
 			font-size: 1.2rem;
@@ -736,6 +763,9 @@
 
 			&--coop {
 				grid-row: 3;
+				@media (min-width: 768px) {
+					grid-row: 1;
+				}
 			}
 		}
 
@@ -746,6 +776,9 @@
 			gap: 1rem;
 			&--coop {
 				grid-row: 4;
+				@media (min-width: 768px) {
+					grid-row: 2;
+				}
 			}
 		}
 
@@ -808,7 +841,6 @@
 				border-radius: 4px;
 				font-size: 0.9rem;
 			}
-
 		}
 
 		&__cell--cheapest {
@@ -840,61 +872,68 @@
 	}
 
 	.basket {
-	display: flex;
-	flex-direction: column;
-	gap: 0.75rem;
-	margin: 1rem 0;
-
-	input.basket__intext {
-		padding: 0.6rem 0.9rem;
-		border-radius: 6px;
-		border: 1px solid lighten(color("text-dark"), 60%);
-		font-size: 1rem;
-		font-family: $font-stack;
-		color: color("text-dark");
-		background-color: color("white");
-
-		&::placeholder {
-			color: lighten(color("text-dark"), 30%);
-		}
-
-		&:focus {
-			outline: none;
-			border-color: color("primary");
-			box-shadow: 0 0 0 2px rgba(217, 129, 2, 0.2);
-		}
+		display: flex;
+		flex-direction: column;
+		gap: 0.75rem;
+		margin: 1rem 0;
 	}
 
-	button {
-		width: 100%;
-	}
-}
+	.basket-layout {
+		@media (min-width: 768px) {
+			display: grid;
+			grid-template-columns: 1fr 1fr;
+			gap: 1rem;
+		}
 
-.basketlist {
-	display: flex;
-	flex-direction: column;
-	gap: 0.75rem;
-	margin-top: 1rem;
+		input.basket__intext {
+			padding: 0.6rem 0.9rem;
+			border-radius: 6px;
+			border: 1px solid lighten(color('text-dark'), 60%);
+			font-size: 1rem;
+			font-family: $font-stack;
+			color: color('text-dark');
+			background-color: color('white');
 
-	select.basketlist__select {
-		padding: 0.6rem 0.9rem;
-		border-radius: 6px;
-		border: 1px solid lighten(color("text-dark"), 60%);
-		font-size: 1rem;
-		font-family: $font-stack;
-		color: color("text-dark");
-		background-color: color("white");
+			&::placeholder {
+				color: lighten(color('text-dark'), 30%);
+			}
 
-		&:focus {
-			outline: none;
-			border-color: color("primary");
-			box-shadow: 0 0 0 2px rgba(217, 129, 2, 0.2);
+			&:focus {
+				outline: none;
+				border-color: color('primary');
+				box-shadow: 0 0 0 2px rgba(217, 129, 2, 0.2);
+			}
+		}
+
+		button {
+			width: 100%;
 		}
 	}
 
-	button {
-		width: 100%;
-	}
-}
+	.basketlist {
+		display: flex;
+		flex-direction: column;
+		gap: 0.75rem;
+		margin-top: 1rem;
 
+		select.basketlist__select {
+			padding: 0.6rem 0.9rem;
+			border-radius: 6px;
+			border: 1px solid lighten(color('text-dark'), 60%);
+			font-size: 1rem;
+			font-family: $font-stack;
+			color: color('text-dark');
+			background-color: color('white');
+
+			&:focus {
+				outline: none;
+				border-color: color('primary');
+				box-shadow: 0 0 0 2px rgba(217, 129, 2, 0.2);
+			}
+		}
+
+		button {
+			width: 100%;
+		}
+	}
 </style>
