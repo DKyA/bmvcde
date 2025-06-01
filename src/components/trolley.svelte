@@ -817,6 +817,7 @@
 
 		&__cell--image {
 			grid-column: 1 / 2;
+			height: 100px;
 			img {
 				max-width: 60px;
 				height: auto;
