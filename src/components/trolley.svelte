@@ -102,15 +102,18 @@
 			const best = entries.find((e) => e.Img); // pick one with image
 
 			// 🧠 Preferred unit logic
-			const unitOrder = ['l', 'kg', 'other', ''];
+			const unitOrder = ['l', 'kg', 'unit', 'other', ''];
 			let chosenUnit = '';
 			let unitPrices = [];
 
 			for (const unit of unitOrder) {
 				unitPrices = entries
-					.filter((e) => (e['Unit Standardized'] || '').trim().toLowerCase() === unit)
+					.filter((e) => (e['Unit Standardized'] || '').trim().toLowerCase().replace('.', '') === unit)
 					.map((e) => parseFloat(e['Price per Unit']))
 					.filter((p) => !isNaN(p));
+
+					console.log(unitPrices, unit)
+
 
 				if (unitPrices.length > 0) {
 					chosenUnit = unit;
@@ -127,7 +130,7 @@
 				perUnitDisplay =
 					minPU === maxPU
 						? `${minPU.toFixed(2)} ${unitLabel}`
-						: `${minPU.toFixed(2)}–${maxPU.toFixed(2)} ${unitLabel}`;
+						: `${minPU.toFixed(2)}-${maxPU.toFixed(2)} ${unitLabel}`;
 			}
 
 			displayTable = [
@@ -145,6 +148,7 @@
 					}
 				}
 			];
+			console.log(displayTable)
 		}
 	}
 
@@ -302,7 +306,7 @@
 
 			const best = entries.find((e) => e.Img);
 
-			const unitOrder = ['l', 'kg', 'other', ''];
+			const unitOrder = ['l', 'kg', 'unit', 'other', ''];
 			let chosenUnit = '';
 			let unitPrices = [];
 
@@ -327,7 +331,7 @@
 				perUnitDisplay =
 					minPU === maxPU
 						? `${minPU.toFixed(2)} ${unitLabel}`
-						: `${minPU.toFixed(2)}–${maxPU.toFixed(2)} ${unitLabel}`;
+						: `${minPU.toFixed(2)} - ${maxPU.toFixed(2)} ${unitLabel}`;
 			}
 
 			displayTable.push({
@@ -402,8 +406,6 @@
 			{/each}
 		</tbody>
 	</table>
-
-	<!-- HEY CHATGPT! PLEASE CHANGE THIS TABLE! :) -->
 
 	<hr class="separate" />
 	<div class="comparator">

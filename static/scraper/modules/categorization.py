@@ -286,112 +286,119 @@ from tqdm import tqdm
 ############################################################################
 ############# Unit Converter ###############
 
-# import pandas as pd
-# import numpy as np
-# import re
+import pandas as pd
+import numpy as np
+import re
 
-# # Load your dataset
-# df = pd.read_csv("static/scraper/export/combined_data_categorized_with_synthetic_corrections.csv")
+input = "static/scraper/export/combined_data_categorized_with_synthetic_corrections.csv"
 
-# # Normalize unit names
-# unit_map = {
-#     "g": "kg", "GR.": "kg", "KG.": "kg", "kg": "kg",
-#     "ml": "l", "cl": "l", "LTR.": "l", "ltr": "l", "Liter": "l", "ML.": "l", "CL.": "l",
-#     "stk": "unit", "STK.": "unit", "x": "unit", "BAKKE": "unit", "BDT.": "unit",
-#     "vaske": "other", "POSE": "other"
-# }
+# Preview header first to get correct col names
+with open(input, "r", encoding="utf-8") as f:
+    header = f.readline().strip().split(",")[:19]
 
-# df["Unit Standardized"] = df["Unit"].astype(str).str.strip().map(unit_map)
-
-# # Extract quantity — handle ranges like "205-500"
-# def extract_quantity(val):
-#     if pd.isnull(val):
-#         return np.nan
-#     val = str(val).strip()
-#     if "-" in val:
-#         parts = re.findall(r'\d+', val)
-#         if parts:
-#             return np.mean([float(p) for p in parts])
-#     try:
-#         return float(val)
-#     except:
-#         return np.nan
-
-# df["Quantity Cleaned"] = df["Quantity"].apply(extract_quantity)
-
-# # Convert all to base unit
-# def quantity_in_base_unit(row):
-#     q = row["Quantity Cleaned"]
-#     unit = row["Unit Standardized"]
-#     if pd.isnull(q) or pd.isnull(unit):
-#         return np.nan
-#     if unit == "kg":
-#         return q / 1000 if row["Unit"].lower().startswith("g") else q
-#     elif unit == "l":
-#         if row["Unit"].lower().startswith("ml"):
-#             return q / 1000
-#         elif row["Unit"].lower().startswith("cl"):
-#             return q / 100
-#         else:
-#             return q
-#     elif unit == "unit":
-#         return q
-#     else:
-#         return np.nan
-
-# df["Quantity (Standardized)"] = df.apply(quantity_in_base_unit, axis=1)
-
-# # Calculate price per unit
-# df["Price per Unit"] = df["Price"] / df["Quantity (Standardized)"]
-# df.loc[df["Quantity (Standardized)"] == 0, "Price per Unit"] = np.nan
-
-# # Round for clarity
-# df["Price per Unit"] = df["Price per Unit"].round(2)
-
-# # Save output
-# df.to_csv("static/scraper/export/combined_data_final_priced.csv", index=False)
-# print("✅ Done! Saved as combined_data_final_priced.csv")
+# Then load only those columns
+df = pd.read_csv(input, usecols=header, engine="python")
 
 
+# Normalize unit names
+unit_map = {
+    "g": "kg", "GR.": "kg", "KG.": "kg", "kg": "kg",
+    "ml": "l", "cl": "l", "LTR.": "l", "ltr": "l", "Liter": "l", "ML.": "l", "CL.": "l",
+    "stk": "unit", "STK.": "unit", "x": "unit", "BAKKE": "unit", "BDT.": "unit",
+    "vaske": "other", "POSE": "other"
+}
 
-# ############################################################################
-# ############# Ad-Hoc Manipulator ###############
+df["Unit Standardized"] = df["Unit"].astype(str).str.strip().map(unit_map)
+
+# Extract quantity — handle ranges like "205-500"
+def extract_quantity(val):
+    if pd.isnull(val):
+        return np.nan
+    val = str(val).strip()
+    if "-" in val:
+        parts = re.findall(r'\d+', val)
+        if parts:
+            return np.mean([float(p) for p in parts])
+    try:
+        return float(val)
+    except:
+        return np.nan
+
+df["Quantity Cleaned"] = df["Quantity"].apply(extract_quantity)
+
+# Convert all to base unit
+def quantity_in_base_unit(row):
+    q = row["Quantity Cleaned"]
+    unit = row["Unit Standardized"]
+    if pd.isnull(q) or pd.isnull(unit):
+        return np.nan
+    if unit == "kg":
+        return q / 1000 if row["Unit"].lower().startswith("g") else q
+    elif unit == "l":
+        if row["Unit"].lower().startswith("ml"):
+            return q / 1000
+        elif row["Unit"].lower().startswith("cl"):
+            return q / 100
+        else:
+            return q
+    elif unit == "unit":
+        return q
+    else:
+        return np.nan
+
+df["Quantity (Standardized)"] = df.apply(quantity_in_base_unit, axis=1)
+
+# Calculate price per unit
+df["Price per Unit"] = df["Price"] / df["Quantity (Standardized)"]
+df.loc[df["Quantity (Standardized)"] == 0, "Price per Unit"] = np.nan
+
+# Round for clarity
+df["Price per Unit"] = df["Price per Unit"].round(2)
+
+# Save output
+df.to_csv("static/scraper/export/combined_data_final_priced.csv", index=False)
+print("✅ Done! Saved as combined_data_final_priced.csv")
 
 
-# import pandas as pd
 
-# # Load cleaned data
-# df = pd.read_csv("static/scraper/export/combined_data_final_priced.csv")
+############################################################################
+############# Ad-Hoc Manipulator ###############
 
-# # Split into original and synthetic for processing
-# real = df[df["Synthetic"] == False].copy()
-# synthetic = df[df["Synthetic"] == True].copy()
 
-# # Build lookup table: Name Cleaned → (Img, Link)
-# image_map = real.dropna(subset=["Img"]).drop_duplicates(subset=["Name Cleaned"])
-# image_map = image_map.set_index("Name Cleaned")[["Img", "Link"]].to_dict(orient="index")
+import pandas as pd
 
-# # Fill missing Img and Link in synthetic rows using Name Cleaned
-# def fill_image_info(row):
-#     if pd.notnull(row["Img"]) or row["Synthetic"] != True:
-#         return row
-#     key = row["Name Cleaned"]
-#     if key in image_map:
-#         row["Img"] = image_map[key]["Img"]
-#         row["Link"] = image_map[key]["Link"]
-#     return row
+# Load cleaned data
+df = pd.read_csv("static/scraper/export/combined_data_final_priced.csv")
 
-# synthetic = synthetic.apply(fill_image_info, axis=1)
+# Split into original and synthetic for processing
+real = df[df["Synthetic"] == False].copy()
+synthetic = df[df["Synthetic"] == True].copy()
 
-# # Combine real + updated synthetic
-# df_updated = pd.concat([real, synthetic], ignore_index=True)
+# Build lookup table: Name Cleaned → (Img, Link)
+image_map = real.dropna(subset=["Img"]).drop_duplicates(subset=["Name Cleaned"])
+image_map = image_map.set_index("Name Cleaned")[["Img", "Link"]].to_dict(orient="index")
 
-# # Drop exact duplicate rows
-# df_updated = df_updated.drop_duplicates()
+# Fill missing Img and Link in synthetic rows using Name Cleaned
+def fill_image_info(row):
+    if pd.notnull(row["Img"]) or row["Synthetic"] != True:
+        return row
+    key = row["Name Cleaned"]
+    if key in image_map:
+        row["Img"] = image_map[key]["Img"]
+        row["Link"] = image_map[key]["Link"]
+    return row
 
-# # Save the updated file
-# df_updated.to_csv("static/scraper/export/combined_data_final_priced.csv", index=False)
-# print("✅ Img/Link restored and duplicates removed. File saved.")
+synthetic = synthetic.apply(fill_image_info, axis=1)
+
+# Combine real + updated synthetic
+df_updated = pd.concat([real, synthetic], ignore_index=True)
+
+# Drop exact duplicate rows
+df_updated = df_updated.drop_duplicates()
+
+# Save the updated file
+df_updated.to_csv("static/scraper/export/combined_data_final_priced.csv", index=False)
+print("✅ Img/Link restored and duplicates removed. File saved.")
 
 
 
@@ -405,29 +412,29 @@ from tqdm import tqdm
 
 
 
-import pandas as pd
+# import pandas as pd
 
-# Path to your CSV file
-file_path = "static/scraper/export/combined_data_categorized_with_synthetic_corrections.csv"
+# # Path to your CSV file
+# file_path = "static/scraper/export/combined_data_categorized_with_synthetic_corrections.csv"
 
-# Load the CSV
-df = pd.read_csv(file_path)
+# # Load the CSV
+# df = pd.read_csv(file_path)
 
-# Standardize column names (strip spaces, unify case)
-df.columns = [col.strip() for col in df.columns]
+# # Standardize column names (strip spaces, unify case)
+# df.columns = [col.strip() for col in df.columns]
 
-# Merge "Date of update" into "Date of Update"
-if "Date of Update" in df.columns and "Date of update" in df.columns:
-    df["Date of Update"] = df["Date of Update"].combine_first(df["Date of update"])
-    df = df.drop(columns=["Date of update"])
+# # Merge "Date of update" into "Date of Update"
+# if "Date of Update" in df.columns and "Date of update" in df.columns:
+#     df["Date of Update"] = df["Date of Update"].combine_first(df["Date of update"])
+#     df = df.drop(columns=["Date of update"])
 
-# Remove duplicates
-df = df.drop_duplicates()
+# # Remove duplicates
+# df = df.drop_duplicates()
 
-# Save back to the original file
-df.to_csv(file_path, index=False)
+# # Save back to the original file
+# df.to_csv(file_path, index=False)
 
-print("Merged date columns, removed duplicates, and saved the file.")
+# print("Merged date columns, removed duplicates, and saved the file.")
 
 
 
