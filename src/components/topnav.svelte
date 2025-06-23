@@ -26,6 +26,7 @@
 		background-color: color("primary");
 		padding: 10px 32px;
 		position: relative;
+		text-align: center;
 
 		&__link {
 
